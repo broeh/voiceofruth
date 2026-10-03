@@ -22,7 +22,7 @@ Visit `http://localhost:8000`. No build step, dependencies, backend, or ElevenLa
 - GoDaddy apex `A` records: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
 - GoDaddy `www` CNAME: `broeh.github.io`. Website record TTL: 600 seconds.
 - Other DNS records were preserved. Pre-change backups remain in the ignored `dns-backups/` folder.
-- DNS updates are confirmed in GoDaddy and a public resolver. HTTPS certificate provisioning is in progress.
+- DNS updates are confirmed in GoDaddy and a public resolver. HTTPS is enforced with a valid certificate for both the apex and `www`; HTTP and `www` redirect to `https://voiceofruth.com/`.
 
 Pushing a commit to `main` publishes the site through GitHub Pages.
 
@@ -53,6 +53,6 @@ python scripts/prepare_audio.py
 
 ## Verification
 
-Browser checks loaded and played all 48 combinations, checked the transcript and selected state, keyboard navigation, play/pause, and no autoplay on initial load. Responsive checks covered 360, 375, 390, 768, 1024, and 1440 pixels in both languages with no page overflow or overlapping emotion buttons. Desktop and mobile screenshots were inspected.
+Browser checks loaded and played all 48 combinations on the custom domain over HTTPS, checked the transcript and selected state, keyboard navigation, play/pause, and no autoplay on initial load. Responsive checks covered 360, 375, 390, 768, 1024, and 1440 pixels in both languages with no page overflow or overlapping emotion buttons. Desktop and mobile screenshots were inspected. The live HTML matches the local file, and redirect checks confirmed `www` and HTTP lead to the HTTPS apex.
 
 The original full recordings, local prompts, credentials, and DNS backups are excluded from Git.
