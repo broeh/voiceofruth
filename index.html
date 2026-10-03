@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#643552">
+  <meta name="description" content="Hear Ruth perform twelve emotions in English and Dutch. Choose the same line or a small scene and find your feeling.">
+  <meta property="og:title" content="Voice of Ruth · Find your feeling">
+  <meta property="og:description" content="One voice, twelve feelings. Explore Ruth’s voice in English and Dutch.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://voiceofruth.com/">
+  <title>Voice of Ruth · Find your feeling</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23643552'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-family='Georgia,serif' font-size='29' fill='%23fffaf6'%3ER%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="audio-data.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="./" aria-label="Voice of Ruth home">Voice of <em>Ruth.</em></a>
+    <span class="header-note">One voice. Twelve feelings.</span>
+  </header>
+  <main>
+    <div class="intro"><p class="eyebrow">The emotion wheel</p><h1>Find your <em>feeling.</em></h1><p>Choose an emotion. Hear Ruth bring it to life.</p></div>
+    <div class="experience">
+      <section class="wheel-section" aria-label="Emotion wheel">
+        <div class="wheel" id="emotion-wheel">
+          <svg id="wheel-sectors" viewBox="0 0 600 600" aria-hidden="true"></svg>
+          <div class="wheel-center"><span class="center-caption">Ruth, feeling</span><strong id="center-emotion">Warm</strong><button class="center-play" id="center-play" type="button" aria-label="Play Warm"><svg viewBox="0 0 24 24" aria-hidden="true"><path id="play-icon" d="M8 5v14l11-7z"/></svg></button></div>
+        </div>
+        <p class="wheel-tip">Pick a feeling to listen.</p>
+      </section>
+      <section class="listening-panel" aria-label="Selected performance">
+        <fieldset class="choice-group"><legend>Language</legend><div class="segmented language"><button type="button" data-language="en" aria-pressed="true" class="active">English</button><button type="button" data-language="nl" aria-pressed="false">Nederlands</button></div></fieldset>
+        <fieldset class="choice-group"><legend>The performance</legend><div class="segmented"><button type="button" data-mode="same-line" aria-pressed="true" class="active">Same line</button><button type="button" data-mode="scene" aria-pressed="false">Performance scene</button></div></fieldset>
+        <div class="take">
+          <div class="take-heading"><span class="take-number" id="take-number">01 / 12</span><span class="take-language" id="take-language">English</span></div>
+          <h2 id="take-emotion">Warm</h2>
+          <blockquote id="take-script" lang="en">I didn’t expect to see you here.</blockquote>
+          <audio id="player" controls preload="metadata" aria-label="Warm, English, same line"></audio>
+          <p class="player-status" id="player-status" role="status" aria-live="polite">Press play, or choose a feeling.</p>
+        </div>
+        <p class="mode-note" id="mode-note">The same words, with a different feeling. Listen to what changes.</p>
+      </section>
+    </div>
+    <noscript><p class="no-script">Please enable JavaScript to use the emotion wheel and listen to Ruth.</p></noscript>
+  </main>
+  <footer><span>Ruth’s voice, in English and Dutch.</span><span>Created with ElevenLabs v4.</span></footer>
+</body>
+</html>

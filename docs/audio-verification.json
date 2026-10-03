@@ -1,0 +1,294 @@
+{
+  "method": "Local faster-whisper base, CPU int8; individually transcribe each cut with its source language and compare normalized transcript to the original script. This checks content and ordering, not subjective emotional delivery.",
+  "minimum_similarity": 0.931,
+  "checks": [
+    {
+      "clip": "audio/en/same-line/warm.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/same-line/excited.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here!",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/same-line/curious.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/same-line/playful.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/same-line/confident.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/same-line/amazed.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here!",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/same-line/tender.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/same-line/sad.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/same-line/frustrated.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/same-line/urgent.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/same-line/whisper.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/same-line/calm.mp3",
+      "script": "I didn’t expect to see you here.",
+      "recognized": "I didn't expect to see you here.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/same-line/warm.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik heb niet verwacht je hier te zien.",
+      "similarity": 0.931
+    },
+    {
+      "clip": "audio/nl/same-line/excited.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik had niet verwachtje hier te zien.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/same-line/curious.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik heb niet verwachtje hier te zien.",
+      "similarity": 0.931
+    },
+    {
+      "clip": "audio/nl/same-line/playful.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik had niet verwachtje hier te zien.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/same-line/confident.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik had niet verwachtje heer te zien.",
+      "similarity": 0.966
+    },
+    {
+      "clip": "audio/nl/same-line/amazed.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik had niet verwacht je hier te zien.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/same-line/tender.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik had niet verwacht je hier te zien.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/same-line/sad.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik heb niet verwacht je hier te zien.",
+      "similarity": 0.931
+    },
+    {
+      "clip": "audio/nl/same-line/frustrated.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik heb niet verwachtje hier te zien.",
+      "similarity": 0.931
+    },
+    {
+      "clip": "audio/nl/same-line/urgent.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik heb niet verwacht je hier te zien.",
+      "similarity": 0.931
+    },
+    {
+      "clip": "audio/nl/same-line/whisper.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik had niet verwacht hier te zien.",
+      "similarity": 0.964
+    },
+    {
+      "clip": "audio/nl/same-line/calm.mp3",
+      "script": "Ik had niet verwacht je hier te zien.",
+      "recognized": "Ik had niet verwacht je hier te zien.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/warm.mp3",
+      "script": "You don’t have to figure it all out today. Let’s take the first step together.",
+      "recognized": "You don't have to figure it all out today. Let's take the first step together.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/excited.mp3",
+      "script": "It’s finally happening! This is the moment we’ve been waiting for.",
+      "recognized": "It's finally happening. This is the moment we've been waiting for.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/curious.mp3",
+      "script": "That little door wasn’t here yesterday. Shall we see what’s behind it?",
+      "recognized": "That little door wasn't here yesterday. Shall we see what's behind it?",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/playful.mp3",
+      "script": "I promised I wouldn’t eat the last biscuit. I made no promises about the cake.",
+      "recognized": "I promised I wouldn't eat the last biscuit. I made no promises about the cake.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/confident.mp3",
+      "script": "You’ve done the hard part. Now let’s make your next move count.",
+      "recognized": "You've done the hard part. Now let's make your next move count.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/amazed.mp3",
+      "script": "The whole sky is glowing. I’ve never seen anything like it.",
+      "recognized": "The whole sky is glowing! I've never seen anything like it!",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/tender.mp3",
+      "script": "I kept your drawing all these years. It still makes me smile.",
+      "recognized": "I kept your drawing all these years, it still makes me smile.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/sad.mp3",
+      "script": "I still set out two cups sometimes. Then I remember.",
+      "recognized": "I still set out two cups sometimes, then I remember.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/frustrated.mp3",
+      "script": "I followed every instruction. So why is the screen still blank?",
+      "recognized": "I followed every instruction, so why is the screen still blank?",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/urgent.mp3",
+      "script": "The last train leaves in one minute. We need to move now.",
+      "recognized": "The last train leaves in one minute. We need to move now.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/whisper.mp3",
+      "script": "Come a little closer. I have a tiny secret to tell you.",
+      "recognized": "Come a little closer. I have a tiny secret to tell you.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/en/scene/calm.mp3",
+      "script": "Let your shoulders soften. There is nothing you need to solve right now.",
+      "recognized": "Let your shoulders soften. There is nothing you need to solve right now.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/scene/warm.mp3",
+      "script": "Je hoeft het vandaag niet allemaal te weten. Laten we samen de eerste stap zetten.",
+      "recognized": "Je hoeft het vandaag niet allemaal te weten. Laten we samen de eerste stap zetten.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/scene/excited.mp3",
+      "script": "Het gaat eindelijk gebeuren! Dit is het moment waarop we hebben gewacht.",
+      "recognized": "Het gaat eindelijk gebeuren. Dit is het moment waarop we hebben gewacht.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/scene/curious.mp3",
+      "script": "Dat kleine deurtje was er gisteren nog niet. Zullen we kijken wat erachter zit?",
+      "recognized": "Dat kleine deurtje was er gisteren nog niet. Zullen we kijken wat er achter zit?",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/scene/playful.mp3",
+      "script": "Ik had beloofd het laatste koekje te laten liggen. Over de taart heb ik niets gezegd.",
+      "recognized": "Ik had beloofd het laatste koekje te laten liggen. Over de taart heb ik niets gezegd.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/scene/confident.mp3",
+      "script": "Het moeilijkste heb je al gedaan. Laten we nu zorgen dat je volgende stap telt.",
+      "recognized": "Het moeilijkste heb je al gedaan. Laten we nu zorgen dat je volgende stap telt.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/scene/amazed.mp3",
+      "script": "De hele hemel licht op. Zoiets heb ik nog nooit gezien.",
+      "recognized": "De hele heimel ligt op. Zo iets heb ik nog nooit gezien.",
+      "similarity": 0.953
+    },
+    {
+      "clip": "audio/nl/scene/tender.mp3",
+      "script": "Ik heb je tekening al die jaren bewaard. Ik word er nog steeds blij van.",
+      "recognized": "Ik heb je tekening al die jaren bewaard. Ik word er nog steeds blijven.",
+      "similarity": 0.982
+    },
+    {
+      "clip": "audio/nl/scene/sad.mp3",
+      "script": "Soms zet ik nog steeds twee kopjes klaar. Dan weet ik het weer.",
+      "recognized": "soms zet ik nog steeds twee kopjes klaar, dan weet ik het weer.",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/scene/frustrated.mp3",
+      "script": "Ik heb alle instructies gevolgd. Waarom blijft het scherm dan toch leeg?",
+      "recognized": "Ik heb alle instructies gevolgd, waarom blijft het scherm dan toch leeg?",
+      "similarity": 1.0
+    },
+    {
+      "clip": "audio/nl/scene/urgent.mp3",
+      "script": "De laatste trein vertrekt over een minuut. We moeten nu gaan.",
+      "recognized": "De laatste train vertrekt over een minuut. We moeten nu gaan.",
+      "similarity": 0.98
+    },
+    {
+      "clip": "audio/nl/scene/whisper.mp3",
+      "script": "Kom eens wat dichterbij. Ik wil je een klein geheimpje vertellen.",
+      "recognized": "Kom eens wat dichterbij, ik wil je een klein graimpje vertellen.",
+      "similarity": 0.952
+    },
+    {
+      "clip": "audio/nl/scene/calm.mp3",
+      "script": "Laat je schouders ontspannen. Je hoeft op dit moment niets op te lossen.",
+      "recognized": "Laat je schouders ontspannen. Je hoeft op dit moment niets op te lossen.",
+      "similarity": 1.0
+    }
+  ]
+}

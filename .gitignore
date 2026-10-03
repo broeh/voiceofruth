@@ -1,0 +1,8 @@
+recordings/
+prompt_*.md
+dns-backups/
+.env
+.env.*
+.venv/
+__pycache__/
+.DS_Store
