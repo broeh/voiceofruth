@@ -11,3 +11,11 @@
 - Enabled GitHub Pages from the repository root. The deployment succeeded at https://broeh.github.io/voiceofruth/ with HTTPS enforced.
 - Repeated the full 48-clip playback and responsive browser checks against the published site. All passed, with no JavaScript errors or failed resource responses.
 - GoDaddy currently points the apex at WebsiteBuilder and `www` at the apex. Replacing those two website record groups requires confirmation under Hans's instructions. Other DNS records will be preserved.
+
+## 2026-10-04: Custom-domain connection
+
+- Hans confirmed the domain connection.
+- Registered `voiceofruth.com` in GitHub Pages before changing DNS and pulled GitHub's generated `CNAME` commit.
+- Saved a fresh private backup of all GoDaddy records. Replaced only the apex `A` group and `www` CNAME with GitHub Pages targets, using TTL 600. Verified the remaining records were unchanged.
+- A Google Public DNS query returned all four new apex addresses and `www` pointing at `broeh.github.io`. Some resolver caches still retained the previous parked-site addresses.
+- Verified GitHub Pages serves the exact local `index.html` for the custom-domain host. HTTPS certificate provisioning is still in progress.

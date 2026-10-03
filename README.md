@@ -15,12 +15,18 @@ Visit `http://localhost:8000`. No build step, dependencies, backend, or ElevenLa
 ## Hosting
 
 - Repository: https://github.com/broeh/voiceofruth
-- GitHub Pages preview: https://broeh.github.io/voiceofruth/
-- Intended public domain: https://voiceofruth.com/
+- GitHub Pages address: https://broeh.github.io/voiceofruth/ redirects to the custom domain.
+- Public domain: https://voiceofruth.com/
 - GitHub Pages source: `main`, repository root, branch publishing.
-- Domain connection is pending confirmation before replacing the existing GoDaddy website records.
+- Custom domain: `voiceofruth.com`, also recorded in the root `CNAME` file.
+- GoDaddy apex `A` records: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
+- GoDaddy `www` CNAME: `broeh.github.io`. Website record TTL: 600 seconds.
+- Other DNS records were preserved. Pre-change backups remain in the ignored `dns-backups/` folder.
+- DNS updates are confirmed in GoDaddy and a public resolver. HTTPS certificate provisioning is in progress.
 
 Pushing a commit to `main` publishes the site through GitHub Pages.
+
+DNS values follow [GitHub's custom-domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
 ## Recordings
 
