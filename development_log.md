@@ -48,3 +48,9 @@
 
 - Hans found the wheel-first screen too dominant. The headline, intro text and buttons now span the full width at the top, and the wheel sits underneath with the selected-emotion card and chips beside it. On desktop the headline runs on one line to keep the wheel close; phones keep the two-line headline.
 - Browser checks against a local server: 29 of 29 passed. The test now scrolls the wheel into view before simulating drags and swipes.
+
+## 2026-10-04: Centered headline with divider
+
+- Centered the eyebrow, headline, intro text and buttons, and added a 1 px divider under them, matching the lines around the stats.
+- Widened the intro text so it wraps to two balanced lines in both languages on desktop.
+- Reviewed with the `screenshot` CLI at 1440 px in English and Dutch, plus a 390 px phone capture. Browser checks: 29 of 29 passed.
