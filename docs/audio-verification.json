@@ -1,294 +1,2637 @@
 {
-  "method": "Local faster-whisper base, CPU int8; individually transcribe each cut with its source language and compare normalized transcript to the original script. This checks content and ordering, not subjective emotional delivery.",
-  "minimum_similarity": 0.931,
-  "checks": [
-    {
-      "clip": "audio/en/same-line/warm.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/same-line/excited.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here!",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/same-line/curious.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/same-line/playful.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/same-line/confident.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/same-line/amazed.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here!",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/same-line/tender.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/same-line/sad.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/same-line/frustrated.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/same-line/urgent.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/same-line/whisper.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/same-line/calm.mp3",
-      "script": "I didn’t expect to see you here.",
-      "recognized": "I didn't expect to see you here.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/same-line/warm.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik heb niet verwacht je hier te zien.",
-      "similarity": 0.931
-    },
-    {
-      "clip": "audio/nl/same-line/excited.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik had niet verwachtje hier te zien.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/same-line/curious.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik heb niet verwachtje hier te zien.",
-      "similarity": 0.931
-    },
-    {
-      "clip": "audio/nl/same-line/playful.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik had niet verwachtje hier te zien.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/same-line/confident.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik had niet verwachtje heer te zien.",
-      "similarity": 0.966
-    },
-    {
-      "clip": "audio/nl/same-line/amazed.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik had niet verwacht je hier te zien.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/same-line/tender.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik had niet verwacht je hier te zien.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/same-line/sad.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik heb niet verwacht je hier te zien.",
-      "similarity": 0.931
-    },
-    {
-      "clip": "audio/nl/same-line/frustrated.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik heb niet verwachtje hier te zien.",
-      "similarity": 0.931
-    },
-    {
-      "clip": "audio/nl/same-line/urgent.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik heb niet verwacht je hier te zien.",
-      "similarity": 0.931
-    },
-    {
-      "clip": "audio/nl/same-line/whisper.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik had niet verwacht hier te zien.",
-      "similarity": 0.964
-    },
-    {
-      "clip": "audio/nl/same-line/calm.mp3",
-      "script": "Ik had niet verwacht je hier te zien.",
-      "recognized": "Ik had niet verwacht je hier te zien.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/warm.mp3",
-      "script": "You don’t have to figure it all out today. Let’s take the first step together.",
-      "recognized": "You don't have to figure it all out today. Let's take the first step together.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/excited.mp3",
-      "script": "It’s finally happening! This is the moment we’ve been waiting for.",
-      "recognized": "It's finally happening. This is the moment we've been waiting for.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/curious.mp3",
-      "script": "That little door wasn’t here yesterday. Shall we see what’s behind it?",
-      "recognized": "That little door wasn't here yesterday. Shall we see what's behind it?",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/playful.mp3",
-      "script": "I promised I wouldn’t eat the last biscuit. I made no promises about the cake.",
-      "recognized": "I promised I wouldn't eat the last biscuit. I made no promises about the cake.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/confident.mp3",
-      "script": "You’ve done the hard part. Now let’s make your next move count.",
-      "recognized": "You've done the hard part. Now let's make your next move count.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/amazed.mp3",
-      "script": "The whole sky is glowing. I’ve never seen anything like it.",
-      "recognized": "The whole sky is glowing! I've never seen anything like it!",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/tender.mp3",
-      "script": "I kept your drawing all these years. It still makes me smile.",
-      "recognized": "I kept your drawing all these years, it still makes me smile.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/sad.mp3",
-      "script": "I still set out two cups sometimes. Then I remember.",
-      "recognized": "I still set out two cups sometimes, then I remember.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/frustrated.mp3",
-      "script": "I followed every instruction. So why is the screen still blank?",
-      "recognized": "I followed every instruction, so why is the screen still blank?",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/urgent.mp3",
-      "script": "The last train leaves in one minute. We need to move now.",
-      "recognized": "The last train leaves in one minute. We need to move now.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/whisper.mp3",
-      "script": "Come a little closer. I have a tiny secret to tell you.",
-      "recognized": "Come a little closer. I have a tiny secret to tell you.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/en/scene/calm.mp3",
-      "script": "Let your shoulders soften. There is nothing you need to solve right now.",
-      "recognized": "Let your shoulders soften. There is nothing you need to solve right now.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/scene/warm.mp3",
-      "script": "Je hoeft het vandaag niet allemaal te weten. Laten we samen de eerste stap zetten.",
-      "recognized": "Je hoeft het vandaag niet allemaal te weten. Laten we samen de eerste stap zetten.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/scene/excited.mp3",
-      "script": "Het gaat eindelijk gebeuren! Dit is het moment waarop we hebben gewacht.",
-      "recognized": "Het gaat eindelijk gebeuren. Dit is het moment waarop we hebben gewacht.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/scene/curious.mp3",
-      "script": "Dat kleine deurtje was er gisteren nog niet. Zullen we kijken wat erachter zit?",
-      "recognized": "Dat kleine deurtje was er gisteren nog niet. Zullen we kijken wat er achter zit?",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/scene/playful.mp3",
-      "script": "Ik had beloofd het laatste koekje te laten liggen. Over de taart heb ik niets gezegd.",
-      "recognized": "Ik had beloofd het laatste koekje te laten liggen. Over de taart heb ik niets gezegd.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/scene/confident.mp3",
-      "script": "Het moeilijkste heb je al gedaan. Laten we nu zorgen dat je volgende stap telt.",
-      "recognized": "Het moeilijkste heb je al gedaan. Laten we nu zorgen dat je volgende stap telt.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/scene/amazed.mp3",
-      "script": "De hele hemel licht op. Zoiets heb ik nog nooit gezien.",
-      "recognized": "De hele heimel ligt op. Zo iets heb ik nog nooit gezien.",
-      "similarity": 0.953
-    },
-    {
-      "clip": "audio/nl/scene/tender.mp3",
-      "script": "Ik heb je tekening al die jaren bewaard. Ik word er nog steeds blij van.",
-      "recognized": "Ik heb je tekening al die jaren bewaard. Ik word er nog steeds blijven.",
-      "similarity": 0.982
-    },
-    {
-      "clip": "audio/nl/scene/sad.mp3",
-      "script": "Soms zet ik nog steeds twee kopjes klaar. Dan weet ik het weer.",
-      "recognized": "soms zet ik nog steeds twee kopjes klaar, dan weet ik het weer.",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/scene/frustrated.mp3",
-      "script": "Ik heb alle instructies gevolgd. Waarom blijft het scherm dan toch leeg?",
-      "recognized": "Ik heb alle instructies gevolgd, waarom blijft het scherm dan toch leeg?",
-      "similarity": 1.0
-    },
-    {
-      "clip": "audio/nl/scene/urgent.mp3",
-      "script": "De laatste trein vertrekt over een minuut. We moeten nu gaan.",
-      "recognized": "De laatste train vertrekt over een minuut. We moeten nu gaan.",
-      "similarity": 0.98
-    },
-    {
-      "clip": "audio/nl/scene/whisper.mp3",
-      "script": "Kom eens wat dichterbij. Ik wil je een klein geheimpje vertellen.",
-      "recognized": "Kom eens wat dichterbij, ik wil je een klein graimpje vertellen.",
-      "similarity": 0.952
-    },
-    {
-      "clip": "audio/nl/scene/calm.mp3",
-      "script": "Laat je schouders ontspannen. Je hoeft op dit moment niets op te lossen.",
-      "recognized": "Laat je schouders ontspannen. Je hoeft op dit moment niets op te lossen.",
-      "similarity": 1.0
-    }
-  ]
+ "method": "Local faster-whisper small, CPU int8. Each clip is transcribed in its own language and compared with its script after removing audio tags. Flags similarity below 0.8 or tag words that were spoken aloud. This checks content, not emotional delivery.",
+ "minimum_similarity": 0.526,
+ "flagged": [
+  "audio/intro/nl.mp3"
+ ],
+ "checks": [
+  {
+   "clip": "audio/en/same-line/amazed.mp3",
+   "hash": "a1ab66685fbd1b17",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/angry.mp3",
+   "hash": "b119affd10e90303",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/annoyed.mp3",
+   "hash": "61637c973288c757",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/awestruck.mp3",
+   "hash": "ac4916ca230c2233",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/belly-laugh.mp3",
+   "hash": "f71bc14372b1c6d7",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/bored.mp3",
+   "hash": "2fcd65ce8370dc22",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/calm.mp3",
+   "hash": "b4cf6ea19528abad",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/chuckling.mp3",
+   "hash": "28445ae011b8c095",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/comforting.mp3",
+   "hash": "f63c1960a132ce83",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/commentator.mp3",
+   "hash": "cc032e5291635a1b",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/commercial.mp3",
+   "hash": "50de9aaea849bb4a",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/confident.mp3",
+   "hash": "43dac36489161049",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/confused.mp3",
+   "hash": "45e6bba973545275",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/crying.mp3",
+   "hash": "e9aa43aa8b128362",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/curious.mp3",
+   "hash": "e51f5252afa6444b",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/disappointed.mp3",
+   "hash": "5b33727916cd23ff",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/disgusted.mp3",
+   "hash": "0c88815b3add4b37",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/dramatic.mp3",
+   "hash": "c334ee74200cc7d5",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/dreamy.mp3",
+   "hash": "6c9bf99dfb6441dd",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/ecstatic.mp3",
+   "hash": "f42b2a53bdc72a48",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/excited.mp3",
+   "hash": "648174ec497bdf05",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/exhausted.mp3",
+   "hash": "82c16a7c1f1e6999",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/fast-talker.mp3",
+   "hash": "4d2a6369aedfcda8",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/flirty.mp3",
+   "hash": "80dfd57124b9d21d",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/frustrated.mp3",
+   "hash": "bc98c1a9d9a85387",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/furious.mp3",
+   "hash": "055c5f8af3939fa1",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/giggling.mp3",
+   "hash": "4cb7df76f8c04229",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/grateful.mp3",
+   "hash": "2ec0f3b57f3e2c9b",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/happy.mp3",
+   "hash": "71de6d08e3d0e981",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/heartbroken.mp3",
+   "hash": "5e305c16c0f1590b",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/hesitant.mp3",
+   "hash": "bfe43bcaea902ee3",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/hiccups.mp3",
+   "hash": "f64f771aa463a85a",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/hopeful.mp3",
+   "hash": "a3092d34ab8a49c4",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/impressed.mp3",
+   "hash": "30014fd22e20ea29",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/laughing.mp3",
+   "hash": "199fdb2c9a3fdca2",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/loving.mp3",
+   "hash": "44420eebfca20387",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/melancholic.mp3",
+   "hash": "a490a0acf53315f5",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/mouth-full.mp3",
+   "hash": "0e465bd641de3d3b",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/muttering.mp3",
+   "hash": "f3270e657e056476",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/mysterious.mp3",
+   "hash": "b6da97f2b9ddf6d4",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/nervous.mp3",
+   "hash": "654b2e98879e295e",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/news-anchor.mp3",
+   "hash": "f7418e3ed512085a",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/nostalgic.mp3",
+   "hash": "3c4e5d669253ad1f",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/opera.mp3",
+   "hash": "714cf32a24c432e9",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/out-of-breath.mp3",
+   "hash": "5aefad632b48486c",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/panicked.mp3",
+   "hash": "e79f37c4d90e177a",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/playful.mp3",
+   "hash": "7d09ab64cc5be259",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/proud.mp3",
+   "hash": "e1e27e922960bf8f",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/relieved.mp3",
+   "hash": "1fadaa13678c94cf",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/sad.mp3",
+   "hash": "2e86c598ce2a7a17",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/sarcastic.mp3",
+   "hash": "3eb43513f56f521e",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/sassy.mp3",
+   "hash": "1a9e34b7ac322529",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/scared.mp3",
+   "hash": "0e36fc94d4ff4228",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/shouting.mp3",
+   "hash": "29677b4e3d81abe3",
+   "script": "I didn’t expect to see you HERE!",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/sighing.mp3",
+   "hash": "b8b6ce9715bbae33",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/singing.mp3",
+   "hash": "f01322d18341167f",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/sleepy.mp3",
+   "hash": "d174bda11cf79327",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/soothing.mp3",
+   "hash": "2420f6be6eefccc0",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/stern.mp3",
+   "hash": "b6a055a757253891",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/stifled-laugh.mp3",
+   "hash": "87016f62ce43515e",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/storyteller.mp3",
+   "hash": "3fabf1f755d9cbd7",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/surprised.mp3",
+   "hash": "64c8d8631b8b3697",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/tender.mp3",
+   "hash": "09e9979233dcee76",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/terrified.mp3",
+   "hash": "b42528ff3cbcac7e",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/thoughtful.mp3",
+   "hash": "046e7c37aa791140",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/urgent.mp3",
+   "hash": "48721b256a15a454",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/villain.mp3",
+   "hash": "1246b0297b1e6cca",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/warm.mp3",
+   "hash": "e8f2d56c212a361f",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/whisper.mp3",
+   "hash": "74473543fa90636f",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/with-a-cold.mp3",
+   "hash": "018f38f67d47341e",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/same-line/worried.mp3",
+   "hash": "fd0489419f31dfad",
+   "script": "I didn’t expect to see you here.",
+   "recognized": "I didn't expect to see you here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/amazed.mp3",
+   "hash": "ee9154a55cd0f53a",
+   "script": "The whole sky is glowing. I’ve never seen anything like it.",
+   "recognized": "The whole sky is glowing! I've never seen anything like it!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/angry.mp3",
+   "hash": "7e6c39bdcf762d54",
+   "script": "You promised me. You looked me in the eye and promised. And you lied.",
+   "recognized": "You promised me. You looked me in the eye and promised. And you lied.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/annoyed.mp3",
+   "hash": "bb964e133870c8fa",
+   "script": "Seriously? That’s the third time this week you’ve parked in my spot.",
+   "recognized": "Seriously? That's the third time this week you've parked in my spot.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/awestruck.mp3",
+   "hash": "5d04370a508541c5",
+   "script": "Look at the size of that whale. It’s... it’s magnificent.",
+   "recognized": "Look at the size of that whale! It's... it's magnificent!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/belly-laugh.mp3",
+   "hash": "e0f6241f8b79cb07",
+   "script": "And then the dog just... took the whole sandwich! I can’t breathe!",
+   "recognized": "and then the dog just took the whole sandwich. I can't breathe.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/bored.mp3",
+   "hash": "548f4bf3f107e206",
+   "script": "Wow. Another spreadsheet. How thrilling. I can barely contain myself.",
+   "recognized": "Wow. Another spreadsheet. How thrilling. I can barely contain myself.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/calm.mp3",
+   "hash": "8d9820814aa28d80",
+   "script": "Let your shoulders soften. There is nothing you need to solve right now.",
+   "recognized": "Let your shoulders soften. There's nothing you need to solve right now.",
+   "similarity": 0.978,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/chuckling.mp3",
+   "hash": "d3eabce1c493caeb",
+   "script": "You really thought I wouldn’t notice? Nice try.",
+   "recognized": "You really thought I wouldn't notice? Nice try.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/comforting.mp3",
+   "hash": "44310bd5060a71f2",
+   "script": "Hey, hey. It’s okay. Come here. You’re not alone in this.",
+   "recognized": "Hey, hey, it's okay. Come here. You're not alone in this.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/commentator.mp3",
+   "hash": "8f00190c62b817cf",
+   "script": "She shoots, she scores! What a goal! The crowd goes absolutely wild!",
+   "recognized": "She shoots, she scores, what a goal! The crowd goes absolutely wild!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/commercial.mp3",
+   "hash": "bbcb9d027625886e",
+   "script": "Fresh, crunchy and ready in two minutes. Your new favorite breakfast is here!",
+   "recognized": "Fresh, crunchy and ready in two minutes. Your new favorite breakfast is here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/confident.mp3",
+   "hash": "c5fccc21ba251b2c",
+   "script": "You’ve done the hard part. Now let’s make your next move count.",
+   "recognized": "You've done the hard part. Now let's make your next move count.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/confused.mp3",
+   "hash": "5811646db65fdd72",
+   "script": "Hold on. If it’s Tuesday here, then why does my phone say Thursday?",
+   "recognized": "Hold on. If it's Tuesday here, then why does my phone say Thursday?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/crying.mp3",
+   "hash": "343517bfcccccb1a",
+   "script": "I’m sorry, I just... I really thought he was coming home.",
+   "recognized": "I'm sorry. I just I really thought he was coming home",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/curious.mp3",
+   "hash": "67a6d20ce4c021b2",
+   "script": "That little door wasn’t here yesterday. Shall we see what’s behind it?",
+   "recognized": "That little door wasn't here yesterday. Shall we see what's behind it?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/disappointed.mp3",
+   "hash": "f4d3b3e11b5441ec",
+   "script": "Oh. You forgot. No, it’s fine. It’s just... I thought this year would be different.",
+   "recognized": "Oh, you forgot. No, it's fine. It's just, I thought this year would be different.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/disgusted.mp3",
+   "hash": "ed291d59edc35bdc",
+   "script": "Ew, what is that smell? Did someone leave fish in the microwave again?",
+   "recognized": "Ew, what is that smell? Did someone leave fish in the microwave again?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/dramatic.mp3",
+   "hash": "3baa56a2b231661f",
+   "script": "And in that moment... she knew. Nothing would ever be the same again.",
+   "recognized": "And in that moment, she knew nothing would ever be the same again.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/dreamy.mp3",
+   "hash": "f10a50bf082c9b7d",
+   "script": "Imagine waking up in a little house by the sea, with nowhere to be and nothing to do...",
+   "recognized": "Imagine waking up in a little house by the sea with nowhere to be and nothing to do.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/ecstatic.mp3",
+   "hash": "813d59fafee26c98",
+   "script": "We got it! We actually got it! I can’t believe it, I’m shaking!",
+   "recognized": "We got it! We actually got it! I can't believe it! I'm shaking!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/excited.mp3",
+   "hash": "d082b0565240591e",
+   "script": "It’s finally happening! This is the moment we’ve been waiting for.",
+   "recognized": "It's finally happening! This is the moment we've been waiting for.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/exhausted.mp3",
+   "hash": "619f02a539650b3a",
+   "script": "Three flights, two delays and one lost suitcase. I just want my bed.",
+   "recognized": "Three flights, two delays, and one lost suitcase. I just want my bed.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/fast-talker.mp3",
+   "hash": "4cab251a692b5751",
+   "script": "Terms and conditions apply, offer valid while supplies last, not available in all regions, see store for details.",
+   "recognized": "Terms and conditions apply. Offer valid while supplies last. Not available in all regions. Seastore for details.",
+   "similarity": 0.986,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/flirty.mp3",
+   "hash": "05ba81e6c74178b5",
+   "script": "Well, hello there. Has anyone ever told you that you have a very nice smile?",
+   "recognized": "Well, hello there. Has anyone ever told you that you have a very nice smile?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/frustrated.mp3",
+   "hash": "bfb5785abc002ff9",
+   "script": "I followed every instruction. So why is the screen still blank?",
+   "recognized": "I followed every instruction, so why is the screen still blank?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/furious.mp3",
+   "hash": "eda02614edb52493",
+   "script": "Don’t you DARE walk away from me. This conversation is NOWHERE near over!",
+   "recognized": "Don't you dare walk away from me! This conversation is nowhere near over!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/giggling.mp3",
+   "hash": "5dd45f61324d9966",
+   "script": "Stop it, stop looking at me like that! I’m trying to be serious!",
+   "recognized": "Stop it! Stop looking at me like that! I'm trying to be serious!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/grateful.mp3",
+   "hash": "41b67260f3d1a740",
+   "script": "I don’t think you know how much this means to me. Thank you, truly.",
+   "recognized": "I don't think you know how much this means to me. Thank you, truly.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/happy.mp3",
+   "hash": "9cf5d4619c9f031b",
+   "script": "Guess what? The sun is out, the coffee is perfect, and I have the whole day off!",
+   "recognized": "Guess what? The sun is out, the coffee is perfect, and I have the whole day off!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/heartbroken.mp3",
+   "hash": "3e59a9cf68dd0e3b",
+   "script": "You said forever. I believed you.",
+   "recognized": "You said forever. I believed you.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/hesitant.mp3",
+   "hash": "cd11644a426b6376",
+   "script": "I’m not sure... I mean, maybe? If you really think it’s a good idea.",
+   "recognized": "I'm not sure. I mean, maybe? If you really think it's a good idea.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/hiccups.mp3",
+   "hash": "f08cb0f1bcb0ddc5",
+   "script": "Excuse me. I’m trying to give a very serious speech here.",
+   "recognized": "Excuse me. I'm trying to give a very serious speech here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/hopeful.mp3",
+   "hash": "37f295c1224e4d59",
+   "script": "Maybe this year is the year. Maybe this time, everything works out.",
+   "recognized": "Maybe this year is the year maybe this time everything works out",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/impressed.mp3",
+   "hash": "26afe68bfb98a871",
+   "script": "Wait, you built this yourself? In one weekend? Okay, I’m genuinely impressed.",
+   "recognized": "Wait, you built this yourself? In one weekend? Okay, I'm genuinely impressed.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/laughing.mp3",
+   "hash": "0800f23df34943d7",
+   "script": "Did you see his face? He had no idea the cake was for him!",
+   "recognized": "Did you see his face? He had no idea the cake was for him!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/loving.mp3",
+   "hash": "6b3aece760742990",
+   "script": "Sleep well, little one. I’ll be right here when you wake up.",
+   "recognized": "Sleep well, little one. I'll be right here when you wake up.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/melancholic.mp3",
+   "hash": "e75f2329cd5ef5c3",
+   "script": "The house is so quiet now. Even the rain sounds lonely.",
+   "recognized": "The house is so quiet now. Even the rain sounds lonely.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/mouth-full.mp3",
+   "hash": "b6872569de374177",
+   "script": "Mmm, sorry, sorry. This pizza is amazing. Do you want a bite?",
+   "recognized": "Mmm, sorry, sorry. This pizza is amazing. Do you want a bite?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/muttering.mp3",
+   "hash": "7c2fb64ad670025b",
+   "script": "Assemble the shelf, they said. It’s easy, they said. Twelve screws left over...",
+   "recognized": "Assemble the shelf, they said. It's easy, they said. Twelve screws left over.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/mysterious.mp3",
+   "hash": "624c52f0d4bf7293",
+   "script": "They say the old lighthouse has been empty for years. So who keeps turning on the light?",
+   "recognized": "They say the old lighthouse has been empty for years, so who keeps turning on the light?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/nervous.mp3",
+   "hash": "664fae715ccbad22",
+   "script": "So, um... I’ve never actually done this before. Is that... is that okay?",
+   "recognized": "So, um, I've never actually done this before. Is that, is that okay?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/news-anchor.mp3",
+   "hash": "da0dfc1c61ed1885",
+   "script": "Good evening. Tonight, scientists confirm what cat owners have always known: the cat is in charge.",
+   "recognized": "Good evening. Tonight, scientists confirm what cat owners have always known. The cat is in charge.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/nostalgic.mp3",
+   "hash": "a1186f7a7f5f6fec",
+   "script": "Remember those summers at Grandma’s? The smell of pancakes, the creaky stairs...",
+   "recognized": "Remember those summers at Grandma's? The smell of pancakes? The creaky stairs?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/opera.mp3",
+   "hash": "119ce8d5d3aef77a",
+   "script": "Oh, my beautiful spaghetti... why are you getting cold?",
+   "recognized": "Oh my beautiful spaghetti. Why are you getting cold?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/out-of-breath.mp3",
+   "hash": "6e625e41bf17d179",
+   "script": "Okay... I made it... who said... five flights of stairs... was a good idea?",
+   "recognized": "Okay! I made it! Who said five flights of stairs was a good idea?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/panicked.mp3",
+   "hash": "280c74d601446cb2",
+   "script": "Where are my keys? Where are my keys?! The taxi is here and I can’t find my passport!",
+   "recognized": "Where are my keys? Where are my keys? The taxi is here and I can't find my passport.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/playful.mp3",
+   "hash": "4b4d47f5f33f1e1b",
+   "script": "I promised I wouldn’t eat the last biscuit. I made no promises about the cake.",
+   "recognized": "I promised I wouldn't eat the last biscuit. I made no promises about the cake.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/proud.mp3",
+   "hash": "969b75ea274e2678",
+   "script": "Look at you up there on that stage. I always knew you could do it.",
+   "recognized": "Look at you up there on that stage. I always knew you could do it",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/relieved.mp3",
+   "hash": "d3c45ccea385431f",
+   "script": "Oh, thank goodness. They found her. She’s okay. She’s really okay.",
+   "recognized": "Oh, thank goodness. They found her. She's okay. She's really okay.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/sad.mp3",
+   "hash": "71b20eb60bbabf1b",
+   "script": "I still set out two cups sometimes. Then I remember.",
+   "recognized": "I still set out two cups sometimes, then I remember.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/sarcastic.mp3",
+   "hash": "0b1d369eaf1d5d15",
+   "script": "Oh, great. Another meeting that could have been an email. My favorite.",
+   "recognized": "Oh, great. Another meeting that could have been an email. My favorite.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/sassy.mp3",
+   "hash": "f4a17befaadcad72",
+   "script": "Oh honey, no. That outfit? We are not leaving the house like that.",
+   "recognized": "Oh honey, no. That outfit? We are not leaving the house like that.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/scared.mp3",
+   "hash": "fc37ec8a1b7cfb2d",
+   "script": "Did you hear that? Something’s downstairs. Please tell me you locked the door.",
+   "recognized": "Did you hear that? Something's downstairs. Please tell me you locked the door.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/shouting.mp3",
+   "hash": "c6bdef203324f089",
+   "script": "HEY! Over here! You forgot your keys on the roof of the car!",
+   "recognized": "Hey! Over here! You forgot your keys on the roof of the car!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/sighing.mp3",
+   "hash": "ce32bbcad0e8ee4e",
+   "script": "Monday again. Okay. Coffee first, then the world.",
+   "recognized": "Monday again. Okay, coffee first, then the world.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/singing.mp3",
+   "hash": "cc9cee0d3e94bb08",
+   "script": "Happy birthday to you, happy birthday to you... okay, I’ll stop.",
+   "recognized": "Happy birthday to you. Happy birthday to you. Okay, I'll stop.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/sleepy.mp3",
+   "hash": "37a11d2aae176b6c",
+   "script": "Just five more minutes... the bed is so warm...",
+   "recognized": "Just five more minutes. The bed is so warm.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/soothing.mp3",
+   "hash": "256e20f101155fd5",
+   "script": "Breathe in slowly... and let it all go. You are safe here.",
+   "recognized": "Breathe in slowly and let it all go. You are safe here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/stern.mp3",
+   "hash": "eb7bf66b7d6895a0",
+   "script": "Put the phone down. Look at me. We need to talk about this, now.",
+   "recognized": "Put the phone down. Look at me. We need to talk about this, now.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/stifled-laugh.mp3",
+   "hash": "ffbbe23f4e7de481",
+   "script": "No, I’m fine. Really. It’s just that your new haircut is very... brave.",
+   "recognized": "No, I'm fine. Really. It's just that your new haircut is very... ...brave.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/storyteller.mp3",
+   "hash": "cb85bacdcac2a81d",
+   "script": "Once upon a time, in a village by the sea, there lived a girl who could talk to the wind.",
+   "recognized": "Once upon a time, in a village by the sea, there lived a girl who could talk to the wind.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/surprised.mp3",
+   "hash": "5d296b5e4c5acfaa",
+   "script": "For me? You did all of this for me? Oh my goodness!",
+   "recognized": "For me? You did all of this for me? Oh my goodness!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/tender.mp3",
+   "hash": "26dce7f741930584",
+   "script": "I kept your drawing all these years. It still makes me smile.",
+   "recognized": "I kept your drawing all these years. It still makes me smile.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/terrified.mp3",
+   "hash": "374674dd0bc35be9",
+   "script": "It’s right behind the door. Don’t move. Don’t... make... a sound.",
+   "recognized": "It's right behind the door. Don't move. Don't make a sound.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/thoughtful.mp3",
+   "hash": "e1669e22e10a5fe5",
+   "script": "Hmm. You know, maybe the question isn’t what we want... but why we want it.",
+   "recognized": "Hmm. You know, maybe the question isn't what we want, but why we want it?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/urgent.mp3",
+   "hash": "17e9cff60483c30b",
+   "script": "The last train leaves in one minute. We need to move now.",
+   "recognized": "The last train leaves in one minute. We need to move now.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/villain.mp3",
+   "hash": "1271b6aaa9361917",
+   "script": "You really thought you could stop me? How adorable.",
+   "recognized": "You really thought you could stop me? How adorable.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/warm.mp3",
+   "hash": "ebb112bbc076a9c5",
+   "script": "You don’t have to figure it all out today. Let’s take the first step together.",
+   "recognized": "You don't have to figure it all out today. Let's take the first step together.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/whisper.mp3",
+   "hash": "c97978818c27d6ba",
+   "script": "Come a little closer. I have a tiny secret to tell you.",
+   "recognized": "Come a little closer. I have a tiny secret to tell you.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/with-a-cold.mp3",
+   "hash": "e223e5a522bf3dc4",
+   "script": "Hi, it’s me. I won’t make it in today. I think I’m dying.",
+   "recognized": "Hi, it's me. I won't make it in today. I think I'm dying.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/scene/worried.mp3",
+   "hash": "126a0ec548972070",
+   "script": "It’s almost midnight and she’s still not answering her phone. That’s not like her.",
+   "recognized": "It's almost midnight and she's still not answering her phone. That's not like her.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/intro/en.mp3",
+   "hash": "5135aa8b0025afd4",
+   "script": "Hi, I’m Ruth. Well... my voice is. Pick a feeling, any feeling, and I’ll bring it to life.",
+   "recognized": "Hi, I'm Ruth. Well, my voice is. Pick a feeling, any feeling, and I'll bring it to life.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/intro/nl.mp3",
+   "hash": "8652172d7f2f28b4",
+   "script": "Hoi, ik ben Ruth. Nou ja... mijn stem dan. Kies een gevoel, welk gevoel dan ook, en ik breng het tot leven.",
+   "recognized": "Hoi, ik ben Rut. Nou ja, mijn stem dan.",
+   "similarity": 0.526,
+   "spoken_tag_words": [],
+   "flagged": true
+  },
+  {
+   "clip": "audio/nl/same-line/amazed.mp3",
+   "hash": "7155b43386aefe99",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/angry.mp3",
+   "hash": "95921ce909f0eebf",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/annoyed.mp3",
+   "hash": "7dccff4867f76670",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/awestruck.mp3",
+   "hash": "dd33d7a8917384b1",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/belly-laugh.mp3",
+   "hash": "d723f331e42b5fc6",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/bored.mp3",
+   "hash": "ba4b8800787af8d8",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/calm.mp3",
+   "hash": "cf8086f44c52583e",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/chuckling.mp3",
+   "hash": "8bf9d5accd7a391d",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/comforting.mp3",
+   "hash": "99af4ced70749f6c",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/commentator.mp3",
+   "hash": "b3554f778641d3f4",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/commercial.mp3",
+   "hash": "99e8881495facf4b",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/confident.mp3",
+   "hash": "34b05215d90d388d",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/confused.mp3",
+   "hash": "5182c0fbfefb78e2",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/crying.mp3",
+   "hash": "395f889bb08ea552",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/curious.mp3",
+   "hash": "9e5d236a57e55b98",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/disappointed.mp3",
+   "hash": "2489bbb1a0ad946f",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/disgusted.mp3",
+   "hash": "3864aeaabd9084e5",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/dramatic.mp3",
+   "hash": "31eae626f28302b0",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/dreamy.mp3",
+   "hash": "bfb73054283d165e",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/ecstatic.mp3",
+   "hash": "47be7ce220e8e96d",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/excited.mp3",
+   "hash": "27a8d6ca65a9d37c",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/exhausted.mp3",
+   "hash": "39b39a6575cb302d",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/fast-talker.mp3",
+   "hash": "eb26fb0bbc7ca8f8",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/flirty.mp3",
+   "hash": "fed63bddebe11033",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/frustrated.mp3",
+   "hash": "ec0e88bc88f84d38",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/furious.mp3",
+   "hash": "fba0356fd8f81b1c",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/giggling.mp3",
+   "hash": "2e186b1f5ba9a00e",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/grateful.mp3",
+   "hash": "204ebaab41e6ff6f",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/happy.mp3",
+   "hash": "b154d559702ce6b9",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/heartbroken.mp3",
+   "hash": "038cf5fc11be4623",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/hesitant.mp3",
+   "hash": "cc26ba4d816cd485",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/hiccups.mp3",
+   "hash": "22bbfeb4ecf9ded8",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht, je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/hopeful.mp3",
+   "hash": "6d3952feef4155ea",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/impressed.mp3",
+   "hash": "97a4120ec560fa15",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/laughing.mp3",
+   "hash": "d01bb7dd1e80b0cf",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/loving.mp3",
+   "hash": "e1239ef9eeb2bdc7",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/melancholic.mp3",
+   "hash": "8aacdaa8efa5a642",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/mouth-full.mp3",
+   "hash": "7aaed1e260eafb8f",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/muttering.mp3",
+   "hash": "591cea99de4775fe",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/mysterious.mp3",
+   "hash": "65e1f3fa55c05261",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/nervous.mp3",
+   "hash": "8ea731c310aeee58",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/news-anchor.mp3",
+   "hash": "c56d73038b093672",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/nostalgic.mp3",
+   "hash": "035e7d087decb975",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/opera.mp3",
+   "hash": "fd7ae268c75c1031",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/out-of-breath.mp3",
+   "hash": "89fab7d141aed348",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/panicked.mp3",
+   "hash": "bb4b54838111a2ff",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/playful.mp3",
+   "hash": "6d85513687ae80d2",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/proud.mp3",
+   "hash": "4559fe5d76894301",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/relieved.mp3",
+   "hash": "247f602746f76efd",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/sad.mp3",
+   "hash": "dfa18af8e8f1df37",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/sarcastic.mp3",
+   "hash": "71e18f737c0bc6b5",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/sassy.mp3",
+   "hash": "5843e6beb502cddd",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik hoop niet verwacht je hier te zien.",
+   "similarity": 0.932,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/scared.mp3",
+   "hash": "b01e6f2fedfd387c",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/shouting.mp3",
+   "hash": "dde9e3d4fce62c51",
+   "script": "Ik had niet verwacht je HIER te zien!",
+   "recognized": "Ik had niet verwacht je hier te zien!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/sighing.mp3",
+   "hash": "6b6f9df11380fe15",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/singing.mp3",
+   "hash": "cd9affbe718e7ec8",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/sleepy.mp3",
+   "hash": "f7c2a079b7fb36f1",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/soothing.mp3",
+   "hash": "7315b2f2561fcb71",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/stern.mp3",
+   "hash": "ec5a37b1a96a70d7",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/stifled-laugh.mp3",
+   "hash": "050e7296a20f27c8",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/storyteller.mp3",
+   "hash": "ce0ca66ad158e70e",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/surprised.mp3",
+   "hash": "3c8da3e88c6204e5",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/tender.mp3",
+   "hash": "5ccae9d30bf688f1",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/terrified.mp3",
+   "hash": "543466b4ce4f5c16",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/thoughtful.mp3",
+   "hash": "b2aa813c0c88fc71",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/urgent.mp3",
+   "hash": "00c067107e7fb198",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/villain.mp3",
+   "hash": "48e11267d0d8d7be",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/warm.mp3",
+   "hash": "5b7d78320a6a30ad",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/whisper.mp3",
+   "hash": "d56d944d12f7ca17",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/with-a-cold.mp3",
+   "hash": "df5a051eeb2e849a",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/same-line/worried.mp3",
+   "hash": "33bc3d1e1d129321",
+   "script": "Ik had niet verwacht je hier te zien.",
+   "recognized": "Ik had niet verwacht je hier te zien.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/amazed.mp3",
+   "hash": "50cd271fb242ed36",
+   "script": "De hele hemel licht op. Zoiets heb ik nog nooit gezien.",
+   "recognized": "De hele hemmel licht op. Zo iets heb ik nog nooit gezien.",
+   "similarity": 0.981,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/angry.mp3",
+   "hash": "e23706d6acee974e",
+   "script": "Je had het beloofd. Je keek me recht in de ogen en beloofde het. En je loog.",
+   "recognized": "Je had het beloofd. Je keek me recht in de ogen en beloofde het. En je loog.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/annoyed.mp3",
+   "hash": "b206ddc0a3098eac",
+   "script": "Serieus? Dat is de derde keer deze week dat je op mijn plek parkeert.",
+   "recognized": "Serieus? Dat is de derde keer deze week dat je op mijn plek parkeert.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/awestruck.mp3",
+   "hash": "2b45e3508a77784e",
+   "script": "Kijk hoe groot die walvis is. Hij is... hij is prachtig.",
+   "recognized": "Kijk hoe groot die walf is. Hij is prachtig.",
+   "similarity": 0.882,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/belly-laugh.mp3",
+   "hash": "78f969f9ce8fca38",
+   "script": "En toen pakte de hond gewoon... de hele boterham! Ik kan niet meer!",
+   "recognized": "En toen pakte de hond gewoon de hele boterham. Ik kan niet meer.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/bored.mp3",
+   "hash": "cd64d7408a5f1672",
+   "script": "Wauw. Weer een spreadsheet. Hoe spannend. Ik kan me bijna niet inhouden.",
+   "recognized": "Wow, weer een spreadsheet, hoe spannend, ik kan me bijna niet inhouden.",
+   "similarity": 0.978,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/calm.mp3",
+   "hash": "89957c86e9540f45",
+   "script": "Laat je schouders ontspannen. Je hoeft op dit moment niets op te lossen.",
+   "recognized": "Laat je schouders ontspannen, je hoeft op dit moment niets op te lossen.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/chuckling.mp3",
+   "hash": "8becaad2b3037948",
+   "script": "Dacht je echt dat ik het niet zou merken? Goed geprobeerd.",
+   "recognized": "Dacht je echt dat ik het niet zou merken? Goed geprobeerd!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/comforting.mp3",
+   "hash": "fc1027874c93dac6",
+   "script": "Hé, hé. Het is oké. Kom eens hier. Je staat er niet alleen voor.",
+   "recognized": "Hey, hey, het is oké. Kom eens hier, je staat er niet alleen voor.",
+   "similarity": 0.95,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/commentator.mp3",
+   "hash": "393acfd677c024ef",
+   "script": "Ze schiet, ze scoort! Wat een doelpunt! Het publiek gaat helemaal uit zijn dak!",
+   "recognized": "Ze schiet, ze scoort. Wat een doelpunt. Het publiek gaat helemaal uit zijn dak.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/commercial.mp3",
+   "hash": "e79c5691922faae3",
+   "script": "Vers, knapperig en klaar in twee minuten. Je nieuwe favoriete ontbijt is er!",
+   "recognized": "Vers, knapperig en klaar in twee minuten. Je nieuwe favoriete ontbijt is er.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/confident.mp3",
+   "hash": "8144355e1a0ffadf",
+   "script": "Het moeilijkste heb je al gedaan. Laten we nu zorgen dat je volgende stap telt.",
+   "recognized": "Het moeilijkste heb je al gedaan. Laten we nu zorgen dat je volgende stap telt.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/confused.mp3",
+   "hash": "f7792e4f3116ee27",
+   "script": "Wacht even. Als het hier dinsdag is, waarom zegt mijn telefoon dan donderdag?",
+   "recognized": "Wacht even, als het hier dinsdag is, waarom zegt mijn telefoon dan donderdag?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/crying.mp3",
+   "hash": "0108ea492906dd0b",
+   "script": "Sorry, ik... ik dacht echt dat hij thuis zou komen.",
+   "recognized": "Sorry, ik dacht echt dat hij thuis zou komen.",
+   "similarity": 0.966,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/curious.mp3",
+   "hash": "e9550030f4b3ff5a",
+   "script": "Dat kleine deurtje was er gisteren nog niet. Zullen we kijken wat erachter zit?",
+   "recognized": "Dat kleine deurtje was er gisteren nog niet. Zullen we kijken wat er achter zit?",
+   "similarity": 0.994,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/disappointed.mp3",
+   "hash": "b8b90fe959d40bf6",
+   "script": "Oh. Je bent het vergeten. Nee, het is goed. Ik dacht alleen... dat het dit jaar anders zou zijn.",
+   "recognized": "Oh, je bent het vergeten. Nee, het is goed. Ik dacht alleen dat het dit jaar anders zou zijn.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/disgusted.mp3",
+   "hash": "b5992ba2b2f649eb",
+   "script": "Bah, wat is dat voor lucht? Heeft iemand wéér vis in de magnetron gedaan?",
+   "recognized": "Bah, wat is dat voor lucht? Heeft iemand weer vis in de magnetron gedaan?",
+   "similarity": 0.971,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/dramatic.mp3",
+   "hash": "70ca34dc0e1fa785",
+   "script": "En op dat moment... wist ze het. Niets zou ooit nog hetzelfde zijn.",
+   "recognized": "En op dat moment wist ze het. Niets zou ooit nog hetzelfde zijn.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/dreamy.mp3",
+   "hash": "bade9558eba79e09",
+   "script": "Stel je voor: wakker worden in een huisje aan zee, nergens heen hoeven en niets te doen...",
+   "recognized": "Stel je voor, wakker worden in een huisje aan zee, nergens heen hoeven en niets te doen.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/ecstatic.mp3",
+   "hash": "19a747594b04eeea",
+   "script": "We hebben het! We hebben het echt! Ik kan het niet geloven, ik sta te trillen!",
+   "recognized": "We hebben het! We hebben het echt! Ik kan het niet geloven! Ik sta te trillen!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/excited.mp3",
+   "hash": "49983d4e30cd7945",
+   "script": "Het gaat eindelijk gebeuren! Dit is het moment waarop we hebben gewacht.",
+   "recognized": "Het gaat eindelijk gebeuren, dit is het moment waarop we hebben gewacht.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/exhausted.mp3",
+   "hash": "c058d6bb3868de93",
+   "script": "Drie vluchten, twee vertragingen en één kwijtgeraakte koffer. Ik wil gewoon naar bed.",
+   "recognized": "Drie vluchten, twee vertragingen en één kwijtgeraakte koffer. Ik wil gewoon naar bed.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/fast-talker.mp3",
+   "hash": "f406cfa94232db04",
+   "script": "Hierop zijn voorwaarden van toepassing, actie geldig zolang de voorraad strekt, niet in alle winkels verkrijgbaar.",
+   "recognized": "Hierop zijn voorwaarden van toepassing actiegeldig zolang de voorraad strikt, niet in alle winkels verkrijgbaar.",
+   "similarity": 0.986,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/flirty.mp3",
+   "hash": "0d8c6b8278a49d84",
+   "script": "Nou, hallo daar. Heeft iemand je al eens verteld dat je een heel mooie glimlach hebt?",
+   "recognized": "Nou, hallo daar. Heeft iemand je alleenst verteld dat je een heel mooie glimlach hebt?",
+   "similarity": 0.982,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/frustrated.mp3",
+   "hash": "35c0694962f53778",
+   "script": "Ik heb alle instructies gevolgd. Waarom blijft het scherm dan toch leeg?",
+   "recognized": "Ik heb alle instructies gevolgd, waarom blijft het scherm dan toch leeg?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/furious.mp3",
+   "hash": "79e76c18e99de97a",
+   "script": "Waag het niet om weg te lopen. Dit gesprek is nog LANG niet voorbij!",
+   "recognized": "Waag het niet om weg te lopen. Dit gesprek is nog lang niet voorbij.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/giggling.mp3",
+   "hash": "7a166d800c8af3db",
+   "script": "Hou op, kijk me niet zo aan! Ik probeer serieus te blijven!",
+   "recognized": "Hou op! Kijk me niet zo aan. Ik probeer serieus te blijven.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/grateful.mp3",
+   "hash": "18abd1b85210558e",
+   "script": "Ik denk niet dat je weet hoeveel dit voor me betekent. Dankjewel, echt.",
+   "recognized": "Ik denk niet dat je weet hoeveel dit voor me betekent. Dank je wel. Echt.",
+   "similarity": 0.986,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/happy.mp3",
+   "hash": "54749bc0a47b15ee",
+   "script": "Weet je wat? De zon schijnt, de koffie is perfect en ik heb de hele dag vrij!",
+   "recognized": "Weet je wat? De zon schijnt, de koffie is perfect en ik heb de hele dag vrij.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/heartbroken.mp3",
+   "hash": "df0245ea998dfb33",
+   "script": "Je zei voor altijd. En ik geloofde je.",
+   "recognized": "Je zei voor altijd en ik geloofde je.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/hesitant.mp3",
+   "hash": "011405f1d488512d",
+   "script": "Ik weet het niet zeker... Ik bedoel, misschien? Als jij echt denkt dat het een goed idee is.",
+   "recognized": "Ik weet het niet zeker. Ik bedoel, misschien? Als jij echt denkt dat het een goed idee is.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/hiccups.mp3",
+   "hash": "0996e6dc0a037f06",
+   "script": "Pardon. Ik probeer hier een heel serieuze toespraak te houden.",
+   "recognized": "Pardon, ik probeer hier een heel civieuze toespraak te houden.",
+   "similarity": 0.95,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/hopeful.mp3",
+   "hash": "dcc2a6f6f71874ec",
+   "script": "Misschien is dit jaar ons jaar. Misschien komt het deze keer allemaal goed.",
+   "recognized": "Misschien is dit jaar ons jaar. Misschien komt het deze keer allemaal goed.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/impressed.mp3",
+   "hash": "d727084479401e1f",
+   "script": "Wacht, heb je dit zelf gebouwd? In één weekend? Oké, ik ben echt onder de indruk.",
+   "recognized": "Wacht, heb je dit zelf gebouwd? In één weekend? Oké, ik ben echt onder de indruk.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/laughing.mp3",
+   "hash": "77b47f60c123dfcf",
+   "script": "Zag je zijn gezicht? Hij had geen idee dat de taart voor hem was!",
+   "recognized": "Zachtje zijn gezicht. Hij had geen idee dat de taart voor hem was.",
+   "similarity": 0.961,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/loving.mp3",
+   "hash": "efcc36670c20a7f6",
+   "script": "Slaap lekker, kleintje. Ik ben hier gewoon als je wakker wordt.",
+   "recognized": "Slaap lekker kleintje, ik ben hier gewoon als je wakker wordt.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/melancholic.mp3",
+   "hash": "af722f68f0c1c16c",
+   "script": "Het huis is nu zo stil. Zelfs de regen klinkt eenzaam.",
+   "recognized": "Het huis is nu zo stil, zelfs de regen klinkt eenzaam.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/mouth-full.mp3",
+   "hash": "687b3aaf0e95e840",
+   "script": "Mmm, sorry, sorry. Deze pizza is echt geweldig. Wil je een hapje?",
+   "recognized": "Sorry, sorry. Deze pizza is echt geweldig. Wil je een hapje?",
+   "similarity": 0.966,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/muttering.mp3",
+   "hash": "e235c546105379c0",
+   "script": "Zet die kast even in elkaar, zeiden ze. Is makkelijk, zeiden ze. Twaalf schroeven over...",
+   "recognized": "Zet die kast even in elkaar, zeiden ze. Is makkelijk, zeiden ze. 12 schroeven over.",
+   "similarity": 0.95,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/mysterious.mp3",
+   "hash": "1ccf35cb94ca389d",
+   "script": "Ze zeggen dat de oude vuurtoren al jaren leegstaat. Wie doet dan steeds het licht aan?",
+   "recognized": "Ze zeggen dat de oude vuurtoren al jaren leeg staat. Wie doet dan steeds het licht aan?",
+   "similarity": 0.994,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/nervous.mp3",
+   "hash": "b63e74a9aaed7724",
+   "script": "Dus, eh... ik heb dit eigenlijk nog nooit gedaan. Is dat... is dat oké?",
+   "recognized": "Dus ik heb dit eigenlijk nog nooit gedaan, is dat, is dat oké?",
+   "similarity": 0.975,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/news-anchor.mp3",
+   "hash": "cdaea93067f15ef6",
+   "script": "Goedenavond. Wetenschappers bevestigen vanavond wat kattenbezitters altijd al wisten: de kat is de baas.",
+   "recognized": "Goedenavond. Wetenschappers bevestigen vanavond wat kattenbezitters altijd al wisten. De kat is de baas.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/nostalgic.mp3",
+   "hash": "4aa05af27152e78b",
+   "script": "Weet je nog, die zomers bij oma? De geur van pannenkoeken, die krakende trap...",
+   "recognized": "Weet je nog, die zomers bij Oma, de geur van pannenkoeken, die kraakende trap.",
+   "similarity": 0.993,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/opera.mp3",
+   "hash": "64f2070dd8fb5eb1",
+   "script": "Oh, mijn prachtige spaghetti... waarom word je nou koud?",
+   "recognized": "Oh mijn prachtige spaghetti, waarom word je nou koud?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/out-of-breath.mp3",
+   "hash": "31108abe3e3d59c2",
+   "script": "Oké... ik ben er... wie zei dat... vijf trappen... een goed idee was?",
+   "recognized": "Oké, ik ben er. Wie zei dat? Vijftrappen. Een goed idee was.",
+   "similarity": 0.991,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/panicked.mp3",
+   "hash": "a77ea4c651e7fa6e",
+   "script": "Waar zijn mijn sleutels? Waar zijn mijn sleutels?! De taxi staat voor de deur en ik kan mijn paspoort niet vinden!",
+   "recognized": "Waar zijn mijn sleutels? Waar zijn mijn sleutels? De taxi staat voor de deur en ik kan mijn paspoort niet vinden.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/playful.mp3",
+   "hash": "e3160052eb55adb5",
+   "script": "Ik had beloofd het laatste koekje te laten liggen. Over de taart heb ik niets gezegd.",
+   "recognized": "Ik had beloofd het laatste koekje te laten liggen. Over de taart heb ik niets gezegd.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/proud.mp3",
+   "hash": "bbec791a10e86c94",
+   "script": "Kijk jou daar nou staan op dat podium. Ik wist altijd al dat je het kon.",
+   "recognized": "Kijk jou daar nou staan op dat podium. Ik wist altijd al dat je het kon.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/relieved.mp3",
+   "hash": "9200f82c4ca60ab3",
+   "script": "Oh, gelukkig. Ze hebben haar gevonden. Het gaat goed met haar. Echt goed.",
+   "recognized": "Oh, gelukkig. Ze hebben haar gevonden. Het gaat goed met haar. Echt goed.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/sad.mp3",
+   "hash": "3097e803c272bd7d",
+   "script": "Soms zet ik nog steeds twee kopjes klaar. Dan weet ik het weer.",
+   "recognized": "Soms zet ik nog steeds twee kopjes klaar. Dan weet ik het weer.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/sarcastic.mp3",
+   "hash": "03082ff0f395f6c6",
+   "script": "Oh, geweldig. Weer een vergadering die ook een mailtje had kunnen zijn. Echt mijn favoriet.",
+   "recognized": "Oh geweldig, weer een vergadering die ook een mailtje had kunnen zijn. Echt mijn favoriet.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/sassy.mp3",
+   "hash": "a481005323e900ca",
+   "script": "Oh schat, nee. Die outfit? Zo gaan we de deur niet uit.",
+   "recognized": "Of schat, nee. Die oud-fit? Zo gaan we de deur niet uit.",
+   "similarity": 0.951,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/scared.mp3",
+   "hash": "7f159c313d5b0f39",
+   "script": "Hoorde je dat? Er is iets beneden. Zeg alsjeblieft dat je de deur op slot hebt gedaan.",
+   "recognized": "Hoorde je dat? Er is iets beneden. Zeg alsjeblieft dat je de deur op slot hebt gedaan.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/shouting.mp3",
+   "hash": "517c214236fb3760",
+   "script": "Hé! Hier! Je hebt je sleutels op het dak van de auto laten liggen!",
+   "recognized": "Hey, hier! Je hebt je sleutels op het dak van de auto laten liggen.",
+   "similarity": 0.976,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/sighing.mp3",
+   "hash": "892a50c4f6d1d43a",
+   "script": "Alweer maandag. Oké. Eerst koffie, dan de wereld.",
+   "recognized": "Uuuh, alweer maandag. Oké, eerst koffie, dan de wereld.",
+   "similarity": 0.947,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/singing.mp3",
+   "hash": "955e77152f3f134a",
+   "script": "Lang zal ze leven, lang zal ze leven, lang zal ze leven in de gloria... oké, ik stop al.",
+   "recognized": "Langzaal ze leven, langzaal ze leven, langzaal ze leven in de gloria. Oké, ik stop al.",
+   "similarity": 0.963,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/sleepy.mp3",
+   "hash": "273a0b4c7a6df421",
+   "script": "Nog vijf minuutjes... het bed is zo lekker warm...",
+   "recognized": "Nog vijf minuutjes. Het bed is zo lekker warm.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/soothing.mp3",
+   "hash": "bc6ace83752ee46c",
+   "script": "Adem langzaam in... en laat alles los. Je bent hier veilig.",
+   "recognized": "Adem langzaam in en laat alles los. Je bent hier veilig.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/stern.mp3",
+   "hash": "f8876960c94103b4",
+   "script": "Leg die telefoon neer. Kijk me aan. We moeten het hier nu over hebben.",
+   "recognized": "Leg die telefoon neer. Kijk me aan, we moeten het hier nu over hebben.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/stifled-laugh.mp3",
+   "hash": "096ed7f004057910",
+   "script": "Nee, het gaat prima. Echt. Het is alleen dat je nieuwe kapsel heel... gedurfd is.",
+   "recognized": "Nee, het gaat prima. Echt. Het is alleen dat je nieuwe kapsel heel gedurfd is.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/storyteller.mp3",
+   "hash": "a5dc6b70f6aa4525",
+   "script": "Er was eens, in een dorpje aan zee, een meisje dat met de wind kon praten.",
+   "recognized": "Er was eens, in een dorpje aan zee, een meisje dat met de wind kon praten.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/surprised.mp3",
+   "hash": "d03624121af2fdaa",
+   "script": "Voor mij? Heb je dit allemaal voor mij gedaan? Oh, mijn hemel!",
+   "recognized": "Voor mij? Heb je dit allemaal voor mij gedaan? Oh mijn hemel!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/tender.mp3",
+   "hash": "71a84197a65d290c",
+   "script": "Ik heb je tekening al die jaren bewaard. Ik word er nog steeds blij van.",
+   "recognized": "Ik heb je tekening al die jaren bewaard, ik word er nog steeds blij van.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/terrified.mp3",
+   "hash": "9be7cd45b00dc9a7",
+   "script": "Het staat vlak achter de deur. Niet bewegen. Maak... geen... geluid.",
+   "recognized": "Het staat vlak achter de deur. Niet bewegen. Maak geen geluid.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/thoughtful.mp3",
+   "hash": "50eaadef079831f9",
+   "script": "Hmm. Weet je, misschien is de vraag niet wat we willen... maar waarom we het willen.",
+   "recognized": "Hm, weet je, misschien is de vraag niet wat we willen, maar waarom we het willen?",
+   "similarity": 0.994,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/urgent.mp3",
+   "hash": "7eae4009436b03e2",
+   "script": "De laatste trein vertrekt over een minuut. We moeten nu gaan.",
+   "recognized": "De laatste trein vertrekt over een minuut, we moeten nu gaan.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/villain.mp3",
+   "hash": "1e4dfbcbe7bdba2b",
+   "script": "Dacht je nou echt dat je mij kon tegenhouden? Wat schattig.",
+   "recognized": "Dacht je nou echt dat je mij kon tegenhouden? Wat schattig.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/warm.mp3",
+   "hash": "582d83fb4e9029a0",
+   "script": "Je hoeft het vandaag niet allemaal te weten. Laten we samen de eerste stap zetten.",
+   "recognized": "Je hoeft het vandaag niet allemaal te weten. Laten we samen de eerste stap zetten.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/whisper.mp3",
+   "hash": "20132ea62c69c36f",
+   "script": "Kom eens wat dichterbij. Ik wil je een klein geheimpje vertellen.",
+   "recognized": "Kom eens wat dichterbij. Ik wil je een klein geheimje vertellen.",
+   "similarity": 0.992,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/with-a-cold.mp3",
+   "hash": "e334904764205ac7",
+   "script": "Hoi, met mij. Ik kom vandaag niet. Ik denk dat ik doodga.",
+   "recognized": "Hoi, met mij. Ik kom vandaag niet. Ik denk dat ik dood ga.",
+   "similarity": 0.991,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/scene/worried.mp3",
+   "hash": "d6a0889c0303bd11",
+   "script": "Het is bijna middernacht en ze neemt nog steeds niet op. Dat is niks voor haar.",
+   "recognized": "Het is bijna midden nacht en ze neemt nog steeds niet op, dat is niks voor haar.",
+   "similarity": 0.981,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/voices/children-en.mp3",
+   "hash": "fa0745001561ba1c",
+   "script": "Once upon a time, at the edge of a big dark forest, lived a little hedgehog who was afraid of the dark. But tonight, something wonderful was about to happen.",
+   "recognized": "Once upon a time, at the edge of a big dark forest, lived a little hedgehog who was afraid of the dark. But tonight, something wonderful was about to happen.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/voices/children-nl.mp3",
+   "hash": "1effa6911c6ac5f8",
+   "script": "Er was eens, aan de rand van een groot donker bos, een klein egeltje dat bang was in het donker. Maar vannacht zou er iets wonderlijks gebeuren.",
+   "recognized": "Er was eens, aan de rand van een groot donkerbos, een klein eegeltje dat bang was in het donker. Maar vannacht zou er iets wonderlijks gebeuren.",
+   "similarity": 0.993,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/voices/meditation-en.mp3",
+   "hash": "13432a72e3f95106",
+   "script": "Let’s begin with a slow, deep breath in... and gently let it go. Feel your body settle. Heavy, warm and safe.",
+   "recognized": "Let's begin with a slow deep breath in and gently let it go. Feel your body settle, heavy, warm, and safe.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/voices/meditation-nl.mp3",
+   "hash": "39cc329413ac94c4",
+   "script": "We beginnen met een langzame, diepe ademhaling... en laat hem zachtjes weer los. Voel hoe je lichaam tot rust komt. Zwaar, warm en veilig.",
+   "recognized": "We beginnen met een langzame, diepe ademhaling en laat hem zachtjes weer los. Voel hoe je lichaam tot rust komt, zwaar, warm en veilig.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/voices/professional-en.mp3",
+   "hash": "cc42f0205cb187cf",
+   "script": "Every great story starts with a voice you trust. Clear, warm and engaging, for your next explainer, course or audiobook.",
+   "recognized": "Every great story starts with a voice you trust. Clear, warm, and engaging for your next explainer, course, or audiobook.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/voices/professional-nl.mp3",
+   "hash": "042f22c6ba3f5d50",
+   "script": "Elk goed verhaal begint met een stem die je vertrouwt. Helder, warm en boeiend, voor je volgende uitlegvideo, training of luisterboek.",
+   "recognized": "Elk goed verhaal begint met een stem die je vertrouwt. Helder, warm en boeiend. Voor je volgende uitlegvideo, training of luisterboek.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  }
+ ]
 }
