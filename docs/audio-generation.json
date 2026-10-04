@@ -15,36 +15,6 @@
    "duration": 4.08,
    "generated_at": "2026-10-04T19:15:28+00:00"
   },
-  "audio/en/same-line/warm.mp3": {
-   "prompt": "[american accent] [warmly] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "e8f2d56c212a361f",
-   "character_cost": "6",
-   "request_id": "3utx8Msl7HSXwOvd7Tsl",
-   "sha256": "a08ef7d9641d0a0e26990cdd815732c629fc4e2bf3364c8a9b1fdf2d4c22299c",
-   "duration": 2.08,
-   "generated_at": "2026-10-04T19:15:28+00:00"
-  },
-  "audio/nl/same-line/warm.mp3": {
-   "prompt": "[warmly] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "5b7d78320a6a30ad",
-   "character_cost": "5",
-   "request_id": "dOV6BqxXaMmFZylrpC53",
-   "sha256": "90f813fb293e5050d00587c29c78336684fef890c4900fd0ec8168aad13d04fa",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:15:29+00:00"
-  },
   "audio/nl/scene/warm.mp3": {
    "prompt": "[warmly] Je hoeft het vandaag niet allemaal te weten. Laten we samen de eerste stap zetten.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -75,36 +45,6 @@
    "duration": 6.96,
    "generated_at": "2026-10-04T19:15:29+00:00"
   },
-  "audio/en/same-line/singing.mp3": {
-   "prompt": "[american accent] [sings] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "f01322d18341167f",
-   "character_cost": "6",
-   "request_id": "JodzsJecB54wJ4tdA0yh",
-   "sha256": "409b72cb936976ce21563f3620decb3008113deda12e73b56dc2774e1c01f9f9",
-   "duration": 2.48,
-   "generated_at": "2026-10-04T19:15:29+00:00"
-  },
-  "audio/nl/same-line/singing.mp3": {
-   "prompt": "[sings] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "cd9affbe718e7ec8",
-   "character_cost": "4",
-   "request_id": "QobnDFrhYqb7q2M5Ia7b",
-   "sha256": "92f89b6fb685ecae75ec5be788b3c0a680605cd5afa5da155010c1003f12bbca",
-   "duration": 2.96,
-   "generated_at": "2026-10-04T19:15:30+00:00"
-  },
   "audio/nl/scene/singing.mp3": {
    "prompt": "[sings] Lang zal ze leven, lang zal ze leven, lang zal ze leven in de gloria... [laughs] oké, ik stop al.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -119,36 +59,6 @@
    "sha256": "e09ab48c12ed74cd12cb4d287f5ee3dee5c9652860b83f54f1ac91fa9dace29b",
    "duration": 8.48,
    "generated_at": "2026-10-04T19:15:31+00:00"
-  },
-  "audio/en/same-line/happy.mp3": {
-   "prompt": "[american accent] [happy] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "71de6d08e3d0e981",
-   "character_cost": "6",
-   "request_id": "4YoyG7n9OxlkVseZ3J1g",
-   "sha256": "777fd578571ce868054584a4a1e1158cc44bcd3d5b644846c405161407b6f541",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:17:47+00:00"
-  },
-  "audio/nl/same-line/happy.mp3": {
-   "prompt": "[happy] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "b154d559702ce6b9",
-   "character_cost": "4",
-   "request_id": "uHw7JtfZcOmEWB7V1AHI",
-   "sha256": "3c41bf60be55882cbc57e48cad83bc5bf8c44bcd9d80b73dbd41adc0569fd6e5",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:17:47+00:00"
   },
   "audio/en/scene/happy.mp3": {
    "prompt": "[american accent] [happy] Guess what? The sun is out, the coffee is perfect, and I have the whole day off!",
@@ -180,21 +90,6 @@
    "duration": 5.76,
    "generated_at": "2026-10-04T19:17:48+00:00"
   },
-  "audio/en/same-line/excited.mp3": {
-   "prompt": "[american accent] [excited] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "648174ec497bdf05",
-   "character_cost": "6",
-   "request_id": "OjeqCJCiZvV3UtHH29if",
-   "sha256": "2516af9881e3bf59eb4793c1e4ad2650bffa6c4c3eb9964f83ec516a597d74f0",
-   "duration": 2.08,
-   "generated_at": "2026-10-04T19:17:48+00:00"
-  },
   "audio/en/scene/excited.mp3": {
    "prompt": "[american accent] [excited] It’s finally happening! This is the moment we’ve been waiting for.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -209,21 +104,6 @@
    "sha256": "1624f0b73d5a9061b2528f1d2a5f6c421ab54918ce9bd2eb0537ccaf0e721af7",
    "duration": 4.24,
    "generated_at": "2026-10-04T19:17:48+00:00"
-  },
-  "audio/nl/same-line/excited.mp3": {
-   "prompt": "[excited] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "27a8d6ca65a9d37c",
-   "character_cost": "5",
-   "request_id": "DmIL7LyJb7jCJHAvc5mD",
-   "sha256": "568c0f8c4a471bc00f5592e3f7cbab7f9f5464a3ed9ebd41e9c4011290d73daa",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:17:49+00:00"
   },
   "audio/nl/scene/excited.mp3": {
    "prompt": "[excited] Het gaat eindelijk gebeuren! Dit is het moment waarop we hebben gewacht.",
@@ -240,21 +120,6 @@
    "duration": 4.32,
    "generated_at": "2026-10-04T19:17:49+00:00"
   },
-  "audio/en/same-line/ecstatic.mp3": {
-   "prompt": "[american accent] [ecstatic] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "f42b2a53bdc72a48",
-   "character_cost": "6",
-   "request_id": "6XzRUHlElzzSRBUANYHH",
-   "sha256": "a0a5db771cf4aaa1376aef3bca3fe26e98021bc655169b6ef9e0c932e34dd546",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:17:49+00:00"
-  },
   "audio/en/scene/ecstatic.mp3": {
    "prompt": "[american accent] [ecstatic] We got it! We actually got it! I can’t believe it, I’m shaking!",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -269,36 +134,6 @@
    "sha256": "d2ecd556f4f98462e18cfa526e7f032d3eac37f599cb723c696df0c743b04621",
    "duration": 5.04,
    "generated_at": "2026-10-04T19:17:49+00:00"
-  },
-  "audio/nl/same-line/ecstatic.mp3": {
-   "prompt": "[ecstatic] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "47be7ce220e8e96d",
-   "character_cost": "5",
-   "request_id": "f4EwGfoBSh3J09m5DN4y",
-   "sha256": "858ea66acd6b9d5930248ac9d648b17d1e1fd392444e7653b7967ae40e86c028",
-   "duration": 2.48,
-   "generated_at": "2026-10-04T19:17:50+00:00"
-  },
-  "audio/en/same-line/playful.mp3": {
-   "prompt": "[american accent] [mischievously] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "7d09ab64cc5be259",
-   "character_cost": "7",
-   "request_id": "Q2ASpP9jY3m4Nh2TtUtd",
-   "sha256": "bb65d5e2d859954772ab25942bf989c5fc8d3ac8faca21218329537f9bcca1de",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:17:50+00:00"
   },
   "audio/nl/scene/ecstatic.mp3": {
    "prompt": "[ecstatic] We hebben het! We hebben het echt! Ik kan het niet geloven, ik sta te trillen!",
@@ -330,21 +165,6 @@
    "duration": 5.2,
    "generated_at": "2026-10-04T19:17:51+00:00"
   },
-  "audio/nl/same-line/playful.mp3": {
-   "prompt": "[mischievously] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "6d85513687ae80d2",
-   "character_cost": "5",
-   "request_id": "1HJR1W3rU7giY8t7MYrh",
-   "sha256": "2b0ea936a96fdf7869f02633fc05e15af4086a2bfb3b405d09c9cb9e5503385d",
-   "duration": 2.48,
-   "generated_at": "2026-10-04T19:17:51+00:00"
-  },
   "audio/nl/scene/playful.mp3": {
    "prompt": "[mischievously] Ik had beloofd het laatste koekje te laten liggen. Over de taart heb ik niets gezegd.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -360,21 +180,6 @@
    "duration": 5.36,
    "generated_at": "2026-10-04T19:17:51+00:00"
   },
-  "audio/en/same-line/proud.mp3": {
-   "prompt": "[american accent] [proud, beaming] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "e1e27e922960bf8f",
-   "character_cost": "7",
-   "request_id": "mUr3ASgGWJgyZWE0nQeX",
-   "sha256": "3100145dda59dd9764eb9f881c35a080b27e9b65038761d0b5354a2b85016500",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:17:52+00:00"
-  },
   "audio/en/scene/proud.mp3": {
    "prompt": "[american accent] [proud, beaming] Look at you up there on that stage. I always knew you could do it.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -388,21 +193,6 @@
    "request_id": "cDIXmRZ3dGN7jCZRfzAi",
    "sha256": "b3732b923d85b172a233529e4e0ee2f205a6e2d3706db0647dd806dbf59096ce",
    "duration": 4.72,
-   "generated_at": "2026-10-04T19:17:52+00:00"
-  },
-  "audio/nl/same-line/proud.mp3": {
-   "prompt": "[proud, beaming] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "4559fe5d76894301",
-   "character_cost": "5",
-   "request_id": "T34ed94Gci2QpyznSC8Z",
-   "sha256": "9e2611bdc11d2068cef9c202e5109c44fe5bce5733a482ffad445187b1b55188",
-   "duration": 2.32,
    "generated_at": "2026-10-04T19:17:52+00:00"
   },
   "audio/nl/scene/proud.mp3": {
@@ -420,21 +210,6 @@
    "duration": 4.88,
    "generated_at": "2026-10-04T19:17:53+00:00"
   },
-  "audio/en/same-line/grateful.mp3": {
-   "prompt": "[american accent] [grateful, moved] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "2ec0f3b57f3e2c9b",
-   "character_cost": "7",
-   "request_id": "VsSENPrvCfl2d6JRgwlI",
-   "sha256": "3912eebc77bf75cf6d37fd91c371a2b63e235c320da0c32edf5bf9eb963c33fd",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:17:53+00:00"
-  },
   "audio/en/scene/grateful.mp3": {
    "prompt": "[american accent] [grateful, moved] I don’t think you know how much this means to me. Thank you, truly.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -449,21 +224,6 @@
    "sha256": "2ea3740890b7f6b8b77b361b6a23a1512e2d6e0c88cb7ee57247d1a1018ef55a",
    "duration": 4.8,
    "generated_at": "2026-10-04T19:17:53+00:00"
-  },
-  "audio/nl/same-line/grateful.mp3": {
-   "prompt": "[grateful, moved] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "204ebaab41e6ff6f",
-   "character_cost": "6",
-   "request_id": "e4z0960o8a6u8kFQ2Vxv",
-   "sha256": "64c327eb4c586f7d1496f5a39ec29e5e6eb7a8d32be25b3b6175e7050ae00f96",
-   "duration": 2.48,
-   "generated_at": "2026-10-04T19:17:54+00:00"
   },
   "audio/nl/scene/grateful.mp3": {
    "prompt": "[grateful, moved] Ik denk niet dat je weet hoeveel dit voor me betekent. Dankjewel, echt.",
@@ -495,36 +255,6 @@
    "duration": 4.72,
    "generated_at": "2026-10-04T19:17:54+00:00"
   },
-  "audio/en/same-line/hopeful.mp3": {
-   "prompt": "[american accent] [hopeful] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "a3092d34ab8a49c4",
-   "character_cost": "6",
-   "request_id": "0VEAoz9qNAg1nr72Eu2y",
-   "sha256": "44c853c416fa8dc724e4e47f65daab632c9a77104462279a5ee608e362659b5f",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:17:54+00:00"
-  },
-  "audio/nl/same-line/hopeful.mp3": {
-   "prompt": "[hopeful] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "6d3952feef4155ea",
-   "character_cost": "5",
-   "request_id": "h8XN9XUp3JioOaay5fwc",
-   "sha256": "a19b600c289fdccf245aa6326a62f7181b92140a4f8b11b3b205dab8f45e5da0",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:17:55+00:00"
-  },
   "audio/nl/scene/hopeful.mp3": {
    "prompt": "[hopeful] Misschien is dit jaar ons jaar. Misschien komt het deze keer allemaal goed.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -538,21 +268,6 @@
    "request_id": "LYawr615u3VuHiqdFZYS",
    "sha256": "b77690c1c5b52081dd8debc173a0fa00c951cc9d4ff64d952992367fadca9dbd",
    "duration": 5.12,
-   "generated_at": "2026-10-04T19:17:55+00:00"
-  },
-  "audio/en/same-line/chuckling.mp3": {
-   "prompt": "[american accent] [chuckles] I didn’t expect to see you here. [chuckles]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "28445ae011b8c095",
-   "character_cost": "7",
-   "request_id": "zdJQMnkYd6OtZo7x3J0X",
-   "sha256": "e38937f5ce43993ba638418088e1ef2ac64dbe393908da4df34f686e8053be9b",
-   "duration": 3.44,
    "generated_at": "2026-10-04T19:17:55+00:00"
   },
   "audio/en/scene/chuckling.mp3": {
@@ -585,36 +300,6 @@
    "duration": 5.04,
    "generated_at": "2026-10-04T19:17:56+00:00"
   },
-  "audio/nl/same-line/chuckling.mp3": {
-   "prompt": "[chuckles] Ik had niet verwacht je hier te zien. [chuckles]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "8bf9d5accd7a391d",
-   "character_cost": "6",
-   "request_id": "RkrPX85mgg4iR2KZevsf",
-   "sha256": "2ce83a69597bec91668eb6acdcbdf8321eb8df380db587c43feb481cc03d8b9a",
-   "duration": 3.6,
-   "generated_at": "2026-10-04T19:17:57+00:00"
-  },
-  "audio/en/same-line/giggling.mp3": {
-   "prompt": "[american accent] [giggling] I didn’t expect to see you here. [giggling]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "4cb7df76f8c04229",
-   "character_cost": "7",
-   "request_id": "UdF9X7JZzu3PjlmnXe1e",
-   "sha256": "cc2b262838abb0bb69d046f1ac1f662cb2e720a6a4186870addc04215298d4a1",
-   "duration": 4.0,
-   "generated_at": "2026-10-04T19:17:57+00:00"
-  },
   "audio/en/scene/giggling.mp3": {
    "prompt": "[american accent] [giggling] Stop it, stop looking at me like that! [giggling] I’m trying to be serious!",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -629,36 +314,6 @@
    "sha256": "c27da0a7a68f82882f5e036f1fff8b0ef720491c0fa18e5231b6ddc2bcdebc7a",
    "duration": 6.08,
    "generated_at": "2026-10-04T19:17:57+00:00"
-  },
-  "audio/nl/same-line/giggling.mp3": {
-   "prompt": "[giggling] Ik had niet verwacht je hier te zien. [giggling]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "2e186b1f5ba9a00e",
-   "character_cost": "6",
-   "request_id": "pxv0nk7FxHukleqocK3b",
-   "sha256": "c242a64f781d15337a59fabd4d8290e02ba31410e540585af6d707fc850d9288",
-   "duration": 3.92,
-   "generated_at": "2026-10-04T19:17:58+00:00"
-  },
-  "audio/en/same-line/laughing.mp3": {
-   "prompt": "[american accent] [laughs] I didn’t expect to see you here. [laughs]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "199fdb2c9a3fdca2",
-   "character_cost": "7",
-   "request_id": "1TJ2c7Nc2Fd0a3XoGNAH",
-   "sha256": "e9f998daa7f4e0d93b772feb481271a39fa047d832746b3262631832444c67fb",
-   "duration": 3.52,
-   "generated_at": "2026-10-04T19:17:58+00:00"
   },
   "audio/nl/scene/giggling.mp3": {
    "prompt": "[giggling] Hou op, kijk me niet zo aan! [giggling] Ik probeer serieus te blijven!",
@@ -690,21 +345,6 @@
    "duration": 5.6,
    "generated_at": "2026-10-04T19:17:58+00:00"
   },
-  "audio/nl/same-line/laughing.mp3": {
-   "prompt": "[laughs] Ik had niet verwacht je hier te zien. [laughs]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "d01bb7dd1e80b0cf",
-   "character_cost": "6",
-   "request_id": "OAx5ixi91h8ahzn63eIm",
-   "sha256": "91bf57cd8e6e1217f6bb13bfa1a3f8f7eb88be7d26911a87a3faf2bac6dc0b44",
-   "duration": 3.28,
-   "generated_at": "2026-10-04T19:17:59+00:00"
-  },
   "audio/nl/scene/laughing.mp3": {
    "prompt": "[laughs] Zag je zijn gezicht? [laughs] Hij had geen idee dat de taart voor hem was!",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -719,21 +359,6 @@
    "sha256": "47df32a473b682189a0b15d3ed353d65a0b42a231ec95c2db8e7992cfc87545c",
    "duration": 5.44,
    "generated_at": "2026-10-04T19:17:59+00:00"
-  },
-  "audio/en/same-line/belly-laugh.mp3": {
-   "prompt": "[american accent] [starts laughing] I didn’t expect to see you here. [laughs harder] [wheezing]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "f71bc14372b1c6d7",
-   "character_cost": "10",
-   "request_id": "m5hsOKj5UAEmM97hnCJI",
-   "sha256": "1f6545312cf8da2fae488635030832e9e9412f7db7fe20b667bda14eecbae145",
-   "duration": 5.76,
-   "generated_at": "2026-10-04T19:18:00+00:00"
   },
   "audio/en/scene/belly-laugh.mp3": {
    "prompt": "[american accent] [starts laughing] And then the dog just... [laughs harder] took the whole sandwich! [wheezing] I can’t breathe!",
@@ -750,21 +375,6 @@
    "duration": 6.64,
    "generated_at": "2026-10-04T19:18:00+00:00"
   },
-  "audio/nl/same-line/belly-laugh.mp3": {
-   "prompt": "[starts laughing] Ik had niet verwacht je hier te zien. [laughs harder] [wheezing]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "d723f331e42b5fc6",
-   "character_cost": "8",
-   "request_id": "Bq1DFDiGu3nnh6HHGeyg",
-   "sha256": "6c2ff9b84d20d983a7b8007d1acdf9b777e59f98fc7f40f7874c2fdbc85027da",
-   "duration": 5.6,
-   "generated_at": "2026-10-04T19:18:01+00:00"
-  },
   "audio/nl/scene/belly-laugh.mp3": {
    "prompt": "[starts laughing] En toen pakte de hond gewoon... [laughs harder] de hele boterham! [wheezing] Ik kan niet meer!",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -778,21 +388,6 @@
    "request_id": "4SA1BZ7P4esyajniwJUb",
    "sha256": "afaf4b1c55f2901109d5aaccdf4911d0fcbce7ece2ae1a6abff756e2442aa14d",
    "duration": 7.28,
-   "generated_at": "2026-10-04T19:18:01+00:00"
-  },
-  "audio/en/same-line/stifled-laugh.mp3": {
-   "prompt": "[american accent] [trying not to laugh] I didn’t expect to see you here. [snorts]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "87016f62ce43515e",
-   "character_cost": "8",
-   "request_id": "FwmdH3ScW3aBMbCz5Tcu",
-   "sha256": "820b0548bd7f76625d5284ea8083331c56f98d189da3d7367d9386ebc4a7a167",
-   "duration": 2.8,
    "generated_at": "2026-10-04T19:18:01+00:00"
   },
   "audio/en/scene/stifled-laugh.mp3": {
@@ -810,21 +405,6 @@
    "duration": 6.4,
    "generated_at": "2026-10-04T19:18:02+00:00"
   },
-  "audio/nl/same-line/stifled-laugh.mp3": {
-   "prompt": "[trying not to laugh] Ik had niet verwacht je hier te zien. [snorts]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "050e7296a20f27c8",
-   "character_cost": "7",
-   "request_id": "hsar2HS8o01gmBOLcYFY",
-   "sha256": "306d6291f2d51061866c264cf5610dba05efe2250a1b4947ae0d7c4b88554384",
-   "duration": 2.88,
-   "generated_at": "2026-10-04T19:18:02+00:00"
-  },
   "audio/en/scene/annoyed.mp3": {
    "prompt": "[american accent] [annoyed] Seriously? That’s the third time this week you’ve parked in my spot.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -838,21 +418,6 @@
    "request_id": "JsFPl8TSYViVmYtJ3JPT",
    "sha256": "cf1fc8bf42566201302f357bdadc2a557a2cecd05f8183715a77f1eb620ed75e",
    "duration": 4.16,
-   "generated_at": "2026-10-04T19:18:03+00:00"
-  },
-  "audio/en/same-line/annoyed.mp3": {
-   "prompt": "[american accent] [annoyed] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "61637c973288c757",
-   "character_cost": "6",
-   "request_id": "f4R3JmGveFq5p72uWh7N",
-   "sha256": "ddcf64fbf7a4df48f213b961b43eeb43784842ab6eb159a622ccf3034a1e6f2a",
-   "duration": 2.24,
    "generated_at": "2026-10-04T19:18:03+00:00"
   },
   "audio/nl/scene/stifled-laugh.mp3": {
@@ -869,21 +434,6 @@
    "sha256": "a4e0f4792b15a0c03857da4233c773f960821ac00ac311a469ce293123cf5344",
    "duration": 7.52,
    "generated_at": "2026-10-04T19:18:03+00:00"
-  },
-  "audio/nl/same-line/annoyed.mp3": {
-   "prompt": "[annoyed] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "7dccff4867f76670",
-   "character_cost": "5",
-   "request_id": "73zjg6DAH5ufCljk1Eaj",
-   "sha256": "c9ea1605a613715deeeed52e0166fc6fc355bc593898106f7baecb67dafb9d53",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:18:04+00:00"
   },
   "audio/nl/scene/annoyed.mp3": {
    "prompt": "[annoyed] Serieus? Dat is de derde keer deze week dat je op mijn plek parkeert.",
@@ -915,51 +465,6 @@
    "duration": 4.8,
    "generated_at": "2026-10-04T19:18:04+00:00"
   },
-  "audio/en/same-line/frustrated.mp3": {
-   "prompt": "[american accent] [frustrated sigh] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "bc98c1a9d9a85387",
-   "character_cost": "7",
-   "request_id": "2VRDZlpnl5jyRFoWp41J",
-   "sha256": "f79ed66c18841dfa9207985233b9a52ba7da8b813178b34bf8eb2bae3e02ca92",
-   "duration": 2.88,
-   "generated_at": "2026-10-04T19:18:04+00:00"
-  },
-  "audio/nl/same-line/frustrated.mp3": {
-   "prompt": "[frustrated sigh] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "ec0e88bc88f84d38",
-   "character_cost": "6",
-   "request_id": "UPdAvyV2YrCKiRUPSjXk",
-   "sha256": "f69ea14df067213f24b04afec9e6b806949db203d9f9458383c6051fbe5b12e1",
-   "duration": 3.04,
-   "generated_at": "2026-10-04T19:18:05+00:00"
-  },
-  "audio/en/same-line/angry.mp3": {
-   "prompt": "[american accent] [angry] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "b119affd10e90303",
-   "character_cost": "6",
-   "request_id": "f22hfs81vgUpchrVq5Qv",
-   "sha256": "e18bfc40520833f8479fbde40e43b1a49e804fbe45d7d630e2dbbd88f5b83727",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:05+00:00"
-  },
   "audio/nl/scene/frustrated.mp3": {
    "prompt": "[frustrated sigh] Ik heb alle instructies gevolgd. Waarom blijft het scherm dan toch leeg?",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -990,21 +495,6 @@
    "duration": 4.72,
    "generated_at": "2026-10-04T19:18:06+00:00"
   },
-  "audio/nl/same-line/angry.mp3": {
-   "prompt": "[angry] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "95921ce909f0eebf",
-   "character_cost": "4",
-   "request_id": "TmQcO2QSUlgtoe8EpDHo",
-   "sha256": "fba29b632a98240fad81f746f451bffe277f4cf1362d278372c1c6c1567abe4c",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:18:06+00:00"
-  },
   "audio/en/scene/furious.mp3": {
    "prompt": "[american accent] [furious] Don’t you DARE walk away from me. This conversation is NOWHERE near over!",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1018,21 +508,6 @@
    "request_id": "z9BoFa3nxqQsPsfr4Jww",
    "sha256": "ed33cabb39faae81c65c9d589dcf6b41e8eee930e88d443e460f469d8c9859c1",
    "duration": 4.64,
-   "generated_at": "2026-10-04T19:18:06+00:00"
-  },
-  "audio/en/same-line/furious.mp3": {
-   "prompt": "[american accent] [furious] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "055c5f8af3939fa1",
-   "character_cost": "6",
-   "request_id": "4yklIfcbrkopE7yEYPCb",
-   "sha256": "528f8f2e5e1f44793ea056c95cdf7cce77e4c3ab73995d7ef468e181e388697b",
-   "duration": 2.24,
    "generated_at": "2026-10-04T19:18:06+00:00"
   },
   "audio/nl/scene/angry.mp3": {
@@ -1050,21 +525,6 @@
    "duration": 5.2,
    "generated_at": "2026-10-04T19:18:07+00:00"
   },
-  "audio/nl/same-line/furious.mp3": {
-   "prompt": "[furious] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "fba0356fd8f81b1c",
-   "character_cost": "5",
-   "request_id": "fKwHcCi08L9Cq3a8m8H3",
-   "sha256": "6cb2981e7808a4cacc909044c7368a51303ae07a9d432fcaea6cd6eac3b9f9ea",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:18:07+00:00"
-  },
   "audio/nl/scene/furious.mp3": {
    "prompt": "[furious] Waag het niet om weg te lopen. Dit gesprek is nog LANG niet voorbij!",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1078,21 +538,6 @@
    "request_id": "VE9SoZi4jwH8EAuAzlly",
    "sha256": "c439e058cd348b086f7d3b20f2528b8b491c6fbc424709fba081aa477d9f1561",
    "duration": 4.16,
-   "generated_at": "2026-10-04T19:18:08+00:00"
-  },
-  "audio/en/same-line/shouting.mp3": {
-   "prompt": "[american accent] [shouting] I didn’t expect to see you HERE!",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "29677b4e3d81abe3",
-   "character_cost": "6",
-   "request_id": "ROACpWYvW2wieTUN2Owt",
-   "sha256": "f678d9032e5425bcecac23a5a274f72ff8ad3a630e5ce17c44fa1fe093696355",
-   "duration": 2.08,
    "generated_at": "2026-10-04T19:18:08+00:00"
   },
   "audio/en/scene/shouting.mp3": {
@@ -1109,36 +554,6 @@
    "sha256": "fd334b472780b017cd11587a9bc7a73c9ea6218b095a99bfc5591cf8773ad34f",
    "duration": 4.24,
    "generated_at": "2026-10-04T19:18:08+00:00"
-  },
-  "audio/nl/same-line/shouting.mp3": {
-   "prompt": "[shouting] Ik had niet verwacht je HIER te zien!",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "dde9e3d4fce62c51",
-   "character_cost": "5",
-   "request_id": "zVH5gGfKTUAbPxi1Nk0E",
-   "sha256": "8f5c859f102fa875df269998fb6ab82cba5da1347227bdbd09dba49a732e3a78",
-   "duration": 2.48,
-   "generated_at": "2026-10-04T19:18:09+00:00"
-  },
-  "audio/en/same-line/sarcastic.mp3": {
-   "prompt": "[american accent] [sarcastic] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "3eb43513f56f521e",
-   "character_cost": "6",
-   "request_id": "zwFLg8wvjeN4ClcFbLdv",
-   "sha256": "afbe6d50569eab9453b5a8987f1873a152f7ebfd7887f7a883f54d003aad04e3",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:18:09+00:00"
   },
   "audio/nl/scene/shouting.mp3": {
    "prompt": "[shouting] Hé! Hier! Je hebt je sleutels op het dak van de auto laten liggen!",
@@ -1170,36 +585,6 @@
    "duration": 4.88,
    "generated_at": "2026-10-04T19:18:09+00:00"
   },
-  "audio/nl/same-line/sarcastic.mp3": {
-   "prompt": "[sarcastic] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "71e18f737c0bc6b5",
-   "character_cost": "5",
-   "request_id": "1exZDjTkXk3gQ0YKahq4",
-   "sha256": "70e97efa373b373168c3c3ccd17357f5bf93d93a9e934877e026f7820f1d055b",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:18:10+00:00"
-  },
-  "audio/en/same-line/stern.mp3": {
-   "prompt": "[american accent] [stern] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "b6a055a757253891",
-   "character_cost": "6",
-   "request_id": "sjYBMPAqstuTJUgaUKMq",
-   "sha256": "119c78855d9f0033ef836715f0bb789067f6cfd02152314ab05b2c1307b7b39c",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:10+00:00"
-  },
   "audio/en/scene/stern.mp3": {
    "prompt": "[american accent] [stern] Put the phone down. Look at me. We need to talk about this, now.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1230,21 +615,6 @@
    "duration": 6.64,
    "generated_at": "2026-10-04T19:18:10+00:00"
   },
-  "audio/nl/same-line/stern.mp3": {
-   "prompt": "[stern] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "ec5a37b1a96a70d7",
-   "character_cost": "4",
-   "request_id": "NImhdb1psJLEObtkeDDd",
-   "sha256": "0fca4cc44fcd07fe848f7fc2cf4c1282bb96e72aa5a8a0b419564cbe843f067b",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:18:11+00:00"
-  },
   "audio/nl/scene/stern.mp3": {
    "prompt": "[stern] Leg die telefoon neer. Kijk me aan. We moeten het hier nu over hebben.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1260,21 +630,6 @@
    "duration": 4.64,
    "generated_at": "2026-10-04T19:18:11+00:00"
   },
-  "audio/en/same-line/disgusted.mp3": {
-   "prompt": "[american accent] [disgusted] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "0c88815b3add4b37",
-   "character_cost": "6",
-   "request_id": "3yEbjqS6GtGV70fCiJ7j",
-   "sha256": "871f32c25dc078c30f92f979022bf8061b560ac11a30d9ff488b2e796d374620",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:18:11+00:00"
-  },
   "audio/en/scene/disgusted.mp3": {
    "prompt": "[american accent] [disgusted] Ew, what is that smell? Did someone leave fish in the microwave again?",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1288,21 +643,6 @@
    "request_id": "NUMcUvB5Anl5zPJQOaNN",
    "sha256": "727a2d4ede60fed284b8e218ce222742ec47259ab235ff8fa0db0c3d9753d982",
    "duration": 4.64,
-   "generated_at": "2026-10-04T19:18:12+00:00"
-  },
-  "audio/nl/same-line/disgusted.mp3": {
-   "prompt": "[disgusted] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "3864aeaabd9084e5",
-   "character_cost": "5",
-   "request_id": "p88ltFrEPdFTAZI2li7D",
-   "sha256": "b42056b8f2be23e0f0afd44621e0a6b2b88c746bcb1848b5a9077ef8b79663f9",
-   "duration": 2.72,
    "generated_at": "2026-10-04T19:18:12+00:00"
   },
   "audio/nl/scene/disgusted.mp3": {
@@ -1335,36 +675,6 @@
    "duration": 4.16,
    "generated_at": "2026-10-04T19:18:13+00:00"
   },
-  "audio/en/same-line/tender.mp3": {
-   "prompt": "[american accent] [softening, reflective] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "09e9979233dcee76",
-   "character_cost": "7",
-   "request_id": "Hk4DSTZOUsWenUg9rfon",
-   "sha256": "3a7c8a23b2f98b8c1bdbfbc7004628ea9f3924a7d1a48af5f67522c584d07a30",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:13+00:00"
-  },
-  "audio/nl/same-line/tender.mp3": {
-   "prompt": "[softening, reflective] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "5ccae9d30bf688f1",
-   "character_cost": "6",
-   "request_id": "BcOVeheG6a6Ktj6WGEzo",
-   "sha256": "2b2a147df1ecbe8a1e0f5a2efbe6f8a89a5dad742dd5375a23641925b55882a2",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:14+00:00"
-  },
   "audio/nl/scene/tender.mp3": {
    "prompt": "[softening, reflective] Ik heb je tekening al die jaren bewaard. Ik word er nog steeds blij van.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1378,21 +688,6 @@
    "request_id": "wUZE94J4hNzd0tbJvDaX",
    "sha256": "33c580263fb880f9f9aeba25be4b28843cda6e819d797b10c219e15353add510",
    "duration": 4.4,
-   "generated_at": "2026-10-04T19:18:14+00:00"
-  },
-  "audio/en/same-line/loving.mp3": {
-   "prompt": "[american accent] [lovingly] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "44420eebfca20387",
-   "character_cost": "6",
-   "request_id": "Z5PaZQEaBBGgcvYHBQCl",
-   "sha256": "560668b5ab01b2acbb85e1e59cca9dc7352c32735e30dcf17996f647a453d1ae",
-   "duration": 2.24,
    "generated_at": "2026-10-04T19:18:14+00:00"
   },
   "audio/en/scene/loving.mp3": {
@@ -1410,21 +705,6 @@
    "duration": 3.84,
    "generated_at": "2026-10-04T19:18:14+00:00"
   },
-  "audio/nl/same-line/loving.mp3": {
-   "prompt": "[lovingly] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "e1239ef9eeb2bdc7",
-   "character_cost": "5",
-   "request_id": "nzxMpa1UiWe2kpJVbIVh",
-   "sha256": "0a6549c9f1920c4e9a27ebd7220056c3e99401673e77932afbcfae26a1b3252b",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:18:15+00:00"
-  },
   "audio/nl/scene/loving.mp3": {
    "prompt": "[lovingly] Slaap lekker, kleintje. Ik ben hier gewoon als je wakker wordt.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1438,21 +718,6 @@
    "request_id": "gHVjKpRgpzPTWATeYo5r",
    "sha256": "e465f87c49b863516b667722872cf495a51676b0c4698386736a7ec3d3b82d1c",
    "duration": 3.76,
-   "generated_at": "2026-10-04T19:18:15+00:00"
-  },
-  "audio/en/same-line/comforting.mp3": {
-   "prompt": "[american accent] [gently, comforting] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "f63c1960a132ce83",
-   "character_cost": "7",
-   "request_id": "0yhgKr5MusScNZYEcErq",
-   "sha256": "6480a767f2af2e57d5c0b7ce540a0867f7e58eda8136dafb5262444da10296e0",
-   "duration": 2.24,
    "generated_at": "2026-10-04T19:18:15+00:00"
   },
   "audio/en/scene/comforting.mp3": {
@@ -1470,21 +735,6 @@
    "duration": 4.8,
    "generated_at": "2026-10-04T19:18:15+00:00"
   },
-  "audio/nl/same-line/comforting.mp3": {
-   "prompt": "[gently, comforting] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "99af4ced70749f6c",
-   "character_cost": "6",
-   "request_id": "IxWrAvDhZM4Ce96gkkvg",
-   "sha256": "e280b228e93821b73c24c4933b787f902ce02a5854b390376a38a07d21ded933",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:18:16+00:00"
-  },
   "audio/nl/scene/comforting.mp3": {
    "prompt": "[gently, comforting] Hé, hé. Het is oké. Kom eens hier. Je staat er niet alleen voor.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1498,21 +748,6 @@
    "request_id": "WjJwEFDeFJt56MVbs4U3",
    "sha256": "b25a00d9cbb6488bdbae7217d13ea09ecc9a41ae50d8eec5b44b9bf2ff3eda7b",
    "duration": 5.28,
-   "generated_at": "2026-10-04T19:18:16+00:00"
-  },
-  "audio/en/same-line/nostalgic.mp3": {
-   "prompt": "[american accent] [nostalgic, wistful] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "3c4e5d669253ad1f",
-   "character_cost": "7",
-   "request_id": "IgkOMLZTDC4qD9h8RHPY",
-   "sha256": "c6393dd15ca9497dc7f4198b981c1aa8217714191b4a393f9b99d6326134e051",
-   "duration": 2.24,
    "generated_at": "2026-10-04T19:18:16+00:00"
   },
   "audio/en/scene/nostalgic.mp3": {
@@ -1530,21 +765,6 @@
    "duration": 5.68,
    "generated_at": "2026-10-04T19:18:17+00:00"
   },
-  "audio/nl/same-line/nostalgic.mp3": {
-   "prompt": "[nostalgic, wistful] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "035e7d087decb975",
-   "character_cost": "6",
-   "request_id": "5XYZ3HhBBa4nPFns2xmv",
-   "sha256": "8a1f2c6ca845e03b2ce05a69a6b394e9c933b20ebe6f6a716cf2c357fb258e1c",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:17+00:00"
-  },
   "audio/nl/scene/nostalgic.mp3": {
    "prompt": "[nostalgic, wistful] Weet je nog, die zomers bij oma? De geur van pannenkoeken, die krakende trap...",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1558,21 +778,6 @@
    "request_id": "SqnOBVRcQHsc4LOvExIA",
    "sha256": "323bd15aa0c6dfffbf702bb87d1a1f200830c5fe1a12f72419c4cc39a8df4b5b",
    "duration": 5.68,
-   "generated_at": "2026-10-04T19:18:17+00:00"
-  },
-  "audio/en/same-line/flirty.mp3": {
-   "prompt": "[american accent] [flirtatious] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "80dfd57124b9d21d",
-   "character_cost": "6",
-   "request_id": "xdDdxyl24q5RKJHWxjz8",
-   "sha256": "f3b432d4d1e5c8cdc39258dd5b91247f209924da0c51c3ea04c4ddc3ba2311c6",
-   "duration": 2.16,
    "generated_at": "2026-10-04T19:18:17+00:00"
   },
   "audio/en/scene/flirty.mp3": {
@@ -1589,36 +794,6 @@
    "sha256": "f79f72a0c4ca55288960b92c024c719721d1978d78f1788a76c3de8f676b1084",
    "duration": 4.88,
    "generated_at": "2026-10-04T19:18:18+00:00"
-  },
-  "audio/nl/same-line/flirty.mp3": {
-   "prompt": "[flirtatious] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "fed63bddebe11033",
-   "character_cost": "5",
-   "request_id": "cnSLXe38LXJtjMa6var3",
-   "sha256": "d807817e6a14e4efc9b844324d304cc599eca4c58d44026a3348547514b3e7e5",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:18:18+00:00"
-  },
-  "audio/en/same-line/confident.mp3": {
-   "prompt": "[american accent] [voice rising into firm resolve] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "43dac36489161049",
-   "character_cost": "8",
-   "request_id": "azxm6LSP2by73iBTLJEO",
-   "sha256": "8690f5369dbe95232150beff4ca56e1c008191322b9eff0922d53f8001661f00",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:18:19+00:00"
   },
   "audio/en/scene/confident.mp3": {
    "prompt": "[american accent] [voice rising into firm resolve] You’ve done the hard part. Now let’s make your next move count.",
@@ -1650,36 +825,6 @@
    "duration": 5.68,
    "generated_at": "2026-10-04T19:18:19+00:00"
   },
-  "audio/nl/same-line/confident.mp3": {
-   "prompt": "[voice rising into firm resolve] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "34b05215d90d388d",
-   "character_cost": "7",
-   "request_id": "uhH0mKhVryf43R3wBVWM",
-   "sha256": "7556c939222b4d1861330de917f04cf527837ba35ea340ea9d2ffc8bdf500878",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:20+00:00"
-  },
-  "audio/en/same-line/dramatic.mp3": {
-   "prompt": "[american accent] [dramatically] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "c334ee74200cc7d5",
-   "character_cost": "7",
-   "request_id": "5rKaK0T0GVRnBF1fS5iu",
-   "sha256": "1e8e457c1353889708490fdc3a2c402eac0b712399881e26be1165b1de3aec9c",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:18:20+00:00"
-  },
   "audio/nl/scene/confident.mp3": {
    "prompt": "[voice rising into firm resolve] Het moeilijkste heb je al gedaan. Laten we nu zorgen dat je volgende stap telt.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1710,21 +855,6 @@
    "duration": 5.12,
    "generated_at": "2026-10-04T19:18:20+00:00"
   },
-  "audio/nl/same-line/dramatic.mp3": {
-   "prompt": "[dramatically] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "31eae626f28302b0",
-   "character_cost": "5",
-   "request_id": "4KfWFp82SdYixOpG9bNo",
-   "sha256": "97050bdc564aac04e4ec82a750c42962a81ddbc2e525ddf621b5f71eabda30d8",
-   "duration": 2.48,
-   "generated_at": "2026-10-04T19:18:21+00:00"
-  },
   "audio/nl/scene/dramatic.mp3": {
    "prompt": "[dramatically] En op dat moment... wist ze het. Niets zou ooit nog hetzelfde zijn.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1740,21 +870,6 @@
    "duration": 5.28,
    "generated_at": "2026-10-04T19:18:21+00:00"
   },
-  "audio/en/same-line/mysterious.mp3": {
-   "prompt": "[american accent] [low, mysterious voice] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "b6da97f2b9ddf6d4",
-   "character_cost": "7",
-   "request_id": "IL7v7FEsZhJZIlYDEog0",
-   "sha256": "2714c24b64bdafa58f3836a558c9dd74656852eef5e64bb4eb522078680be607",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:21+00:00"
-  },
   "audio/en/scene/mysterious.mp3": {
    "prompt": "[american accent] [low, mysterious voice] They say the old lighthouse has been empty for years. So who keeps turning on the light?",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1768,21 +883,6 @@
    "request_id": "wOhKxc5sPUglTD8oflLX",
    "sha256": "594411cfc4c45fa2348808ae3583ee63f777b716aa2c1180478c2929ffc63d09",
    "duration": 5.52,
-   "generated_at": "2026-10-04T19:18:22+00:00"
-  },
-  "audio/nl/same-line/mysterious.mp3": {
-   "prompt": "[low, mysterious voice] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "65e1f3fa55c05261",
-   "character_cost": "6",
-   "request_id": "2TTQDEZiHAMTSuqkGRvV",
-   "sha256": "9601e414683982c998df8a59f77b4fdc9572f3bd1235d4498322ce4bdff5badc",
-   "duration": 2.4,
    "generated_at": "2026-10-04T19:18:22+00:00"
   },
   "audio/nl/scene/mysterious.mp3": {
@@ -1815,21 +915,6 @@
    "duration": 4.8,
    "generated_at": "2026-10-04T19:18:23+00:00"
   },
-  "audio/en/same-line/villain.mp3": {
-   "prompt": "[american accent] [low, menacing voice] I didn’t expect to see you here. [evil laugh]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "1246b0297b1e6cca",
-   "character_cost": "9",
-   "request_id": "XuO6RAyYfbplFnl5RDEc",
-   "sha256": "d20230be75067d69234a2064694e0d63db90188ec32a01d075716e67abcf6d77",
-   "duration": 3.6,
-   "generated_at": "2026-10-04T19:18:23+00:00"
-  },
   "audio/nl/scene/villain.mp3": {
    "prompt": "[low, menacing voice] Dacht je nou echt dat je mij kon tegenhouden? [evil laugh] Wat schattig.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1843,36 +928,6 @@
    "request_id": "D1Pcvid6U7rWhvxPJY06",
    "sha256": "c88e0ace6099e12686867f6fea036ef802e74c119da5d9ff12fba0bd8b43eddf",
    "duration": 4.96,
-   "generated_at": "2026-10-04T19:18:24+00:00"
-  },
-  "audio/nl/same-line/villain.mp3": {
-   "prompt": "[low, menacing voice] Ik had niet verwacht je hier te zien. [evil laugh]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "48e11267d0d8d7be",
-   "character_cost": "7",
-   "request_id": "nVMAJ0c0KHQilC3SZXNN",
-   "sha256": "469275b497a8c499fdab7edd0debb3096a90db33b389b90e06b3dc99e53162e6",
-   "duration": 3.76,
-   "generated_at": "2026-10-04T19:18:24+00:00"
-  },
-  "audio/en/same-line/sassy.mp3": {
-   "prompt": "[american accent] [sassy] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "1a9e34b7ac322529",
-   "character_cost": "6",
-   "request_id": "5IyFO4LtzLN3uapDfmfp",
-   "sha256": "09f2769d107be0678a78399711f3d8a3ebd3e6ea02224c77f877a25afa357375",
-   "duration": 2.16,
    "generated_at": "2026-10-04T19:18:24+00:00"
   },
   "audio/en/scene/sassy.mp3": {
@@ -1890,21 +945,6 @@
    "duration": 4.88,
    "generated_at": "2026-10-04T19:18:24+00:00"
   },
-  "audio/nl/same-line/sassy.mp3": {
-   "prompt": "[sassy] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "5843e6beb502cddd",
-   "character_cost": "4",
-   "request_id": "d08aBih9ASDcVD5PbXpZ",
-   "sha256": "de4cde34a49fb83207c6e0d714008dacd502507c5806a3565740fb8f3cf4e586",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:18:25+00:00"
-  },
   "audio/nl/scene/sassy.mp3": {
    "prompt": "[sassy] Oh schat, nee. Die outfit? Zo gaan we de deur niet uit.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1918,21 +958,6 @@
    "request_id": "lgjSPfEDdRxzKrC1uw86",
    "sha256": "a4bcfcb051ece4ebb8f84a8b97e794f976e34c12c60389f600f9d355ad420707",
    "duration": 4.32,
-   "generated_at": "2026-10-04T19:18:25+00:00"
-  },
-  "audio/en/same-line/bored.mp3": {
-   "prompt": "[american accent] [bored, flat voice] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "2fcd65ce8370dc22",
-   "character_cost": "7",
-   "request_id": "yVIBSU5HBnR8OS7qVCU7",
-   "sha256": "2b50b2eed459919cc7a7cb5819af4fcd4cde71882f4052285a966941c56da91a",
-   "duration": 2.32,
    "generated_at": "2026-10-04T19:18:25+00:00"
   },
   "audio/en/scene/bored.mp3": {
@@ -1950,21 +975,6 @@
    "duration": 5.84,
    "generated_at": "2026-10-04T19:18:26+00:00"
   },
-  "audio/nl/same-line/bored.mp3": {
-   "prompt": "[bored, flat voice] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "ba4b8800787af8d8",
-   "character_cost": "6",
-   "request_id": "pmPGkO4Q9xXt5kkRZDio",
-   "sha256": "900d6b4dc26b8a06b0326469428f31a5763896a49f9821ce41b7ba7868cab93c",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:18:26+00:00"
-  },
   "audio/nl/scene/bored.mp3": {
    "prompt": "[bored, flat voice] Wauw. Weer een spreadsheet. Hoe spannend. Ik kan me bijna niet inhouden.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -1978,21 +988,6 @@
    "request_id": "hFzHOkM3QetTTO639RuC",
    "sha256": "1a5f1a90794a615f069714a34f4a083a601e832c14208df0fd36202e3d5129a8",
    "duration": 6.24,
-   "generated_at": "2026-10-04T19:18:27+00:00"
-  },
-  "audio/en/same-line/news-anchor.mp3": {
-   "prompt": "[american accent] [crisp, professional news anchor] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "f7418e3ed512085a",
-   "character_cost": "8",
-   "request_id": "w8gxEcQTfPwrQFBQEJQk",
-   "sha256": "66510ed6d1dc13ff0f1fdbdc913cfb228820c4faf994b9f64227a1dfcff04dc0",
-   "duration": 2.16,
    "generated_at": "2026-10-04T19:18:27+00:00"
   },
   "audio/en/scene/news-anchor.mp3": {
@@ -2009,36 +1004,6 @@
    "sha256": "ff94adfdc4b79cc2f321b4a59b18861e3807de8f5d9c8512baa30af290967363",
    "duration": 6.72,
    "generated_at": "2026-10-04T19:18:27+00:00"
-  },
-  "audio/nl/same-line/news-anchor.mp3": {
-   "prompt": "[crisp, professional news anchor] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "c56d73038b093672",
-   "character_cost": "7",
-   "request_id": "IS816SFuytPC0VhsDOvK",
-   "sha256": "8753855e76ae15dd3eece894b9220bca91df033184c47640f3e5fe05ed024447",
-   "duration": 2.08,
-   "generated_at": "2026-10-04T19:18:27+00:00"
-  },
-  "audio/en/same-line/commercial.mp3": {
-   "prompt": "[american accent] [upbeat, bright commercial voice] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "50de9aaea849bb4a",
-   "character_cost": "8",
-   "request_id": "xc4f7oII499sdXTcuP9y",
-   "sha256": "b37f559fb3d3dec37ab749fca9340a753629995a72a2ff39798a8422b15ac671",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:18:28+00:00"
   },
   "audio/nl/scene/news-anchor.mp3": {
    "prompt": "[crisp, professional news anchor] Goedenavond. Wetenschappers bevestigen vanavond wat kattenbezitters altijd al wisten: de kat is de baas.",
@@ -2085,36 +1050,6 @@
    "duration": 5.36,
    "generated_at": "2026-10-04T19:18:29+00:00"
   },
-  "audio/nl/same-line/commercial.mp3": {
-   "prompt": "[upbeat, bright commercial voice] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "99e8881495facf4b",
-   "character_cost": "7",
-   "request_id": "ryKhswP3NYrLg7qBKVZ1",
-   "sha256": "3d66230775e40cd3ae97f9b80edefd0039c990dc618817a8ae56cb5d329ed1b8",
-   "duration": 2.08,
-   "generated_at": "2026-10-04T19:18:29+00:00"
-  },
-  "audio/en/same-line/commentator.mp3": {
-   "prompt": "[american accent] [excited sports commentator, fast] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "cc032e5291635a1b",
-   "character_cost": "9",
-   "request_id": "QFYLsKL6OMbHfTUoUT7h",
-   "sha256": "d44071d438491249aaa5d2a60edfa9590ab034f67fd1b28907fbfde5d98cd25f",
-   "duration": 2.08,
-   "generated_at": "2026-10-04T19:18:30+00:00"
-  },
   "audio/en/scene/commentator.mp3": {
    "prompt": "[american accent] [excited sports commentator, fast] She shoots, she scores! What a goal! The crowd goes absolutely wild!",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2128,21 +1063,6 @@
    "request_id": "voUToTmkEiEXfe9K8NQR",
    "sha256": "0f69a570939ab735a0521c0920ad33b44ea1911eb2debbc3afeeebb102f3a028",
    "duration": 5.36,
-   "generated_at": "2026-10-04T19:18:30+00:00"
-  },
-  "audio/nl/same-line/commentator.mp3": {
-   "prompt": "[excited sports commentator, fast] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "b3554f778641d3f4",
-   "character_cost": "7",
-   "request_id": "m70FGKjCK8CQGWnmgZ7K",
-   "sha256": "0c1483248dd314981f501739a2ebc829cd1b72a0acccf1f272a69cb4e1f06ca1",
-   "duration": 2.08,
    "generated_at": "2026-10-04T19:18:30+00:00"
   },
   "audio/nl/scene/commentator.mp3": {
@@ -2175,36 +1095,6 @@
    "duration": 5.84,
    "generated_at": "2026-10-04T19:18:31+00:00"
   },
-  "audio/en/same-line/storyteller.mp3": {
-   "prompt": "[american accent] [warm storytelling voice] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "3fabf1f755d9cbd7",
-   "character_cost": "8",
-   "request_id": "nweJMpNKcDPROjZnktBs",
-   "sha256": "0d7ef16a5cd32a9644c75fc70f5d02020f6a8baeaee483df7b5ebb1c430e3542",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:31+00:00"
-  },
-  "audio/nl/same-line/storyteller.mp3": {
-   "prompt": "[warm storytelling voice] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "ce0ca66ad158e70e",
-   "character_cost": "6",
-   "request_id": "OOh37xjPIeHfxBbrYTPK",
-   "sha256": "eacd82b4db214115a4a8026187f52ce6381deb34ef2b1e8d5214079ac78c53b3",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:18:32+00:00"
-  },
   "audio/nl/scene/storyteller.mp3": {
    "prompt": "[warm storytelling voice] Er was eens, in een dorpje aan zee, een meisje dat met de wind kon praten.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2219,36 +1109,6 @@
    "sha256": "316a44526b220db05ce7005a63225eae37ce7de17193ab0569746f833d384c4a",
    "duration": 5.12,
    "generated_at": "2026-10-04T19:18:32+00:00"
-  },
-  "audio/en/same-line/nervous.mp3": {
-   "prompt": "[american accent] [nervous] I didn’t expect to see you here. [gulps]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "654b2e98879e295e",
-   "character_cost": "7",
-   "request_id": "sfynYrKPpndYmAs7jZYA",
-   "sha256": "514f243b6145b97f6e4f66b33d641c663fa5ec6f9336a52fec71704b70072fd4",
-   "duration": 3.12,
-   "generated_at": "2026-10-04T19:18:32+00:00"
-  },
-  "audio/nl/same-line/nervous.mp3": {
-   "prompt": "[nervous] Ik had niet verwacht je hier te zien. [gulps]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "8ea731c310aeee58",
-   "character_cost": "6",
-   "request_id": "zST5jAqZtQlDsbCi5lxK",
-   "sha256": "cecdb32b40e756f315c07d8b2cf32dbaed40c850d4ff7dac1514c73e7067dd9f",
-   "duration": 2.96,
-   "generated_at": "2026-10-04T19:18:33+00:00"
   },
   "audio/en/scene/nervous.mp3": {
    "prompt": "[american accent] [nervous] So, um... I’ve never actually done this before. [gulps] Is that... is that okay?",
@@ -2280,21 +1140,6 @@
    "duration": 6.4,
    "generated_at": "2026-10-04T19:18:34+00:00"
   },
-  "audio/en/same-line/hesitant.mp3": {
-   "prompt": "[american accent] [hesitant] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "bfe43bcaea902ee3",
-   "character_cost": "6",
-   "request_id": "ByJoYk9lid7pWjaqQUrD",
-   "sha256": "c5fcf8f520a27e0dcee990d1856ba2477bcd741d8252918c52b72892c51e2985",
-   "duration": 2.56,
-   "generated_at": "2026-10-04T19:18:34+00:00"
-  },
   "audio/en/scene/hesitant.mp3": {
    "prompt": "[american accent] [hesitant] I’m not sure... I mean, maybe? If you really think it’s a good idea.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2310,21 +1155,6 @@
    "duration": 5.36,
    "generated_at": "2026-10-04T19:18:34+00:00"
   },
-  "audio/nl/same-line/hesitant.mp3": {
-   "prompt": "[hesitant] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "cc26ba4d816cd485",
-   "character_cost": "5",
-   "request_id": "XkYn7uLVEIczhTX1opsJ",
-   "sha256": "dfc76fc4c0a110d0113f1353ed51735955f66d124adb3997a403522d9b871026",
-   "duration": 2.56,
-   "generated_at": "2026-10-04T19:18:35+00:00"
-  },
   "audio/nl/scene/hesitant.mp3": {
    "prompt": "[hesitant] Ik weet het niet zeker... Ik bedoel, misschien? Als jij echt denkt dat het een goed idee is.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2338,21 +1168,6 @@
    "request_id": "JAP3y3kP5uTdhb38tOZc",
    "sha256": "6476d89048c3a7615fbb3de4c89fc0e45cc70dd27e5f77db131d583f4c6e7ece",
    "duration": 6.32,
-   "generated_at": "2026-10-04T19:18:35+00:00"
-  },
-  "audio/en/same-line/worried.mp3": {
-   "prompt": "[american accent] [worried] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "fd0489419f31dfad",
-   "character_cost": "6",
-   "request_id": "feClyWchQdY0r8Ny7dNF",
-   "sha256": "2dceb06648570d8a73c2a45f6d23040f40578bfe2c8619b9fbe2d7114aef7108",
-   "duration": 2.24,
    "generated_at": "2026-10-04T19:18:35+00:00"
   },
   "audio/en/scene/worried.mp3": {
@@ -2370,21 +1185,6 @@
    "duration": 5.04,
    "generated_at": "2026-10-04T19:18:35+00:00"
   },
-  "audio/nl/same-line/worried.mp3": {
-   "prompt": "[worried] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "33bc3d1e1d129321",
-   "character_cost": "5",
-   "request_id": "VQj3em0aHM8Ht1j8mA3M",
-   "sha256": "8d98cc386b7a8bfab6cb0b41b630ce9d3c13a794073daec565d2c19cbec05950",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:18:36+00:00"
-  },
   "audio/nl/scene/worried.mp3": {
    "prompt": "[worried] Het is bijna middernacht en ze neemt nog steeds niet op. Dat is niks voor haar.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2398,21 +1198,6 @@
    "request_id": "OpY60y6aNWiiyP4a6TRw",
    "sha256": "d709497fe9ae75270fd2fd81033df143ad3de3a3b99914638eafacaf51086d6c",
    "duration": 4.88,
-   "generated_at": "2026-10-04T19:18:36+00:00"
-  },
-  "audio/en/same-line/scared.mp3": {
-   "prompt": "[american accent] [scared] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "0e36fc94d4ff4228",
-   "character_cost": "6",
-   "request_id": "V3Dmsv3xAwgA51RLjFFV",
-   "sha256": "81e92c8d86263f16f335f18027ce62cca7d3b108bcce6b807ef46148bcb433cf",
-   "duration": 2.4,
    "generated_at": "2026-10-04T19:18:36+00:00"
   },
   "audio/en/scene/scared.mp3": {
@@ -2429,36 +1214,6 @@
    "sha256": "1fb4c1b348136f191b0f04b30743e4d63f8012b53970594933544aabdf4bd9d3",
    "duration": 5.28,
    "generated_at": "2026-10-04T19:18:36+00:00"
-  },
-  "audio/nl/same-line/scared.mp3": {
-   "prompt": "[scared] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "b01e6f2fedfd387c",
-   "character_cost": "5",
-   "request_id": "g7SLSuLknFS6YCi3q9WF",
-   "sha256": "10c8a962fe41de43beb4eeca05dbf30f1f927454e1bbba5c998d3adb84e8caa2",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:18:37+00:00"
-  },
-  "audio/en/same-line/panicked.mp3": {
-   "prompt": "[american accent] [panicked, rushed] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "e79f37c4d90e177a",
-   "character_cost": "7",
-   "request_id": "ljmHx1mFRap10HDR1DoD",
-   "sha256": "145ab88814e9cc7b80b78174dce7f6a8554c3f8bb1b45337b18fd5f089d8637c",
-   "duration": 2.0,
-   "generated_at": "2026-10-04T19:18:37+00:00"
   },
   "audio/nl/scene/scared.mp3": {
    "prompt": "[scared] Hoorde je dat? Er is iets beneden. [whispers] Zeg alsjeblieft dat je de deur op slot hebt gedaan.",
@@ -2490,21 +1245,6 @@
    "duration": 4.96,
    "generated_at": "2026-10-04T19:18:38+00:00"
   },
-  "audio/nl/same-line/panicked.mp3": {
-   "prompt": "[panicked, rushed] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "bb4b54838111a2ff",
-   "character_cost": "6",
-   "request_id": "T3xtEQsJKE5i4nvwUgCA",
-   "sha256": "b2c4877a28f14ec2940f465d7855fc5822047fe32e152acfd91415ef987f843d",
-   "duration": 1.92,
-   "generated_at": "2026-10-04T19:18:38+00:00"
-  },
   "audio/en/scene/terrified.mp3": {
    "prompt": "[american accent] [terrified, trembling voice] It’s right behind the door. Don’t move. Don’t... make... a sound.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2518,21 +1258,6 @@
    "request_id": "BlJai6hjc8Yezk0avb11",
    "sha256": "7e86a4d1b9657c4633ee5932f680980ba6307322e6e4a41622c397257b744514",
    "duration": 5.12,
-   "generated_at": "2026-10-04T19:18:39+00:00"
-  },
-  "audio/en/same-line/terrified.mp3": {
-   "prompt": "[american accent] [terrified, trembling voice] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "b42528ff3cbcac7e",
-   "character_cost": "8",
-   "request_id": "utI9XmXgZdzkJPPUKpRV",
-   "sha256": "b159cdf5149b82c9bde59fb26ad6eb0065a4d3d11b264268ea4d6502cc8160b8",
-   "duration": 2.48,
    "generated_at": "2026-10-04T19:18:39+00:00"
   },
   "audio/nl/scene/panicked.mp3": {
@@ -2565,36 +1290,6 @@
    "duration": 5.92,
    "generated_at": "2026-10-04T19:18:40+00:00"
   },
-  "audio/nl/same-line/terrified.mp3": {
-   "prompt": "[terrified, trembling voice] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "543466b4ce4f5c16",
-   "character_cost": "7",
-   "request_id": "vQ3IrfWIHrtvNjYdMzZL",
-   "sha256": "d21d17d2c630f694420509d0f1376bbc0b7c86dc9908636c7b7c3e9908e3f782",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:18:40+00:00"
-  },
-  "audio/en/same-line/urgent.mp3": {
-   "prompt": "[american accent] [low, steady voice, restrained urgency] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "48721b256a15a454",
-   "character_cost": "9",
-   "request_id": "0r4v9TDgMdD8iWDlywjL",
-   "sha256": "8274c95cec80952fbd959fe8a9cda68eaa49d146d0b1145262f73c118ea1831c",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:40+00:00"
-  },
   "audio/en/scene/urgent.mp3": {
    "prompt": "[american accent] [low, steady voice, restrained urgency] The last train leaves in one minute. We need to move now.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2625,21 +1320,6 @@
    "duration": 3.92,
    "generated_at": "2026-10-04T19:18:41+00:00"
   },
-  "audio/nl/same-line/urgent.mp3": {
-   "prompt": "[low, steady voice, restrained urgency] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "00c067107e7fb198",
-   "character_cost": "8",
-   "request_id": "yNxLoS8uvHJkwlQbvlng",
-   "sha256": "b528b97dd81af6de6af839b07a945cfc0417c2498e4c260b2411203fc228110f",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:41+00:00"
-  },
   "audio/en/scene/sad.mp3": {
    "prompt": "[american accent] [sad] I still set out two cups sometimes. Then I remember.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2654,51 +1334,6 @@
    "sha256": "714200d11b4b0427fd9d875ee9615b92cee0cf47746b404e93e242cd0d36070f",
    "duration": 4.0,
    "generated_at": "2026-10-04T19:18:41+00:00"
-  },
-  "audio/en/same-line/sad.mp3": {
-   "prompt": "[american accent] [sad] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "2e86c598ce2a7a17",
-   "character_cost": "6",
-   "request_id": "Y4489vkrMW8WNIcWTsb5",
-   "sha256": "98d10da7f94bfc1789c6118472cc0c8498328135fcbf170f15b8a81ac5ce3b3c",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:18:41+00:00"
-  },
-  "audio/nl/same-line/sad.mp3": {
-   "prompt": "[sad] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "dfa18af8e8f1df37",
-   "character_cost": "4",
-   "request_id": "vsMx3zd80oUOvMJFz9rh",
-   "sha256": "6fc687db9d890bcb81cf5dee448f1c8c2d2e945d5dbd7c967c99889eb96a9f86",
-   "duration": 2.48,
-   "generated_at": "2026-10-04T19:18:42+00:00"
-  },
-  "audio/en/same-line/disappointed.mp3": {
-   "prompt": "[american accent] [disappointed] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "5b33727916cd23ff",
-   "character_cost": "7",
-   "request_id": "hdoapzega3J8Fqx1LBXi",
-   "sha256": "dbb3327ec3df8385fda87403f1a25ba71b443272d1048f0feddbf2867afbe867",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:18:42+00:00"
   },
   "audio/nl/scene/sad.mp3": {
    "prompt": "[sad] Soms zet ik nog steeds twee kopjes klaar. Dan weet ik het weer.",
@@ -2730,21 +1365,6 @@
    "duration": 6.64,
    "generated_at": "2026-10-04T19:18:43+00:00"
   },
-  "audio/nl/same-line/disappointed.mp3": {
-   "prompt": "[disappointed] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "2489bbb1a0ad946f",
-   "character_cost": "5",
-   "request_id": "20yg2NGqWcndPutE8v26",
-   "sha256": "007798d35f03f312dcd79dc1b6829997ffb96ca971ef5705ae40d40f06a8bbb0",
-   "duration": 2.48,
-   "generated_at": "2026-10-04T19:18:43+00:00"
-  },
   "audio/en/scene/melancholic.mp3": {
    "prompt": "[american accent] [melancholic] The house is so quiet now. Even the rain sounds lonely.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2758,21 +1378,6 @@
    "request_id": "o0Z9knVNKVRZsyt4rvyv",
    "sha256": "f9bb6a8c3869231ca1de5dc19bc4ac154a60d5c304319af9156519d58405603c",
    "duration": 4.24,
-   "generated_at": "2026-10-04T19:18:44+00:00"
-  },
-  "audio/en/same-line/melancholic.mp3": {
-   "prompt": "[american accent] [melancholic] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "a490a0acf53315f5",
-   "character_cost": "6",
-   "request_id": "iKtu2RT4fkTvIQvIjuK7",
-   "sha256": "9b6d05f21dd901906216650659cc3620891b57bf281cdbf9fc23dbd7d9e64bcc",
-   "duration": 2.16,
    "generated_at": "2026-10-04T19:18:44+00:00"
   },
   "audio/nl/scene/disappointed.mp3": {
@@ -2790,21 +1395,6 @@
    "duration": 7.68,
    "generated_at": "2026-10-04T19:18:44+00:00"
   },
-  "audio/nl/same-line/melancholic.mp3": {
-   "prompt": "[melancholic] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "8aacdaa8efa5a642",
-   "character_cost": "5",
-   "request_id": "YpGLzrnp07Rq45cGSdYT",
-   "sha256": "abfdf65a828eff9f824b6552b9cd948d438be535988c6d560301e94c21766604",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:18:45+00:00"
-  },
   "audio/nl/scene/melancholic.mp3": {
    "prompt": "[melancholic] Het huis is nu zo stil. Zelfs de regen klinkt eenzaam.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2818,21 +1408,6 @@
    "request_id": "Csqnj4METpmgzjABxD6h",
    "sha256": "28f6067ac622a6638101e23e04d61e057b4c1cb7ea003e326ad58edff3b32734",
    "duration": 4.4,
-   "generated_at": "2026-10-04T19:18:45+00:00"
-  },
-  "audio/en/same-line/sighing.mp3": {
-   "prompt": "[american accent] [sighs] I didn’t expect to see you here. [sighs]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "b8b6ce9715bbae33",
-   "character_cost": "7",
-   "request_id": "IrXcnkLKiVk8LSMEtDbi",
-   "sha256": "07d36e5d9dec57ae1e2961ea4f88db5ef2748200c5aef29ba52570107e697573",
-   "duration": 4.0,
    "generated_at": "2026-10-04T19:18:45+00:00"
   },
   "audio/en/scene/sighing.mp3": {
@@ -2850,21 +1425,6 @@
    "duration": 6.0,
    "generated_at": "2026-10-04T19:18:46+00:00"
   },
-  "audio/nl/same-line/sighing.mp3": {
-   "prompt": "[sighs] Ik had niet verwacht je hier te zien. [sighs]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "6b6f9df11380fe15",
-   "character_cost": "5",
-   "request_id": "1CGkyriih53tozDQbdIf",
-   "sha256": "80c309cb942244820e13e2a5886d235accf079418857947c3a937a504190c981",
-   "duration": 4.48,
-   "generated_at": "2026-10-04T19:18:46+00:00"
-  },
   "audio/nl/scene/sighing.mp3": {
    "prompt": "[sighs] Alweer maandag. [sighs] Oké. Eerst koffie, dan de wereld.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2879,21 +1439,6 @@
    "sha256": "e390552e739d44db6adc5acca6390b6eec19a0d822489604ddac651bc29e583d",
    "duration": 6.0,
    "generated_at": "2026-10-04T19:18:46+00:00"
-  },
-  "audio/en/same-line/crying.mp3": {
-   "prompt": "[american accent] [crying] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "e9aa43aa8b128362",
-   "character_cost": "6",
-   "request_id": "J2i61JSjMVZEHk3vGd3G",
-   "sha256": "120abbafe706482337cc853bad08a1d02e830813ae2fe8ece6a0206a5cf0983f",
-   "duration": 2.72,
-   "generated_at": "2026-10-04T19:18:47+00:00"
   },
   "audio/en/scene/crying.mp3": {
    "prompt": "[american accent] [crying] I’m sorry, I just... I really thought he was coming home.",
@@ -2910,21 +1455,6 @@
    "duration": 4.4,
    "generated_at": "2026-10-04T19:18:47+00:00"
   },
-  "audio/nl/same-line/crying.mp3": {
-   "prompt": "[crying] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "395f889bb08ea552",
-   "character_cost": "5",
-   "request_id": "YO9BUyUYsgqTRIw8mP0B",
-   "sha256": "a17d0f9e239c1aca1d1d88d6e096478d5ffb54a7c8ff3bec11c40ab52515f3d0",
-   "duration": 2.88,
-   "generated_at": "2026-10-04T19:18:47+00:00"
-  },
   "audio/nl/scene/crying.mp3": {
    "prompt": "[crying] Sorry, ik... ik dacht echt dat hij thuis zou komen.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -2939,21 +1469,6 @@
    "sha256": "7ba02f55b13000c93f6765c94f9c5726afa52c0f07621d5d9c4a9dfac9b90224",
    "duration": 4.16,
    "generated_at": "2026-10-04T19:18:47+00:00"
-  },
-  "audio/en/same-line/heartbroken.mp3": {
-   "prompt": "[american accent] [heartbroken, voice breaking] I didn’t expect to see you here. [sobbing]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "5e305c16c0f1590b",
-   "character_cost": "9",
-   "request_id": "SRNYJ5yaCoBykGD5PpwP",
-   "sha256": "d93bdeeba587cc8f245de11b6881ecd1d650230124d4cf48ea0f4d04f7adc418",
-   "duration": 2.8,
-   "generated_at": "2026-10-04T19:18:48+00:00"
   },
   "audio/en/scene/heartbroken.mp3": {
    "prompt": "[american accent] [heartbroken, voice breaking] You said forever. [sobbing] I believed you.",
@@ -2985,36 +1500,6 @@
    "duration": 4.0,
    "generated_at": "2026-10-04T19:18:48+00:00"
   },
-  "audio/nl/same-line/heartbroken.mp3": {
-   "prompt": "[heartbroken, voice breaking] Ik had niet verwacht je hier te zien. [sobbing]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "038cf5fc11be4623",
-   "character_cost": "8",
-   "request_id": "m1dmrIu0uZC3rURhdHbw",
-   "sha256": "cbdb785bd26bbbbe95aae968abc5ed244664e714079801f8f0a6b844ccaa5600",
-   "duration": 3.04,
-   "generated_at": "2026-10-04T19:18:48+00:00"
-  },
-  "audio/en/same-line/exhausted.mp3": {
-   "prompt": "[american accent] [exhausted] I didn’t expect to see you here. [exhales]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "82c16a7c1f1e6999",
-   "character_cost": "7",
-   "request_id": "PgxF5voDbE4u1ZXCBjYt",
-   "sha256": "2167fcc2f9c0907893704b0c923ea8fc6003716b8e5c791bd2909bc5146dc0e9",
-   "duration": 3.12,
-   "generated_at": "2026-10-04T19:18:49+00:00"
-  },
   "audio/en/scene/exhausted.mp3": {
    "prompt": "[american accent] [exhausted] Three flights, two delays and one lost suitcase. [exhales] I just want my bed.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3029,21 +1514,6 @@
    "sha256": "4f5425a587d82b5695acc078d56793963028d23e09a2e110c7edf523c01209fe",
    "duration": 6.24,
    "generated_at": "2026-10-04T19:18:49+00:00"
-  },
-  "audio/nl/same-line/exhausted.mp3": {
-   "prompt": "[exhausted] Ik had niet verwacht je hier te zien. [exhales]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "39b39a6575cb302d",
-   "character_cost": "6",
-   "request_id": "qYisg4mOMXI2q3hS5JHV",
-   "sha256": "579af1209fd5f979d66931c61bd0dd8fb3bf459e1b38798d995e569b392b5aec",
-   "duration": 3.52,
-   "generated_at": "2026-10-04T19:18:50+00:00"
   },
   "audio/nl/scene/exhausted.mp3": {
    "prompt": "[exhausted] Drie vluchten, twee vertragingen en één kwijtgeraakte koffer. [exhales] Ik wil gewoon naar bed.",
@@ -3075,36 +1545,6 @@
    "duration": 4.16,
    "generated_at": "2026-10-04T19:18:50+00:00"
   },
-  "audio/en/same-line/curious.mp3": {
-   "prompt": "[american accent] [curious] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "e51f5252afa6444b",
-   "character_cost": "6",
-   "request_id": "yWrwJahV3FQSWycC7qh9",
-   "sha256": "6b09daf80ccd11e2f378950ddb72ff83cfc53c0b0c7c87310f1dbfed5cb0c058",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:18:50+00:00"
-  },
-  "audio/nl/same-line/curious.mp3": {
-   "prompt": "[curious] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "9e5d236a57e55b98",
-   "character_cost": "5",
-   "request_id": "KztRaiB3eLu0HUgVcNY2",
-   "sha256": "7ba46a0daa4ed75a65ca4812d975d370ffe5a6bf444816f819f26b7dd847bd99",
-   "duration": 2.16,
-   "generated_at": "2026-10-04T19:18:51+00:00"
-  },
   "audio/nl/scene/curious.mp3": {
    "prompt": "[curious] Dat kleine deurtje was er gisteren nog niet. Zullen we kijken wat erachter zit?",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3118,21 +1558,6 @@
    "request_id": "w4UEjCNAPt05upyagoM9",
    "sha256": "eb32849fa3859b8b25f297ecf34055246a5d26d5249b02081ad161493d46331a",
    "duration": 4.56,
-   "generated_at": "2026-10-04T19:18:51+00:00"
-  },
-  "audio/en/same-line/amazed.mp3": {
-   "prompt": "[american accent] [amazed] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "a1ab66685fbd1b17",
-   "character_cost": "6",
-   "request_id": "SZNhLwpkkEtivp6J4w6x",
-   "sha256": "d1beab8f593d9896c74284847d11f5d768c97cd9abde9a32f25d29e638530ce7",
-   "duration": 2.16,
    "generated_at": "2026-10-04T19:18:51+00:00"
   },
   "audio/en/scene/amazed.mp3": {
@@ -3150,21 +1575,6 @@
    "duration": 4.4,
    "generated_at": "2026-10-04T19:18:52+00:00"
   },
-  "audio/nl/same-line/amazed.mp3": {
-   "prompt": "[amazed] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "7155b43386aefe99",
-   "character_cost": "5",
-   "request_id": "lxHGeUAe6aS83eMeWvPZ",
-   "sha256": "23a08748deb8caee9a887b13af7f2386d547ca91665026fb761ac49bb1a37b44",
-   "duration": 2.56,
-   "generated_at": "2026-10-04T19:18:52+00:00"
-  },
   "audio/nl/scene/amazed.mp3": {
    "prompt": "[amazed] De hele hemel licht op. Zoiets heb ik nog nooit gezien.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3178,21 +1588,6 @@
    "request_id": "BGCAVWD6xfjGVg5G8xge",
    "sha256": "8bf2dbefd3878b76a13ed9643ff193fd54a5df3b1c080d90b438307df1f6f808",
    "duration": 4.48,
-   "generated_at": "2026-10-04T19:18:53+00:00"
-  },
-  "audio/en/same-line/surprised.mp3": {
-   "prompt": "[american accent] [gasps] [surprised] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "64c8d8631b8b3697",
-   "character_cost": "7",
-   "request_id": "FHjoCpdIrtRGkyulA3MC",
-   "sha256": "a1398bba2ba0515f36cf74cc9ad5b5389c0c8a1e10829a8e9f2ccec1bf0bfeea",
-   "duration": 2.72,
    "generated_at": "2026-10-04T19:18:53+00:00"
   },
   "audio/en/scene/surprised.mp3": {
@@ -3209,36 +1604,6 @@
    "sha256": "e2c869ffd60bcacc9e6b4985d7a0487eedd54dddf563be51f3311bfaed24f7e8",
    "duration": 4.88,
    "generated_at": "2026-10-04T19:18:53+00:00"
-  },
-  "audio/nl/same-line/surprised.mp3": {
-   "prompt": "[gasps] [surprised] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "3c8da3e88c6204e5",
-   "character_cost": "6",
-   "request_id": "wDnEbN9VbSkmLa71ZVbe",
-   "sha256": "3f6d8f70bab3de779ffdc41f419abd2660ddb2bf3c7493a1ad9ccd12d0b251f6",
-   "duration": 2.48,
-   "generated_at": "2026-10-04T19:18:54+00:00"
-  },
-  "audio/en/same-line/awestruck.mp3": {
-   "prompt": "[american accent] [in awe, breathless] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "ac4916ca230c2233",
-   "character_cost": "7",
-   "request_id": "SwkeTASSbF0nfIUUS7Bo",
-   "sha256": "3de80c91f5b8f067854d1ac7c1208b5cb7aaf1a4594ae44348024a9a9bb58f02",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:18:54+00:00"
   },
   "audio/nl/scene/surprised.mp3": {
    "prompt": "[gasps] [surprised] Voor mij? Heb je dit allemaal voor mij gedaan? Oh, mijn hemel!",
@@ -3270,36 +1635,6 @@
    "duration": 4.48,
    "generated_at": "2026-10-04T19:18:54+00:00"
   },
-  "audio/nl/same-line/awestruck.mp3": {
-   "prompt": "[in awe, breathless] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "dd33d7a8917384b1",
-   "character_cost": "6",
-   "request_id": "5wtrwzmVdEM3dZwjAnat",
-   "sha256": "9674de5168aaa39913260de51ab0484881bdad7ca5fbb382b3854201e28349da",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:18:55+00:00"
-  },
-  "audio/en/same-line/impressed.mp3": {
-   "prompt": "[american accent] [impressed] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "30014fd22e20ea29",
-   "character_cost": "6",
-   "request_id": "6W76rWr2ygk1XXrsezHe",
-   "sha256": "a0735a8e35c79baf7ff2bce4c3f2f99bca18f0abff12b1c50e664eaf37c2b099",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:55+00:00"
-  },
   "audio/nl/scene/awestruck.mp3": {
    "prompt": "[in awe, breathless] Kijk hoe groot die walvis is. Hij is... hij is prachtig.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3330,21 +1665,6 @@
    "duration": 6.16,
    "generated_at": "2026-10-04T19:18:56+00:00"
   },
-  "audio/nl/same-line/impressed.mp3": {
-   "prompt": "[impressed] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "97a4120ec560fa15",
-   "character_cost": "5",
-   "request_id": "74chNWg3XbWHQkfo3fMX",
-   "sha256": "14832edf624dd031488082dc69af9498d4b5ac47d297f65cde37b298a0c5764c",
-   "duration": 2.48,
-   "generated_at": "2026-10-04T19:18:56+00:00"
-  },
   "audio/nl/scene/impressed.mp3": {
    "prompt": "[impressed] Wacht, heb je dit zelf gebouwd? In één weekend? Oké, ik ben echt onder de indruk.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3360,21 +1680,6 @@
    "duration": 6.8,
    "generated_at": "2026-10-04T19:18:56+00:00"
   },
-  "audio/en/same-line/confused.mp3": {
-   "prompt": "[american accent] [confused] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "45e6bba973545275",
-   "character_cost": "6",
-   "request_id": "wcyq8rVzN6RShqiucrHd",
-   "sha256": "aa7f484e32f732276e2dfb8f31d4ad81b1a77d6d5d38c72efbba5c2cd915e247",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:57+00:00"
-  },
   "audio/en/scene/confused.mp3": {
    "prompt": "[american accent] [confused] Hold on. If it’s Tuesday here, then why does my phone say Thursday?",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3389,36 +1694,6 @@
    "sha256": "690c1e3f3eb9d8786199ba45aff96c46dec5efcca90f2922c03f1832e48aade5",
    "duration": 5.2,
    "generated_at": "2026-10-04T19:18:57+00:00"
-  },
-  "audio/nl/same-line/confused.mp3": {
-   "prompt": "[confused] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "5182c0fbfefb78e2",
-   "character_cost": "5",
-   "request_id": "FCDpBjwgF31IGcaPbt86",
-   "sha256": "7d2f227d4798e2e89dd862edcb2ce9baf66792df74df459092292bbc694c3378",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:18:57+00:00"
-  },
-  "audio/en/same-line/calm.mp3": {
-   "prompt": "[american accent] [quiet, measured narration] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "b4cf6ea19528abad",
-   "character_cost": "8",
-   "request_id": "rc5ATOoMPrQdOiLVO5jR",
-   "sha256": "96f4f2ffbad99f9db08c996539455aec35984b26b33218d443b34167201a4590",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:58+00:00"
   },
   "audio/nl/scene/confused.mp3": {
    "prompt": "[confused] Wacht even. Als het hier dinsdag is, waarom zegt mijn telefoon dan donderdag?",
@@ -3450,21 +1725,6 @@
    "duration": 4.64,
    "generated_at": "2026-10-04T19:18:58+00:00"
   },
-  "audio/nl/same-line/calm.mp3": {
-   "prompt": "[quiet, measured narration] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "cf8086f44c52583e",
-   "character_cost": "7",
-   "request_id": "ke1ZZ03maOBpw3YXrck4",
-   "sha256": "1dcdc12fc043c047cb29eb9704c78f5671a85eeb2003f93b7e1f022c3a65418d",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:18:59+00:00"
-  },
   "audio/nl/scene/calm.mp3": {
    "prompt": "[quiet, measured narration] Laat je schouders ontspannen. Je hoeft op dit moment niets op te lossen.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3478,21 +1738,6 @@
    "request_id": "HlBRYJTjQUGUybR3KD2e",
    "sha256": "bc867ef18c5bdbce24677867a509d7d13786b5a111ca9799706bd262bc4fb49e",
    "duration": 4.56,
-   "generated_at": "2026-10-04T19:18:59+00:00"
-  },
-  "audio/en/same-line/soothing.mp3": {
-   "prompt": "[american accent] [soft, slow, soothing voice] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "2420f6be6eefccc0",
-   "character_cost": "8",
-   "request_id": "VXZpeMwcjIK9posuoRD1",
-   "sha256": "afb1cbc1e930389d999b8c1b3d59602fb7d24f4d695e0ec57514210746d76783",
-   "duration": 2.4,
    "generated_at": "2026-10-04T19:18:59+00:00"
   },
   "audio/en/scene/soothing.mp3": {
@@ -3510,21 +1755,6 @@
    "duration": 6.8,
    "generated_at": "2026-10-04T19:19:00+00:00"
   },
-  "audio/nl/same-line/soothing.mp3": {
-   "prompt": "[soft, slow, soothing voice] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "7315b2f2561fcb71",
-   "character_cost": "7",
-   "request_id": "7KFA8MAQe1kBrTFeWG0f",
-   "sha256": "22bcac243f6c73f8a965c9a71810a21216347a2362a735bde581b3d7d029d2d1",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:19:00+00:00"
-  },
   "audio/nl/scene/soothing.mp3": {
    "prompt": "[soft, slow, soothing voice] Adem langzaam in... [inhales deeply] en laat alles los. [exhales] Je bent hier veilig.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3539,21 +1769,6 @@
    "sha256": "f233830fd4c8862dc553b740fca887fbb5e462c0e37b43cecbf66784d153bb6c",
    "duration": 7.44,
    "generated_at": "2026-10-04T19:19:00+00:00"
-  },
-  "audio/en/same-line/relieved.mp3": {
-   "prompt": "[american accent] [relieved sigh] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "1fadaa13678c94cf",
-   "character_cost": "7",
-   "request_id": "kMO8ZhrkkjscLuid174A",
-   "sha256": "0ff7b89ac81508a5cce513295fe3dbb76a231362437078b51d49428dd8988df6",
-   "duration": 2.8,
-   "generated_at": "2026-10-04T19:19:01+00:00"
   },
   "audio/en/scene/relieved.mp3": {
    "prompt": "[american accent] [relieved sigh] Oh, thank goodness. They found her. She’s okay. She’s really okay.",
@@ -3585,36 +1800,6 @@
    "duration": 6.0,
    "generated_at": "2026-10-04T19:19:01+00:00"
   },
-  "audio/en/same-line/dreamy.mp3": {
-   "prompt": "[american accent] [dreamy] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "6c9bf99dfb6441dd",
-   "character_cost": "6",
-   "request_id": "B9nSVTWt8lyMawf4c1ae",
-   "sha256": "a38328ba17b9bddb2d7e96f086ecf049cb88f0d49646cf32e6c9da580ea3ebd4",
-   "duration": 2.56,
-   "generated_at": "2026-10-04T19:19:02+00:00"
-  },
-  "audio/nl/same-line/relieved.mp3": {
-   "prompt": "[relieved sigh] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "247f602746f76efd",
-   "character_cost": "5",
-   "request_id": "zzeoT1WAFJB1bY0aL8er",
-   "sha256": "f6595f91589c7e0242ef4e6f63a97924a41e0ddd6b142550cb7f2e5abc66ce14",
-   "duration": 3.04,
-   "generated_at": "2026-10-04T19:19:02+00:00"
-  },
   "audio/en/scene/dreamy.mp3": {
    "prompt": "[american accent] [dreamy] Imagine waking up in a little house by the sea, with nowhere to be and nothing to do...",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3629,21 +1814,6 @@
    "sha256": "109fd1144aa8f11e8f5926223572393bdb955d31a03e6b2ded7ec33ebddf219d",
    "duration": 6.24,
    "generated_at": "2026-10-04T19:19:02+00:00"
-  },
-  "audio/nl/same-line/dreamy.mp3": {
-   "prompt": "[dreamy] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "bfb73054283d165e",
-   "character_cost": "5",
-   "request_id": "2qT4IKGdaVq1jehKSaMT",
-   "sha256": "8905db60b5cc88194b9cb71169914cc83ad5976f514a3fa3c063bd726233950e",
-   "duration": 2.48,
-   "generated_at": "2026-10-04T19:19:03+00:00"
   },
   "audio/en/scene/sleepy.mp3": {
    "prompt": "[american accent] [sleepy drowsy voice] Just five more minutes... [yawning] the bed is so warm...",
@@ -3675,21 +1845,6 @@
    "duration": 6.88,
    "generated_at": "2026-10-04T19:19:03+00:00"
   },
-  "audio/en/same-line/sleepy.mp3": {
-   "prompt": "[american accent] [sleepy drowsy voice] [yawning] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "d174bda11cf79327",
-   "character_cost": "8",
-   "request_id": "y3u1UV8bd6GKQO7rVLw7",
-   "sha256": "68602d9f3178c390228cec6b602f1e3d09fe42b6b43d4a281caa5bbbc76edc18",
-   "duration": 3.44,
-   "generated_at": "2026-10-04T19:19:03+00:00"
-  },
   "audio/nl/scene/sleepy.mp3": {
    "prompt": "[sleepy drowsy voice] Nog vijf minuutjes... [yawning] het bed is zo lekker warm...",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3703,36 +1858,6 @@
    "request_id": "vp9MaJYfznp65XnmSUWw",
    "sha256": "39f4d5a0467517680a1924412ad2fa8aaad487914320f7385fb9969d369b8f5f",
    "duration": 5.04,
-   "generated_at": "2026-10-04T19:19:04+00:00"
-  },
-  "audio/nl/same-line/sleepy.mp3": {
-   "prompt": "[sleepy drowsy voice] [yawning] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "f7c2a079b7fb36f1",
-   "character_cost": "7",
-   "request_id": "FUYixTXLn4x3ejHSbmYv",
-   "sha256": "07c2569df44bf6c1a5f19c0d052fe264b12edc18ca79157578e3ef507f3e661c",
-   "duration": 3.44,
-   "generated_at": "2026-10-04T19:19:04+00:00"
-  },
-  "audio/en/same-line/thoughtful.mp3": {
-   "prompt": "[american accent] [thoughtful] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "046e7c37aa791140",
-   "character_cost": "6",
-   "request_id": "Zmh2JQnLEkShCxpfJMrh",
-   "sha256": "b45ef5c9941b4e210651a8256a1005ed4c89c98b61432631f5ff48e9c66848d3",
-   "duration": 2.48,
    "generated_at": "2026-10-04T19:19:04+00:00"
   },
   "audio/en/scene/thoughtful.mp3": {
@@ -3750,21 +1875,6 @@
    "duration": 6.0,
    "generated_at": "2026-10-04T19:19:05+00:00"
   },
-  "audio/nl/same-line/thoughtful.mp3": {
-   "prompt": "[thoughtful] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "b2aa813c0c88fc71",
-   "character_cost": "5",
-   "request_id": "1oCLHovX6I3ztvi5cYD6",
-   "sha256": "d105f9c0b675f035647390b1f6931bd385b7d6242669861d3f4df50b45e42bb2",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:19:05+00:00"
-  },
   "audio/en/scene/whisper.mp3": {
    "prompt": "[american accent] [whispers] Come a little closer. I have a tiny secret to tell you.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3778,21 +1888,6 @@
    "request_id": "pZ6ka5yn5XmCuvKqDD8P",
    "sha256": "ce82961b51b51a41a207f171f72683267080146cac99178f15a38235256b1f2b",
    "duration": 3.92,
-   "generated_at": "2026-10-04T19:19:06+00:00"
-  },
-  "audio/en/same-line/whisper.mp3": {
-   "prompt": "[american accent] [whispers] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "74473543fa90636f",
-   "character_cost": "6",
-   "request_id": "fpQaZoHyFyG8bFyglLML",
-   "sha256": "51f85b5d20e16102edd8790398f2a9099537a2d3937ad49b977b19adf8f0995e",
-   "duration": 2.24,
    "generated_at": "2026-10-04T19:19:06+00:00"
   },
   "audio/nl/scene/thoughtful.mp3": {
@@ -3810,21 +1905,6 @@
    "duration": 6.56,
    "generated_at": "2026-10-04T19:19:06+00:00"
   },
-  "audio/nl/same-line/whisper.mp3": {
-   "prompt": "[whispers] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "d56d944d12f7ca17",
-   "character_cost": "5",
-   "request_id": "mrVGld3qfKjlArdzttus",
-   "sha256": "a96ca798d3fb12860e6640e7c7e5c1fc402e4ff5bfc77850a0ce6a85b00223db",
-   "duration": 2.08,
-   "generated_at": "2026-10-04T19:19:07+00:00"
-  },
   "audio/nl/scene/whisper.mp3": {
    "prompt": "[whispers] Kom eens wat dichterbij. Ik wil je een klein geheimpje vertellen.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3838,21 +1918,6 @@
    "request_id": "PNQvF0rcSrhXxH26DkZH",
    "sha256": "ad09f22fd9dd5e67233cca61d1a6d6a3d81b4a5b64e2df4b67e876dbb3e2acec",
    "duration": 4.0,
-   "generated_at": "2026-10-04T19:19:07+00:00"
-  },
-  "audio/en/same-line/opera.mp3": {
-   "prompt": "[american accent] [operatic singing] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "714cf32a24c432e9",
-   "character_cost": "7",
-   "request_id": "Jwl7ZDP9TjLcguZxfMdw",
-   "sha256": "528baae1b7e1a92b8bf86f95c5ceee58609c750a049f026e0e18954814d2d9ea",
-   "duration": 2.4,
    "generated_at": "2026-10-04T19:19:07+00:00"
   },
   "audio/en/scene/opera.mp3": {
@@ -3870,21 +1935,6 @@
    "duration": 4.4,
    "generated_at": "2026-10-04T19:19:07+00:00"
   },
-  "audio/nl/same-line/opera.mp3": {
-   "prompt": "[operatic singing] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "fd7ae268c75c1031",
-   "character_cost": "6",
-   "request_id": "4KCIDcsYlYJNsN6NvPOH",
-   "sha256": "013dfbec778943ec75bbbffa424f6ae69b246bcf257b1f689e8b10c9eafb94d5",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:19:08+00:00"
-  },
   "audio/nl/scene/opera.mp3": {
    "prompt": "[operatic singing] Oh, mijn prachtige spaghetti... waarom word je nou koud?",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3898,21 +1948,6 @@
    "request_id": "Pdky7oYEaMUau7yl1uor",
    "sha256": "f95602d5703fe261e5dfe6e45620f8e915f651f57291b6896430d6167e1ef5fa",
    "duration": 4.4,
-   "generated_at": "2026-10-04T19:19:08+00:00"
-  },
-  "audio/en/same-line/mouth-full.mp3": {
-   "prompt": "[american accent] [eating while talking, mouth full] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "0e465bd641de3d3b",
-   "character_cost": "9",
-   "request_id": "lZWhrerXKWMDb2A0jCRC",
-   "sha256": "1ce6ac381749f7a1285a114afeab8a7fc5fd0091675def59a718f49a50f9ac7e",
-   "duration": 2.16,
    "generated_at": "2026-10-04T19:19:08+00:00"
   },
   "audio/en/scene/mouth-full.mp3": {
@@ -3930,21 +1965,6 @@
    "duration": 5.12,
    "generated_at": "2026-10-04T19:19:08+00:00"
   },
-  "audio/nl/same-line/mouth-full.mp3": {
-   "prompt": "[eating while talking, mouth full] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "7aaed1e260eafb8f",
-   "character_cost": "7",
-   "request_id": "NbG06ePIJ4GBgemZBODK",
-   "sha256": "543a43186d76e81e6ddcfcdb054426337a082eef6eb0c84d06e20df30bfb8e3e",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:19:09+00:00"
-  },
   "audio/nl/scene/mouth-full.mp3": {
    "prompt": "[eating while talking, mouth full] Mmm, sorry, sorry. Deze pizza is echt geweldig. Wil je een hapje?",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3960,21 +1980,6 @@
    "duration": 5.76,
    "generated_at": "2026-10-04T19:19:09+00:00"
   },
-  "audio/en/same-line/out-of-breath.mp3": {
-   "prompt": "[american accent] [out of breath, panting] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "5aefad632b48486c",
-   "character_cost": "8",
-   "request_id": "snuDKVa0VUqoShqG85j1",
-   "sha256": "3e31feee7779a1d3244f96bf024213ed73f82fb822b9f9aa5da058d0ed6deb79",
-   "duration": 2.08,
-   "generated_at": "2026-10-04T19:19:10+00:00"
-  },
   "audio/en/scene/out-of-breath.mp3": {
    "prompt": "[american accent] [out of breath, panting] Okay... I made it... [panting] who said... five flights of stairs... was a good idea?",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -3989,36 +1994,6 @@
    "sha256": "d52bd34a31068b1accfc76f854f6161c90440f64c0a12bd2e48bb78840cd8bb5",
    "duration": 6.24,
    "generated_at": "2026-10-04T19:19:10+00:00"
-  },
-  "audio/nl/same-line/out-of-breath.mp3": {
-   "prompt": "[out of breath, panting] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "89fab7d141aed348",
-   "character_cost": "6",
-   "request_id": "rLulH2DWxEuty8Q1vIm2",
-   "sha256": "ac4fa76f14bf4bec5806109d9d62c1f3de41e95f9bb23ced91d9eb3ef53aa01d",
-   "duration": 2.24,
-   "generated_at": "2026-10-04T19:19:10+00:00"
-  },
-  "audio/en/same-line/with-a-cold.mp3": {
-   "prompt": "[american accent] [stuffy nose, with a cold] I didn’t expect to see you here. [sniffs]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "018f38f67d47341e",
-   "character_cost": "9",
-   "request_id": "r0PCi2WyCNXAOLDI4LFH",
-   "sha256": "6ff8b91f86f8aded913b8dafcd3af92ba3eec45b4a58ca8ab0bfae693e650121",
-   "duration": 2.64,
-   "generated_at": "2026-10-04T19:31:20+00:00"
   },
   "audio/nl/scene/out-of-breath.mp3": {
    "prompt": "[out of breath, panting] Oké... ik ben er... [panting] wie zei dat... vijf trappen... een goed idee was?",
@@ -4050,21 +2025,6 @@
    "duration": 6.24,
    "generated_at": "2026-10-04T19:31:21+00:00"
   },
-  "audio/nl/same-line/with-a-cold.mp3": {
-   "prompt": "[stuffy nose, with a cold] Ik had niet verwacht je hier te zien. [sniffs]",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "df5a051eeb2e849a",
-   "character_cost": "7",
-   "request_id": "HtSaDy31G7VUNtEB8uxa",
-   "sha256": "6b8a63e6d5c530b80ae218459b7901096aad39221460a59d8383976a8919e0f8",
-   "duration": 2.64,
-   "generated_at": "2026-10-04T19:31:22+00:00"
-  },
   "audio/nl/scene/with-a-cold.mp3": {
    "prompt": "[stuffy nose, with a cold] Hoi, met mij. [sniffs] Ik kom vandaag niet. [coughing] Ik denk dat ik doodga.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -4094,51 +2054,6 @@
    "sha256": "2bd904a90e5ea3786ffb264fcedb9cfb6d6acb7abb82bb35629bb62c05b07fe7",
    "duration": 5.92,
    "generated_at": "2026-10-04T19:19:13+00:00"
-  },
-  "audio/en/same-line/muttering.mp3": {
-   "prompt": "[american accent] [muttering] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "f3270e657e056476",
-   "character_cost": "6",
-   "request_id": "28WAvPgcCNgF3CgzGLw0",
-   "sha256": "77cc9a900a702efe0320ff2f248d3600f44c6293c7faffdb15be905386abe59b",
-   "duration": 2.4,
-   "generated_at": "2026-10-04T19:19:13+00:00"
-  },
-  "audio/nl/same-line/muttering.mp3": {
-   "prompt": "[muttering] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "591cea99de4775fe",
-   "character_cost": "5",
-   "request_id": "XzyMLNuhUStgx2b0k82Y",
-   "sha256": "a9a4f410e0116dacab42c1d5dcaf29c3f1f70456869dfc21128cc7bfd7e7d449",
-   "duration": 2.32,
-   "generated_at": "2026-10-04T19:19:13+00:00"
-  },
-  "audio/en/same-line/fast-talker.mp3": {
-   "prompt": "[american accent] [rushed, extremely fast] I didn’t expect to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "4d2a6369aedfcda8",
-   "character_cost": "8",
-   "request_id": "dMWPo6CsnjCviWxrdiwS",
-   "sha256": "59a134a531a6ad5f2ed6a307829d9c6ff1e1dcdaac95c3d970297c54e45e9d8e",
-   "duration": 1.76,
-   "generated_at": "2026-10-04T19:19:14+00:00"
   },
   "audio/nl/scene/muttering.mp3": {
    "prompt": "[muttering] Zet die kast even in elkaar, zeiden ze. Is makkelijk, zeiden ze. Twaalf schroeven over...",
@@ -4170,21 +2085,6 @@
    "duration": 5.12,
    "generated_at": "2026-10-04T19:19:14+00:00"
   },
-  "audio/nl/same-line/fast-talker.mp3": {
-   "prompt": "[rushed, extremely fast] Ik had niet verwacht je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "eb26fb0bbc7ca8f8",
-   "character_cost": "6",
-   "request_id": "zmaggMcjeMnNJbhOoDCq",
-   "sha256": "890bc0c1d674a679bd5a3240364d887c28379a774af75483fb3e763ba1b77664",
-   "duration": 1.68,
-   "generated_at": "2026-10-04T19:19:15+00:00"
-  },
   "audio/nl/scene/fast-talker.mp3": {
    "prompt": "[rushed, extremely fast] Hierop zijn voorwaarden van toepassing, actie geldig zolang de voorraad strekt, niet in alle winkels verkrijgbaar.",
    "voice_id": "YUdpWWny7k5yb4QCeweX",
@@ -4214,36 +2114,6 @@
    "sha256": "dffd6c457ba023efa179515b962a26017489b08fa363ccef7b266770a1e5ba0e",
    "duration": 5.12,
    "generated_at": "2026-10-04T19:19:15+00:00"
-  },
-  "audio/en/same-line/hiccups.mp3": {
-   "prompt": "[american accent] [hiccups] I didn’t expect [hiccups] to see you here.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "f64f771aa463a85a",
-   "character_cost": "7",
-   "request_id": "zkLYCIrJ7GX1Z4NLRKre",
-   "sha256": "d114493cd6895833daaed9332a072baa3d40ee309d87fbc7fdee165edf0806e7",
-   "duration": 3.36,
-   "generated_at": "2026-10-04T19:19:16+00:00"
-  },
-  "audio/nl/same-line/hiccups.mp3": {
-   "prompt": "[hiccups] Ik had niet verwacht [hiccups] je hier te zien.",
-   "voice_id": "YUdpWWny7k5yb4QCeweX",
-   "model_id": "eleven_v4",
-   "voice_settings": {
-    "stability": 0.4,
-    "similarity_boost": 0.8
-   },
-   "hash": "22bbfeb4ecf9ded8",
-   "character_cost": "6",
-   "request_id": "391AK8fDPcxClXaRALr6",
-   "sha256": "f1a44758799386ec0b6f892ec2190bf8bd4a7ff38951fafb480941be208f2fb7",
-   "duration": 3.12,
-   "generated_at": "2026-10-04T19:19:16+00:00"
   },
   "audio/nl/scene/hiccups.mp3": {
    "prompt": "[hiccups] Pardon. Ik probeer hier [hiccups] een heel serieuze [hiccups] toespraak te houden.",

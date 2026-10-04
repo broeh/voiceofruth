@@ -14,11 +14,10 @@ const dial = $('dial');
 const ring = $('dial-ring');
 const svg = $('dial-svg');
 const hubCanvas = $('hub-canvas');
-const orbCanvas = $('orb-canvas');
+const pointer = dial.querySelector('.dial-pointer');
 
 const state = {
   language: initialLanguage(),
-  mode: 'scene',
   index: 0,
   position: 0,
   source: null,
@@ -91,41 +90,45 @@ function renderCategories() {
   }));
 }
 
-/* ---------- The dial: an endless half circle ---------- */
+/* ---------- The dial: an endless half circle, opening to the right ---------- */
 
 const geo = {};
 let slots = [];
 let reach = 0;
-let pending = [];
 let hovered = -1;
 
+// Angles in degrees, 0 = 3 o'clock (the selected position), positive = clockwise.
 function arcPath(inner, outer, from, to) {
   const point = (radius, degrees) => {
-    const angle = (degrees - 90) * Math.PI / 180;
+    const angle = degrees * Math.PI / 180;
     return `${(geo.cx + radius * Math.cos(angle)).toFixed(2)},${(geo.cy + radius * Math.sin(angle)).toFixed(2)}`;
   };
   return `M${point(outer, from)} A${outer},${outer} 0 0 1 ${point(outer, to)} L${point(inner, to)} A${inner},${inner} 0 0 0 ${point(inner, from)} Z`;
 }
 
 function layoutDial() {
-  const width = dial.clientWidth;
-  const cap = Math.max(300, Math.min(440, window.innerHeight - 470));
-  const outer = Math.round(Math.min(cap, Math.max(width / 2 - 10, Math.min(width * 0.85, 290))));
-  const inner = Math.round(outer * 0.6);
-  const top = 30;
+  const desktop = window.innerWidth > 980;
+  const outer = desktop
+    ? Math.round(Math.max(280, Math.min(410, (window.innerHeight - 126) / 2 - 12, document.querySelector('.stage').clientWidth * 0.36)))
+    : Math.round(Math.min(360, document.documentElement.clientWidth - 40));
+  const inner = Math.round(outer * 0.5);
+  const height = desktop ? 2 * (outer + 12) : Math.round(outer * 1.6);
   Object.assign(geo, {
-    width, outer, inner, cx: width / 2, cy: outer + top, height: outer + top,
-    step: Math.min(8, Math.max(5, 24 / inner * 180 / Math.PI)),
-    labelRadius: (inner + 10 + outer - 12) / 2,
-    labelSize: Math.round(Math.min(14, Math.max(11, outer * 0.03))),
+    width: outer + 34, height, outer, inner, cx: 0, cy: height / 2,
+    step: Math.min(8, Math.max(5, 24 / (inner + 14) * 180 / Math.PI)),
+    labelStart: inner + 14,
+    labelSize: outer < 330 ? 13 : 14,
   });
-  dial.style.height = `${geo.height}px`;
-  dial.style.setProperty('--hub', `${(inner - 16) * 2}px`);
-  svg.setAttribute('viewBox', `0 0 ${width} ${geo.height}`);
-  svg.setAttribute('width', width);
-  svg.setAttribute('height', geo.height);
+  dial.style.width = `${geo.width}px`;
+  dial.style.height = `${height}px`;
+  dial.style.setProperty('--hub', `${inner - 14}px`);
+  pointer.style.left = `${outer + 14}px`;
+  pointer.style.top = `${geo.cy - 8}px`;
+  svg.setAttribute('viewBox', `0 0 ${geo.width} ${height}`);
+  svg.setAttribute('width', geo.width);
+  svg.setAttribute('height', height);
 
-  reach = Math.ceil(100 / geo.step);
+  reach = Math.ceil(95 / geo.step);
   const sector = arcPath(inner + 4, outer, -geo.step / 2 + 0.35, geo.step / 2 - 0.35);
   const rim = arcPath(outer + 4, outer + 9, -geo.step / 2, geo.step / 2);
   svg.replaceChildren();
@@ -139,62 +142,40 @@ function layoutDial() {
     band.setAttribute('class', 'rim');
     band.setAttribute('d', rim);
     const text = document.createElementNS(SVG_NS, 'text');
-    text.setAttribute('x', geo.cx);
-    text.setAttribute('y', geo.cy - geo.labelRadius);
+    text.setAttribute('x', geo.cx + geo.labelStart);
+    text.setAttribute('y', geo.cy);
     text.style.fontSize = `${geo.labelSize}px`;
-    text.style.transformOrigin = `${geo.cx}px ${geo.cy - geo.labelRadius}px`;
     group.append(path, band, text);
     svg.appendChild(group);
     return { group, text, abs: null };
   });
+  hovered = -1;
   render();
   sizeCanvas(hubCanvas);
   drawFrame(performance.now());
 }
 
-// Each absolute position i (the emotion is i mod count) keeps its own slot while visible,
-// so a label only flips direction when it really crosses the top of the wheel.
+// Absolute position i shows emotion i mod count. Labels sit between -90 and +90 degrees,
+// so they always read left to right.
 function render() {
   if (!slots.length) return;
   const base = Math.round(state.position);
   for (let i = base - reach; i <= base + reach; i += 1) {
     const slot = slots[mod(i, slots.length)];
-    const angle = (i - state.position) * geo.step;
     if (slot.abs !== i) {
       const emotion = emotions[mod(i, count)];
       slot.abs = i;
       slot.group.style.setProperty('--c', categories[emotion.category].color);
       slot.text.textContent = emotion[state.language];
-      slot.text.classList.add('instant');
-      pending.push(slot.text);
     }
-    slot.group.setAttribute('transform', `rotate(${angle.toFixed(3)} ${geo.cx} ${geo.cy})`);
+    slot.group.setAttribute('transform', `rotate(${((i - state.position) * geo.step).toFixed(3)} ${geo.cx} ${geo.cy})`);
     slot.group.classList.toggle('current', i === base);
-    slot.text.style.transform = `rotate(${angle < 0 ? 90 : -90}deg)`;
-  }
-  if (pending.length) {
-    const texts = pending;
-    pending = [];
-    requestAnimationFrame(() => texts.forEach(text => text.classList.remove('instant')));
   }
   const current = mod(base, count);
   if (current !== hovered) {
     hovered = current;
-    showHub(current);
+    dial.style.setProperty('--h', categories[emotions[current].category].color);
   }
-}
-
-function showHub(index) {
-  const emotion = emotions[index];
-  const category = categories[emotion.category];
-  document.documentElement.style.setProperty('--c', category.color);
-  $('hub-category').textContent = category[state.language];
-  const name = $('hub-emotion');
-  name.textContent = emotion[state.language];
-  name.lang = state.language;
-  name.style.fontSize = '';
-  const room = dial.querySelector('.hub').clientWidth * 0.86;
-  if (name.scrollWidth > room) name.style.fontSize = `${parseFloat(getComputedStyle(name).fontSize) * room / name.scrollWidth}px`;
 }
 
 let animation = null;
@@ -243,23 +224,30 @@ let drag = null;
 let engaged = false;
 let wheelTimer = 0;
 
+function pointerAngle(event) {
+  const box = dial.getBoundingClientRect();
+  const x = event.clientX - box.left - geo.cx;
+  const y = event.clientY - box.top - geo.cy;
+  return { angle: Math.atan2(y, x) * 180 / Math.PI, radius: Math.hypot(x, y) };
+}
+
 dial.addEventListener('pointerdown', event => {
   if (event.button !== 0 || event.target.closest('.hub')) return;
   engaged = true;
   stopAnimation();
-  drag = { id: event.pointerId, x: event.clientX, y: event.clientY, start: state.position, moved: false, samples: [] };
+  drag = { id: event.pointerId, x: event.clientX, y: event.clientY, angle: pointerAngle(event).angle, start: state.position, moved: false, samples: [] };
 });
 
 dial.addEventListener('pointermove', event => {
   if (!drag || event.pointerId !== drag.id) return;
-  const dx = event.clientX - drag.x;
-  if (!drag.moved && Math.abs(dx) > 5) {
+  if (!drag.moved && Math.hypot(event.clientX - drag.x, event.clientY - drag.y) > 5) {
     drag.moved = true;
     dial.setPointerCapture(event.pointerId);
     dial.classList.add('dragging');
   }
   if (!drag.moved) return;
-  state.position = drag.start - dx / (geo.labelRadius * geo.step * Math.PI / 180);
+  const turned = mod(pointerAngle(event).angle - drag.angle + 180, 360) - 180;
+  state.position = drag.start - turned / geo.step;
   drag.samples.push({ time: event.timeStamp, position: state.position });
   drag.samples = drag.samples.filter(sample => event.timeStamp - sample.time < 120);
   render();
@@ -280,12 +268,8 @@ function endDrag(event) {
     animateTo(Math.round(state.position + velocity * 260), state.hasListened);
     return;
   }
-  const box = dial.getBoundingClientRect();
-  const x = event.clientX - box.left - geo.cx;
-  const y = event.clientY - box.top - geo.cy;
-  const radius = Math.hypot(x, y);
+  const { angle, radius } = pointerAngle(event);
   if (radius < geo.inner || radius > geo.outer + 12) return;
-  const angle = Math.atan2(x, -y) * 180 / Math.PI;
   animateTo(Math.round(state.position + angle / geo.step), true);
 }
 dial.addEventListener('pointerup', endDrag);
@@ -294,12 +278,12 @@ dial.addEventListener('pointerleave', event => { if (event.pointerType === 'mous
 
 // The wheel scrolls the page until the visitor engages the dial, so it never traps scrolling.
 dial.addEventListener('wheel', event => {
-  const horizontal = Math.abs(event.deltaX) > Math.abs(event.deltaY);
-  if (!engaged && !horizontal) return;
+  if (!engaged) return;
   event.preventDefault();
   stopAnimation();
   const unit = event.deltaMode === 1 ? 40 : event.deltaMode === 2 ? 600 : 1;
-  state.position += (horizontal ? event.deltaX : event.deltaY) * unit / 70;
+  const delta = Math.abs(event.deltaX) > Math.abs(event.deltaY) ? event.deltaX : event.deltaY;
+  state.position += delta * unit / 70;
   render();
   clearTimeout(wheelTimer);
   wheelTimer = setTimeout(() => animateTo(Math.round(state.position), state.hasListened), 160);
@@ -332,7 +316,7 @@ $('shuffle').addEventListener('click', () => {
 /* ---------- Selection and the take panel ---------- */
 
 function wheelTake() {
-  return emotions[state.index].takes[state.language][state.mode];
+  return emotions[state.index].takes[state.language];
 }
 
 function takeFor(source) {
@@ -351,8 +335,11 @@ function updateTake() {
   const emotion = emotions[state.index];
   const category = categories[emotion.category];
   const take = wheelTake();
-  hovered = -1;
-  render();
+  document.documentElement.style.setProperty('--c', category.color);
+  $('take-category').textContent = category[state.language];
+  const name = $('take-emotion');
+  name.textContent = emotion[state.language];
+  name.lang = state.language;
   $('take-number').textContent = `${String(state.index + 1).padStart(2, '0')} / ${count}`;
   const text = $('take-text');
   text.textContent = take.text;
@@ -361,7 +348,6 @@ function updateTake() {
   ring.setAttribute('aria-valuenow', String(state.index + 1));
   ring.setAttribute('aria-valuetext', `${emotion[state.language]}, ${category[state.language]}`);
   document.querySelectorAll('.chip').forEach(chip => chip.setAttribute('aria-pressed', String(chip.dataset.category === emotion.category)));
-  document.querySelectorAll('[data-mode]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.mode === state.mode)));
   updateProgress();
   setStatus();
 }
@@ -405,7 +391,6 @@ async function play(source) {
     player.src = take.file;
     state.source = source;
   }
-  if (source === 'intro') $('intro-caption').textContent = `“${take.text}”`;
   try {
     await player.play();
   } catch (error) {
@@ -500,16 +485,6 @@ player.addEventListener('error', () => {
   if (state.source === 'wheel') setStatus('statusError');
 });
 
-document.querySelectorAll('[data-mode]').forEach(button => button.addEventListener('click', () => {
-  if (state.mode === button.dataset.mode) return;
-  state.mode = button.dataset.mode;
-  const wasWheel = state.source === 'wheel';
-  if (wasWheel) stop();
-  updateTake();
-  if (state.hasListened) play('wheel');
-  else if (wasWheel) updateButtons();
-}));
-
 document.querySelectorAll('[data-language]').forEach(button => button.addEventListener('click', () => {
   if (state.language === button.dataset.language) return;
   const source = state.source;
@@ -553,72 +528,26 @@ function drawHub(values, color) {
   const { width, height } = hubCanvas;
   if (!width || !height) return;
   context.clearRect(0, 0, width, height);
-  const cx = width / 2;
-  const radius = width / 2;
+  const cy = height / 2;
+  const radius = width;
+  const small = hubCanvas.clientWidth < 160;
   const bars = 56;
   context.lineCap = 'round';
   context.strokeStyle = color;
-  context.lineWidth = Math.max(2, width / 230);
+  context.lineWidth = Math.max(2, width / 115);
   for (let i = 0; i < bars; i += 1) {
     const fromCenter = Math.abs(i - (bars - 1) / 2) / (bars / 2);
     const value = values[Math.min(values.length - 1, Math.floor(fromCenter * values.length * 0.85))];
-    const angle = Math.PI + (i + 0.5) / bars * Math.PI;
-    const start = radius * (radius < 200 ? 0.86 : 0.8);
-    const length = radius * (0.012 + value * (radius < 200 ? 0.12 : 0.17));
+    const angle = -Math.PI / 2 + (i + 0.5) / bars * Math.PI;
+    const start = radius * (small ? 0.86 : 0.82);
+    const length = radius * (0.012 + value * (small ? 0.12 : 0.16));
     context.globalAlpha = 0.25 + value * 0.75;
     context.beginPath();
-    context.moveTo(cx + Math.cos(angle) * start, height + Math.sin(angle) * start);
-    context.lineTo(cx + Math.cos(angle) * (start + length), height + Math.sin(angle) * (start + length));
+    context.moveTo(Math.cos(angle) * start, cy + Math.sin(angle) * start);
+    context.lineTo(Math.cos(angle) * (start + length), cy + Math.sin(angle) * (start + length));
     context.stroke();
   }
   context.globalAlpha = 1;
-}
-
-function rgba(hex, alpha) {
-  const value = parseInt(hex.slice(1), 16);
-  return `rgba(${value >> 16},${(value >> 8) & 255},${value & 255},${alpha})`;
-}
-
-function drawOrb(values, now, color) {
-  const context = orbCanvas.getContext('2d');
-  const { width, height } = orbCanvas;
-  if (!width || !height) return;
-  const energy = values.reduce((sum, value) => sum + value, 0) / values.length;
-  const base = width * 0.24 * (1 + energy * 0.35);
-  context.clearRect(0, 0, width, height);
-  const halo = context.createRadialGradient(width / 2, height / 2, 0, width / 2, height / 2, width / 2);
-  halo.addColorStop(0, rgba('#f17fb0', 0.22 + energy * 0.2));
-  halo.addColorStop(1, rgba('#f17fb0', 0));
-  context.fillStyle = halo;
-  context.fillRect(0, 0, width, height);
-  context.globalCompositeOperation = 'screen';
-  ['#f6c453', state.source === 'wheel' ? color : '#f17fb0', '#8e8cf7'].forEach((tint, layer) => {
-    const phase = layer * 2.1;
-    const cx = width / 2 + Math.cos(now / 2600 + phase) * width * 0.045;
-    const cy = height / 2 + Math.sin(now / 3100 + phase) * width * 0.045;
-    context.beginPath();
-    for (let step = 0; step <= 96; step += 1) {
-      const angle = step / 96 * Math.PI * 2;
-      const band = values[Math.floor((step % 48) / 48 * values.length)] || 0;
-      const radius = base * (1 + 0.07 * Math.sin(angle * 3 + now / 1400 + phase)
-        + 0.045 * Math.sin(angle * 5 - now / 1900 + phase) + band * 0.24);
-      const x = cx + Math.cos(angle) * radius;
-      const y = cy + Math.sin(angle) * radius;
-      if (step) context.lineTo(x, y); else context.moveTo(x, y);
-    }
-    const fill = context.createRadialGradient(cx, cy, 0, cx, cy, base * 1.25);
-    fill.addColorStop(0, rgba(tint, 0.95));
-    fill.addColorStop(0.6, rgba(tint, 0.42));
-    fill.addColorStop(1, rgba(tint, 0));
-    context.fillStyle = fill;
-    context.fill();
-  });
-  const core = context.createRadialGradient(width / 2, height / 2, 0, width / 2, height / 2, base * 0.7);
-  core.addColorStop(0, `rgba(255,248,252,${0.55 + energy * 0.4})`);
-  core.addColorStop(1, 'rgba(255,248,252,0)');
-  context.fillStyle = core;
-  context.fillRect(0, 0, width, height);
-  context.globalCompositeOperation = 'source-over';
 }
 
 function drawFrame(now) {
@@ -627,7 +556,6 @@ function drawFrame(now) {
   const values = levels(now, animate);
   const color = getComputedStyle(document.documentElement).getPropertyValue('--c').trim() || '#f6c453';
   drawHub(values, color);
-  drawOrb(values, animate ? now : 0, color);
   if (animate) {
     updateProgress();
     startLoop();
@@ -636,11 +564,17 @@ function drawFrame(now) {
 
 /* ---------- Start ---------- */
 
+if (matchMedia('(pointer: coarse)').matches) document.querySelector('.dial-hint').dataset.i18n = 'dialHintTouch';
 $('stat-emotions').textContent = count;
 ring.setAttribute('aria-valuemax', String(count));
-new ResizeObserver(() => {
-  sizeCanvas(orbCanvas);
-  layoutDial();
-}).observe(dial);
+let layoutSize = '';
+window.addEventListener('resize', () => {
+  // Mobile browsers resize the height while scrolling; only the width matters there.
+  const size = window.innerWidth > 980 ? `${window.innerWidth}x${window.innerHeight}` : `${window.innerWidth}`;
+  if (size !== layoutSize) {
+    layoutSize = size;
+    layoutDial();
+  }
+});
 layoutDial();
 applyLanguage();

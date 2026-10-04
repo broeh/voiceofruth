@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the wheel performances and voice samples with ElevenLabs Eleven v4.
+"""Generate the wheel scenes and voice samples with ElevenLabs Eleven v4.
 
 Reads scripts/emotions.json, calls the Text to Speech API for every clip whose
 prompt or settings changed since the last run, and rewrites audio-data.js.
@@ -29,7 +29,6 @@ CONFIG = ROOT / "scripts" / "emotions.json"
 LOG = ROOT / "docs" / "audio-generation.json"
 DATA = ROOT / "audio-data.js"
 LANGUAGES = ("en", "nl")
-MODES = ("scene", "same-line")
 TAG = re.compile(r"\[[^\]]*\]")
 
 
@@ -47,18 +46,15 @@ def build_jobs(config):
     wheel_voice = config["voices"][config["wheel_voice"]]
     for emotion in config["emotions"]:
         for language in LANGUAGES:
-            same = emotion["same"]
-            same = same[language] if isinstance(same, dict) else same.replace("{line}", config["same_line"][language])
-            for mode, text in (("scene", emotion["scene"][language]), ("same-line", same)):
-                jobs.append({
-                    "id": emotion["id"], "language": language, "mode": mode, "voice_id": wheel_voice,
-                    "path": f"audio/{language}/{mode}/{emotion['id']}.mp3",
-                    "prompt": make_prompt(config, language, text),
-                })
+            jobs.append({
+                "id": emotion["id"], "language": language, "voice_id": wheel_voice,
+                "path": f"audio/{language}/scene/{emotion['id']}.mp3",
+                "prompt": make_prompt(config, language, emotion["scene"][language]),
+            })
     for extra in config["extras"]:
         for language in LANGUAGES:
             jobs.append({
-                "id": extra["id"], "language": language, "mode": None, "voice_id": config["voices"][extra["voice"]],
+                "id": extra["id"], "language": language, "voice_id": config["voices"][extra["voice"]],
                 "path": extra["file"].replace("{lang}", language),
                 "prompt": make_prompt(config, language, extra["text"][language]),
             })
@@ -106,8 +102,7 @@ def write_data(config, jobs, log):
     for emotion in config["emotions"]:
         emotions.append({
             "id": emotion["id"], "category": emotion["category"], "en": emotion["en"], "nl": emotion["nl"],
-            "takes": {language: {mode: take(f"audio/{language}/{mode}/{emotion['id']}.mp3") for mode in MODES}
-                      for language in LANGUAGES},
+            "takes": {language: take(f"audio/{language}/scene/{emotion['id']}.mp3") for language in LANGUAGES},
         })
     extras = {extra["id"]: {language: take(extra["file"].replace("{lang}", language)) for language in LANGUAGES}
               for extra in config["extras"]}
