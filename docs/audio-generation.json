@@ -2249,6 +2249,3623 @@
    "sha256": "8914a158377b2ab96a589432a1a16b4c707eb819e96e4ba15878307cf93c1bab",
    "duration": 14.56,
    "generated_at": "2026-10-04T19:19:22+00:00"
+  },
+  "audio/en-gb/scene/warm.mp3": {
+   "prompt": "[british accent] [warmly] You don’t have to figure it all out today. Let’s take the first step together.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "4aaf6dfa46c6843b",
+   "character_cost": "10",
+   "request_id": "pZhutjFU53lDJlpjBkyo",
+   "sha256": "01cbaa0287cb1059bc64297fa404f9b9dfd8c252a4fbe6c18873879208a7f0a4",
+   "duration": 4.32,
+   "generated_at": "2026-10-04T22:08:06+00:00"
+  },
+  "audio/en-scot/scene/warm.mp3": {
+   "prompt": "[warmly, strong Scottish accent] You don’t have to figure it all out today. Let’s take the first step together.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "04d0542babfebff7",
+   "character_cost": "11",
+   "request_id": "OWW4AX4PraZ9rdbb3vb7",
+   "sha256": "5ae78a2da321c9beac502ca095e4fe20052b6c8175ae42f8e93bd03c027b11e4",
+   "duration": 4.32,
+   "generated_at": "2026-10-04T22:23:09+00:00"
+  },
+  "audio/en-gb/scene/happy.mp3": {
+   "prompt": "[british accent] [happy] Guess what? The sun is out, the coffee is perfect, and I have the whole day off!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "7a9568f93b5b472a",
+   "character_cost": "10",
+   "request_id": "QhkKVmLukwFP2u8LN8pq",
+   "sha256": "94f34563bb4937dc11f9c721f3794dbb671ea200676a08662cc52dca6c57084e",
+   "duration": 5.52,
+   "generated_at": "2026-10-04T22:08:06+00:00"
+  },
+  "audio/en-scot/scene/happy.mp3": {
+   "prompt": "[happy, strong Scottish accent] Guess what? The sun is out, the coffee is perfect, and I have the whole day off!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "1f397d5243cf8213",
+   "character_cost": "11",
+   "request_id": "8pyb37tdAbOCczOAoI9o",
+   "sha256": "b0d422b570d864e735f6613c27d1b530f52307b5388a01a188f1abe3b51b8522",
+   "duration": 5.36,
+   "generated_at": "2026-10-04T22:38:20+00:00",
+   "selected_from_takes": 5
+  },
+  "audio/en-gb/scene/excited.mp3": {
+   "prompt": "[british accent] [excited] It’s finally happening! This is the moment we’ve been waiting for.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "cd5e9d1f14b30010",
+   "character_cost": "9",
+   "request_id": "ht5j5eEe6bWfpwG7vfuS",
+   "sha256": "11ad2794522550925e2dfa5e4e7afc78b5b47231eb4f87717c23c15d52a056ec",
+   "duration": 4.32,
+   "generated_at": "2026-10-04T22:08:07+00:00"
+  },
+  "audio/en-scot/scene/excited.mp3": {
+   "prompt": "[excited, strong Scottish accent] It’s finally happening! This is the moment we’ve been waiting for.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "ac8f2000509957f3",
+   "character_cost": "10",
+   "request_id": "NUgbsaTzoS6HnTZGLsuJ",
+   "sha256": "bababa43caec70f11745d5e015e9db3b0c54899e4b383dfa16a42053ee34f160",
+   "duration": 4.48,
+   "generated_at": "2026-10-04T22:29:41+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/ecstatic.mp3": {
+   "prompt": "[ecstatic, strong Scottish accent] We got it! We actually got it! I can’t believe it, I’m shaking!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "024da658b0560f52",
+   "character_cost": "10",
+   "request_id": "klwV5W6r58wz3fLu6eIT",
+   "sha256": "d72aea991a37df7533d415c44c40f84eed70cbbe3f3f364b6656b4f8ff3e6abb",
+   "duration": 5.04,
+   "generated_at": "2026-10-04T22:38:24+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/ecstatic.mp3": {
+   "prompt": "[british accent] [ecstatic] We got it! We actually got it! I can’t believe it, I’m shaking!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "06bdff30545eb3f7",
+   "character_cost": "9",
+   "request_id": "oWrIIv4q4EgjMCXjJ1B5",
+   "sha256": "967522fac66d038a12b17b8621565a8a8f98679c17f4b7ce663dd1bd8d42792e",
+   "duration": 5.12,
+   "generated_at": "2026-10-04T22:08:07+00:00"
+  },
+  "audio/en-scot/scene/playful.mp3": {
+   "prompt": "[mischievously, strong Scottish accent] I promised I wouldn’t eat the last biscuit. I made no promises about the cake.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "b06fa20eb8ee8dea",
+   "character_cost": "12",
+   "request_id": "glzzW9wJFnueeiETkHC8",
+   "sha256": "67d64a3090143f8f5928c1e92b2935f83aa6d7b766ac8c4be0294bde05fee3dc",
+   "duration": 5.2,
+   "generated_at": "2026-10-04T22:38:28+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/playful.mp3": {
+   "prompt": "[british accent] [mischievously] I promised I wouldn’t eat the last biscuit. I made no promises about the cake.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "548d48467ce19dbe",
+   "character_cost": "11",
+   "request_id": "azbdg2JcvRmNpJ8tj7VA",
+   "sha256": "d86f2e3a8e046c5a704056f8cd09977ecae06b466daa7d09593411f4d02363d4",
+   "duration": 5.2,
+   "generated_at": "2026-10-04T22:08:09+00:00"
+  },
+  "audio/en-gb/scene/proud.mp3": {
+   "prompt": "[british accent] [proud, beaming] Look at you up there on that stage. I always knew you could do it.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "a3c7f7596ad629f4",
+   "character_cost": "10",
+   "request_id": "1lHmmDqRIa11rIfjhi9Z",
+   "sha256": "3327002ab2362797596effdd2344400df80035167f44f36a0539061ffa64ff07",
+   "duration": 4.72,
+   "generated_at": "2026-10-04T22:08:09+00:00"
+  },
+  "audio/en-scot/scene/proud.mp3": {
+   "prompt": "[proud, beaming, strong Scottish accent] Look at you up there on that stage. I always knew you could do it.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "a9712a7ddfc008e8",
+   "character_cost": "11",
+   "request_id": "dqPoPgKUnDQybywYGngV",
+   "sha256": "45a9d05c6a3daa712f187c6e255c646d2054abc3c5d011c87a5eb1b5a2d364be",
+   "duration": 4.48,
+   "generated_at": "2026-10-04T22:29:48+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/grateful.mp3": {
+   "prompt": "[british accent] [grateful, moved] I don’t think you know how much this means to me. Thank you, truly.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "247354e911f1e50f",
+   "character_cost": "10",
+   "request_id": "joKIjAXBkdqpyiHoNNTz",
+   "sha256": "3af516e19ed3adaed7b1ecc104dce9f5ace5d778b9273cced02d593cfa95ec1c",
+   "duration": 4.48,
+   "generated_at": "2026-10-04T22:08:10+00:00"
+  },
+  "audio/en-scot/scene/grateful.mp3": {
+   "prompt": "[grateful, moved, strong Scottish accent] I don’t think you know how much this means to me. Thank you, truly.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "8dbbc66da06f78c6",
+   "character_cost": "11",
+   "request_id": "hWxHcP6YmLSRzPBJqaNI",
+   "sha256": "341cdcecbf0b71b1c303eb0cab869543d9fd350b7dabd8bff5084e2f3544a6ac",
+   "duration": 4.56,
+   "generated_at": "2026-10-04T22:23:10+00:00"
+  },
+  "audio/en-scot/scene/hopeful.mp3": {
+   "prompt": "[hopeful, strong Scottish accent] Maybe this year is the year. Maybe this time, everything works out.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "68351a37cb84abc2",
+   "character_cost": "10",
+   "request_id": "37YrKlkoeLAtuvDTKiVx",
+   "sha256": "c65da5c4265c4558441fe1ac3979f4b3df4eb803b48601571ea28eb9288e72f1",
+   "duration": 4.56,
+   "generated_at": "2026-10-04T22:29:51+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/hopeful.mp3": {
+   "prompt": "[british accent] [hopeful] Maybe this year is the year. Maybe this time, everything works out.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "0d155dd357882a46",
+   "character_cost": "9",
+   "request_id": "ENw4hmHixYuZh16CoZB9",
+   "sha256": "4e76edb7b4b35ef306bf55bad7600b1be3d94ba52bfb9093f2d0b95d566e06b7",
+   "duration": 4.88,
+   "generated_at": "2026-10-04T22:08:10+00:00"
+  },
+  "audio/en-gb/scene/chuckling.mp3": {
+   "prompt": "[british accent] [chuckles] You really thought I wouldn’t notice? [chuckles] Nice try.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "ee6ce2789192a815",
+   "character_cost": "9",
+   "request_id": "ggjBpRO6TmjerEiHjDYc",
+   "sha256": "3883c825d5a82ec5985e7be1116761678bb78c127b832fb6f010c306a4f1063e",
+   "duration": 4.96,
+   "generated_at": "2026-10-04T22:08:11+00:00"
+  },
+  "audio/en-scot/scene/chuckling.mp3": {
+   "prompt": "[chuckles, strong Scottish accent] You really thought I wouldn’t notice? [chuckles] Nice try.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "010bb93569cfcd7b",
+   "character_cost": "9",
+   "request_id": "PBLxDGB3yPhoGzyxRwcU",
+   "sha256": "d6f377bd3c88b977bcbd07e45b59e890ee3b1bf8d10ca789ad86fc455da63ef9",
+   "duration": 4.56,
+   "generated_at": "2026-10-04T22:29:53+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/giggling.mp3": {
+   "prompt": "[british accent] [giggling] Stop it, stop looking at me like that! [giggling] I’m trying to be serious!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "095e92651a571067",
+   "character_cost": "10",
+   "request_id": "N3FCaFelimXmu6xZtblD",
+   "sha256": "f7e1eea1fa28e302bc768610715e6893abbd7f2f3ec7900f47bab17fc9a51eac",
+   "duration": 5.68,
+   "generated_at": "2026-10-04T22:08:12+00:00"
+  },
+  "audio/en-scot/scene/giggling.mp3": {
+   "prompt": "[giggling, strong Scottish accent] Stop it, stop looking at me like that! [giggling] I’m trying to be serious!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "de3c819b84525c9f",
+   "character_cost": "11",
+   "request_id": "tO02eMf1kxvUBRMtsyeE",
+   "sha256": "c429a0c46acafa16fd6df945254e60f7a0ade62490a2cb4c88c014fbcfe390d5",
+   "duration": 6.16,
+   "generated_at": "2026-10-04T22:38:36+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/laughing.mp3": {
+   "prompt": "[british accent] [laughs] Did you see his face? [laughs] He had no idea the cake was for him!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "e64ca73accd2ce0c",
+   "character_cost": "9",
+   "request_id": "b6SFZFNZfvh2cclN3lqZ",
+   "sha256": "8fae2c2a285c3de05aa4c5c572a892bb1d9bd204cdc6c6ee42558f60c1a62fe8",
+   "duration": 5.68,
+   "generated_at": "2026-10-04T22:32:16+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/laughing.mp3": {
+   "prompt": "[laughs, strong Scottish accent] Did you see his face? [laughs] He had no idea the cake was for him!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "8d375c6ceef71a4a",
+   "character_cost": "10",
+   "request_id": "tovJoGGN6SpRDNlACgrh",
+   "sha256": "183065c47d3b379628e4bacc5266cf4331639ad3bcfad1918f3399f6526ed412",
+   "duration": 5.44,
+   "generated_at": "2026-10-04T22:38:41+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-scot/scene/belly-laugh.mp3": {
+   "prompt": "[starts laughing, strong Scottish accent] And then the dog just... [laughs harder] took the whole sandwich! [wheezing] I can’t breathe!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "f6e8eac8d8e8d026",
+   "character_cost": "14",
+   "request_id": "kVa91iQr6fjzGYyXJE1l",
+   "sha256": "93dca7c13b43ca349d809a6babc75ac5ca2f3d2a15c047c945ca2958619cac3a",
+   "duration": 7.52,
+   "generated_at": "2026-10-04T22:38:45+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/belly-laugh.mp3": {
+   "prompt": "[british accent] [starts laughing] And then the dog just... [laughs harder] took the whole sandwich! [wheezing] I can’t breathe!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "4436eedaa0ee7f81",
+   "character_cost": "13",
+   "request_id": "hnD7b4Lv8wfkp395Nx4T",
+   "sha256": "eb478ec17b343152b55f8679175d4bdd263af6cb5f33a3e4e2f5dc38f95a09e0",
+   "duration": 6.96,
+   "generated_at": "2026-10-04T22:32:18+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/stifled-laugh.mp3": {
+   "prompt": "[british accent] [trying not to laugh] No, I’m fine. Really. It’s just that your new haircut is very... [snorts] brave.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "19c8972e5fe10ad0",
+   "character_cost": "12",
+   "request_id": "t0qRB6dkW1dZyGFFmmdX",
+   "sha256": "f2f3ac9a81072c25006447a49d1fc019e4aa31a4b7b05a6a31648eb30aee454c",
+   "duration": 6.24,
+   "generated_at": "2026-10-04T22:32:20+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/stifled-laugh.mp3": {
+   "prompt": "[trying not to laugh, strong Scottish accent] No, I’m fine. Really. It’s just that your new haircut is very... [snorts] brave.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "59d30788f65d4a81",
+   "character_cost": "13",
+   "request_id": "iqYjaBlC9gC7KGscyXEz",
+   "sha256": "ece054858e3db77f815a98a6656b4019e79ed73d7531f5dc4de3b32a0ef66cbf",
+   "duration": 6.56,
+   "generated_at": "2026-10-04T22:30:03+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/annoyed.mp3": {
+   "prompt": "[annoyed, strong Scottish accent] Seriously? That’s the third time this week you’ve parked in my spot.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "f88fdeb552a7331d",
+   "character_cost": "10",
+   "request_id": "ccSOF7hc3rPecrEVLF7f",
+   "sha256": "2db50550547ca1c5eecf2881d069cc089145b48ba7484819381e2612f050ef1a",
+   "duration": 4.32,
+   "generated_at": "2026-10-04T22:23:13+00:00"
+  },
+  "audio/en-gb/scene/annoyed.mp3": {
+   "prompt": "[british accent] [annoyed] Seriously? That’s the third time this week you’ve parked in my spot.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "2e71d54b350f0e9a",
+   "character_cost": "10",
+   "request_id": "qUs13kJFgvLpQ2PVgbJV",
+   "sha256": "1788f098bebcfb3b9c9fe766e3e2170c88d9e7f78a76096dc41893bcd16dfe5b",
+   "duration": 4.48,
+   "generated_at": "2026-10-04T22:08:15+00:00"
+  },
+  "audio/en-gb/scene/frustrated.mp3": {
+   "prompt": "[british accent] [frustrated sigh] I followed every instruction. So why is the screen still blank?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "a6108c253b5ca392",
+   "character_cost": "10",
+   "request_id": "AsvzaTyl028KmWay1f9E",
+   "sha256": "2fce59618b3fc91ccbcb52de81cd8866140bb520dc6d2f126643cf5d4d3cf6e3",
+   "duration": 4.96,
+   "generated_at": "2026-10-04T22:32:22+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/frustrated.mp3": {
+   "prompt": "[frustrated sigh, strong Scottish accent] I followed every instruction. So why is the screen still blank?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "97be3f21cc354a9c",
+   "character_cost": "10",
+   "request_id": "qZy1ZjSJK6WW2qOyVD3j",
+   "sha256": "a879bdeeb9fbb36e30f5cbb04f99393897d700f600aaed2822c0ee95b5deca8e",
+   "duration": 4.88,
+   "generated_at": "2026-10-04T22:38:49+00:00",
+   "selected_from_takes": 5
+  },
+  "audio/en-gb/scene/angry.mp3": {
+   "prompt": "[british accent] [angry] You promised me. You looked me in the eye and promised. And you lied.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "7eaf67c3e80a2e31",
+   "character_cost": "9",
+   "request_id": "VfCYhDNSUAKbaTnL1fJB",
+   "sha256": "e26b87e08e02f2a0046efa25ad6506dd4e50156e678b4c0d8dc5454f6c82516a",
+   "duration": 4.88,
+   "generated_at": "2026-10-04T22:08:16+00:00"
+  },
+  "audio/en-scot/scene/angry.mp3": {
+   "prompt": "[angry, strong Scottish accent] You promised me. You looked me in the eye and promised. And you lied.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "913ff8d928ad3429",
+   "character_cost": "10",
+   "request_id": "WqV0VmHpSYzFuO10trbE",
+   "sha256": "e0e2551de201cfd3a03499a3da8a7f1af8a9a801414f090a84c42a23afddde27",
+   "duration": 4.88,
+   "generated_at": "2026-10-04T22:38:51+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/furious.mp3": {
+   "prompt": "[british accent] [furious] Don’t you DARE walk away from me. This conversation is NOWHERE near over!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "22d87a63ba71024b",
+   "character_cost": "10",
+   "request_id": "JJks7OxS5tzal4zbWip9",
+   "sha256": "238f249eacd9a242f007b0df7c00fd4f33ca209e326dadeab25fdbfcedba4271",
+   "duration": 4.72,
+   "generated_at": "2026-10-04T22:08:17+00:00"
+  },
+  "audio/en-scot/scene/furious.mp3": {
+   "prompt": "[furious, strong Scottish accent] Don’t you DARE walk away from me. This conversation is NOWHERE near over!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "d3c1d9d2698efc82",
+   "character_cost": "11",
+   "request_id": "VDdIIsWUSXBHmI2nhQgO",
+   "sha256": "991bafa651b8961b7bfc571a813b00f2bc3bbc36c5728ac34e0e7e77289ee23e",
+   "duration": 4.88,
+   "generated_at": "2026-10-04T22:23:15+00:00"
+  },
+  "audio/en-scot/scene/shouting.mp3": {
+   "prompt": "[shouting, strong Scottish accent] HEY! Over here! You forgot your keys on the roof of the car!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "1db704dd1c5ac818",
+   "character_cost": "10",
+   "request_id": "vhopBLlnQ9p8ZwUis1er",
+   "sha256": "1dc1def83d4b4fe6b524417c3c5e0ef428ee77dd48f9bdbd46b31ecc1d25b233",
+   "duration": 4.16,
+   "generated_at": "2026-10-04T22:38:53+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/shouting.mp3": {
+   "prompt": "[british accent] [shouting] HEY! Over here! You forgot your keys on the roof of the car!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "1330b98f5d0414f4",
+   "character_cost": "9",
+   "request_id": "BWfZyNFbW1vtU1jCVcKP",
+   "sha256": "4f9f0103edee4de0f2fc33d8628a99803ae96f34aa93f99740267d49007232a9",
+   "duration": 4.24,
+   "generated_at": "2026-10-04T22:08:18+00:00"
+  },
+  "audio/en-scot/scene/sarcastic.mp3": {
+   "prompt": "[sarcastic, strong Scottish accent] Oh, great. Another meeting that could have been an email. My favorite.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "cad6498a8facff8b",
+   "character_cost": "11",
+   "request_id": "SNl8yZTh2zJ8QWqpsIX4",
+   "sha256": "c91310cb449940df525775b662bd5d3cebf6391db53e7245f03dd286f5665f41",
+   "duration": 4.96,
+   "generated_at": "2026-10-04T22:38:54+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/sarcastic.mp3": {
+   "prompt": "[british accent] [sarcastic] Oh, great. Another meeting that could have been an email. My favorite.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "4976255f67adca6c",
+   "character_cost": "10",
+   "request_id": "CxyRisGoodwQVzTz4byY",
+   "sha256": "05449d09edb423db97a9fb1df089ed5dc1ac28f162bc22111f78dabf44ed31dd",
+   "duration": 4.88,
+   "generated_at": "2026-10-04T22:08:19+00:00"
+  },
+  "audio/en-gb/scene/stern.mp3": {
+   "prompt": "[british accent] [stern] Put the phone down. Look at me. We need to talk about this, now.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "4137f8d20cf2e75a",
+   "character_cost": "9",
+   "request_id": "RzB46SVrwpG8zQr0DkRV",
+   "sha256": "a3fc20641af80d420cd01c2a97ccd8d481f774130036681f31950869f6a07b95",
+   "duration": 4.56,
+   "generated_at": "2026-10-04T22:08:19+00:00"
+  },
+  "audio/en-scot/scene/stern.mp3": {
+   "prompt": "[stern, strong Scottish accent] Put the phone down. Look at me. We need to talk about this, now.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "5ca37646a7f47221",
+   "character_cost": "10",
+   "request_id": "YK2rgKOOwkqY51DVSJlK",
+   "sha256": "2fcd91c8ca8914a44be9d9ad2dddb75ca70f49464a3708820f4440f0fc129b89",
+   "duration": 4.4,
+   "generated_at": "2026-10-04T22:38:56+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/disgusted.mp3": {
+   "prompt": "[british accent] [disgusted] Ew, what is that smell? Did someone leave fish in the microwave again?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "aabc353845c4c1b3",
+   "character_cost": "10",
+   "request_id": "a0qGlT32QCVjo39ppHgg",
+   "sha256": "9cd22b5ed2e3900db73d61ecbc3fa55b69cf7412839f0afaed009d874a4b1279",
+   "duration": 4.8,
+   "generated_at": "2026-10-04T22:08:20+00:00"
+  },
+  "audio/en-scot/scene/tender.mp3": {
+   "prompt": "[softening, reflective, strong Scottish accent] I kept your drawing all these years. It still makes me smile.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "c752e15009dadc30",
+   "character_cost": "11",
+   "request_id": "9ku6Mtn8xzxBV9OQBeI0",
+   "sha256": "67ae0364a925d0fce2c21851f9ad7bfcfb5d411ec60e32fd1057ea263874dcc3",
+   "duration": 4.32,
+   "generated_at": "2026-10-04T22:30:19+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/disgusted.mp3": {
+   "prompt": "[disgusted, strong Scottish accent] Ew, what is that smell? Did someone leave fish in the microwave again?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "7dce25374a7783f0",
+   "character_cost": "11",
+   "request_id": "UdIV3MP6LsxLxmqLgw5I",
+   "sha256": "40dd9878b44c803213fc42a53e9017da2cb249ad2e78c1601880a3e80ca2c388",
+   "duration": 5.04,
+   "generated_at": "2026-10-04T22:38:57+00:00",
+   "selected_from_takes": 5
+  },
+  "audio/en-gb/scene/tender.mp3": {
+   "prompt": "[british accent] [softening, reflective] I kept your drawing all these years. It still makes me smile.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "dcd9f28ad9cf1a41",
+   "character_cost": "10",
+   "request_id": "T3zT2gsHlKUmj8XMhNdH",
+   "sha256": "6572d200dc0c1c279f784241ff6930120d68376862777546a1fa751010974a05",
+   "duration": 4.24,
+   "generated_at": "2026-10-04T22:08:20+00:00"
+  },
+  "audio/en-gb/scene/loving.mp3": {
+   "prompt": "[british accent] [lovingly] Sleep well, little one. I’ll be right here when you wake up.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "41550dfe35f073e6",
+   "character_cost": "9",
+   "request_id": "BIS1kWPuVu3WQV2OoGT9",
+   "sha256": "c9f2be9daca87f7aa94dfda1602ac8fc49f41ee1417448a54577e23618a3e739",
+   "duration": 4.0,
+   "generated_at": "2026-10-04T22:08:21+00:00"
+  },
+  "audio/en-scot/scene/comforting.mp3": {
+   "prompt": "[gently, comforting, strong Scottish accent] Hey, hey. It’s okay. Come here. You’re not alone in this.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "5117bd3caf01630a",
+   "character_cost": "10",
+   "request_id": "HKecjKDKKIpicz8ZYqOZ",
+   "sha256": "6ff52481e4ded1a95cc0f2dbf3cbeaf219cd8b65c3d8f71f8083b8d2ffecc609",
+   "duration": 4.96,
+   "generated_at": "2026-10-04T22:39:01+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/comforting.mp3": {
+   "prompt": "[british accent] [gently, comforting] Hey, hey. It’s okay. Come here. You’re not alone in this.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "e031454a842e1034",
+   "character_cost": "10",
+   "request_id": "Sjze7kipHLSqcZEdlfDJ",
+   "sha256": "ccc91892f5e97d55805badbff13daa0ae90082a7ea7fc47657480a90f030daa1",
+   "duration": 4.88,
+   "generated_at": "2026-10-04T22:08:22+00:00"
+  },
+  "audio/en-scot/scene/loving.mp3": {
+   "prompt": "[lovingly, strong Scottish accent] Sleep well, little one. I’ll be right here when you wake up.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "b15550b2883079f2",
+   "character_cost": "10",
+   "request_id": "cLD6zqzjKOoO3l47rNv8",
+   "sha256": "9beba0b9f4863aa384803db07791863fda7b219eb72cd908b1d1b40c82b6c3bd",
+   "duration": 3.84,
+   "generated_at": "2026-10-04T22:39:00+00:00",
+   "selected_from_takes": 5
+  },
+  "audio/en-gb/scene/nostalgic.mp3": {
+   "prompt": "[british accent] [nostalgic, wistful] Remember those summers at Grandma’s? The smell of pancakes, the creaky stairs...",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "b985f975e755afaf",
+   "character_cost": "12",
+   "request_id": "GhldwOLo4uynoZWvckew",
+   "sha256": "8e7196c1d75a18fd2a1535d6763aaafd829b0baa6b53ba4eec395fb04db89ac5",
+   "duration": 5.68,
+   "generated_at": "2026-10-04T22:08:23+00:00"
+  },
+  "audio/en-scot/scene/nostalgic.mp3": {
+   "prompt": "[nostalgic, wistful, strong Scottish accent] Remember those summers at Grandma’s? The smell of pancakes, the creaky stairs...",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "dc549f661a23abd1",
+   "character_cost": "12",
+   "request_id": "zpcB5wIpfovcvrjwdF90",
+   "sha256": "314b6b7caba335bca481ab20921ca6994385c24e4deab23065ac108cc4a2f864",
+   "duration": 5.52,
+   "generated_at": "2026-10-04T22:30:26+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/flirty.mp3": {
+   "prompt": "[british accent] [flirtatious] Well, hello there. Has anyone ever told you that you have a very nice smile?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "6e3822536f4fc75e",
+   "character_cost": "11",
+   "request_id": "Hfq09vWqT9AqMDqWNwEw",
+   "sha256": "9c358ee7e6168f27e0de563473dec1f4861bca31331b8ce153d78747f5943ca1",
+   "duration": 5.04,
+   "generated_at": "2026-10-04T22:08:23+00:00"
+  },
+  "audio/en-scot/scene/flirty.mp3": {
+   "prompt": "[flirtatious, strong Scottish accent] Well, hello there. Has anyone ever told you that you have a very nice smile?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "4a9eb1791ab2df26",
+   "character_cost": "11",
+   "request_id": "pyN5eVPCz551mLoeg5AB",
+   "sha256": "743afc257efccd3a2f744fe715ed0b003d490a987bc848c12ebf6abf3cce8fc8",
+   "duration": 5.28,
+   "generated_at": "2026-10-04T22:39:04+00:00",
+   "selected_from_takes": 5
+  },
+  "audio/en-gb/scene/confident.mp3": {
+   "prompt": "[british accent] [voice rising into firm resolve] You’ve done the hard part. Now let’s make your next move count.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "4d6b4b683d7f93bf",
+   "character_cost": "11",
+   "request_id": "GHRel7SswnsbAmdIi7Nl",
+   "sha256": "53f18ec24102ee16cff2e96f6090522d9a3942c1db6e5e33893f4565d54a0b4c",
+   "duration": 4.08,
+   "generated_at": "2026-10-04T22:08:24+00:00"
+  },
+  "audio/en-scot/scene/confident.mp3": {
+   "prompt": "[voice rising into firm resolve, strong Scottish accent] You’ve done the hard part. Now let’s make your next move count.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "cfab0bb7152fa2c9",
+   "character_cost": "12",
+   "request_id": "OSViRcqE3i9yvjcENGAA",
+   "sha256": "bb2629c12e6b3ed3c27663484ace0cc821a68c4f4180e35ff582b9ef423fd595",
+   "duration": 3.92,
+   "generated_at": "2026-10-04T22:30:30+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/dramatic.mp3": {
+   "prompt": "[british accent] [dramatically] And in that moment... she knew. Nothing would ever be the same again.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "31c814aef2d29b2e",
+   "character_cost": "10",
+   "request_id": "hLxZaW41kqQ4emN1lx7s",
+   "sha256": "7580a840682b5b2787e74afd038f1f94037acedc1d219ca235b6d91bc1514deb",
+   "duration": 5.36,
+   "generated_at": "2026-10-04T22:08:25+00:00"
+  },
+  "audio/en-scot/scene/dramatic.mp3": {
+   "prompt": "[dramatically, strong Scottish accent] And in that moment... she knew. Nothing would ever be the same again.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "92f8d9ae3b714c04",
+   "character_cost": "11",
+   "request_id": "czc6huB2buN6XsbmQSWI",
+   "sha256": "a00b02d3cb74c1931c9b4ef3cfb87e6d8657d1fee8bac24d9a1eed10f1db573e",
+   "duration": 5.28,
+   "generated_at": "2026-10-04T22:39:06+00:00",
+   "selected_from_takes": 5
+  },
+  "audio/en-scot/scene/mysterious.mp3": {
+   "prompt": "[low, mysterious voice, strong Scottish accent] They say the old lighthouse has been empty for years. So who keeps turning on the light?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "dfefdabe55129bf9",
+   "character_cost": "14",
+   "request_id": "dMgGn9bXjrOoKt6Tm89G",
+   "sha256": "7e35650a37c587c32178d379f5fef610f957e1289f5b18e6d21ec577264d093b",
+   "duration": 5.44,
+   "generated_at": "2026-10-04T22:30:34+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/villain.mp3": {
+   "prompt": "[british accent] [low, menacing voice] You really thought you could stop me? [evil laugh] How adorable.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "c1f0253377111641",
+   "character_cost": "10",
+   "request_id": "92Lqdx4vhi0FVS7ZjXhQ",
+   "sha256": "b411b1ee62aa2fb31b8562bc9003682650b8f47d76ae6dd97bd6cb634b78c5bf",
+   "duration": 4.88,
+   "generated_at": "2026-10-04T22:32:25+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/mysterious.mp3": {
+   "prompt": "[british accent] [low, mysterious voice] They say the old lighthouse has been empty for years. So who keeps turning on the light?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "957388c1dade9429",
+   "character_cost": "13",
+   "request_id": "XgnhPRVPGbX8dpN0Rb8j",
+   "sha256": "18e432c88458dc528c2141ba465e7ede097578512a0f47011df0c291c2bc95cd",
+   "duration": 5.76,
+   "generated_at": "2026-10-04T22:08:26+00:00"
+  },
+  "audio/en-scot/scene/villain.mp3": {
+   "prompt": "[low, menacing voice, strong Scottish accent] You really thought you could stop me? [evil laugh] How adorable.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "2a7250ce1247c72d",
+   "character_cost": "11",
+   "request_id": "YBh8C72bTjyzeU64S6DF",
+   "sha256": "26248dc6277f0a9bb1cd96e9e222c1339d9cdb286f779966cb523a3324539a9d",
+   "duration": 4.96,
+   "generated_at": "2026-10-04T22:23:19+00:00"
+  },
+  "audio/en-gb/scene/sassy.mp3": {
+   "prompt": "[british accent] [sassy] Oh honey, no. That outfit? We are not leaving the house like that.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "eddffecdc58d19e3",
+   "character_cost": "9",
+   "request_id": "KqSsd0ZbFW3K8yHx8DqP",
+   "sha256": "fe583558b29493973b4f06d128738901db92903540d463bb9c71cd9cb40bf162",
+   "duration": 5.12,
+   "generated_at": "2026-10-04T22:32:26+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/sassy.mp3": {
+   "prompt": "[sassy, strong Scottish accent] Oh honey, no. That outfit? We are not leaving the house like that.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "f34e77e20f849415",
+   "character_cost": "10",
+   "request_id": "Aeq145nXGGBftukYgwWL",
+   "sha256": "ffee8de806172ca7e698ccb5f312dfc8a9e47fdf30018c20f628ff996c810ce7",
+   "duration": 4.8,
+   "generated_at": "2026-10-04T22:39:10+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/bored.mp3": {
+   "prompt": "[british accent] [bored, flat voice] Wow. Another spreadsheet. How thrilling. I can barely contain myself.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "2a1acbf87c775ce5",
+   "character_cost": "11",
+   "request_id": "ZuuTrzgB7Eh8qyKL6p7p",
+   "sha256": "07f5434e1d333e71d80c70b4280398867f6abb53da1c34edcf6c2b124797cddf",
+   "duration": 5.92,
+   "generated_at": "2026-10-04T22:32:28+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/bored.mp3": {
+   "prompt": "[bored, flat voice, strong Scottish accent] Wow. Another spreadsheet. How thrilling. I can barely contain myself.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "11eef833d66083d9",
+   "character_cost": "11",
+   "request_id": "CKBxNQ8hIHDEWAYHzZ1O",
+   "sha256": "f202feb13c1243cf45c844f32fc6c86a66c5cd757cddfe513686e9b59712692b",
+   "duration": 6.08,
+   "generated_at": "2026-10-04T22:30:39+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/news-anchor.mp3": {
+   "prompt": "[british accent] [crisp, professional news anchor] Good evening. Tonight, scientists confirm what cat owners have always known: the cat is in charge.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "4fef2bc00897a9a8",
+   "character_cost": "15",
+   "request_id": "kqqU4ePBLoX7xZKXqplA",
+   "sha256": "134c424ba362b2467ca1374810d0ef7a7f273cd8a9c2520c3b59852bebb1d7b4",
+   "duration": 6.8,
+   "generated_at": "2026-10-04T22:08:29+00:00"
+  },
+  "audio/en-scot/scene/news-anchor.mp3": {
+   "prompt": "[crisp, professional news anchor, strong Scottish accent] Good evening. Tonight, scientists confirm what cat owners have always known: the cat is in charge.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "60755f18cff9d204",
+   "character_cost": "16",
+   "request_id": "yVALRRSbXsVxu0Cvc19P",
+   "sha256": "11224f39d639300b014fa23f0f64faaf3db4bff336da51eca61f792645ac7b01",
+   "duration": 6.72,
+   "generated_at": "2026-10-04T22:30:42+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/commercial.mp3": {
+   "prompt": "[british accent] [upbeat, bright commercial voice] Fresh, crunchy and ready in two minutes. Your new favorite breakfast is here!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "e13316457e99d1b0",
+   "character_cost": "13",
+   "request_id": "TsYipCz7VWC1fzgCvCui",
+   "sha256": "903acb452f03b4c4e77d84a372f0c3c9ab1d4e7caa214e5adfdf70588b3053e7",
+   "duration": 5.12,
+   "generated_at": "2026-10-04T22:32:32+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/commercial.mp3": {
+   "prompt": "[upbeat, bright commercial voice, strong Scottish accent] Fresh, crunchy and ready in two minutes. Your new favorite breakfast is here!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "1b276356d6099bc9",
+   "character_cost": "14",
+   "request_id": "bSlkHIFMmraNrFX82aYJ",
+   "sha256": "6e1fe01e960a3b50c3e2bf3c14b6d536e8905cf596c6ae475c981df78a8800db",
+   "duration": 5.2,
+   "generated_at": "2026-10-04T22:39:12+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-scot/scene/commentator.mp3": {
+   "prompt": "[excited sports commentator, fast, strong Scottish accent] She shoots, she scores! What a goal! The crowd goes absolutely wild!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "c147671e39c83aee",
+   "character_cost": "13",
+   "request_id": "QnjkKUkaKpMqtgHriu3A",
+   "sha256": "a800ecec090d3ad1dce4dbb89389908904c0c0b2dc42c27e22e783ed67416fdf",
+   "duration": 5.44,
+   "generated_at": "2026-10-04T22:30:46+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/commentator.mp3": {
+   "prompt": "[british accent] [excited sports commentator, fast] She shoots, she scores! What a goal! The crowd goes absolutely wild!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "2187acb6b25a8145",
+   "character_cost": "12",
+   "request_id": "T2e1uEySHazd7UZhQ70m",
+   "sha256": "8dba3cdc906687ea03a25af51b5149684083c7fd9665aee953e0ca786cb9aef1",
+   "duration": 5.2,
+   "generated_at": "2026-10-04T22:08:31+00:00"
+  },
+  "audio/en-gb/scene/storyteller.mp3": {
+   "prompt": "[british accent] [warm storytelling voice] Once upon a time, in a village by the sea, there lived a girl who could talk to the wind.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "56f6808726cb45c8",
+   "character_cost": "13",
+   "request_id": "80BmRV1iZ8gUeiPS1T13",
+   "sha256": "1d3f58394583c07ec6cf89d7ce4383d2cf094a0c2f38652e194ca116fee874a7",
+   "duration": 5.76,
+   "generated_at": "2026-10-04T22:08:31+00:00"
+  },
+  "audio/en-scot/scene/storyteller.mp3": {
+   "prompt": "[warm storytelling voice, strong Scottish accent] Once upon a time, in a village by the sea, there lived a girl who could talk to the wind.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "604b5d35827cc0a8",
+   "character_cost": "14",
+   "request_id": "TP1GdCKieMWRr5OAA51D",
+   "sha256": "4ddb3679dc09f2ae8e6da8dd10229dafec6d6809f3bb299b1e6479b3b2ea296f",
+   "duration": 5.84,
+   "generated_at": "2026-10-04T22:39:15+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/nervous.mp3": {
+   "prompt": "[british accent] [nervous] So, um... I’ve never actually done this before. [gulps] Is that... is that okay?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "ed583e9e1c23db4a",
+   "character_cost": "11",
+   "request_id": "xkQlKacwStAmf7o9qFzc",
+   "sha256": "899a7dac0758aedcf6a58948b3e9ee1b0dc34d15edfccf45f5411b39c105b078",
+   "duration": 6.32,
+   "generated_at": "2026-10-04T22:08:32+00:00"
+  },
+  "audio/en-scot/scene/nervous.mp3": {
+   "prompt": "[nervous, strong Scottish accent] So, um... I’ve never actually done this before. [gulps] Is that... is that okay?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "fefb35758c591e5e",
+   "character_cost": "11",
+   "request_id": "zmFMRcfKJlDHDHR6OpWz",
+   "sha256": "fef20da61973e595a9e327e30cd21134ad8420b98bf0b66171d4e1c84870f440",
+   "duration": 6.48,
+   "generated_at": "2026-10-04T22:30:51+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/hesitant.mp3": {
+   "prompt": "[british accent] [hesitant] I’m not sure... I mean, maybe? If you really think it’s a good idea.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "d4889b30555da9e0",
+   "character_cost": "10",
+   "request_id": "DFbB4EFt3ki7D6AS94ZJ",
+   "sha256": "d164688e153fc691a85a8e345568b8a2a6db97289c1af3a6710c2dd0e7c88ab0",
+   "duration": 5.04,
+   "generated_at": "2026-10-04T22:08:32+00:00"
+  },
+  "audio/en-scot/scene/hesitant.mp3": {
+   "prompt": "[hesitant, strong Scottish accent] I’m not sure... I mean, maybe? If you really think it’s a good idea.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "3bab80596805064c",
+   "character_cost": "10",
+   "request_id": "wcwSnuISATCWbm8vpRkf",
+   "sha256": "c560f091e282e7fb62faa803d476182c5adaea5a9c151ff3bc137ea5eefb4b03",
+   "duration": 5.12,
+   "generated_at": "2026-10-04T22:23:22+00:00"
+  },
+  "audio/en-gb/scene/worried.mp3": {
+   "prompt": "[british accent] [worried] It’s almost midnight and she’s still not answering her phone. That’s not like her.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "43e620bbfb010b51",
+   "character_cost": "11",
+   "request_id": "W1MLc95I5Jirj4wjRGoo",
+   "sha256": "827bbf657497683960a17c7941d09376f5c65de31e7a9aa2abe4c93afa07cd84",
+   "duration": 5.12,
+   "generated_at": "2026-10-04T22:08:34+00:00"
+  },
+  "audio/en-gb/scene/scared.mp3": {
+   "prompt": "[british accent] [scared] Did you hear that? Something’s downstairs. [whispers] Please tell me you locked the door.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "57fbcd5ad8f07c92",
+   "character_cost": "12",
+   "request_id": "vUWim0fgz5vitPze8wxg",
+   "sha256": "28d64a640a6469be61f6d5bfb2386c314575f3f9b53629c588cd820919310b15",
+   "duration": 4.96,
+   "generated_at": "2026-10-04T22:08:34+00:00"
+  },
+  "audio/en-scot/scene/worried.mp3": {
+   "prompt": "[worried, strong Scottish accent] It’s almost midnight and she’s still not answering her phone. That’s not like her.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "524c1a52806369e5",
+   "character_cost": "12",
+   "request_id": "9ZhEThDaw3AyPDpY0RJK",
+   "sha256": "0782fff7ae036e84853749052fe0c053fc191642b77da255ffd9c70f7574a028",
+   "duration": 5.04,
+   "generated_at": "2026-10-04T22:30:55+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/scared.mp3": {
+   "prompt": "[scared, strong Scottish accent] Did you hear that? Something’s downstairs. [whispers] Please tell me you locked the door.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "8073682665e33486",
+   "character_cost": "12",
+   "request_id": "tmRwkA6PoZkOiQ8VuUo2",
+   "sha256": "4185cfe417b68070b5ead4ced46172313784820a87417e0836462439b5353f7d",
+   "duration": 5.12,
+   "generated_at": "2026-10-04T22:39:17+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/panicked.mp3": {
+   "prompt": "[british accent] [panicked, rushed] Where are my keys? Where are my keys?! The taxi is here and I can’t find my passport!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "f37f4a30bebf2f8d",
+   "character_cost": "12",
+   "request_id": "q4CYmV1gbHAi2baYqXGa",
+   "sha256": "d86611916bb52333bbf73f0cedff4c9091ef26a7b3668003c2cd139463d05e4a",
+   "duration": 4.96,
+   "generated_at": "2026-10-04T22:08:35+00:00"
+  },
+  "audio/en-gb/scene/terrified.mp3": {
+   "prompt": "[british accent] [terrified, trembling voice] It’s right behind the door. Don’t move. Don’t... make... a sound.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "fcf2bfa33dd245b4",
+   "character_cost": "11",
+   "request_id": "PMrPX6V2djBYcJxSUpiB",
+   "sha256": "49dad7d780b46b5f4363c32741001a1d41787cff0f9c8eaac4a30347295a1619",
+   "duration": 5.28,
+   "generated_at": "2026-10-04T22:08:36+00:00"
+  },
+  "audio/en-scot/scene/panicked.mp3": {
+   "prompt": "[panicked, rushed, strong Scottish accent] Where are my keys? Where are my keys?! The taxi is here and I can’t find my passport!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "27131bf5fd4066ac",
+   "character_cost": "13",
+   "request_id": "t72OKEfi2wAm3dhQRpXJ",
+   "sha256": "0fa55dffd72d6b307de1c931e33b90700711eb4c1c0f51c66a49061a1a299883",
+   "duration": 4.8,
+   "generated_at": "2026-10-04T22:39:19+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-scot/scene/terrified.mp3": {
+   "prompt": "[terrified, trembling voice, strong Scottish accent] It’s right behind the door. Don’t move. Don’t... make... a sound.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "4c8b297ef0f16a84",
+   "character_cost": "12",
+   "request_id": "Ef7uvt66mws2ueUFLMAd",
+   "sha256": "32177346aeeaaee1c1912def2260a2648d8eab92d90b1d99b81254f612168dda",
+   "duration": 5.2,
+   "generated_at": "2026-10-04T22:23:24+00:00"
+  },
+  "audio/en-gb/scene/urgent.mp3": {
+   "prompt": "[british accent] [low, steady voice, restrained urgency] The last train leaves in one minute. We need to move now.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "47c5de8c14b6c393",
+   "character_cost": "11",
+   "request_id": "CnwdZ6enlXLqAPyrc6Th",
+   "sha256": "6bbcc041922e19b016fe0ae66ba7ce2435a33ad0efe7240b8bc475829738b784",
+   "duration": 4.08,
+   "generated_at": "2026-10-04T22:08:37+00:00"
+  },
+  "audio/en-gb/scene/sad.mp3": {
+   "prompt": "[british accent] [sad] I still set out two cups sometimes. Then I remember.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "c18f5360cc3c32e6",
+   "character_cost": "8",
+   "request_id": "Y2mfMi3U0mNoP9MEdliR",
+   "sha256": "f7fa5bb58d10782f974931091fcb48573408085db9825c53e1c365025f60b8ba",
+   "duration": 4.0,
+   "generated_at": "2026-10-04T22:08:37+00:00"
+  },
+  "audio/en-scot/scene/urgent.mp3": {
+   "prompt": "[low, steady voice, restrained urgency, strong Scottish accent] The last train leaves in one minute. We need to move now.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "171a8ac62eadcae9",
+   "character_cost": "12",
+   "request_id": "UY6i17VrUmCA55zJ37d2",
+   "sha256": "fe7faf4c5a71fb05ac9093a256ccefdc6176258d23331e793f556cce7f5e5824",
+   "duration": 3.84,
+   "generated_at": "2026-10-04T22:39:20+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-scot/scene/sad.mp3": {
+   "prompt": "[sad, strong Scottish accent] I still set out two cups sometimes. Then I remember.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "6a94ce810ebfbc8b",
+   "character_cost": "8",
+   "request_id": "BkFYEOkJuEHro4fnOtpX",
+   "sha256": "1f3948c81763c370fb97553b12111db57db6b9849621d5dde4ad43202db47d81",
+   "duration": 4.24,
+   "generated_at": "2026-10-04T22:31:05+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/disappointed.mp3": {
+   "prompt": "[british accent] [disappointed] Oh. You forgot. No, it’s fine. It’s just... I thought this year would be different.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "e5903ca7704256a0",
+   "character_cost": "12",
+   "request_id": "YRA1ur3Q3UyaYR5F4iRb",
+   "sha256": "8a98dfc2c5a64d0f3e2fb8e70eef015b25a860f1a4d003d62137183f0e028ad7",
+   "duration": 6.88,
+   "generated_at": "2026-10-04T22:08:38+00:00"
+  },
+  "audio/en-gb/scene/melancholic.mp3": {
+   "prompt": "[british accent] [melancholic] The house is so quiet now. Even the rain sounds lonely.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "d696d3fde1ea3636",
+   "character_cost": "9",
+   "request_id": "TY3P5N0606IoUDwNAUC8",
+   "sha256": "3644caacfef08d8fd79e622c9a6b10253d0faf6a7512eb11f55d6e9ff4391be3",
+   "duration": 4.4,
+   "generated_at": "2026-10-04T22:08:38+00:00"
+  },
+  "audio/en-scot/scene/melancholic.mp3": {
+   "prompt": "[melancholic, strong Scottish accent] The house is so quiet now. Even the rain sounds lonely.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "e14a262a3c83d98b",
+   "character_cost": "9",
+   "request_id": "JNflxC3np8mEItFhH458",
+   "sha256": "51094014658f0f06e8a2755ec812e5e65a0f61c7fed098521af735acb4d1f6bf",
+   "duration": 4.32,
+   "generated_at": "2026-10-04T22:39:22+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-scot/scene/disappointed.mp3": {
+   "prompt": "[disappointed, strong Scottish accent] Oh. You forgot. No, it’s fine. It’s just... I thought this year would be different.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "c891fa1c541f5308",
+   "character_cost": "12",
+   "request_id": "R3SjAsU1dkJ6rcD8xJ3u",
+   "sha256": "ec76086ef85a8eb3233d79c031cfedf83b91b8a066bf13bc4faae7d4422c2ac7",
+   "duration": 6.8,
+   "generated_at": "2026-10-04T22:31:07+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/crying.mp3": {
+   "prompt": "[british accent] [crying] I’m sorry, I just... I really thought he was coming home.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "f3ce289cdef23b12",
+   "character_cost": "8",
+   "request_id": "InJ74oJO7ocLgZHNxYsy",
+   "sha256": "6020045c77b2d5a13d044a3beb79a82440f4feadb1d7616e3a6cca5fc5e53565",
+   "duration": 4.24,
+   "generated_at": "2026-10-04T22:08:40+00:00"
+  },
+  "audio/en-scot/scene/crying.mp3": {
+   "prompt": "[crying, strong Scottish accent] I’m sorry, I just... I really thought he was coming home.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "ef88a585c13805a7",
+   "character_cost": "9",
+   "request_id": "msaeqc1HfrYD1RDzRmDT",
+   "sha256": "8ce612f65467d40a6957d58c376f96c8d54f92b3316e026501223ef051a2e219",
+   "duration": 4.4,
+   "generated_at": "2026-10-04T22:39:25+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/sighing.mp3": {
+   "prompt": "[british accent] [sighs] Monday again. [sighs] Okay. Coffee first, then the world.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "ccb82cea8b706f9b",
+   "character_cost": "8",
+   "request_id": "7QKkyhHRvdM75SO2jcUb",
+   "sha256": "ef177e8463976ba9f3e5c7237db21acd172fea6a59ce6397625d76d756e1d052",
+   "duration": 6.08,
+   "generated_at": "2026-10-04T22:08:40+00:00"
+  },
+  "audio/en-scot/scene/sighing.mp3": {
+   "prompt": "[sighs, strong Scottish accent] Monday again. [sighs] Okay. Coffee first, then the world.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "7f009838119e5195",
+   "character_cost": "9",
+   "request_id": "kYXcXQkMGUz8NtbxyIT8",
+   "sha256": "aaf2ce858bf5a719bffc31b6fcf31bc796ddaee9483930fe6015f1a575e7a543",
+   "duration": 5.92,
+   "generated_at": "2026-10-04T22:39:24+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-scot/scene/heartbroken.mp3": {
+   "prompt": "[heartbroken, voice breaking, strong Scottish accent] You said forever. [sobbing] I believed you.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "5bc3ce8477f0220a",
+   "character_cost": "10",
+   "request_id": "N0v0oHAL0Edd5PUjrr2a",
+   "sha256": "99503613c5b3e139eed9f5d3fbf869ae12abe48b0f026fbb3815f602977441d3",
+   "duration": 3.68,
+   "generated_at": "2026-10-04T22:39:26+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/heartbroken.mp3": {
+   "prompt": "[british accent] [heartbroken, voice breaking] You said forever. [sobbing] I believed you.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "b5b62738d58d6cdc",
+   "character_cost": "9",
+   "request_id": "b3OY9Tuyu0O9y3ejUQKD",
+   "sha256": "30fa547e0ab3b6a8a4a9078fe52225b7a1c64c98c70f83086ececf9478189d76",
+   "duration": 3.6,
+   "generated_at": "2026-10-04T22:32:35+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/exhausted.mp3": {
+   "prompt": "[british accent] [exhausted] Three flights, two delays and one lost suitcase. [exhales] I just want my bed.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "e4c9dad0980a8c48",
+   "character_cost": "11",
+   "request_id": "xf5vs8gxJOgBsin7amyB",
+   "sha256": "fb5d18f92c65c8abd51e2b557b4667f7aeeb183ec327620e382c920bf6e9960e",
+   "duration": 6.16,
+   "generated_at": "2026-10-04T22:08:41+00:00"
+  },
+  "audio/en-scot/scene/exhausted.mp3": {
+   "prompt": "[exhausted, strong Scottish accent] Three flights, two delays and one lost suitcase. [exhales] I just want my bed.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "2859f223d5b7b629",
+   "character_cost": "11",
+   "request_id": "YNFEfP85JVbUytHo80kk",
+   "sha256": "c37e500676f156509f4a7bd0fbdd0038b18c49d987ff2ac3154d9931316613ef",
+   "duration": 6.24,
+   "generated_at": "2026-10-04T22:31:18+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/curious.mp3": {
+   "prompt": "[british accent] [curious] That little door wasn’t here yesterday. Shall we see what’s behind it?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "b90fadee90b0d841",
+   "character_cost": "10",
+   "request_id": "N1VhVju74D8ihqsFfxs3",
+   "sha256": "dc93c3d1b9d316e150a0bfbfb628a3a6ba43eb395bde9c9bf7b48f857f1fa492",
+   "duration": 4.16,
+   "generated_at": "2026-10-04T22:08:42+00:00"
+  },
+  "audio/en-scot/scene/curious.mp3": {
+   "prompt": "[curious, strong Scottish accent] That little door wasn’t here yesterday. Shall we see what’s behind it?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "3ef62571c61e7428",
+   "character_cost": "10",
+   "request_id": "wso4I1MaFpb6eHJwEjhB",
+   "sha256": "8909c343e8723886a9318fb1b5307dc43e65e506b850b3e7d6ed3f8bd3b6a5e0",
+   "duration": 4.0,
+   "generated_at": "2026-10-04T22:31:19+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/amazed.mp3": {
+   "prompt": "[amazed, strong Scottish accent] The whole sky is glowing. I’ve never seen anything like it.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "ab4be5ef77fad126",
+   "character_cost": "9",
+   "request_id": "VceS635VaxP9FSfklSSv",
+   "sha256": "b238783acd818a6f6da44fefad6b7718b9ddc0e2e299cfd43d673cd7499117c4",
+   "duration": 4.48,
+   "generated_at": "2026-10-04T22:39:29+00:00",
+   "selected_from_takes": 5
+  },
+  "audio/en-gb/scene/amazed.mp3": {
+   "prompt": "[british accent] [amazed] The whole sky is glowing. I’ve never seen anything like it.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "93615579d66dd38d",
+   "character_cost": "9",
+   "request_id": "hn0TMFquLTXQnQ837hJo",
+   "sha256": "aca388716463416d2f585afdecb2e72d4841cb79a344c3a07d708b54af62061d",
+   "duration": 4.56,
+   "generated_at": "2026-10-04T22:08:43+00:00"
+  },
+  "audio/en-gb/scene/surprised.mp3": {
+   "prompt": "[british accent] [gasps] [surprised] For me? You did all of this for me? Oh my goodness!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "7827c8a365dfc557",
+   "character_cost": "9",
+   "request_id": "N1hDG8slBS6wp2edsjb8",
+   "sha256": "02a0114f755b9d8d7fe2116f5fc71e91d3b3d458ccba49b801dfc2764d80cf73",
+   "duration": 4.88,
+   "generated_at": "2026-10-04T22:08:44+00:00"
+  },
+  "audio/en-scot/scene/surprised.mp3": {
+   "prompt": "[gasps, strong Scottish accent] [surprised] For me? You did all of this for me? Oh my goodness!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "4e2b9984b06369b3",
+   "character_cost": "10",
+   "request_id": "cRiZ7fJMs9bv8NNoo4rK",
+   "sha256": "3fbc4d2351dc03228ea6363049377f2918f4fe4918a3cf45698dd410e8a6fd42",
+   "duration": 4.64,
+   "generated_at": "2026-10-04T22:31:22+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/awestruck.mp3": {
+   "prompt": "[in awe, breathless, strong Scottish accent] Look at the size of that whale. It’s... it’s magnificent.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "386fe7bc8bf4b64a",
+   "character_cost": "10",
+   "request_id": "bDBf1aEiVF3vtHhu4gCH",
+   "sha256": "2c5417074be15523190d5048d26b582511590ad1ecf4a061dd29c0dc8bd99c63",
+   "duration": 4.8,
+   "generated_at": "2026-10-04T22:31:23+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/awestruck.mp3": {
+   "prompt": "[british accent] [in awe, breathless] Look at the size of that whale. It’s... it’s magnificent.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "ec0bbd9c8dc984ac",
+   "character_cost": "10",
+   "request_id": "WTBRFtrdXoINiYyP0IYg",
+   "sha256": "85d9b7fc21e159fc013ed1e9ac5f047fa05a031396f30ae103997a63d9534df3",
+   "duration": 4.64,
+   "generated_at": "2026-10-04T22:08:44+00:00"
+  },
+  "audio/en-scot/scene/impressed.mp3": {
+   "prompt": "[impressed, strong Scottish accent] Wait, you built this yourself? In one weekend? Okay, I’m genuinely impressed.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "1729f67921fca478",
+   "character_cost": "11",
+   "request_id": "nOXyBQgpWFf0mbx2gmRE",
+   "sha256": "82c96af9e3af3b5b6f20de717857567da432f007019042abf612b8149d759d07",
+   "duration": 6.16,
+   "generated_at": "2026-10-04T22:31:25+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/impressed.mp3": {
+   "prompt": "[british accent] [impressed] Wait, you built this yourself? In one weekend? Okay, I’m genuinely impressed.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "5d8e5d3f3e0c2349",
+   "character_cost": "11",
+   "request_id": "OwdcU7WJUIDWtlB0gnh5",
+   "sha256": "9be4cc9c750a7e395fbc048d14526ea7af80fc36a1231599d8a41abc930e8e7b",
+   "duration": 6.64,
+   "generated_at": "2026-10-04T22:08:45+00:00"
+  },
+  "audio/en-gb/scene/confused.mp3": {
+   "prompt": "[british accent] [confused] Hold on. If it’s Tuesday here, then why does my phone say Thursday?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "e012d723e9886e9e",
+   "character_cost": "10",
+   "request_id": "8lTZVH63y9MdHGFl9O9S",
+   "sha256": "529ef227d396f5fee3c4807cea5c0640259c745696cea9fe06a930ecf66e1bf4",
+   "duration": 5.52,
+   "generated_at": "2026-10-04T22:08:46+00:00"
+  },
+  "audio/en-scot/scene/confused.mp3": {
+   "prompt": "[confused, strong Scottish accent] Hold on. If it’s Tuesday here, then why does my phone say Thursday?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "52ed62553af0aad6",
+   "character_cost": "10",
+   "request_id": "2bw2lWfrGT5USZ33e39C",
+   "sha256": "7b658fd0528057b426c0a9421168e15190d370a6cee8da486de38d397ca1cbb3",
+   "duration": 4.96,
+   "generated_at": "2026-10-04T22:31:28+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/calm.mp3": {
+   "prompt": "[quiet, measured narration, strong Scottish accent] Let your shoulders soften. There is nothing you need to solve right now.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "a581e74e95fcc146",
+   "character_cost": "12",
+   "request_id": "NZXMQMhnbwhlxm3O7Gw4",
+   "sha256": "74b181ec6552a7a8e5fdcf6a25e075678b11e377e7c854ae1bb2f1c11b79cfa3",
+   "duration": 4.48,
+   "generated_at": "2026-10-04T22:39:33+00:00",
+   "selected_from_takes": 5
+  },
+  "audio/en-gb/scene/calm.mp3": {
+   "prompt": "[british accent] [quiet, measured narration] Let your shoulders soften. There is nothing you need to solve right now.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "94250cc3449013ac",
+   "character_cost": "12",
+   "request_id": "zwaXmqYty9I0oQgna4Y9",
+   "sha256": "1b62cfda389f8c08292a0319313b4d2898320d2ec390eb0772563f21d13b8f59",
+   "duration": 4.8,
+   "generated_at": "2026-10-04T22:08:47+00:00"
+  },
+  "audio/en-gb/scene/soothing.mp3": {
+   "prompt": "[british accent] [soft, slow, soothing voice] Breathe in slowly... [inhales deeply] and let it all go. [exhales] You are safe here.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "e952506e40a486aa",
+   "character_cost": "13",
+   "request_id": "3YvrYOCf8HKYFxYTmQXm",
+   "sha256": "b8f7cb4e91ebd94c2304db78c04d45fba709fb5b41e58e922880b6f985c14330",
+   "duration": 7.04,
+   "generated_at": "2026-10-04T22:08:47+00:00"
+  },
+  "audio/en-scot/scene/soothing.mp3": {
+   "prompt": "[soft, slow, soothing voice, strong Scottish accent] Breathe in slowly... [inhales deeply] and let it all go. [exhales] You are safe here.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "8829a2cac996cc59",
+   "character_cost": "14",
+   "request_id": "ujXFCcpm957cIaWLHq0b",
+   "sha256": "6512f1cbcb3320b0bfc0d69fa587229143b4c992f6e970aecb364b469207186d",
+   "duration": 6.96,
+   "generated_at": "2026-10-04T22:31:32+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/relieved.mp3": {
+   "prompt": "[british accent] [relieved sigh] Oh, thank goodness. They found her. She’s okay. She’s really okay.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "abbf15e7881c3677",
+   "character_cost": "10",
+   "request_id": "dPZ7sTgF3Q0HrsO83Fhi",
+   "sha256": "caf8ffd219255ec576a880c5afd48c9f3d48819fc65ed621c79c3c03336ccd5b",
+   "duration": 5.6,
+   "generated_at": "2026-10-04T22:08:48+00:00"
+  },
+  "audio/en-scot/scene/relieved.mp3": {
+   "prompt": "[relieved sigh, strong Scottish accent] Oh, thank goodness. They found her. She’s okay. She’s really okay.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "d254e490f8421044",
+   "character_cost": "11",
+   "request_id": "f5fqIWwSxyLzOLctIOXu",
+   "sha256": "9af0e33d4e42666ff2bc081bf8f7be0f4d567d6ed07047f354e0bd53776b2860",
+   "duration": 5.44,
+   "generated_at": "2026-10-04T22:23:30+00:00"
+  },
+  "audio/en-gb/scene/dreamy.mp3": {
+   "prompt": "[british accent] [dreamy] Imagine waking up in a little house by the sea, with nowhere to be and nothing to do...",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "9bde61b31fbf2060",
+   "character_cost": "11",
+   "request_id": "vX5xqAjwK34hTm0E69Ii",
+   "sha256": "533f3799c7a9408ec300e22d8470ad3f19375959509ca78c6e4eff3a244add82",
+   "duration": 6.32,
+   "generated_at": "2026-10-04T22:08:49+00:00"
+  },
+  "audio/en-scot/scene/dreamy.mp3": {
+   "prompt": "[dreamy, strong Scottish accent] Imagine waking up in a little house by the sea, with nowhere to be and nothing to do...",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "54def34a65a042c1",
+   "character_cost": "12",
+   "request_id": "09fRK9vRuZRH3YHNa8Zv",
+   "sha256": "5a57efe16f25834f8b3f1f0521c02121c2d71dc726ffc15b42e287adf5b26825",
+   "duration": 5.76,
+   "generated_at": "2026-10-04T22:39:36+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-scot/scene/sleepy.mp3": {
+   "prompt": "[sleepy drowsy voice, strong Scottish accent] Just five more minutes... [yawning] the bed is so warm...",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "d2fb73b756986817",
+   "character_cost": "10",
+   "request_id": "721M94W3CjBbcRcev2K7",
+   "sha256": "ea6d8fa9da5e2a9b2dff50948c2bb040c2b34ecc5da61cb10d8d17c7ac1e7cfa",
+   "duration": 5.44,
+   "generated_at": "2026-10-04T22:31:38+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/sleepy.mp3": {
+   "prompt": "[british accent] [sleepy drowsy voice] Just five more minutes... [yawning] the bed is so warm...",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "b79d0ae961815944",
+   "character_cost": "10",
+   "request_id": "3a1xl3gTjfw1X0ex2096",
+   "sha256": "a14b471c30fe6caa871c0d86cb36ec7aecb90dedc03f873a4e824c8a95309d57",
+   "duration": 5.04,
+   "generated_at": "2026-10-04T22:08:50+00:00"
+  },
+  "audio/en-gb/scene/thoughtful.mp3": {
+   "prompt": "[british accent] [thoughtful] Hmm. You know, maybe the question isn’t what we want... but why we want it.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "903abc2d6e6f6d94",
+   "character_cost": "10",
+   "request_id": "UepXSP8O15oxWVoU46bO",
+   "sha256": "5b515077de9f38018779c11633671106a6128fdf6ff42d359d51e8549b8d9b7f",
+   "duration": 6.16,
+   "generated_at": "2026-10-04T22:08:50+00:00"
+  },
+  "audio/en-scot/scene/whisper.mp3": {
+   "prompt": "[whispers, strong Scottish accent] Come a little closer. I have a tiny secret to tell you.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "748b68de411917f3",
+   "character_cost": "9",
+   "request_id": "wFbU3Gw31qh3v7TLJIHm",
+   "sha256": "1f300e93253f476b8f24cca08255544d806f6de770428dac540c6a6ce1dc4174",
+   "duration": 4.0,
+   "generated_at": "2026-10-04T22:31:43+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/whisper.mp3": {
+   "prompt": "[british accent] [whispers] Come a little closer. I have a tiny secret to tell you.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "f345ad53486b1bc5",
+   "character_cost": "8",
+   "request_id": "DwRa5d2W8jMUdnFtMcQN",
+   "sha256": "9219c8715a91fd206af1fa624db485d4dae9bb2634b7747ee7b7c5e0865e786e",
+   "duration": 3.84,
+   "generated_at": "2026-10-04T22:08:51+00:00"
+  },
+  "audio/en-scot/scene/thoughtful.mp3": {
+   "prompt": "[thoughtful, strong Scottish accent] Hmm. You know, maybe the question isn’t what we want... but why we want it.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "bd6015e7c2e6cc4a",
+   "character_cost": "11",
+   "request_id": "Vpdq91Y9kgTxADhX175N",
+   "sha256": "e00204dfab7192fe7553722d89963f673693368f678087b910bcd8eb65ab5683",
+   "duration": 5.92,
+   "generated_at": "2026-10-04T22:31:41+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/opera.mp3": {
+   "prompt": "[operatic singing, strong Scottish accent] Oh, my beautiful spaghetti... why are you getting cold?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "a39dab52675bd4ca",
+   "character_cost": "10",
+   "request_id": "lPZQn0xO7kaICrMEOXaR",
+   "sha256": "2f37aa7075e74f396a3197d809066e389f8980c282ed49cf995a9c8cf1839af0",
+   "duration": 4.48,
+   "generated_at": "2026-10-04T22:23:32+00:00"
+  },
+  "audio/en-gb/scene/opera.mp3": {
+   "prompt": "[british accent] [operatic singing] Oh, my beautiful spaghetti... why are you getting cold?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "e89daefa73e57f98",
+   "character_cost": "9",
+   "request_id": "obvfGQBl0fmWXesJjfXJ",
+   "sha256": "a32e2da76b56aea6293564bf8047d0019b9d37499d5d305a937a7467e670ed5c",
+   "duration": 4.88,
+   "generated_at": "2026-10-04T22:08:52+00:00"
+  },
+  "audio/en-gb/scene/singing.mp3": {
+   "prompt": "[british accent] [sings] Happy birthday to you, happy birthday to you... [laughs] okay, I’ll stop.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "211228a9190b8155",
+   "character_cost": "10",
+   "request_id": "tDf9AJwGfZsBRHXNH2l8",
+   "sha256": "dc5ac47d1ce4058ffdb2d5d1b6e50697e3ccd6742287171b7414bde1b2f7b913",
+   "duration": 7.28,
+   "generated_at": "2026-10-04T22:08:52+00:00"
+  },
+  "audio/en-scot/scene/singing.mp3": {
+   "prompt": "[sings, strong Scottish accent] Happy birthday to you, happy birthday to you... [laughs] okay, I’ll stop.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "6ca71245f62ce507",
+   "character_cost": "10",
+   "request_id": "2SNnzukmaP3Aip5uBuNr",
+   "sha256": "6fff5b92e3890536d112825fb6de4e00bf64a58470de98269c97db96308f9b60",
+   "duration": 7.12,
+   "generated_at": "2026-10-04T22:39:42+00:00",
+   "selected_from_takes": 5
+  },
+  "audio/en-scot/scene/mouth-full.mp3": {
+   "prompt": "[eating while talking, mouth full, strong Scottish accent] Mmm, sorry, sorry. This pizza is amazing. Do you want a bite?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "8aac5d56a24ee473",
+   "character_cost": "12",
+   "request_id": "CfLE7Iqzt8JXfVd1QWxo",
+   "sha256": "ede63265b6bc4035b6075ffb840c765b2dbb01b27d3a5403a67b148bf371becd",
+   "duration": 5.2,
+   "generated_at": "2026-10-04T22:31:49+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/mouth-full.mp3": {
+   "prompt": "[british accent] [eating while talking, mouth full] Mmm, sorry, sorry. This pizza is amazing. Do you want a bite?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "fc87bea0f4495d84",
+   "character_cost": "11",
+   "request_id": "DhyOOAU9eL4WKq7EHKtG",
+   "sha256": "bd6f2784c91cabf47885279b5661bc4d1a6291c083527775e821d320b24d46b0",
+   "duration": 5.28,
+   "generated_at": "2026-10-04T22:33:00+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/out-of-breath.mp3": {
+   "prompt": "[out of breath, panting, strong Scottish accent] Okay... I made it... [panting] who said... five flights of stairs... was a good idea?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "dc229b102f77c501",
+   "character_cost": "13",
+   "request_id": "Q5DiFlByqXvBMZPjM6Ya",
+   "sha256": "48d0c418a01cf620b3278b49eee9c110d7a76bdda2d16fe9065abff8834c6432",
+   "duration": 6.4,
+   "generated_at": "2026-10-04T22:31:51+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/out-of-breath.mp3": {
+   "prompt": "[british accent] [out of breath, panting] Okay... I made it... [panting] who said... five flights of stairs... was a good idea?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "02d76ab9558b6240",
+   "character_cost": "13",
+   "request_id": "wSkM4aa2aaqxpU7dq7zT",
+   "sha256": "95cc3339fe361edb4d93ea9e8be8eca831d27df266d4f6007115f1c2b7e9a745",
+   "duration": 6.24,
+   "generated_at": "2026-10-04T22:33:04+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/with-a-cold.mp3": {
+   "prompt": "[british accent] [stuffy nose, with a cold] Hi, it’s me. [sniffs] I won’t make it in today. [coughing] I think I’m dying.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "9e9e72d16393acf5",
+   "character_cost": "12",
+   "request_id": "S7WeFLbvEpG6PYGGKOt5",
+   "sha256": "365c41822892e3503feb60f9ab3c4ee4dae9213ca5674e2d64d76cbbc9ef6041",
+   "duration": 7.2,
+   "generated_at": "2026-10-04T22:08:55+00:00"
+  },
+  "audio/en-gb/scene/muttering.mp3": {
+   "prompt": "[british accent] [muttering] Assemble the shelf, they said. It’s easy, they said. Twelve screws left over...",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "22ad12ef029843e4",
+   "character_cost": "11",
+   "request_id": "A3wnOFEuOcRZTiuJLBkn",
+   "sha256": "b5a382b2c8837d7d07e386eb483f99be7bf730c1d3cd07c0a51913caecf1f760",
+   "duration": 5.68,
+   "generated_at": "2026-10-04T22:08:56+00:00"
+  },
+  "audio/en-scot/scene/with-a-cold.mp3": {
+   "prompt": "[stuffy nose, with a cold, strong Scottish accent] Hi, it’s me. [sniffs] I won’t make it in today. [coughing] I think I’m dying.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "658d84097a207b9a",
+   "character_cost": "13",
+   "request_id": "9IMkaWUkxLVlopA5pDZ0",
+   "sha256": "66f5b7da6a229f2b0463c1a62c30ffabafb4332ee7aeb30ee61c1b0119ceec0f",
+   "duration": 6.88,
+   "generated_at": "2026-10-04T22:31:55+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-scot/scene/muttering.mp3": {
+   "prompt": "[muttering, strong Scottish accent] Assemble the shelf, they said. It’s easy, they said. Twelve screws left over...",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "14751ab1961a1c77",
+   "character_cost": "12",
+   "request_id": "37S76yLkhm64PDBH7AfX",
+   "sha256": "dd68913ba5b4b0be98f437fb67e8e431ee0b4ac0f93030f7a71501761bb53bcd",
+   "duration": 5.44,
+   "generated_at": "2026-10-04T22:39:48+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/en-gb/scene/fast-talker.mp3": {
+   "prompt": "[british accent] [rushed, extremely fast] Terms and conditions apply, offer valid while supplies last, not available in all regions, see store for details.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "e65d03c157e47576",
+   "character_cost": "16",
+   "request_id": "Wwnu8ciLslM3LuHQ0CNr",
+   "sha256": "53b6213dbd248acb75a2ce8e50578f19652189fc4e67199145c4abe6d42dff14",
+   "duration": 5.2,
+   "generated_at": "2026-10-04T22:08:57+00:00"
+  },
+  "audio/en-scot/scene/hiccups.mp3": {
+   "prompt": "[hiccups, strong Scottish accent] Excuse me. I’m trying to [hiccups] give a very serious [hiccups] speech here.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "f18f3a11d69d97ae",
+   "character_cost": "11",
+   "request_id": "D6s0rJ7sHR0p2IPiYyJx",
+   "sha256": "7d069086bb85a30a1147d7e7b465985f6b3aa2944252715883c1b0913469a38f",
+   "duration": 4.96,
+   "generated_at": "2026-10-04T22:32:01+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/en-gb/scene/hiccups.mp3": {
+   "prompt": "[british accent] [hiccups] Excuse me. I’m trying to [hiccups] give a very serious [hiccups] speech here.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "949dc7726e90e02b",
+   "character_cost": "10",
+   "request_id": "AKeOY3AuiwZRU757Ih0v",
+   "sha256": "33ea46a29514682d2bdcd6040f578d6dd44700088a4fcd9863aeba4d7e4cbab2",
+   "duration": 5.52,
+   "generated_at": "2026-10-04T22:08:57+00:00"
+  },
+  "audio/en-scot/scene/fast-talker.mp3": {
+   "prompt": "[rushed, extremely fast, strong Scottish accent] Terms and conditions apply, offer valid while supplies last, not available in all regions, see store for details.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "7a7889fe49c1b716",
+   "character_cost": "16",
+   "request_id": "ZJcpoDL3xFLhSSTCzxEe",
+   "sha256": "83c821b7c07c33506fd2e4378bf5622e3810870791ebb8f0d106901f4b35202e",
+   "duration": 5.12,
+   "generated_at": "2026-10-04T22:31:59+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/nl/usecases/perfume-ad.mp3": {
+   "prompt": "[low, sensual whisper] Sluit je ogen. [pause] Zomerregen op warme huid... een tuin na middernacht... [softly] het moment vlak voor een kus. [breathy, intimate] Lumière. De nieuwe geur van Maison Elise. [whispers] Draag het moment.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "be9a82c366228481",
+   "character_cost": "23",
+   "request_id": "wblq0pEp0h8ZSXB1vQUY",
+   "sha256": "10c2c08fc43ba6176e9ce208f2e014e5f631e5fdba5f6efd38fbfd4d01a7781c",
+   "duration": 13.44,
+   "generated_at": "2026-10-04T22:09:00+00:00"
+  },
+  "audio/en/usecases/perfume-ad.mp3": {
+   "prompt": "[american accent] [low, sensual whisper] Close your eyes. [pause] Summer rain on warm skin... a garden after midnight... [softly] the moment just before a kiss. [breathy, intimate] Lumière. The new fragrance by Maison Elise. [whispers] Wear the moment.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "2d93a3405efdbf92",
+   "character_cost": "25",
+   "request_id": "tZjQS9qGRS9i4lC4kexj",
+   "sha256": "b4188362f4d621034b26ff12057ef53fcdf5685991b6e837c91eb60980102817",
+   "duration": 13.6,
+   "generated_at": "2026-10-04T22:09:00+00:00"
+  },
+  "audio/en/usecases/summer-sale.mp3": {
+   "prompt": "[american accent] [excited, energetic] It’s here! The BIGGEST summer sale of the year! [fast] Up to seventy percent off sofas, garden furniture and everything you need for those long, lazy evenings. [pause] [upbeat] But hurry: when it’s gone, it’s gone! [rushed, fast] Only at Casa Nova. Online and in stores. While stocks last.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "f673086e9d17ed1b",
+   "character_cost": "33",
+   "request_id": "8czF7BslWlXr0RzUVNRe",
+   "sha256": "4f001021ff62f40fafb46f2c889655ef4d1ccd9143aa94a51dd53ebe161d2cdf",
+   "duration": 15.28,
+   "generated_at": "2026-10-04T22:09:01+00:00"
+  },
+  "audio/nl/usecases/summer-sale.mp3": {
+   "prompt": "[excited, energetic] Hij is er! De GROOTSTE zomersale van het jaar! [fast] Tot zeventig procent korting op banken, tuinmeubels en alles voor die lange, luie zomeravonden. [pause] [upbeat] Maar wees er snel bij: op is op! [rushed, fast] Alleen bij Casa Nova. Online en in de winkel. Zolang de voorraad strekt.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "146391995b5f49d8",
+   "character_cost": "31",
+   "request_id": "JGPReDnQDYqL9KjDA2rV",
+   "sha256": "ae4fbc152d2dc5e6562c6cf8e63142a6e1d38a546c074feac58ed62ea34020f0",
+   "duration": 15.12,
+   "generated_at": "2026-10-04T22:09:01+00:00"
+  },
+  "audio/en/usecases/coffee-ad.mp3": {
+   "prompt": "[american accent] [warm, cozy, smiling] Six forty-five. The house is still asleep. [pause] Just you... [inhales deeply] and that first sip. [softly] Rich. Smooth. Exactly how mornings should feel. [warmly] Bellamy Coffee. Your quiet moment, every morning.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "59adec22acda9296",
+   "character_cost": "26",
+   "request_id": "unswkemM204RUtqtbIsT",
+   "sha256": "49c902b10e9895c6c5b7773461860a06a45bfcc41953300c219c4ddfc4d0adf7",
+   "duration": 14.88,
+   "generated_at": "2026-10-04T22:09:03+00:00"
+  },
+  "audio/nl/usecases/coffee-ad.mp3": {
+   "prompt": "[warm, cozy, smiling] Kwart voor zeven. Het huis slaapt nog. [pause] Alleen jij... [inhales deeply] en die eerste slok. [softly] Vol. Zacht. Precies zoals een ochtend hoort te voelen. [warmly] Bellamy Koffie. Jouw rustige moment, elke ochtend.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "ea4caf161aac7eec",
+   "character_cost": "24",
+   "request_id": "hSpjHupXIGB7o0wpSrwp",
+   "sha256": "1c8d81d1973714620ca89d2aee73874d1a263fa94f78f82c13d70d5997b5d2db",
+   "duration": 14.64,
+   "generated_at": "2026-10-04T22:09:04+00:00"
+  },
+  "audio/en/usecases/car-ad.mp3": {
+   "prompt": "[american accent] [confident, cinematic narrator] Some roads are meant to be driven. [pause] Coastal curves at sunrise. Mountain passes after rain. [building intensity] And a car that feels every single one of them. [pause] [low, assured] The all-electric Vela GT. Zero emissions. Zero compromise. [warmly] Book your test drive today.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "8075b2a0d8014129",
+   "character_cost": "33",
+   "request_id": "LWqlXUOkOkcR11nf4Cjo",
+   "sha256": "964de834733f19208b77f25c7edaac35ba6f33823d100745aa11eaebacd885aa",
+   "duration": 16.8,
+   "generated_at": "2026-10-04T22:09:04+00:00"
+  },
+  "audio/nl/usecases/car-ad.mp3": {
+   "prompt": "[confident, cinematic narrator] Sommige wegen zijn gemaakt om te rijden. [pause] Kustbochten bij zonsopgang. Bergpassen na een regenbui. [building intensity] En een auto die ze allemaal voelt. [pause] [low, assured] De volledig elektrische Vela GT. Nul uitstoot. Nul compromissen. [warmly] Plan vandaag nog je proefrit.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "bfe6b9812ad32cd6",
+   "character_cost": "32",
+   "request_id": "jkkO5w38q718eHAczmUl",
+   "sha256": "db02f51c8e60c01d729fd72c250e68552084da4eb2802111b9b79e89987bbfb0",
+   "duration": 16.72,
+   "generated_at": "2026-10-04T22:09:05+00:00"
+  },
+  "audio/en/usecases/app-launch.mp3": {
+   "prompt": "[american accent] [bright, friendly] Meet Tally. The budgeting app that actually gets you. [playful] No spreadsheets, no guilt, no math homework. [upbeat] Just snap your receipts, and Tally does the rest. [excited] Download Tally for free today, and finally know where your money goes.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "26b84d192737ec95",
+   "character_cost": "28",
+   "request_id": "E54fg6SCJVCxdeT0AnFb",
+   "sha256": "dfb80e68e5035e084497f91f5c8a5c28db3b055692ae8ca74bb229eef66c2289",
+   "duration": 13.28,
+   "generated_at": "2026-10-04T22:09:07+00:00"
+  },
+  "audio/nl/usecases/app-launch.mp3": {
+   "prompt": "[bright, friendly] Maak kennis met Tally. De budgetapp die jou echt snapt. [playful] Geen spreadsheets, geen schuldgevoel, geen rekenhuiswerk. [upbeat] Maak gewoon een foto van je bonnetjes, en Tally doet de rest. [excited] Download Tally vandaag gratis, en weet eindelijk waar je geld blijft.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "8907d7489261fa63",
+   "character_cost": "29",
+   "request_id": "cl0Ws3fugwZqVKAugI9W",
+   "sha256": "d2df3994d1e63b9057ee43be2e75a94f09827c290acdfb83cf1cf68a0557b806",
+   "duration": 14.48,
+   "generated_at": "2026-10-04T22:09:07+00:00"
+  },
+  "audio/en/usecases/podcast-ad.mp3": {
+   "prompt": "[american accent] [casual, conversational] Okay, quick break. [chuckles] This episode is brought to you by Nestly. So, honestly? I’m terrible at keeping plants alive. Like, embarrassingly bad. [laughs softly] Nestly sends you a plant that fits your home, plus a little reminder when it’s thirsty. Mine is still alive. Week six! [warmly] Go to nestly dot com slash Ruth for twenty percent off your first plant.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "76f3945f1798513b",
+   "character_cost": "41",
+   "request_id": "yNHLPGNl8Xz3yNj72HbA",
+   "sha256": "4fa394e16bcf1d53fc303d270737925bb9eb481bc3975368a16d3a444d6c6d4e",
+   "duration": 22.24,
+   "generated_at": "2026-10-04T22:09:09+00:00"
+  },
+  "audio/nl/usecases/podcast-ad.mp3": {
+   "prompt": "[casual, conversational] Oké, even een korte pauze. [chuckles] Deze aflevering wordt mogelijk gemaakt door Nestly. Eerlijk? Ik ben echt slecht in planten in leven houden. Zo slecht dat het gênant is. [laughs softly] Nestly stuurt je een plant die bij je huis past, plus een seintje als hij dorst heeft. De mijne leeft nog. Week zes! [warmly] Ga naar nestly punt nl slash Ruth voor twintig procent korting op je eerste plant.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "6758522d42aeae27",
+   "character_cost": "42",
+   "request_id": "aMeXmWQ6VLe4sDFjpa41",
+   "sha256": "7a6d74483651d1892d90cd75968754864dda0a5448fa8c9d7fa92b726c2a35db",
+   "duration": 23.68,
+   "generated_at": "2026-10-04T22:09:09+00:00"
+  },
+  "audio/en/usecases/youtube-intro.mp3": {
+   "prompt": "[american accent] [energetic, friendly YouTuber] Hey everyone, and welcome back to the channel! [excited] Today we’re doing something I’ve wanted to try for months: a full day living on just ten dollars. [laughs] Spoiler: it did NOT go as planned. [quick, upbeat] But before we start, if you’re new here, hit that subscribe button. It really helps. Okay. Let’s go!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "0f097e6c49269237",
+   "character_cost": "36",
+   "request_id": "uEQeY47LHssfkpd7LvQo",
+   "sha256": "9aa83e8300b94fc98425e7408175c73e6509ffcc7b60f21efaf9c33056cb58f5",
+   "duration": 17.6,
+   "generated_at": "2026-10-04T22:09:10+00:00"
+  },
+  "audio/nl/usecases/youtube-intro.mp3": {
+   "prompt": "[energetic, friendly YouTuber] Hé allemaal, en welkom terug op het kanaal! [excited] Vandaag doen we iets wat ik al maanden wil proberen: een hele dag leven van maar tien euro. [laughs] Spoiler: dat ging NIET zoals gepland. [quick, upbeat] Maar voor we beginnen: ben je nieuw hier, klik dan op abonneren. Dat helpt echt. Oké. Daar gaan we!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "16a8677c3454c0f9",
+   "character_cost": "34",
+   "request_id": "dr4pAjz6e5D2EGpoyxF3",
+   "sha256": "c022cb5b6c2d76c5a64d02402d1b40af0edc96475f58eb63e163cafc942def65",
+   "duration": 17.84,
+   "generated_at": "2026-10-04T22:09:11+00:00"
+  },
+  "audio/en/usecases/top-10.mp3": {
+   "prompt": "[american accent] [intriguing, upbeat documentary voice] Number three. [pause] The country with the most islands in the world. [curious] You might guess Indonesia, or the Philippines. [pause] But it’s actually Sweden, with more than two hundred and sixty thousand islands. [amused] So if you ever want an island of your own... you know where to look. [pause] And at number two...",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "b224ee10783cf885",
+   "character_cost": "38",
+   "request_id": "vzEradZJGVgfZtP0mtYD",
+   "sha256": "a9bf16a8a1ff5a94b97246956b759421c02e34b229e3a67206ed5ec5bc753bf8",
+   "duration": 17.44,
+   "generated_at": "2026-10-04T22:09:12+00:00"
+  },
+  "audio/nl/usecases/top-10.mp3": {
+   "prompt": "[intriguing, upbeat documentary voice] Nummer drie. [pause] Het land met de meeste eilanden ter wereld. [curious] Je zou denken aan Indonesië, of de Filipijnen. [pause] Maar het is eigenlijk Zweden, met meer dan tweehonderdzestigduizend eilanden. [amused] Dus als je ooit een eigen eiland wilt... je weet waar je moet zoeken. [pause] En op nummer twee...",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "9a1fa39dd20fc916",
+   "character_cost": "35",
+   "request_id": "FVf1v1lnVO1iyTqCjcBT",
+   "sha256": "b608aefd452d104398ce39e99bb679d5efb7f16d0762a9179d96abb5bebccc73",
+   "duration": 18.48,
+   "generated_at": "2026-10-04T22:09:13+00:00"
+  },
+  "audio/en/usecases/reddit-story.mp3": {
+   "prompt": "[american accent] [casual, storytelling, slightly amused] Am I wrong for skipping my sister’s wedding... to go to my own? [pause] Okay, so let me explain. [quick] My sister picked her wedding date two years ago. Then my fiancé got a job offer abroad, and the only date we could get married was... the exact same day. [sighs] I offered to move it. She said no. [pause] [deadpan] So now my mom isn’t speaking to either of us.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "b9fbe396aeb59615",
+   "character_cost": "42",
+   "request_id": "qnQvUGAXpsTWQLuvHy6P",
+   "sha256": "37d0e990891a6987b08c00da67fe06c865a9bb0fce01ae995e193b5e4dad4510",
+   "duration": 21.6,
+   "generated_at": "2026-10-04T22:09:15+00:00"
+  },
+  "audio/nl/usecases/reddit-story.mp3": {
+   "prompt": "[casual, storytelling, slightly amused] Ben ik fout omdat ik de bruiloft van mijn zus oversla... voor mijn eigen bruiloft? [pause] Oké, ik leg het uit. [quick] Mijn zus prikte twee jaar geleden haar trouwdatum. Toen kreeg mijn verloofde een baan in het buitenland, en de enige datum waarop wij konden trouwen was... precies dezelfde dag. [sighs] Ik bood aan om te verschuiven. Zij zei nee. [pause] [deadpan] Dus nu praat mijn moeder met geen van ons tweeën meer.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "a5bdcee31f4f1ed8",
+   "character_cost": "46",
+   "request_id": "5RR0eHgOBFg3IIPXqOjh",
+   "sha256": "adff551da85f071ae069080d8c150b33b4a0f4040ea13818f8b1c44fd25fe313",
+   "duration": 24.72,
+   "generated_at": "2026-10-04T22:09:16+00:00"
+  },
+  "audio/en/usecases/true-crime.mp3": {
+   "prompt": "[american accent] [low, serious true crime narration] On the night of March fourteenth, Daniel Price locked his bakery at nine p.m., just like every other night. [pause] His car was found the next morning, still in the parking lot. [tense] Engine running. Driver’s door open. [pause] Daniel was never seen again. [quietly] And for twenty years, the only witness... never said a word.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "b2c12a50b6a6be74",
+   "character_cost": "38",
+   "request_id": "hKNgCiVaSNZ70ZOJ9w3S",
+   "sha256": "652e4a23886b5be195d3b511d66e593129d07734c5b238c63f56b736bcfdfb4a",
+   "duration": 19.44,
+   "generated_at": "2026-10-04T22:09:17+00:00"
+  },
+  "audio/nl/usecases/true-crime.mp3": {
+   "prompt": "[low, serious true crime narration] Op de avond van veertien maart sloot Daniel Price om negen uur zijn bakkerij af, net als elke andere avond. [pause] Zijn auto werd de volgende ochtend gevonden, nog op de parkeerplaats. [tense] Motor draaiend. Portier open. [pause] Daniel werd nooit meer gezien. [quietly] En twintig jaar lang zei de enige getuige... geen woord.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "79a6cfbbffab7ce5",
+   "character_cost": "36",
+   "request_id": "TnkhNXvIsnZ2W5GJDrbp",
+   "sha256": "b15dc3b545f74a66f3bf84c1ec95f25954efde813ecb1613827d17aaf53dca86",
+   "duration": 20.0,
+   "generated_at": "2026-10-04T22:09:18+00:00"
+  },
+  "audio/en/usecases/scary-story.mp3": {
+   "prompt": "[american accent] [hushed, creepy storytelling] My grandmother had one rule about the old farmhouse. [pause] Never answer the door after midnight. [whispers] Not even if it sounds like someone you love. [tense] Last night, at twelve oh three, someone knocked. [pause] And then I heard my grandmother’s voice, calling my name. [quietly, terrified] She died six years ago.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "243ca9a986e9abe7",
+   "character_cost": "37",
+   "request_id": "AxF3gxQ31iGKF0ehWCsO",
+   "sha256": "7b6cb0653d0a76e2fc0686b7514d5a7e4c663ea0efb363a112fb0f400891a53e",
+   "duration": 18.32,
+   "generated_at": "2026-10-04T22:09:19+00:00"
+  },
+  "audio/nl/usecases/scary-story.mp3": {
+   "prompt": "[hushed, creepy storytelling] Mijn oma had één regel over de oude boerderij. [pause] Doe na middernacht nooit de deur open. [whispers] Ook niet als het klinkt als iemand van wie je houdt. [tense] Vannacht, om drie over twaalf, werd er geklopt. [pause] En toen hoorde ik de stem van mijn oma, die mijn naam riep. [quietly, terrified] Ze is zes jaar geleden overleden.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "a0f4da3a4cdf265f",
+   "character_cost": "37",
+   "request_id": "48Pb5serGrLq7cZoGjvP",
+   "sha256": "b3f1e419895cbcaa273673ce04177f1d68c4f19a162a57ada706714169c3eba0",
+   "duration": 19.76,
+   "generated_at": "2026-10-04T22:09:21+00:00"
+  },
+  "audio/en/usecases/recipe.mp3": {
+   "prompt": "[american accent] [bright, cheerful cooking show host] Okay, this is my five-minute pasta, and it’s going to change your weeknights. [pause] First, garlic in the pan with a good splash of olive oil. [inhales deeply] Oh, smell that! [upbeat] Now cherry tomatoes, a pinch of salt, and let them burst. [playful] Toss in your pasta, a handful of basil, lots of parmesan... [happy sigh] and dinner is served.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "59ff4b92e8c3a617",
+   "character_cost": "40",
+   "request_id": "yfnu76yfW93WUtfOaE1P",
+   "sha256": "a50bbbaa5a20b9c3d728e71d459271ef746b928c59983d9892a8b23e9a2c8f30",
+   "duration": 21.44,
+   "generated_at": "2026-10-04T22:09:21+00:00"
+  },
+  "audio/en/usecases/motivation.mp3": {
+   "prompt": "[american accent] [intense, motivational speaker] Nobody is coming to save you. [pause] And that’s the best news you’ll hear today. [building intensity] Because it means the power was always yours. Every early morning. Every time you wanted to quit and didn’t. [passionate] That’s who you are. [pause] [firm, quiet] So get up. Go again. One more time.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "73e21094fd1955be",
+   "character_cost": "35",
+   "request_id": "BM8yHGAKTTTfuPcDlY8O",
+   "sha256": "b2588273173270787a1b60d76f21198de93ca2b57d1203051ee6f9791ad63ae3",
+   "duration": 16.64,
+   "generated_at": "2026-10-04T22:09:22+00:00"
+  },
+  "audio/nl/usecases/recipe.mp3": {
+   "prompt": "[bright, cheerful cooking show host] Oké, dit is mijn pasta in vijf minuten, en die gaat je doordeweekse avonden veranderen. [pause] Eerst knoflook in de pan met een flinke scheut olijfolie. [inhales deeply] Mmm, ruik dat! [upbeat] Nu de cherrytomaatjes erbij, een snufje zout, en laat ze openbarsten. [playful] Pasta erdoor, een handje basilicum, flink wat Parmezaanse kaas... [happy sigh] en het eten staat op tafel.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "09a0d657f4a52a48",
+   "character_cost": "42",
+   "request_id": "URwECYBRV8bWMoEpiDAA",
+   "sha256": "69b75a562a82349a081982c1eaf6fd6d4d727943d43f43fe5d76abf9acbf6517",
+   "duration": 23.12,
+   "generated_at": "2026-10-04T22:09:23+00:00"
+  },
+  "audio/nl/usecases/motivation.mp3": {
+   "prompt": "[intense, motivational speaker] Niemand komt je redden. [pause] En dat is het beste nieuws dat je vandaag hoort. [building intensity] Want het betekent dat de kracht altijd al bij jou lag. Elke vroege ochtend. Elke keer dat je wilde stoppen en het niet deed. [passionate] Dat ben jij. [pause] [firm, quiet] Dus sta op. Ga nog een keer. Nog één keer.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "8ba84f4760582da6",
+   "character_cost": "35",
+   "request_id": "39942XM5EgP38YqlMRip",
+   "sha256": "849db92b8b64d0e1852bbcfb02f4a84ea73eb59089c3398a207c364feabbbd9f",
+   "duration": 18.16,
+   "generated_at": "2026-10-04T22:09:25+00:00"
+  },
+  "audio/en/usecases/fun-facts.mp3": {
+   "prompt": "[american accent] [quick, playful, social media voice] Three facts that sound fake but are totally true. [upbeat] One: octopuses have three hearts. [pause] Two: honey never spoils. Archaeologists have found edible honey in ancient Egyptian tombs! [pause] [amused] And three: a group of flamingos is called... a flamboyance. [laughs] Follow for more!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "d48533f426e8e122",
+   "character_cost": "35",
+   "request_id": "PaL5ShtsKHuu5TCr9Byh",
+   "sha256": "5439bc247cb3832feeef3521e7d16fc844a308677367ebac7e6536ba3ef2cd66",
+   "duration": 18.8,
+   "generated_at": "2026-10-04T22:09:25+00:00"
+  },
+  "audio/en/usecases/movie-trailer.mp3": {
+   "prompt": "[american accent] [deep, dramatic trailer voice] This summer... [pause] one woman... [pause] will cross an ocean... to keep a promise. [building intensity] No map. No money. No way back. [whispers] Only the truth. [booming] Tidebreaker. [pause] Only in theaters.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "5b09d9c9894dee13",
+   "character_cost": "26",
+   "request_id": "gowYbdfF4cHB9MQIUifw",
+   "sha256": "e5e93ddf841fe3c461782ae4ccb0e1d3242f7fa53bb3bb8bfdd102dcc5998ba4",
+   "duration": 13.52,
+   "generated_at": "2026-10-04T22:09:26+00:00"
+  },
+  "audio/nl/usecases/fun-facts.mp3": {
+   "prompt": "[quick, playful, social media voice] Drie weetjes die nep klinken, maar echt waar zijn. [upbeat] Eén: een octopus heeft drie harten. [pause] Twee: honing bederft nooit. Archeologen vonden eetbare honing in oude Egyptische graven! [pause] [amused] En drie: een groep flamingo’s heet in het Engels... a flamboyance. [laughs] Volg voor meer!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "4b58f618051eecbc",
+   "character_cost": "34",
+   "request_id": "GhHZOOb6Sl2KXuwe3Rvm",
+   "sha256": "93a8ba6704ae81c78340db5e734fa83d501402b93e436adef992febd1a2fc277",
+   "duration": 18.96,
+   "generated_at": "2026-10-04T22:09:27+00:00"
+  },
+  "audio/nl/usecases/movie-trailer.mp3": {
+   "prompt": "[deep, dramatic trailer voice] Deze zomer... [pause] steekt één vrouw... [pause] een oceaan over... om een belofte na te komen. [building intensity] Geen kaart. Geen geld. Geen weg terug. [whispers] Alleen de waarheid. [booming] Tidebreaker. [pause] Vanaf nu in de bioscoop.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "18a5d7ae78137b23",
+   "character_cost": "27",
+   "request_id": "z9X3tBt46Tv7RUgnBzfX",
+   "sha256": "c31c3165e0f0cd9e261328dff9cccf92d3d43b8527f72a3b1479c7a6efabcea4",
+   "duration": 15.04,
+   "generated_at": "2026-10-04T22:09:28+00:00"
+  },
+  "audio/en/usecases/documentary.mp3": {
+   "prompt": "[american accent] [calm, awe-filled nature documentary narration] Deep in the Arctic, the long night is finally ending. [pause] For the first time in months, the sun touches the ice. [softly] And from a hidden den beneath the snow, a mother polar bear appears... [pause] followed by two cubs, seeing the world for the very first time.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "6b86a4818a0a64d2",
+   "character_cost": "33",
+   "request_id": "HCObfWsgY4gogyVjtqkL",
+   "sha256": "01fdce16d66c50712f606b945f17ce171bb7783d43ef80b6de9fd7e3e2dda219",
+   "duration": 16.96,
+   "generated_at": "2026-10-04T22:09:28+00:00"
+  },
+  "audio/nl/usecases/documentary.mp3": {
+   "prompt": "[calm, awe-filled nature documentary narration] Diep in het noordpoolgebied komt er eindelijk een einde aan de lange nacht. [pause] Voor het eerst in maanden raakt de zon het ijs. [softly] En uit een verborgen hol onder de sneeuw verschijnt een moeder ijsbeer... [pause] gevolgd door twee welpjes, die de wereld voor het allereerst zien.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "4a0f2b6dbc88b050",
+   "character_cost": "34",
+   "request_id": "gUTwGwOOkpowgyC9lIEy",
+   "sha256": "5b9847a784706f76cd827613403f1cae71c8aabbecdc02d2a5109227d6062d91",
+   "duration": 16.8,
+   "generated_at": "2026-10-04T22:09:30+00:00"
+  },
+  "audio/en/usecases/cartoon.mp3": {
+   "prompt": "[american accent] [high-pitched, bubbly cartoon squirrel voice] Hiya! I’m Nutsy! [excited, fast] And today is the BEST day ever, because I found the biggest acorn in the whole entire forest! [gasps] Wait. [suspicious] Where did it go? [dramatically] Nooo! Who took my acorn?! [giggling] Oh. It was in my cheek the whole time.",
+   "voice_id": "yO6w2xlECAQRFP6pX7Hw",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "8aea920de322301e",
+   "character_cost": "32",
+   "request_id": "MEWmlqNn3H65FzxfeoC2",
+   "sha256": "b59d34598453f654812a2b11075c16715e3cfb2079adb30a86cff0434158000b",
+   "duration": 16.24,
+   "generated_at": "2026-10-04T22:09:31+00:00"
+  },
+  "audio/nl/usecases/cartoon.mp3": {
+   "prompt": "[high-pitched, bubbly cartoon squirrel voice] Hoi hoi! Ik ben Nootje! [excited, fast] En vandaag is de allerleukste dag OOIT, want ik heb de grootste eikel van het hele bos gevonden! [gasps] Wacht eens. [suspicious] Waar is hij gebleven? [dramatically] Neeee! Wie heeft mijn eikel gepakt?! [giggling] Oh. Hij zat de hele tijd gewoon in mijn wang.",
+   "voice_id": "yO6w2xlECAQRFP6pX7Hw",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "11132da6ba8c400e",
+   "character_cost": "35",
+   "request_id": "cO7IP7yRvkxVGWLgNqWJ",
+   "sha256": "565215835f11f0275bd805817f9b008a53456b2c018b4fd69a41d4c7afbc6898",
+   "duration": 18.0,
+   "generated_at": "2026-10-04T22:09:33+00:00"
+  },
+  "audio/en/usecases/video-game.mp3": {
+   "prompt": "[american accent] [wise, mysterious quest-giver] So, traveler. You’ve finally come. [pause] The old tower in the north has gone dark, and the villages are afraid. [low, serious] Bring back the Ember Stone before the third moon, and the kingdom will remember your name. [pause] [knowing] Fail... and no one will remember anything at all. [softly] Now go. The road is long.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "421747af89d76c66",
+   "character_cost": "37",
+   "request_id": "pYvyj63EXNYZokHcc1sK",
+   "sha256": "53e449c99ce906572290cc3054bf05f3f38cf67db182d7f067edc768628208a7",
+   "duration": 18.88,
+   "generated_at": "2026-10-04T22:09:33+00:00"
+  },
+  "audio/nl/usecases/video-game.mp3": {
+   "prompt": "[wise, mysterious quest-giver] Zo, reiziger. Je bent er eindelijk. [pause] De oude toren in het noorden is donker geworden, en de dorpen zijn bang. [low, serious] Breng de Gloeisteen terug vóór de derde maan, en het koninkrijk zal je naam nooit vergeten. [pause] [knowing] Faal je... dan herinnert niemand zich nog iets. [softly] Ga nu. De weg is lang.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "ff5b966f6a2ab0f5",
+   "character_cost": "35",
+   "request_id": "Q3tsXaJZ3yg52XaRBePJ",
+   "sha256": "12fbbe04a967e3fe4c0ada503d08fb88540aae6e2218efc1644497a1251e0b74",
+   "duration": 19.2,
+   "generated_at": "2026-10-04T22:09:35+00:00"
+  },
+  "audio/en/usecases/literary-novel.mp3": {
+   "prompt": "[american accent] [soft, literary narration] The summer my grandmother stopped speaking, the sea came closer to the house. [pause] At least, that is how I remember it. Every morning the water was a little nearer, as if it, too, was waiting for her to say something. [thoughtful] I was eleven. I believed the sea could hear us. [softly] I still do.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "c4ccf01c0b85e934",
+   "character_cost": "35",
+   "request_id": "dGHevBWSlxASfR6yPTrH",
+   "sha256": "864b47741bcb2dcad1c110d74790f272bcf09c8539258725f4e2fd4ce319a5ed",
+   "duration": 18.48,
+   "generated_at": "2026-10-04T22:09:35+00:00"
+  },
+  "audio/en/usecases/thriller.mp3": {
+   "prompt": "[american accent] [low, tense narration] The message arrived at three twelve in the morning. [pause] Three words. No sender. [whispers] I know everything. [tense] Claire read it twice, then turned off her phone and listened. The house was silent. [pause] Too silent. [quietly] Because somewhere downstairs... a door had just closed.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "904cfdfafc28542a",
+   "character_cost": "33",
+   "request_id": "CVtFiwzDZQ2NUEPpWuOq",
+   "sha256": "ae305645209b3eca06de466fd1a8e1fdbae7b018c05791e7e0f4987ad1e81a7d",
+   "duration": 17.84,
+   "generated_at": "2026-10-04T22:09:37+00:00"
+  },
+  "audio/nl/usecases/literary-novel.mp3": {
+   "prompt": "[soft, literary narration] De zomer dat mijn grootmoeder ophield met praten, kwam de zee dichter bij het huis. [pause] Zo herinner ik het me tenminste. Elke ochtend lag het water een stukje dichterbij, alsof ook de zee wachtte tot ze iets zou zeggen. [thoughtful] Ik was elf. Ik geloofde dat de zee ons kon horen. [softly] Dat geloof ik nog steeds.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "ae8ca30d93295bb8",
+   "character_cost": "35",
+   "request_id": "Vs0DTFsJSoUiBFrDX4QZ",
+   "sha256": "624db66565b75d4bff0abb83e6a0cc4a445a44ef2e301d22a5567b00bda3a788",
+   "duration": 19.28,
+   "generated_at": "2026-10-04T22:09:37+00:00"
+  },
+  "audio/nl/usecases/thriller.mp3": {
+   "prompt": "[low, tense narration] Het bericht kwam binnen om twaalf over drie ’s nachts. [pause] Drie woorden. Geen afzender. [whispers] Ik weet alles. [tense] Claire las het twee keer, zette toen haar telefoon uit en luisterde. Het huis was stil. [pause] Te stil. [quietly] Want ergens beneden... was zojuist een deur dichtgegaan.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "0b53d9be5eb05e42",
+   "character_cost": "32",
+   "request_id": "wBNEmfw4ya3y5w3vzao6",
+   "sha256": "aa23a98f0e1287942f2d7422183d4d02f05bb90049ed94c74962575ab7a2be80",
+   "duration": 18.48,
+   "generated_at": "2026-10-04T22:09:39+00:00"
+  },
+  "audio/en/usecases/non-fiction.mp3": {
+   "prompt": "[american accent] [warm, engaging narrator] Chapter three. The power of tiny habits. [pause] Most people believe change requires a giant leap. But the research tells a different story. [thoughtful] The people who change their lives rarely do it overnight. They do it one small, almost boring step at a time. [confident] Two minutes a day. That’s where we’ll start.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "a0aaba9904c4a1d3",
+   "character_cost": "36",
+   "request_id": "mwgPG3LWklWpCskJM1G7",
+   "sha256": "048d3d293d6212d7c46af55f38718f817883d854d0f675381cf29fc7676f36cf",
+   "duration": 20.0,
+   "generated_at": "2026-10-04T22:09:40+00:00"
+  },
+  "audio/nl/usecases/non-fiction.mp3": {
+   "prompt": "[warm, engaging narrator] Hoofdstuk drie. De kracht van kleine gewoontes. [pause] De meeste mensen denken dat verandering een enorme sprong vraagt. Maar onderzoek vertelt een ander verhaal. [thoughtful] Mensen die hun leven veranderen, doen dat zelden in één nacht. Ze doen het met kleine, bijna saaie stapjes. [confident] Twee minuten per dag. Daar beginnen we mee.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "155c6bae8de2da47",
+   "character_cost": "37",
+   "request_id": "3Ctm3bIYNtasLQk4zgQY",
+   "sha256": "4dc9e83f350188f82383985c52665939f1071bc394318baabe5190b767bb5d14",
+   "duration": 20.24,
+   "generated_at": "2026-10-04T22:09:42+00:00"
+  },
+  "audio/en/usecases/bedtime-story.mp3": {
+   "prompt": "[american accent] [warm, gentle storytelling] Once upon a time, high up in a cloud, lived a little star called Pip. [pause] Every night, Pip tried to shine as brightly as the big stars. [softly] But Pip was very small, and very sleepy. [yawning] One night, the moon whispered: [whispers] You don’t have to be the brightest, little one. You just have to be you. [softly] And Pip glowed, warm and happy, all night long.",
+   "voice_id": "yO6w2xlECAQRFP6pX7Hw",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "d8ec7221a33a3ab1",
+   "character_cost": "42",
+   "request_id": "6XccsNNlG4fmgORbJnVa",
+   "sha256": "f70a1ddb68931d8ea343aa281034f33d4910a80e667bfe65b1063f89a636d1f0",
+   "duration": 25.92,
+   "generated_at": "2026-10-04T22:09:43+00:00"
+  },
+  "audio/nl/usecases/bedtime-story.mp3": {
+   "prompt": "[warm, gentle storytelling] Er was eens, hoog in een wolk, een klein sterretje dat Pip heette. [pause] Elke nacht probeerde Pip net zo fel te stralen als de grote sterren. [softly] Maar Pip was heel klein, en heel erg moe. [yawning] Op een nacht fluisterde de maan: [whispers] Je hoeft niet de felste te zijn, kleintje. Je hoeft alleen maar jezelf te zijn. [softly] En Pip gloeide, warm en blij, de hele nacht lang.",
+   "voice_id": "yO6w2xlECAQRFP6pX7Hw",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "9a7f67d35408cba9",
+   "character_cost": "42",
+   "request_id": "VbtXKEeZ8azT5jiyQyaK",
+   "sha256": "ea143b32b06a06a6dd32016bcc18024758c6a880ff066fffdb15263d0c1c1393",
+   "duration": 26.56,
+   "generated_at": "2026-10-04T22:09:45+00:00"
+  },
+  "audio/en/usecases/fairy-tale.mp3": {
+   "prompt": "[american accent] [playful storyteller] And so the little goat knocked on the troll’s door. [low, grumbly troll voice] WHO is knocking on MY door? [small, brave, squeaky voice] It’s me! The littlest goat. And I’m not afraid of you! [storyteller, amused] The troll blinked. Nobody had ever said that before. [chuckles] And that, my friends, is when everything changed.",
+   "voice_id": "yO6w2xlECAQRFP6pX7Hw",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "ff4557fe92af088c",
+   "character_cost": "37",
+   "request_id": "LPO1XuYh1oT5STuU1XBM",
+   "sha256": "cbfb40889fdde181e23d7d9e2dd12ea2a6e85db810c5b19057fd8c9d18399f78",
+   "duration": 18.56,
+   "generated_at": "2026-10-04T22:09:45+00:00"
+  },
+  "audio/nl/usecases/fairy-tale.mp3": {
+   "prompt": "[playful storyteller] En dus klopte het kleine geitje op de deur van de trol. [low, grumbly troll voice] WIE klopt er op MIJN deur? [small, brave, squeaky voice] Ik! Het allerkleinste geitje. En ik ben helemaal niet bang voor jou! [storyteller, amused] De trol knipperde met zijn ogen. Dat had nog nooit iemand gezegd. [chuckles] En op dat moment, lieve luisteraars, veranderde alles.",
+   "voice_id": "yO6w2xlECAQRFP6pX7Hw",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "d2923dbc228a9a08",
+   "character_cost": "38",
+   "request_id": "7nWhyV02fNUKcEXYj7LT",
+   "sha256": "daf392682112a1b2a435a31d562554ab3e6f35aee11e8322dab704be5515ee0f",
+   "duration": 20.24,
+   "generated_at": "2026-10-04T22:09:47+00:00"
+  },
+  "audio/en/usecases/podcast-intro.mp3": {
+   "prompt": "[american accent] [warm, relaxed podcast host] Hello, and welcome to Slow Sunday, the podcast for people who are tired of being busy. [chuckles] I’m Ruth. [pause] This week, we’re talking about the lost art of doing absolutely nothing. [thoughtful] Why is it so hard? And what happens to your brain when you finally let it rest? [warmly] Grab a cup of tea. Let’s get into it.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "3d951ffd1bf2db03",
+   "character_cost": "38",
+   "request_id": "XqBHq5fsd4CVHkETaiRm",
+   "sha256": "bc27a70d9573a403a41a4d92c4649f8cd2f3477ba0addad076251ee6f6a5d15a",
+   "duration": 20.4,
+   "generated_at": "2026-10-04T22:09:47+00:00"
+  },
+  "audio/en/usecases/news-bulletin.mp3": {
+   "prompt": "[american accent] [crisp, professional news anchor] It’s eight o’clock. Here’s the news. [pause] City officials have approved plans for a new two-mile park along the riverfront, set to open next spring. [pause] In sports, the Harbor City Hawks secured their place in the finals after a thrilling overtime win last night. [pause] And the weather: sunny spells this afternoon, with highs of seventy-two degrees.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "a87dad634022fce4",
+   "character_cost": "41",
+   "request_id": "sXJdoYnns1b7lUGfRhNE",
+   "sha256": "73be7cbd08482e887e8f26b43aa7cd23c963d759b54a8174563e4ab74dd5ccbb",
+   "duration": 20.24,
+   "generated_at": "2026-10-04T22:09:49+00:00"
+  },
+  "audio/nl/usecases/podcast-intro.mp3": {
+   "prompt": "[warm, relaxed podcast host] Hallo, en welkom bij Trage Zondag, de podcast voor iedereen die moe is van altijd maar druk zijn. [chuckles] Ik ben Ruth. [pause] Deze week hebben we het over de vergeten kunst van helemaal niks doen. [thoughtful] Waarom is dat zo moeilijk? En wat gebeurt er met je brein als je het eindelijk rust gunt? [warmly] Pak een kopje thee. We gaan beginnen.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "9164a52af4b589cb",
+   "character_cost": "38",
+   "request_id": "N1eWPviJg73fjeBoas77",
+   "sha256": "2cdddb41a525fd59cd2fc945514e646e411876e39ead63c6f9d12ae2203c1c24",
+   "duration": 20.72,
+   "generated_at": "2026-10-04T22:09:49+00:00"
+  },
+  "audio/nl/usecases/news-bulletin.mp3": {
+   "prompt": "[crisp, professional news anchor] Het is acht uur. Het nieuws. [pause] De gemeenteraad heeft ingestemd met de aanleg van een nieuw park van drie kilometer langs de rivier, dat volgend voorjaar opengaat. [pause] In de sport: de Havenstad Haviken plaatsten zich gisteravond na een spannende verlenging voor de finale. [pause] En het weer: vanmiddag zonnige perioden, met maxima rond de tweeëntwintig graden.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "d137d9d3fd871735",
+   "character_cost": "41",
+   "request_id": "7cfO77DHfr6FUx3fnr93",
+   "sha256": "13645486514ccd5e6fdfff9f9648f761b56952bfad61ed43131ae67869e79543",
+   "duration": 21.6,
+   "generated_at": "2026-10-04T22:09:51+00:00"
+  },
+  "audio/en/usecases/weather.mp3": {
+   "prompt": "[american accent] [bright, friendly weather presenter] Good morning! [pause] Grab your sunglasses, because today is looking absolutely gorgeous. Clear skies all day, and temperatures climbing to a lovely seventy-five. [playful] But don’t put that umbrella away just yet. [pause] Thunderstorms are rolling in on Thursday. [cheerfully] Enjoy the sunshine while it lasts!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "babf2944611b0f10",
+   "character_cost": "37",
+   "request_id": "1h5EFfOQmN6CMFwQYkbM",
+   "sha256": "962499b2dc236e282a8c208a06d8c03c8b5e674bc869bfb3561912ac1c5e12db",
+   "duration": 17.36,
+   "generated_at": "2026-10-04T22:09:51+00:00"
+  },
+  "audio/en/usecases/radio-jingle.mp3": {
+   "prompt": "[american accent] [upbeat, punchy radio imaging voice] You’re listening to Wave FM! [excited] The biggest hits, the best mornings, [pause] and absolutely zero boring bits. [sings] Wave FM! [laughs] Turn it up!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "2c108bec8fbe85eb",
+   "character_cost": "21",
+   "request_id": "woWUTSLmFcQRVwjlWY08",
+   "sha256": "32c96d30a7e06ee548df1e6ce2eddb002126f3124519e8c4715be920d76398c9",
+   "duration": 10.56,
+   "generated_at": "2026-10-04T22:09:52+00:00"
+  },
+  "audio/nl/usecases/weather.mp3": {
+   "prompt": "[bright, friendly weather presenter] Goedemorgen! [pause] Pak je zonnebril erbij, want het wordt vandaag een prachtige dag. De hele dag strakblauw, en het wordt heerlijk warm: vierentwintig graden. [playful] Maar berg die paraplu nog niet op. [pause] Donderdag trekken er onweersbuien over. [cheerfully] Geniet van de zon nu het nog kan!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "372c66fd055a8028",
+   "character_cost": "34",
+   "request_id": "udAy5zz6UEpmZ4myPdQg",
+   "sha256": "18a1e853248554b6aa24b68d0f6f6080d73ada2ddb4688d3001c10f65a567487",
+   "duration": 17.04,
+   "generated_at": "2026-10-04T22:09:52+00:00"
+  },
+  "audio/nl/usecases/radio-jingle.mp3": {
+   "prompt": "[upbeat, punchy radio imaging voice] Je luistert naar Wave FM! [excited] De grootste hits, de beste ochtenden, [pause] en helemaal nul saaie stukjes. [sings] Wave FM! [laughs] Zet hem harder!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "4cb974d30fd9e163",
+   "character_cost": "19",
+   "request_id": "uvm1dY3p0BSnqYs6PhTC",
+   "sha256": "890e6cbca74138d9b541333f1244c673c492b65087e1e960d92c3ab2d586afe8",
+   "duration": 10.48,
+   "generated_at": "2026-10-04T22:09:55+00:00"
+  },
+  "audio/en/usecases/voicemail.mp3": {
+   "prompt": "[american accent] [warm, friendly, professional] Hi, you’ve reached the office of Dr. Emma Hayes. [pause] We’re unable to take your call right now. Please leave your name, your number and a short message after the tone, and we’ll call you back within one business day. [reassuring] If this is an emergency, please hang up and dial nine one one. [warmly] Thank you, and have a lovely day.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "3d774d4216786407",
+   "character_cost": "39",
+   "request_id": "evDgFleKRR4JlWmh1hmD",
+   "sha256": "b9754029294bba26c087d45cc1bccbb075d6ca79ba4c4565b845db72f2b85a3a",
+   "duration": 18.08,
+   "generated_at": "2026-10-04T22:09:56+00:00"
+  },
+  "audio/nl/usecases/voicemail.mp3": {
+   "prompt": "[warm, friendly, professional] Hallo, u spreekt met de praktijk van dokter Emma Hayes. [pause] We kunnen uw gesprek op dit moment helaas niet aannemen. Laat na de piep uw naam, telefoonnummer en een kort bericht achter, dan bellen we u binnen één werkdag terug. [reassuring] Is het een noodgeval? Hang dan op en bel één één twee. [warmly] Dank u wel, en nog een fijne dag.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "0330208b906d077f",
+   "character_cost": "37",
+   "request_id": "xRbQ9E34MZSQUoFnWTuM",
+   "sha256": "81bdb44fd48114635e7b0437e36077622665c613023d159c3accb045373b2526",
+   "duration": 18.96,
+   "generated_at": "2026-10-04T22:09:57+00:00"
+  },
+  "audio/en/usecases/ivr.mp3": {
+   "prompt": "[american accent] [clear, friendly, measured] Thank you for calling Northwind Energy. [pause] For questions about your bill, press one. [short pause] To report a power outage, press two. [short pause] To start, stop or move your service, press three. [short pause] For all other questions, press four, or stay on the line to speak with one of our team members. [warmly] Thank you for your patience.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "0979021346c4cf58",
+   "character_cost": "40",
+   "request_id": "jzcThACdaU31EhYT5cnV",
+   "sha256": "758a124cd26dc97fa70e3c76ea6cb63e86c94d4f44df0a900a41d8f28b8516d2",
+   "duration": 19.12,
+   "generated_at": "2026-10-04T22:09:58+00:00"
+  },
+  "audio/en/usecases/on-hold.mp3": {
+   "prompt": "[american accent] [warm, apologetic, calm] Thank you for holding. [pause] All of our team members are currently helping other customers, but your call is important to us, and we’ll be with you as soon as possible. [friendly] Did you know you can also find answers to most questions on our website, any time of day? [warmly] Thanks for your patience. We’ll be right with you.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "c588b45f3a83ddf6",
+   "character_cost": "37",
+   "request_id": "8gKACuwjkrnIrqC8zOE7",
+   "sha256": "bdc2fa3fb36b95131ff6c4b2318cd1823c211881677406df0787ed1d17a80884",
+   "duration": 16.64,
+   "generated_at": "2026-10-04T22:10:00+00:00"
+  },
+  "audio/nl/usecases/ivr.mp3": {
+   "prompt": "[clear, friendly, measured] Welkom bij Northwind Energie. [pause] Heeft u een vraag over uw rekening, toets dan één. [short pause] Wilt u een stroomstoring melden, toets twee. [short pause] Voor aanmelden, opzeggen of verhuizen, toets drie. [short pause] Voor alle andere vragen toetst u vier, of blijft u aan de lijn voor een van onze medewerkers. [warmly] Bedankt voor uw geduld.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "8244fab152c49abe",
+   "character_cost": "38",
+   "request_id": "cyxqLoWNqFRWGx1orbg3",
+   "sha256": "06eb176382105a9c6c51a0b761234c7b303661239137921827a250386c118a78",
+   "duration": 20.48,
+   "generated_at": "2026-10-04T22:10:00+00:00"
+  },
+  "audio/nl/usecases/on-hold.mp3": {
+   "prompt": "[warm, apologetic, calm] Bedankt voor uw geduld. [pause] Al onze medewerkers zijn op dit moment in gesprek, maar uw vraag is belangrijk voor ons en we helpen u zo snel mogelijk. [friendly] Wist u dat u op onze website op elk moment van de dag antwoord vindt op de meeste vragen? [warmly] Nog even geduld. We zijn zo bij u.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "f59283bac49f9328",
+   "character_cost": "32",
+   "request_id": "y4XTTvVKTSPf6j55Hr5P",
+   "sha256": "1b8ac4f0d2ddda805ef1868aa00cd8594a9f87b58e818fcf4caf0ce4ab4d6b13",
+   "duration": 16.72,
+   "generated_at": "2026-10-04T22:10:00+00:00"
+  },
+  "audio/en/usecases/ai-agent.mp3": {
+   "prompt": "[american accent] [friendly, natural, conversational] Hi Mark, thanks for reaching out! [pause] I can see your order left our warehouse yesterday, and it’s on its way to you now. [reassuring] It should arrive tomorrow before noon. [curious] Would you like me to text you the tracking link? [pause] [cheerfully] Great, done! Is there anything else I can help you with today?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "9710b4a7d5852e9b",
+   "character_cost": "37",
+   "request_id": "e6bmCROJ4VwjuyKuyyvu",
+   "sha256": "0b7f54037f120812944ae71dcbccdd9deaeeb59d8ef69a04ae66e573837c6077",
+   "duration": 15.44,
+   "generated_at": "2026-10-04T22:10:01+00:00"
+  },
+  "audio/en/usecases/navigation.mp3": {
+   "prompt": "[american accent] [clear, calm, precise] In four hundred feet, keep right and take the exit toward Downtown. [pause] Then, at the roundabout, take the second exit. [pause] [friendly] You will arrive at your destination in eight minutes. [short pause] Traffic is light. Enjoy the drive.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "7b933637c6e9efa3",
+   "character_cost": "28",
+   "request_id": "G1B3zNcRVtByNu6UKyyS",
+   "sha256": "0013a8cb8db051ccd99e049184d72bf6a4cb30766c50c10ab783678a59150134",
+   "duration": 13.36,
+   "generated_at": "2026-10-04T22:10:03+00:00"
+  },
+  "audio/nl/usecases/ai-agent.mp3": {
+   "prompt": "[friendly, natural, conversational] Hoi Mark, fijn dat je contact opneemt! [pause] Ik zie dat je bestelling gisteren ons magazijn heeft verlaten en nu onderweg is. [reassuring] Hij wordt morgen vóór twaalf uur bezorgd. [curious] Zal ik je de trackinglink sturen per sms? [pause] [cheerfully] Top, gedaan! Kan ik je verder nog ergens mee helpen?",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "e929364f3606e6da",
+   "character_cost": "34",
+   "request_id": "VU0gxvWtEgthrdjzdLOW",
+   "sha256": "5412f99f657bebf9b7c1209dc4fd7baa341ea265b59eb081bbb36a62dc93a830",
+   "duration": 15.68,
+   "generated_at": "2026-10-04T22:10:04+00:00"
+  },
+  "audio/nl/usecases/navigation.mp3": {
+   "prompt": "[clear, calm, precise] Over driehonderd meter rechts aanhouden en de afslag richting Centrum nemen. [pause] Neem daarna op de rotonde de tweede afslag. [pause] [friendly] U bent over acht minuten op uw bestemming. [short pause] Het is rustig op de weg. Goede reis.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "9fcd0567fc65609f",
+   "character_cost": "26",
+   "request_id": "ALNM70y8SyAoXaT2fGFo",
+   "sha256": "cf72bd5bed75d376eb995eca2218365f9f8b66e11c654d379c63891f7f2179ca",
+   "duration": 13.52,
+   "generated_at": "2026-10-04T22:10:04+00:00"
+  },
+  "audio/en/usecases/train-station.mp3": {
+   "prompt": "[american accent] [clear, formal station announcer] Attention please. [pause] The eleven fifteen service to Boston South Station will now depart from platform four, instead of platform two. [pause] Platform four, for the eleven fifteen to Boston. [polite] We apologize for any inconvenience.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "d329c07527786dcf",
+   "character_cost": "29",
+   "request_id": "zbc4LItO4Dg3IQXVH1rE",
+   "sha256": "51919b0c7ff7a50c8eb1b2606963c701dd938db4614417f37053e5a0d1beccd2",
+   "duration": 14.48,
+   "generated_at": "2026-10-04T22:10:04+00:00"
+  },
+  "audio/nl/usecases/train-station.mp3": {
+   "prompt": "[clear, formal station announcer] Attentie, alstublieft. [pause] De intercity van elf uur vijftien naar Amsterdam Centraal vertrekt vandaag niet van spoor twee, maar van spoor vier. [pause] Spoor vier, voor de intercity naar Amsterdam Centraal. [polite] Onze excuses voor het ongemak.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "5151574e48a3a637",
+   "character_cost": "28",
+   "request_id": "csdP58LPQPcNt1C4Bw77",
+   "sha256": "b04ad4c6f8d87f139f139927ce4ce5bc8122bd058c5d6525d862aad35a49bdde",
+   "duration": 16.56,
+   "generated_at": "2026-10-04T22:10:07+00:00"
+  },
+  "audio/en/usecases/explainer.mp3": {
+   "prompt": "[american accent] [warm, clear explainer voice] Running a small team is hard enough. So why is planning still so messy? [pause] Meet Flowboard. One simple board for every project, every deadline and every person on your team. [upbeat] Drag a task, and everyone sees it. Finish a task, and everyone knows. [confident] Less chasing. More doing. Try Flowboard free for thirty days.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "71c06e5111547625",
+   "character_cost": "38",
+   "request_id": "CZXnyg9421DJcbCI6JvM",
+   "sha256": "49f606696db3ef5fe278dbb17a71b3aae595ba7658e6dd127d5db11bb784bfa8",
+   "duration": 20.72,
+   "generated_at": "2026-10-04T22:10:08+00:00"
+  },
+  "audio/en/usecases/online-course.mp3": {
+   "prompt": "[american accent] [warm, encouraging teacher] Welcome to lesson one! [pause] Over the next six weeks, we’ll go from complete beginner to taking photos you’re genuinely proud of. [friendly] No fancy camera needed. Your phone is perfect. [thoughtful] Today we start with the most important skill of all: learning to see the light. Ready? Let’s begin.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "57b9acdc2fe632ce",
+   "character_cost": "35",
+   "request_id": "PfPrpcMkE9yVCQB4ukOO",
+   "sha256": "cc0b5d199886d00a0fbda20567ea1755a24e3d350733f1c2772702e1e1cad36f",
+   "duration": 18.0,
+   "generated_at": "2026-10-04T22:10:08+00:00"
+  },
+  "audio/nl/usecases/explainer.mp3": {
+   "prompt": "[warm, clear explainer voice] Een klein team runnen is al lastig genoeg. Waarom is plannen dan nog steeds zo’n chaos? [pause] Maak kennis met Flowboard. Eén overzichtelijk bord voor elk project, elke deadline en iedereen in je team. [upbeat] Sleep een taak, en iedereen ziet het. Rond een taak af, en iedereen weet het. [confident] Minder achter mensen aan. Meer gedaan. Probeer Flowboard dertig dagen gratis.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "f5d9c1c1c007f8c5",
+   "character_cost": "41",
+   "request_id": "Kply0Vlyn1RzOhwNppCk",
+   "sha256": "105f6803cb97f0fc8ef9a6a8227a75aaf72d4adff9dfbf06895d5762c6d98d7b",
+   "duration": 22.96,
+   "generated_at": "2026-10-04T22:10:09+00:00"
+  },
+  "audio/nl/usecases/online-course.mp3": {
+   "prompt": "[warm, encouraging teacher] Welkom bij les één! [pause] In de komende zes weken ga je van complete beginner naar foto’s waar je echt trots op bent. [friendly] Je hebt geen dure camera nodig. Je telefoon is perfect. [thoughtful] Vandaag beginnen we met de belangrijkste vaardigheid van allemaal: leren kijken naar licht. Klaar? Dan gaan we beginnen.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "cb9e8a58b7775f36",
+   "character_cost": "35",
+   "request_id": "cLO9HNwFjdaEbS3CY51p",
+   "sha256": "e18c377d33947073d7a7261b1c59623ccbce3db63aacd07b317fbcd2ca52ab21",
+   "duration": 19.52,
+   "generated_at": "2026-10-04T22:10:12+00:00"
+  },
+  "audio/en/usecases/tutorial.mp3": {
+   "prompt": "[american accent] [clear, friendly, step by step] In this tutorial, I’ll show you how to share a document in under a minute. [pause] Step one: open your file and click the blue Share button in the top right corner. [short pause] Step two: type the email address of the person you want to invite. [short pause] Step three: choose whether they can view or edit. [pause] And that’s it. Click Send, and you’re done!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "b009a40a854ddd99",
+   "character_cost": "41",
+   "request_id": "YmheUSUf0kor7DCDrxmd",
+   "sha256": "9528d09135d354b4be27f77412336a0bed2cd3fda21c447eebf26a8ca6b6ee68",
+   "duration": 20.72,
+   "generated_at": "2026-10-04T22:10:13+00:00"
+  },
+  "audio/nl/usecases/tutorial.mp3": {
+   "prompt": "[clear, friendly, step by step] In deze tutorial laat ik zien hoe je in minder dan een minuut een document deelt. [pause] Stap één: open je bestand en klik rechtsboven op de blauwe knop Delen. [short pause] Stap twee: typ het e-mailadres van de persoon die je wilt uitnodigen. [short pause] Stap drie: kies of diegene mag bekijken of bewerken. [pause] En dat was het. Klik op Versturen, en je bent klaar!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "1de4dd24023fa8de",
+   "character_cost": "40",
+   "request_id": "SdOF4MK9tJR4frgaP8BH",
+   "sha256": "e8e49dcb73ae9be451079013d2b2d4b96742d5ba2f4fd2e505a231eceeb23f36",
+   "duration": 22.4,
+   "generated_at": "2026-10-04T22:10:13+00:00"
+  },
+  "audio/en/usecases/safety-training.mp3": {
+   "prompt": "[american accent] [calm, professional, authoritative] Before you start your first shift, let’s talk about safety. [pause] In this building, there are four emergency exits, marked with green signs. Take a moment to find the one closest to your workstation. [serious] If you hear the alarm, stop what you’re doing, leave your belongings, and walk, don’t run, to the nearest exit. [reassuring] Your safety always comes first.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "6303230967ad25fa",
+   "character_cost": "42",
+   "request_id": "VU9Bi3WZXJYeRANrjdrr",
+   "sha256": "c3492a5928a2572e4030509786d3fe806dca16bc01a84d82912e8053186f838d",
+   "duration": 20.64,
+   "generated_at": "2026-10-04T22:10:13+00:00"
+  },
+  "audio/nl/usecases/safety-training.mp3": {
+   "prompt": "[calm, professional, authoritative] Voordat je aan je eerste dienst begint, eerst even over veiligheid. [pause] Dit gebouw heeft vier nooduitgangen, aangegeven met groene bordjes. Neem even de tijd om de uitgang te vinden die het dichtst bij je werkplek is. [serious] Hoor je het alarm? Stop dan met wat je doet, laat je spullen liggen en loop, niet rennen, naar de dichtstbijzijnde uitgang. [reassuring] Jouw veiligheid gaat altijd voor.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "4abe4863fe2f5367",
+   "character_cost": "44",
+   "request_id": "g5gJy7PFhtPgyyRUw9zc",
+   "sha256": "01c73efde0c4e058a801afb9e34af0471a5edc699a988b08e58ea2d7bd4e4521",
+   "duration": 22.64,
+   "generated_at": "2026-10-04T22:10:17+00:00"
+  },
+  "audio/nl/usecases/language-lesson.mp3": {
+   "prompt": "[warm, playful teacher] Het Engelse woord van vandaag hoor je overal: awkward. [pause] Zeg het maar mee. Awk-ward. [laughs softly] Let op die W, die klinkt bijna als een oe. [thoughtful] Awkward betekent ongemakkelijk. Zoals wanneer je terugzwaait naar iemand die eigenlijk naar de persoon achter jou zwaaide. [cheerfully] Precies. Dat is awkward!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "0b97aa3574f559bf",
+   "character_cost": "35",
+   "request_id": "E5enEdysRDVHXgVIizGw",
+   "sha256": "17e0a96bee24271e7b00c522aae0e63e6ef05853fc949e4cdb6bc1e2b8ea730d",
+   "duration": 19.84,
+   "generated_at": "2026-10-04T22:10:17+00:00"
+  },
+  "audio/en/usecases/museum-guide.mp3": {
+   "prompt": "[american accent] [quiet, reverent, storytelling] You are now standing in front of one of the most famous paintings in the world. [pause] Look closely at her eyes. [softly] Do you see how the light seems to come from inside the painting itself? The artist worked on this canvas for nearly four years. [thoughtful] And yet, no one knows who she really was. [pause] When you’re ready, press two to continue.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "be299036be1afc04",
+   "character_cost": "41",
+   "request_id": "iivLEmxiG3pnXGsJl81V",
+   "sha256": "0f97bd8ef320c48913a87dc2e699725f05f53a620ebc2e8ae4a883ed822e0467",
+   "duration": 20.56,
+   "generated_at": "2026-10-04T22:10:18+00:00"
+  },
+  "audio/en/usecases/language-lesson.mp3": {
+   "prompt": "[american accent] [warm, playful teacher] Today’s Dutch word is one you won’t find in any other language: gezellig. [pause] Say it with me. Ge-zel-lig. [laughs softly] Don’t worry about that throaty G, you’ll get there. [thoughtful] Gezellig is that warm, cozy feeling of being together. Candles, good friends, a long dinner. [cheerfully] So next time you’re somewhere wonderful, just smile and say: wat gezellig!",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "33f993a39adfdcc3",
+   "character_cost": "41",
+   "request_id": "f7vNAPKiKAOzPZPJHd0N",
+   "sha256": "a15c8eca4035ee42d4f4f73ec1663fe51900e7382d2da7920606be21d182a0d9",
+   "duration": 23.84,
+   "generated_at": "2026-10-04T22:10:18+00:00"
+  },
+  "audio/en/usecases/fitness-coach.mp3": {
+   "prompt": "[american accent] [energetic, motivating fitness coach, slightly out of breath] Come on, last round! [pause] Thirty seconds of squats, let’s GO! [rushed] Chest up, knees out, push through those heels! [panting] Twenty seconds! You’ve got this! [shouting, encouraging] Ten more! Nine! Eight! [pause] [laughs, out of breath] And... rest. Amazing work. Grab some water.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "bf53024f82c30adf",
+   "character_cost": "37",
+   "request_id": "0rRZAj5vEpCNv04zfoJl",
+   "sha256": "4da3704db8d2b5f87d9010bb371eb0edb96f697d14a4a4efecb09b2b06fa774d",
+   "duration": 15.92,
+   "generated_at": "2026-10-04T22:10:21+00:00"
+  },
+  "audio/nl/usecases/museum-guide.mp3": {
+   "prompt": "[quiet, reverent, storytelling] U staat nu voor een van de beroemdste schilderijen ter wereld. [pause] Kijk eens goed naar haar ogen. [softly] Ziet u hoe het licht van binnenuit het schilderij lijkt te komen? De schilder werkte bijna vier jaar aan dit doek. [thoughtful] En toch weet niemand wie zij werkelijk was. [pause] Druk op twee om verder te gaan wanneer u er klaar voor bent.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "350835ff03b0ad6e",
+   "character_cost": "38",
+   "request_id": "w9QQHInJ6AOyeybtUfhO",
+   "sha256": "e4291093ad8a4883fe4d1a9216451af8f879852ff6656d86c817e8468ade38e4",
+   "duration": 19.28,
+   "generated_at": "2026-10-04T22:10:21+00:00"
+  },
+  "audio/nl/usecases/fitness-coach.mp3": {
+   "prompt": "[energetic, motivating fitness coach, slightly out of breath] Kom op, laatste ronde! [pause] Dertig seconden squats, GAAN! [rushed] Borst omhoog, knieën naar buiten, duwen vanuit je hielen! [panting] Nog twintig seconden! Je kunt het! [shouting, encouraging] Nog tien! Negen! Acht! [pause] [laughs, out of breath] En... rust. Super gedaan. Pak even wat water.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "2fb4daa817b9b933",
+   "character_cost": "36",
+   "request_id": "vf7UMGyTy7INPNB19kKf",
+   "sha256": "0f088d851a950c86a23d241a8983d81a9ac0feb8218a422171d071728216c16a",
+   "duration": 17.28,
+   "generated_at": "2026-10-04T22:58:48+00:00"
+  },
+  "audio/en/usecases/meditation.mp3": {
+   "prompt": "[american accent] [soft, slow, soothing voice] Find a comfortable position, and gently close your eyes. [pause] Breathe in through your nose... [inhales deeply] and slowly let it go. [exhales] [softly] Notice the weight of your body. The floor beneath you, holding you. [pause] There is nowhere else you need to be. [whispers] Just here. Just now.",
+   "voice_id": "ZPrQ2I47gewiFOmXksok",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "8d12ce0e0ead7833",
+   "character_cost": "35",
+   "request_id": "APLFr2Lqa0Pmw5RL1mwn",
+   "sha256": "422517a6fb159adf480e254a15b3a108b085221cf2dc831586b3da2e0c0f3c6e",
+   "duration": 23.44,
+   "generated_at": "2026-10-04T22:10:23+00:00"
+  },
+  "audio/en/usecases/sleep-story.mp3": {
+   "prompt": "[american accent] [very soft, slow, sleepy narration] The little train rolls slowly through the valley... [pause] past sleeping villages... and quiet fields covered in mist. [softly] Inside, the lamps are low and warm. The seats are soft. [slowly] And the gentle rhythm of the wheels... rocks you... further... and further... [whispers] into sleep.",
+   "voice_id": "ZPrQ2I47gewiFOmXksok",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "9d40f48ce90a2bd3",
+   "character_cost": "35",
+   "request_id": "pUNDpnIQX1R6pECwHon0",
+   "sha256": "9e61d43c08b090bc2d54783efdb90f50699f29041593d18d5f1c658f23312c52",
+   "duration": 21.44,
+   "generated_at": "2026-10-04T22:10:26+00:00"
+  },
+  "audio/nl/usecases/meditation.mp3": {
+   "prompt": "[soft, slow, soothing voice] Zoek een comfortabele houding, en sluit zachtjes je ogen. [pause] Adem in door je neus... [inhales deeply] en laat het langzaam los. [exhales] [softly] Voel het gewicht van je lichaam. De grond onder je, die je draagt. [pause] Je hoeft nergens anders te zijn. [whispers] Alleen hier. Alleen nu.",
+   "voice_id": "ZPrQ2I47gewiFOmXksok",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "dd198b94422295ba",
+   "character_cost": "32",
+   "request_id": "1zXdojl2jz6YNkdMJVOl",
+   "sha256": "d5145de88b53e59275342e9390fb005264845c252178f904ad0d0454719afe1a",
+   "duration": 22.32,
+   "generated_at": "2026-10-04T22:10:26+00:00"
+  },
+  "audio/nl/usecases/sleep-story.mp3": {
+   "prompt": "[very soft, slow, sleepy narration] Het treintje rijdt langzaam door de vallei... [pause] langs slapende dorpjes... en stille velden vol mist. [softly] Binnen branden de lampjes laag en warm. De stoelen zijn zacht. [slowly] En het rustige ritme van de wielen... wiegt je... verder... en verder... [whispers] in slaap.",
+   "voice_id": "ZPrQ2I47gewiFOmXksok",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "b2cf42a4e5c5c662",
+   "character_cost": "32",
+   "request_id": "7ORXyiOcMHxVwhNPWKW6",
+   "sha256": "48e5e808d88108f90508abbea3a3ad6ea17ec0553750ff241d5867d6d9076bfe",
+   "duration": 20.72,
+   "generated_at": "2026-10-04T22:10:26+00:00"
+  },
+  "audio/en/usecases/asmr.mp3": {
+   "prompt": "[american accent] [whispering, close to the microphone] Hi. [pause] Come closer. [softly] Tonight I’m going to help you relax... with some gentle sounds. [whispers] Just listen. [pause] And if your eyes feel heavy... that’s okay. [softly] Let them close. I’ll be right here.",
+   "voice_id": "ZPrQ2I47gewiFOmXksok",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "14ecbdef7473b8d4",
+   "character_cost": "27",
+   "request_id": "IRTAf49f9Yz8RiCS5L4u",
+   "sha256": "ca05200a1948fdf7aa4bfd9495fa527e2ffcd15efdee0d5fa90ae13a95086a8b",
+   "duration": 15.6,
+   "generated_at": "2026-10-04T22:10:28+00:00"
+  },
+  "audio/intro/en-gb.mp3": {
+   "prompt": "[british accent] [warm, conversational tone] Hi, I’m Ruth. Well... [laughs softly] my voice is. Pick a feeling, any feeling, and I’ll bring it to life.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "f9f4b78ec013f29d",
+   "character_cost": "15",
+   "request_id": "6zf8wZIR0cimW7moGfD0",
+   "sha256": "dd85c9535c649b438ed268d94a51a2c4b1fcc5e1d288e7b530afd565d6d12574",
+   "duration": 7.92,
+   "generated_at": "2026-10-04T22:10:28+00:00"
+  },
+  "audio/intro/en-scot.mp3": {
+   "prompt": "[warm, conversational tone, strong Scottish accent] Hi, I’m Ruth. Well... [laughs softly] my voice is. Pick a feeling, any feeling, and I’ll bring it to life.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "376f7ab128389cde",
+   "character_cost": "16",
+   "request_id": "FzNnNKR5BEwXNbAnhZ2w",
+   "sha256": "01d53d280a3fb35819ece9727787f8dc8abf0d4ca3093571d1dd4536353ac8fe",
+   "duration": 8.08,
+   "generated_at": "2026-10-04T22:39:52+00:00",
+   "selected_from_takes": 8
+  },
+  "audio/nl/usecases/asmr.mp3": {
+   "prompt": "[whispering, close to the microphone] Hoi. [pause] Kom maar wat dichterbij. [softly] Vanavond help ik je ontspannen... met wat zachte geluidjes. [whispers] Luister maar. [pause] En als je ogen zwaar worden... dat is goed. [softly] Laat ze maar dichtvallen. Ik blijf gewoon hier.",
+   "voice_id": "ZPrQ2I47gewiFOmXksok",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "d504755c769cd0f2",
+   "character_cost": "28",
+   "request_id": "KBAlgVTJEZ5GWku733uc",
+   "sha256": "ff6b4af3baa48114bae1fdedb35ab8a04bf489f47afbea2bc85a99a447a8ecd2",
+   "duration": 14.96,
+   "generated_at": "2026-10-04T22:10:29+00:00"
+  },
+  "audio/voices/professional-en-gb.mp3": {
+   "prompt": "[british accent] [warm, confident narrator] Every great story starts with a voice you trust. Clear, warm and engaging, for your next explainer, course or audiobook.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "63b1a952dce3738d",
+   "character_cost": "16",
+   "request_id": "7sJ6k9Sarc4YNcfurHCu",
+   "sha256": "80e7306187d2b8621e3e4ac32f60a3a2181cb7fc19ddd391c9a478c0fdee1466",
+   "duration": 8.08,
+   "generated_at": "2026-10-04T22:10:30+00:00"
+  },
+  "audio/voices/professional-en-scot.mp3": {
+   "prompt": "[warm, confident narrator, strong Scottish accent] Every great story starts with a voice you trust. Clear, warm and engaging, for your next explainer, course or audiobook.",
+   "voice_id": "YUdpWWny7k5yb4QCeweX",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "cf197488dae2ae32",
+   "character_cost": "17",
+   "request_id": "hJQMDh7wJ8ii7h2YAEm8",
+   "sha256": "661ea4119b318ffa73f68a4ce11d401ad5af5116bf9519da711b241b813649ed",
+   "duration": 8.08,
+   "generated_at": "2026-10-04T22:32:06+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/voices/children-en-gb.mp3": {
+   "prompt": "[british accent] [warm, playful storytelling] Once upon a time, at the edge of a big dark forest, lived a little hedgehog who was afraid of the dark. [whispers] But tonight, something wonderful was about to happen.",
+   "voice_id": "yO6w2xlECAQRFP6pX7Hw",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "65d07d2dc89b176f",
+   "character_cost": "21",
+   "request_id": "q4ZyWYYRMrijHIf9DVDh",
+   "sha256": "8fb65989d4204f35438f2c5f7e4bfa5ed33372fad263a3f3f27dc41e0af8c100",
+   "duration": 10.96,
+   "generated_at": "2026-10-04T22:10:31+00:00"
+  },
+  "audio/voices/children-en-scot.mp3": {
+   "prompt": "[warm, playful storytelling, strong Scottish accent] Once upon a time, at the edge of a big dark forest, lived a little hedgehog who was afraid of the dark. [whispers] But tonight, something wonderful was about to happen.",
+   "voice_id": "yO6w2xlECAQRFP6pX7Hw",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "3afa2615a6ae6da6",
+   "character_cost": "22",
+   "request_id": "NukH27v6KN13lPDqfiSx",
+   "sha256": "2f12e315e50a75103ae4ca137a3aff82d7a8f15f338face36540ec7edccce0c2",
+   "duration": 11.12,
+   "generated_at": "2026-10-04T22:23:37+00:00"
+  },
+  "audio/voices/meditation-en-gb.mp3": {
+   "prompt": "[british accent] [soft, slow, soothing voice] Let’s begin with a slow, deep breath in... [inhales deeply] and gently let it go. [exhales] Feel your body settle. Heavy, warm and safe.",
+   "voice_id": "ZPrQ2I47gewiFOmXksok",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.8
+   },
+   "hash": "06e4877c4d40ffe6",
+   "character_cost": "18",
+   "request_id": "znuSHlup1v6NoPd3V7Gx",
+   "sha256": "a084feb04b97e6a864ebbd1399e4458e13b5a04bba9f966b478e9cb09f031ac8",
+   "duration": 13.92,
+   "generated_at": "2026-10-04T22:33:11+00:00",
+   "selected_from_takes": 4
+  },
+  "audio/voices/meditation-en-scot.mp3": {
+   "prompt": "[soft, slow, soothing voice, strong Scottish accent] Let’s begin with a slow, deep breath in... [inhales deeply] and gently let it go. [exhales] Feel your body settle. Heavy, warm and safe.",
+   "voice_id": "ZPrQ2I47gewiFOmXksok",
+   "model_id": "eleven_v4",
+   "voice_settings": {
+    "stability": 0.4,
+    "similarity_boost": 0.5
+   },
+   "hash": "6fdaf4796d4d7518",
+   "character_cost": "19",
+   "request_id": "2PhD0NG0ftLIVyLCJgFU",
+   "sha256": "2b954c737fae27f7ae59af1e7bef70aee8fbb64c8029ff5b4e364c249293d160",
+   "duration": 13.68,
+   "generated_at": "2026-10-04T22:39:55+00:00",
+   "selected_from_takes": 8
   }
  }
 }

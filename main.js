@@ -2,40 +2,389 @@
 
 const DATA = window.RUTH_DATA;
 const TEXT = window.RUTH_I18N;
-const emotions = DATA.emotions;
-const count = emotions.length;
-const categories = Object.fromEntries(DATA.categories.map(category => [category.id, category]));
 const SVG_NS = 'http://www.w3.org/2000/svg';
+const ENGLISH = ['en', 'en-gb', 'en-scot'];
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 const $ = id => document.getElementById(id);
 const player = $('player');
-const dial = $('dial');
-const ring = $('dial-ring');
-const svg = $('dial-svg');
-const hubCanvas = $('hub-canvas');
-const pointer = dial.querySelector('.dial-pointer');
-
-const state = {
-  language: initialLanguage(),
-  index: 0,
-  position: 0,
-  source: null,
-  hasListened: false,
-};
-
 const mod = (value, size) => ((value % size) + size) % size;
+
+const state = { ...initialChoice(), source: null, hasListened: false };
+const wheels = {};
 const t = key => TEXT[state.language][key];
 
+// The audio version: Dutch, or English in the chosen accent (en = American).
+const variant = () => (state.language === 'nl' ? 'nl' : state.english);
+
 // Explicit choice first (?lang= or a saved switch), then visitors in the Netherlands get Dutch.
-function initialLanguage() {
-  const requested = new URLSearchParams(location.search).get('lang');
-  if (requested === 'en' || requested === 'nl') return requested;
+function initialChoice() {
+  let saved = {};
   try {
-    const saved = localStorage.getItem('ruth-language');
-    if (saved === 'en' || saved === 'nl') return saved;
+    saved = { language: localStorage.getItem('ruth-language'), english: localStorage.getItem('ruth-english') };
   } catch (error) { /* storage blocked */ }
-  return Intl.DateTimeFormat().resolvedOptions().timeZone === 'Europe/Amsterdam' ? 'nl' : 'en';
+  const choice = { language: 'en', english: ENGLISH.includes(saved.english) ? saved.english : 'en' };
+  const requested = new URLSearchParams(location.search).get('lang');
+  if (requested === 'nl') choice.language = 'nl';
+  else if (ENGLISH.includes(requested)) choice.english = requested;
+  else if (saved.language === 'en' || saved.language === 'nl') choice.language = saved.language;
+  else if (Intl.DateTimeFormat().resolvedOptions().timeZone === 'Europe/Amsterdam') choice.language = 'nl';
+  return choice;
+}
+
+function escapeHTML(text) {
+  return text.replace(/[&<>"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[character]);
+}
+
+function withTags(prompt) {
+  return escapeHTML(prompt).replace(/\[[^\]]*\]/g, tag => `<span class="tag">${tag}</span>`);
+}
+
+function formatTime(seconds) {
+  const whole = Math.max(0, Math.round(seconds || 0));
+  return `${Math.floor(whole / 60)}:${String(whole % 60).padStart(2, '0')}`;
+}
+
+/* ---------- A wheel: an endless half circle, opening to the right ---------- */
+
+class Wheel {
+  constructor(root, { source, items, categories, takeFor, statusKeys = {} }) {
+    Object.assign(this, { root, source, items, takeFor, statusKeys, count: items.length, categoryList: categories });
+    this.categories = Object.fromEntries(categories.map(category => [category.id, category]));
+    this.dial = root.querySelector('.dial');
+    this.ring = root.querySelector('.dial-ring');
+    this.svg = root.querySelector('.dial-svg');
+    this.pointer = root.querySelector('.dial-pointer');
+    this.canvas = root.querySelector('.hub-canvas');
+    Object.assign(this, { index: 0, position: 0, hovered: -1, slots: [], reach: 0, geo: {}, animation: null, drag: null, engaged: false, wheelTimer: 0 });
+    this.ring.setAttribute('aria-valuemax', String(this.count));
+    this.bind();
+  }
+
+  el(selector) {
+    return this.root.querySelector(selector);
+  }
+
+  take() {
+    return this.takeFor(this.items[this.index]);
+  }
+
+  // Angles in degrees, 0 = 3 o'clock (the selected position), positive = clockwise.
+  arcPath(inner, outer, from, to) {
+    const { cx, cy } = this.geo;
+    const point = (radius, degrees) => {
+      const angle = degrees * Math.PI / 180;
+      return `${(cx + radius * Math.cos(angle)).toFixed(2)},${(cy + radius * Math.sin(angle)).toFixed(2)}`;
+    };
+    return `M${point(outer, from)} A${outer},${outer} 0 0 1 ${point(outer, to)} L${point(inner, to)} A${inner},${inner} 0 0 0 ${point(inner, from)} Z`;
+  }
+
+  layout() {
+    const desktop = window.innerWidth > 980;
+    const outer = desktop
+      ? Math.round(Math.max(280, Math.min(410, (window.innerHeight - 126) / 2 - 12, this.root.clientWidth * 0.36)))
+      : Math.round(Math.min(360, document.documentElement.clientWidth - 40));
+    const inner = Math.round(outer * 0.5);
+    const height = desktop ? 2 * (outer + 12) : Math.round(outer * 1.6);
+    const geo = this.geo = {
+      width: outer + 34, height, outer, inner, cx: 0, cy: height / 2,
+      step: Math.min(8, Math.max(5, 24 / (inner + 14) * 180 / Math.PI)),
+      labelStart: inner + 14,
+      labelSize: outer < 330 ? 13 : 14,
+    };
+    this.dial.style.width = `${geo.width}px`;
+    this.dial.style.height = `${height}px`;
+    this.dial.style.setProperty('--hub', `${inner - 14}px`);
+    this.pointer.style.left = `${outer + 14}px`;
+    this.pointer.style.top = `${geo.cy - 8}px`;
+    this.svg.setAttribute('viewBox', `0 0 ${geo.width} ${height}`);
+    this.svg.setAttribute('width', geo.width);
+    this.svg.setAttribute('height', height);
+
+    this.reach = Math.ceil(95 / geo.step);
+    const sector = this.arcPath(inner + 4, outer, -geo.step / 2 + 0.35, geo.step / 2 - 0.35);
+    const rim = this.arcPath(outer + 4, outer + 9, -geo.step / 2, geo.step / 2);
+    this.svg.replaceChildren();
+    this.slots = Array.from({ length: this.reach * 2 + 1 }, () => {
+      const group = document.createElementNS(SVG_NS, 'g');
+      group.setAttribute('class', 'slot');
+      const path = document.createElementNS(SVG_NS, 'path');
+      path.setAttribute('class', 'sector');
+      path.setAttribute('d', sector);
+      const band = document.createElementNS(SVG_NS, 'path');
+      band.setAttribute('class', 'rim');
+      band.setAttribute('d', rim);
+      const text = document.createElementNS(SVG_NS, 'text');
+      text.setAttribute('x', geo.cx + geo.labelStart);
+      text.setAttribute('y', geo.cy);
+      text.style.fontSize = `${geo.labelSize}px`;
+      group.append(path, band, text);
+      this.svg.appendChild(group);
+      return { group, text, abs: null };
+    });
+    this.hovered = -1;
+    this.render();
+    sizeCanvas(this.canvas);
+  }
+
+  // Absolute position i shows item i mod count. Labels sit between -90 and +90 degrees,
+  // so they always read left to right.
+  render() {
+    if (!this.slots.length) return;
+    const { geo } = this;
+    const base = Math.round(this.position);
+    for (let i = base - this.reach; i <= base + this.reach; i += 1) {
+      const slot = this.slots[mod(i, this.slots.length)];
+      if (slot.abs !== i) {
+        const item = this.items[mod(i, this.count)];
+        slot.abs = i;
+        slot.group.style.setProperty('--c', this.categories[item.category].color);
+        slot.text.textContent = item[state.language];
+      }
+      slot.group.setAttribute('transform', `rotate(${((i - this.position) * geo.step).toFixed(3)} ${geo.cx} ${geo.cy})`);
+      slot.group.classList.toggle('current', i === base);
+    }
+    const current = mod(base, this.count);
+    if (current !== this.hovered) {
+      this.hovered = current;
+      this.dial.style.setProperty('--h', this.categories[this.items[current].category].color);
+    }
+  }
+
+  relabel() {
+    this.slots.forEach(slot => { slot.abs = null; });
+    this.render();
+  }
+
+  stopAnimation() {
+    if (this.animation) cancelAnimationFrame(this.animation.frame);
+    this.animation = null;
+  }
+
+  // Playback starts right away (inside the click or key handler, which mobile browsers require)
+  // while the wheel is still turning.
+  animateTo(target, autoplay) {
+    this.stopAnimation();
+    if (autoplay) this.select(mod(target, this.count), true);
+    const from = this.position;
+    const duration = reducedMotion ? 0 : Math.min(950, 280 + Math.abs(target - from) * 40);
+    const start = performance.now();
+    this.animation = { target };
+    const frame = now => {
+      const progress = duration ? Math.min(1, (now - start) / duration) : 1;
+      this.position = from + (target - from) * (1 - Math.pow(1 - progress, 3));
+      this.render();
+      if (progress < 1) {
+        this.animation.frame = requestAnimationFrame(frame);
+      } else {
+        this.animation = null;
+        this.select(mod(target, this.count), false);
+      }
+    };
+    this.animation.frame = requestAnimationFrame(frame);
+  }
+
+  turnBy(steps) {
+    const from = this.animation ? this.animation.target : Math.round(this.position);
+    this.animateTo(from + steps, state.hasListened);
+  }
+
+  turnTo(index, autoplay) {
+    const base = this.animation ? this.animation.target : Math.round(this.position);
+    let delta = mod(index - base, this.count);
+    if (delta > this.count / 2) delta -= this.count;
+    this.animateTo(base + delta, autoplay);
+  }
+
+  select(index, autoplay) {
+    const changed = index !== this.index;
+    this.index = index;
+    this.update();
+    if (changed && state.source === this.source) stop();
+    if (autoplay && (changed || state.source !== this.source || player.paused)) play(this.source);
+  }
+
+  renderCategories() {
+    this.el('.categories').replaceChildren(...this.categoryList.map(category => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'chip';
+      button.dataset.category = category.id;
+      button.style.setProperty('--chip', category.color);
+      button.textContent = category[state.language];
+      button.addEventListener('click', () => this.turnTo(this.items.findIndex(item => item.category === category.id), state.hasListened));
+      return button;
+    }));
+  }
+
+  update() {
+    const item = this.items[this.index];
+    const category = this.categories[item.category];
+    const take = this.take();
+    this.root.style.setProperty('--c', category.color);
+    this.el('.take-category').textContent = category[state.language];
+    this.el('.take-number').textContent = `${String(this.index + 1).padStart(2, '0')} / ${this.count}`;
+    const name = this.el('.take-emotion');
+    name.textContent = item[state.language];
+    name.lang = state.language;
+    const quote = this.el('.take-text');
+    if (quote) {
+      quote.textContent = take.text;
+      quote.lang = state.language;
+    }
+    const script = this.el('.prompt-code') || this.el('.script-text');
+    script.innerHTML = withTags(take.prompt);
+    script.lang = state.language;
+    const voice = this.el('.take-voice');
+    if (voice) {
+      const { id, name: voiceName } = DATA.voices[item.voice];
+      voice.href = `https://elevenlabs.io/app/voice-library?voiceId=${id}`;
+      voice.textContent = `${t('voiceLabel')}: ${voiceName} ↗`;
+    }
+    const note = this.el('.take-note');
+    if (note) {
+      note.hidden = take.file.split('/')[1] === variant();
+      note.textContent = t('ucAmericanOnly');
+    }
+    this.ring.setAttribute('aria-valuenow', String(this.index + 1));
+    this.ring.setAttribute('aria-valuetext', `${item[state.language]}, ${category[state.language]}`);
+    this.root.querySelectorAll('.chip').forEach(chip => chip.setAttribute('aria-pressed', String(chip.dataset.category === item.category)));
+    this.updateProgress();
+    this.setStatus();
+  }
+
+  setStatus(key) {
+    const status = this.el('.player-status');
+    const active = state.source === this.source;
+    const name = key || (!active ? 'statusIdle' : player.ended ? 'statusEnded' : player.paused ? (player.currentTime > 0 ? 'statusPaused' : 'statusIdle') : 'statusPlaying');
+    status.textContent = name === 'statusPlaying' ? `${t(name)}: ${this.items[this.index][state.language]}` : t(this.statusKeys[name] || name);
+    status.classList.toggle('error', name === 'statusError');
+  }
+
+  updateProgress() {
+    const active = state.source === this.source;
+    const total = active && Number.isFinite(player.duration) ? player.duration : this.take().duration;
+    const current = active ? player.currentTime : 0;
+    const percent = total ? Math.min(100, current / total * 100) : 0;
+    this.el('.progress-fill').style.width = `${percent}%`;
+    this.el('.progress').setAttribute('aria-valuenow', String(Math.round(percent)));
+    this.el('.take-time').textContent = active && current > 0 ? `${formatTime(current)} / ${formatTime(total)}` : formatTime(total);
+  }
+
+  seek(fraction) {
+    const apply = () => { player.currentTime = Math.max(0, Math.min(1, fraction)) * player.duration; };
+    if (state.source === this.source && Number.isFinite(player.duration)) {
+      apply();
+    } else {
+      play(this.source);
+      player.addEventListener('loadedmetadata', apply, { once: true });
+    }
+    this.updateProgress();
+  }
+
+  pointerAngle(event) {
+    const box = this.dial.getBoundingClientRect();
+    const x = event.clientX - box.left - this.geo.cx;
+    const y = event.clientY - box.top - this.geo.cy;
+    return { angle: Math.atan2(y, x) * 180 / Math.PI, radius: Math.hypot(x, y) };
+  }
+
+  bind() {
+    const { dial, ring } = this;
+    dial.addEventListener('pointerdown', event => {
+      if (event.button !== 0 || event.target.closest('.hub')) return;
+      this.engaged = true;
+      this.stopAnimation();
+      this.drag = { id: event.pointerId, x: event.clientX, y: event.clientY, angle: this.pointerAngle(event).angle, start: this.position, moved: false, samples: [] };
+    });
+
+    dial.addEventListener('pointermove', event => {
+      const { drag } = this;
+      if (!drag || event.pointerId !== drag.id) return;
+      if (!drag.moved && Math.hypot(event.clientX - drag.x, event.clientY - drag.y) > 5) {
+        drag.moved = true;
+        dial.setPointerCapture(event.pointerId);
+        dial.classList.add('dragging');
+      }
+      if (!drag.moved) return;
+      const turned = mod(this.pointerAngle(event).angle - drag.angle + 180, 360) - 180;
+      this.position = drag.start - turned / this.geo.step;
+      drag.samples.push({ time: event.timeStamp, position: this.position });
+      drag.samples = drag.samples.filter(sample => event.timeStamp - sample.time < 120);
+      this.render();
+    });
+
+    const endDrag = event => {
+      const finished = this.drag;
+      if (!finished || event.pointerId !== finished.id) return;
+      this.drag = null;
+      dial.classList.remove('dragging');
+      if (event.type === 'pointercancel') {
+        this.animateTo(Math.round(this.position), false);
+        return;
+      }
+      if (finished.moved) {
+        const [first, last] = [finished.samples[0], finished.samples[finished.samples.length - 1]];
+        const velocity = first && last && last.time > first.time ? (last.position - first.position) / (last.time - first.time) : 0;
+        this.animateTo(Math.round(this.position + velocity * 260), state.hasListened);
+        return;
+      }
+      const { angle, radius } = this.pointerAngle(event);
+      if (radius < this.geo.inner || radius > this.geo.outer + 12) return;
+      this.animateTo(Math.round(this.position + angle / this.geo.step), true);
+    };
+    dial.addEventListener('pointerup', endDrag);
+    dial.addEventListener('pointercancel', endDrag);
+    dial.addEventListener('pointerleave', event => { if (event.pointerType === 'mouse' && !this.drag) this.engaged = false; });
+
+    // The scroll wheel scrolls the page until the visitor engages the dial, so it never traps scrolling.
+    dial.addEventListener('wheel', event => {
+      if (!this.engaged) return;
+      event.preventDefault();
+      this.stopAnimation();
+      const unit = event.deltaMode === 1 ? 40 : event.deltaMode === 2 ? 600 : 1;
+      const delta = Math.abs(event.deltaX) > Math.abs(event.deltaY) ? event.deltaX : event.deltaY;
+      this.position += delta * unit / 70;
+      this.render();
+      clearTimeout(this.wheelTimer);
+      this.wheelTimer = setTimeout(() => this.animateTo(Math.round(this.position), state.hasListened), 160);
+    }, { passive: false });
+
+    ring.addEventListener('focus', () => { this.engaged = true; });
+    ring.addEventListener('blur', () => { this.engaged = false; });
+    ring.addEventListener('keydown', event => {
+      const steps = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1, PageDown: 5, PageUp: -5 }[event.key];
+      if (steps) {
+        event.preventDefault();
+        this.turnBy(steps);
+      } else if (event.key === 'Home' || event.key === 'End') {
+        event.preventDefault();
+        this.turnTo(event.key === 'Home' ? 0 : this.count - 1, state.hasListened);
+      } else if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        toggle(this.source);
+      }
+    });
+
+    this.root.querySelectorAll('[data-turn]').forEach(button => button.addEventListener('click', () => this.turnBy(Number(button.dataset.turn))));
+    this.el('[data-shuffle]').addEventListener('click', () => {
+      let next = this.index;
+      while (next === this.index) next = Math.floor(Math.random() * this.count);
+      this.turnTo(next, true);
+    });
+
+    const progress = this.el('.progress');
+    progress.addEventListener('click', event => {
+      const box = progress.getBoundingClientRect();
+      this.seek((event.clientX - box.left) / box.width);
+    });
+    progress.addEventListener('keydown', event => {
+      const delta = { ArrowRight: 0.1, ArrowUp: 0.1, ArrowLeft: -0.1, ArrowDown: -0.1 }[event.key];
+      if (!delta || state.source !== this.source || !Number.isFinite(player.duration)) return;
+      event.preventDefault();
+      this.seek(player.currentTime / player.duration + delta);
+    });
+  }
 }
 
 /* ---------- Text ---------- */
@@ -55,302 +404,43 @@ function applyLanguage() {
   document.querySelectorAll('[data-language]').forEach(button => {
     button.setAttribute('aria-pressed', String(button.dataset.language === state.language));
   });
+  document.querySelectorAll('[data-variant]').forEach(button => {
+    button.setAttribute('aria-pressed', String(button.dataset.variant === variant()));
+  });
   document.querySelectorAll('[data-sample-text]').forEach(element => {
-    element.textContent = DATA.extras[element.dataset.sampleText][state.language].text;
+    element.textContent = DATA.extras[element.dataset.sampleText][variant()].text;
     element.lang = state.language;
   });
-  renderCategories();
-  slots.forEach(slot => { slot.abs = null; });
-  render();
-  updateTake();
+  Object.values(wheels).forEach(wheel => {
+    wheel.renderCategories();
+    wheel.relabel();
+    wheel.update();
+  });
   updateButtons();
 }
 
-function escapeHTML(text) {
-  return text.replace(/[&<>"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[character]);
-}
-
-function formatTime(seconds) {
-  const whole = Math.max(0, Math.round(seconds || 0));
-  return `${Math.floor(whole / 60)}:${String(whole % 60).padStart(2, '0')}`;
-}
-
-/* ---------- Category chips ---------- */
-
-function renderCategories() {
-  $('categories').replaceChildren(...DATA.categories.map(category => {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'chip';
-    button.dataset.category = category.id;
-    button.style.setProperty('--chip', category.color);
-    button.textContent = category[state.language];
-    button.addEventListener('click', () => turnTo(emotions.findIndex(emotion => emotion.category === category.id), state.hasListened));
-    return button;
-  }));
-}
-
-/* ---------- The dial: an endless half circle, opening to the right ---------- */
-
-const geo = {};
-let slots = [];
-let reach = 0;
-let hovered = -1;
-
-// Angles in degrees, 0 = 3 o'clock (the selected position), positive = clockwise.
-function arcPath(inner, outer, from, to) {
-  const point = (radius, degrees) => {
-    const angle = degrees * Math.PI / 180;
-    return `${(geo.cx + radius * Math.cos(angle)).toFixed(2)},${(geo.cy + radius * Math.sin(angle)).toFixed(2)}`;
-  };
-  return `M${point(outer, from)} A${outer},${outer} 0 0 1 ${point(outer, to)} L${point(inner, to)} A${inner},${inner} 0 0 0 ${point(inner, from)} Z`;
-}
-
-function layoutDial() {
-  const desktop = window.innerWidth > 980;
-  const outer = desktop
-    ? Math.round(Math.max(280, Math.min(410, (window.innerHeight - 126) / 2 - 12, document.querySelector('.stage').clientWidth * 0.36)))
-    : Math.round(Math.min(360, document.documentElement.clientWidth - 40));
-  const inner = Math.round(outer * 0.5);
-  const height = desktop ? 2 * (outer + 12) : Math.round(outer * 1.6);
-  Object.assign(geo, {
-    width: outer + 34, height, outer, inner, cx: 0, cy: height / 2,
-    step: Math.min(8, Math.max(5, 24 / (inner + 14) * 180 / Math.PI)),
-    labelStart: inner + 14,
-    labelSize: outer < 330 ? 13 : 14,
-  });
-  dial.style.width = `${geo.width}px`;
-  dial.style.height = `${height}px`;
-  dial.style.setProperty('--hub', `${inner - 14}px`);
-  pointer.style.left = `${outer + 14}px`;
-  pointer.style.top = `${geo.cy - 8}px`;
-  svg.setAttribute('viewBox', `0 0 ${geo.width} ${height}`);
-  svg.setAttribute('width', geo.width);
-  svg.setAttribute('height', height);
-
-  reach = Math.ceil(95 / geo.step);
-  const sector = arcPath(inner + 4, outer, -geo.step / 2 + 0.35, geo.step / 2 - 0.35);
-  const rim = arcPath(outer + 4, outer + 9, -geo.step / 2, geo.step / 2);
-  svg.replaceChildren();
-  slots = Array.from({ length: reach * 2 + 1 }, () => {
-    const group = document.createElementNS(SVG_NS, 'g');
-    group.setAttribute('class', 'slot');
-    const path = document.createElementNS(SVG_NS, 'path');
-    path.setAttribute('class', 'sector');
-    path.setAttribute('d', sector);
-    const band = document.createElementNS(SVG_NS, 'path');
-    band.setAttribute('class', 'rim');
-    band.setAttribute('d', rim);
-    const text = document.createElementNS(SVG_NS, 'text');
-    text.setAttribute('x', geo.cx + geo.labelStart);
-    text.setAttribute('y', geo.cy);
-    text.style.fontSize = `${geo.labelSize}px`;
-    group.append(path, band, text);
-    svg.appendChild(group);
-    return { group, text, abs: null };
-  });
-  hovered = -1;
-  render();
-  sizeCanvas(hubCanvas);
-  drawFrame(performance.now());
-}
-
-// Absolute position i shows emotion i mod count. Labels sit between -90 and +90 degrees,
-// so they always read left to right.
-function render() {
-  if (!slots.length) return;
-  const base = Math.round(state.position);
-  for (let i = base - reach; i <= base + reach; i += 1) {
-    const slot = slots[mod(i, slots.length)];
-    if (slot.abs !== i) {
-      const emotion = emotions[mod(i, count)];
-      slot.abs = i;
-      slot.group.style.setProperty('--c', categories[emotion.category].color);
-      slot.text.textContent = emotion[state.language];
-    }
-    slot.group.setAttribute('transform', `rotate(${((i - state.position) * geo.step).toFixed(3)} ${geo.cx} ${geo.cy})`);
-    slot.group.classList.toggle('current', i === base);
+// Switch language and, for English, the accent. A playing clip continues in the new version.
+function choose(language, english = state.english) {
+  const source = state.source;
+  const wasPlaying = source && !player.paused && !player.ended;
+  Object.assign(state, { language, english });
+  try {
+    localStorage.setItem('ruth-language', language);
+    localStorage.setItem('ruth-english', english);
+  } catch (error) { /* storage blocked */ }
+  if (source && !isLoaded(takeFor(source).file)) {
+    stop();
+    if (wasPlaying) play(source);
   }
-  const current = mod(base, count);
-  if (current !== hovered) {
-    hovered = current;
-    dial.style.setProperty('--h', categories[emotions[current].category].color);
-  }
+  applyLanguage();
 }
 
-let animation = null;
-
-function stopAnimation() {
-  if (animation) cancelAnimationFrame(animation.frame);
-  animation = null;
-}
-
-// Playback starts right away (inside the click or key handler, which mobile browsers require)
-// while the wheel is still turning.
-function animateTo(target, autoplay) {
-  stopAnimation();
-  if (autoplay) select(mod(target, count), true);
-  const from = state.position;
-  const duration = reducedMotion ? 0 : Math.min(950, 280 + Math.abs(target - from) * 40);
-  const start = performance.now();
-  animation = { target };
-  const frame = now => {
-    const progress = duration ? Math.min(1, (now - start) / duration) : 1;
-    state.position = from + (target - from) * (1 - Math.pow(1 - progress, 3));
-    render();
-    if (progress < 1) {
-      animation.frame = requestAnimationFrame(frame);
-    } else {
-      animation = null;
-      select(mod(target, count), false);
-    }
-  };
-  animation.frame = requestAnimationFrame(frame);
-}
-
-function turnBy(steps) {
-  const from = animation ? animation.target : Math.round(state.position);
-  animateTo(from + steps, state.hasListened);
-}
-
-function turnTo(index, autoplay) {
-  const base = animation ? animation.target : Math.round(state.position);
-  let delta = mod(index - base, count);
-  if (delta > count / 2) delta -= count;
-  animateTo(base + delta, autoplay);
-}
-
-let drag = null;
-let engaged = false;
-let wheelTimer = 0;
-
-function pointerAngle(event) {
-  const box = dial.getBoundingClientRect();
-  const x = event.clientX - box.left - geo.cx;
-  const y = event.clientY - box.top - geo.cy;
-  return { angle: Math.atan2(y, x) * 180 / Math.PI, radius: Math.hypot(x, y) };
-}
-
-dial.addEventListener('pointerdown', event => {
-  if (event.button !== 0 || event.target.closest('.hub')) return;
-  engaged = true;
-  stopAnimation();
-  drag = { id: event.pointerId, x: event.clientX, y: event.clientY, angle: pointerAngle(event).angle, start: state.position, moved: false, samples: [] };
-});
-
-dial.addEventListener('pointermove', event => {
-  if (!drag || event.pointerId !== drag.id) return;
-  if (!drag.moved && Math.hypot(event.clientX - drag.x, event.clientY - drag.y) > 5) {
-    drag.moved = true;
-    dial.setPointerCapture(event.pointerId);
-    dial.classList.add('dragging');
-  }
-  if (!drag.moved) return;
-  const turned = mod(pointerAngle(event).angle - drag.angle + 180, 360) - 180;
-  state.position = drag.start - turned / geo.step;
-  drag.samples.push({ time: event.timeStamp, position: state.position });
-  drag.samples = drag.samples.filter(sample => event.timeStamp - sample.time < 120);
-  render();
-});
-
-function endDrag(event) {
-  if (!drag || event.pointerId !== drag.id) return;
-  const finished = drag;
-  drag = null;
-  dial.classList.remove('dragging');
-  if (event.type === 'pointercancel') {
-    animateTo(Math.round(state.position), false);
-    return;
-  }
-  if (finished.moved) {
-    const [first, last] = [finished.samples[0], finished.samples[finished.samples.length - 1]];
-    const velocity = first && last && last.time > first.time ? (last.position - first.position) / (last.time - first.time) : 0;
-    animateTo(Math.round(state.position + velocity * 260), state.hasListened);
-    return;
-  }
-  const { angle, radius } = pointerAngle(event);
-  if (radius < geo.inner || radius > geo.outer + 12) return;
-  animateTo(Math.round(state.position + angle / geo.step), true);
-}
-dial.addEventListener('pointerup', endDrag);
-dial.addEventListener('pointercancel', endDrag);
-dial.addEventListener('pointerleave', event => { if (event.pointerType === 'mouse' && !drag) engaged = false; });
-
-// The wheel scrolls the page until the visitor engages the dial, so it never traps scrolling.
-dial.addEventListener('wheel', event => {
-  if (!engaged) return;
-  event.preventDefault();
-  stopAnimation();
-  const unit = event.deltaMode === 1 ? 40 : event.deltaMode === 2 ? 600 : 1;
-  const delta = Math.abs(event.deltaX) > Math.abs(event.deltaY) ? event.deltaX : event.deltaY;
-  state.position += delta * unit / 70;
-  render();
-  clearTimeout(wheelTimer);
-  wheelTimer = setTimeout(() => animateTo(Math.round(state.position), state.hasListened), 160);
-}, { passive: false });
-
-ring.addEventListener('focus', () => { engaged = true; });
-ring.addEventListener('blur', () => { engaged = false; });
-ring.addEventListener('keydown', event => {
-  const steps = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1, PageDown: 5, PageUp: -5 }[event.key];
-  if (steps) {
-    event.preventDefault();
-    turnBy(steps);
-  } else if (event.key === 'Home' || event.key === 'End') {
-    event.preventDefault();
-    turnTo(event.key === 'Home' ? 0 : count - 1, state.hasListened);
-  } else if (event.key === 'Enter' || event.key === ' ') {
-    event.preventDefault();
-    toggle('wheel');
-  }
-});
-
-$('prev-emotion').addEventListener('click', () => turnBy(-1));
-$('next-emotion').addEventListener('click', () => turnBy(1));
-$('shuffle').addEventListener('click', () => {
-  let next = state.index;
-  while (next === state.index) next = Math.floor(Math.random() * count);
-  turnTo(next, true);
-});
-
-/* ---------- Selection and the take panel ---------- */
-
-function wheelTake() {
-  return emotions[state.index].takes[state.language];
-}
-
-function takeFor(source) {
-  return source === 'wheel' ? wheelTake() : DATA.extras[source][state.language];
-}
-
-function select(index, autoplay) {
-  const changed = index !== state.index;
-  state.index = index;
-  updateTake();
-  if (changed && state.source === 'wheel') stop();
-  if (autoplay && (changed || state.source !== 'wheel' || player.paused)) play('wheel');
-}
-
-function updateTake() {
-  const emotion = emotions[state.index];
-  const category = categories[emotion.category];
-  const take = wheelTake();
-  document.documentElement.style.setProperty('--c', category.color);
-  $('take-category').textContent = category[state.language];
-  const name = $('take-emotion');
-  name.textContent = emotion[state.language];
-  name.lang = state.language;
-  $('take-number').textContent = `${String(state.index + 1).padStart(2, '0')} / ${count}`;
-  const text = $('take-text');
-  text.textContent = take.text;
-  text.lang = state.language;
-  $('take-prompt').innerHTML = escapeHTML(take.prompt).replace(/\[[^\]]*\]/g, tag => `<span class="tag">${tag}</span>`);
-  ring.setAttribute('aria-valuenow', String(state.index + 1));
-  ring.setAttribute('aria-valuetext', `${emotion[state.language]}, ${category[state.language]}`);
-  document.querySelectorAll('.chip').forEach(chip => chip.setAttribute('aria-pressed', String(chip.dataset.category === emotion.category)));
-  updateProgress();
-  setStatus();
-}
+document.querySelectorAll('[data-language]').forEach(button => button.addEventListener('click', () => choose(button.dataset.language)));
+document.querySelectorAll('[data-variant]').forEach(button => button.addEventListener('click', () => {
+  const chosen = button.dataset.variant;
+  if (chosen === 'nl') choose('nl');
+  else choose('en', chosen);
+}));
 
 /* ---------- Playback ---------- */
 
@@ -380,6 +470,10 @@ function connectAnalyser() {
   }
 }
 
+function takeFor(source) {
+  return wheels[source] ? wheels[source].take() : DATA.extras[source][variant()];
+}
+
 function isLoaded(file) {
   return player.getAttribute('src') === file;
 }
@@ -388,23 +482,33 @@ async function play(source) {
   const take = takeFor(source);
   connectAnalyser();
   if (state.source !== source || !isLoaded(take.file)) {
+    const previous = wheels[state.source];
     player.src = take.file;
     state.source = source;
+    if (previous) {
+      previous.updateProgress();
+      previous.setStatus();
+    }
   }
   try {
     await player.play();
   } catch (error) {
-    if (error.name !== 'AbortError' && source === 'wheel') setStatus('statusBlocked');
+    if (error.name !== 'AbortError' && wheels[source]) wheels[source].setStatus('statusBlocked');
   }
 }
 
 function stop() {
+  const previous = wheels[state.source];
   player.pause();
   player.removeAttribute('src');
   player.load();
   state.source = null;
   updateButtons();
-  updateProgress();
+  if (previous) {
+    previous.updateProgress();
+    previous.setStatus();
+  }
+  drawFrame(performance.now());
 }
 
 function toggle(source) {
@@ -423,78 +527,29 @@ function updateButtons() {
     button.setAttribute('aria-pressed', String(playing));
     const label = button.querySelector('[data-i18n="listen"]');
     if (label) label.textContent = t(playing ? 'pauseSample' : 'listen');
+    const wheel = wheels[button.dataset.source];
+    if (wheel) button.setAttribute('aria-label', `${t(playing ? 'pause' : 'play')}: ${wheel.items[wheel.index][state.language]}`);
   });
-  $('wheel-play').setAttribute('aria-label', `${t(isPlaying('wheel') ? 'pause' : 'play')}: ${emotions[state.index][state.language]}`);
 }
-
-function setStatus(key) {
-  const status = $('player-status');
-  const wheel = state.source === 'wheel';
-  const name = key || (!wheel ? 'statusIdle' : player.ended ? 'statusEnded' : player.paused ? (player.currentTime > 0 ? 'statusPaused' : 'statusIdle') : 'statusPlaying');
-  status.textContent = name === 'statusPlaying' ? `${t(name)}: ${emotions[state.index][state.language]}` : t(name);
-  status.classList.toggle('error', name === 'statusError');
-}
-
-function updateProgress() {
-  const wheel = state.source === 'wheel';
-  const total = wheel && Number.isFinite(player.duration) ? player.duration : wheelTake().duration;
-  const current = wheel ? player.currentTime : 0;
-  const percent = total ? Math.min(100, current / total * 100) : 0;
-  $('progress-fill').style.width = `${percent}%`;
-  $('progress').setAttribute('aria-valuenow', String(Math.round(percent)));
-  $('take-time').textContent = wheel && current > 0 ? `${formatTime(current)} / ${formatTime(total)}` : formatTime(total);
-}
-
-function seek(fraction) {
-  const apply = () => { player.currentTime = Math.max(0, Math.min(1, fraction)) * player.duration; };
-  if (state.source === 'wheel' && Number.isFinite(player.duration)) {
-    apply();
-  } else {
-    play('wheel');
-    player.addEventListener('loadedmetadata', apply, { once: true });
-  }
-  updateProgress();
-}
-
-$('progress').addEventListener('click', event => {
-  const box = event.currentTarget.getBoundingClientRect();
-  seek((event.clientX - box.left) / box.width);
-});
-$('progress').addEventListener('keydown', event => {
-  const delta = { ArrowRight: 0.1, ArrowUp: 0.1, ArrowLeft: -0.1, ArrowDown: -0.1 }[event.key];
-  if (!delta || state.source !== 'wheel' || !Number.isFinite(player.duration)) return;
-  event.preventDefault();
-  seek(player.currentTime / player.duration + delta);
-});
 
 document.querySelectorAll('[data-source]').forEach(button => button.addEventListener('click', () => toggle(button.dataset.source)));
 
+const activeWheel = () => wheels[state.source];
 player.addEventListener('play', () => {
   state.hasListened = true;
   if (audioContext && audioContext.state === 'suspended') audioContext.resume();
   updateButtons();
-  setStatus();
+  activeWheel()?.setStatus();
   startLoop();
 });
-player.addEventListener('pause', () => { updateButtons(); setStatus(); });
-player.addEventListener('ended', () => { updateButtons(); setStatus(); updateProgress(); });
-player.addEventListener('timeupdate', updateProgress);
+player.addEventListener('pause', () => { updateButtons(); activeWheel()?.setStatus(); });
+player.addEventListener('ended', () => { updateButtons(); activeWheel()?.setStatus(); activeWheel()?.updateProgress(); });
+player.addEventListener('timeupdate', () => activeWheel()?.updateProgress());
 player.addEventListener('error', () => {
   if (!player.getAttribute('src')) return;
   updateButtons();
-  if (state.source === 'wheel') setStatus('statusError');
+  activeWheel()?.setStatus('statusError');
 });
-
-document.querySelectorAll('[data-language]').forEach(button => button.addEventListener('click', () => {
-  if (state.language === button.dataset.language) return;
-  const source = state.source;
-  const wasPlaying = source && !player.paused && !player.ended;
-  state.language = button.dataset.language;
-  try { localStorage.setItem('ruth-language', state.language); } catch (error) { /* storage blocked */ }
-  if (source) stop();
-  applyLanguage();
-  if (wasPlaying) play(source);
-}));
 
 /* ---------- Visuals ---------- */
 
@@ -523,14 +578,14 @@ function levels(now, playing) {
   return values;
 }
 
-function drawHub(values, color) {
-  const context = hubCanvas.getContext('2d');
-  const { width, height } = hubCanvas;
+function drawHub(canvas, values, color) {
+  const context = canvas.getContext('2d');
+  const { width, height } = canvas;
   if (!width || !height) return;
   context.clearRect(0, 0, width, height);
   const cy = height / 2;
   const radius = width;
-  const small = hubCanvas.clientWidth < 160;
+  const small = canvas.clientWidth < 160;
   const bars = 56;
   context.lineCap = 'round';
   context.strokeStyle = color;
@@ -554,27 +609,42 @@ function drawFrame(now) {
   loop = 0;
   const animate = !player.paused && !player.ended && !reducedMotion;
   const values = levels(now, animate);
-  const color = getComputedStyle(document.documentElement).getPropertyValue('--c').trim() || '#f6c453';
-  drawHub(values, color);
+  const idle = new Array(values.length).fill(0);
+  Object.values(wheels).forEach(wheel => {
+    const color = getComputedStyle(wheel.root).getPropertyValue('--c').trim() || '#f6c453';
+    drawHub(wheel.canvas, state.source === wheel.source ? values : idle, color);
+  });
   if (animate) {
-    updateProgress();
+    activeWheel()?.updateProgress();
     startLoop();
   }
 }
 
 /* ---------- Start ---------- */
 
-if (matchMedia('(pointer: coarse)').matches) document.querySelector('.dial-hint').dataset.i18n = 'dialHintTouch';
-$('stat-emotions').textContent = count;
-ring.setAttribute('aria-valuemax', String(count));
+wheels.emotions = new Wheel(document.querySelector('[data-wheel="emotions"]'), {
+  source: 'emotions', items: DATA.emotions, categories: DATA.categories, takeFor: item => item.takes[variant()],
+});
+wheels.usecases = new Wheel(document.querySelector('[data-wheel="usecases"]'), {
+  source: 'usecases', items: DATA.usecases, categories: DATA.usecaseCategories,
+  takeFor: item => item.takes[state.language === 'nl' ? 'nl' : 'en'],
+  statusKeys: { statusIdle: 'ucStatusIdle', statusEnded: 'ucStatusEnded' },
+});
+
+if (matchMedia('(pointer: coarse)').matches) document.querySelectorAll('.dial-hint').forEach(hint => { hint.dataset.i18n += 'Touch'; });
+$('stat-emotions').textContent = DATA.emotions.length;
 let layoutSize = '';
+function layoutAll() {
+  Object.values(wheels).forEach(wheel => wheel.layout());
+  drawFrame(performance.now());
+}
 window.addEventListener('resize', () => {
   // Mobile browsers resize the height while scrolling; only the width matters there.
   const size = window.innerWidth > 980 ? `${window.innerWidth}x${window.innerHeight}` : `${window.innerWidth}`;
   if (size !== layoutSize) {
     layoutSize = size;
-    layoutDial();
+    layoutAll();
   }
 });
-layoutDial();
+layoutAll();
 applyLanguage();

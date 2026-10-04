@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Generate the wheel scenes and voice samples with ElevenLabs Eleven v4.
+"""Generate the wheel scenes, use cases and voice samples with ElevenLabs Eleven v4.
 
-Reads scripts/emotions.json, calls the Text to Speech API for every clip whose
+Reads scripts/content.json, calls the Text to Speech API for every clip whose
 prompt or settings changed since the last run, and rewrites audio-data.js.
 Needs ELEVEN_API_KEY in the environment and FFprobe installed.
 
     python scripts/generate_audio.py --dry-run
     python scripts/generate_audio.py
     python scripts/generate_audio.py --only singing,opera --force
+    python scripts/generate_audio.py --variants en-gb,en-scot
 """
 
 import argparse
@@ -25,10 +26,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CONFIG = ROOT / "scripts" / "emotions.json"
+CONFIG = ROOT / "scripts" / "content.json"
 LOG = ROOT / "docs" / "audio-generation.json"
 DATA = ROOT / "audio-data.js"
-LANGUAGES = ("en", "nl")
 TAG = re.compile(r"\[[^\]]*\]")
 
 
@@ -37,29 +37,40 @@ def spoken_text(prompt):
     return re.sub(r"\s+([.,!?…])", r"\1", text)
 
 
-def make_prompt(config, language, text):
-    return f"{config['english_prefix']} {text}" if language == "en" else text
+# A variant either puts its accent tag in front of the text, or merges it into the first tag
+# ("[warmly]" becomes "[warmly, strong Scottish accent]"), which v4 follows more reliably.
+def make_prompt(config, variant, text):
+    spec = config["variants"][variant]
+    if spec.get("merge"):
+        return re.sub(r"^\[([^\]]*)\]", lambda match: f"[{match.group(1)}, {spec['merge']}]", text, count=1)
+    return f"{spec['prefix']} {text}" if spec["prefix"] else text
 
 
+# A variant is an audio version: en (American), en-gb, en-scot or nl. Emotions and extras get
+# every variant; use cases only the usecase_variants.
 def build_jobs(config):
     jobs = []
-    wheel_voice = config["voices"][config["wheel_voice"]]
+    variants = config["variants"]
+
+    def add(item_id, variant, voice, path, texts):
+        jobs.append({
+            "id": item_id, "variant": variant, "language": variants[variant]["language"],
+            "voice_id": config["voices"][voice]["id"], "path": path,
+            "voice_settings": {**config["voice_settings"], **variants[variant].get("voice_settings", {})},
+            "prompt": make_prompt(config, variant, texts[variants[variant]["language"]]),
+        })
+
     for emotion in config["emotions"]:
-        for language in LANGUAGES:
-            jobs.append({
-                "id": emotion["id"], "language": language, "voice_id": wheel_voice,
-                "path": f"audio/{language}/scene/{emotion['id']}.mp3",
-                "prompt": make_prompt(config, language, emotion["scene"][language]),
-            })
+        for variant in variants:
+            add(emotion["id"], variant, config["wheel_voice"], f"audio/{variant}/scene/{emotion['id']}.mp3", emotion["scene"])
+    for case in config["usecases"]:
+        for variant in config["usecase_variants"]:
+            add(case["id"], variant, case["voice"], f"audio/{variant}/usecases/{case['id']}.mp3", case["script"])
     for extra in config["extras"]:
-        for language in LANGUAGES:
-            jobs.append({
-                "id": extra["id"], "language": language, "voice_id": config["voices"][extra["voice"]],
-                "path": extra["file"].replace("{lang}", language),
-                "prompt": make_prompt(config, language, extra["text"][language]),
-            })
+        for variant in variants:
+            add(extra["id"], variant, extra["voice"], extra["file"].replace("{lang}", variant), extra["text"])
     for job in jobs:
-        settings = [config["model_id"], config["output_format"], config["voice_settings"], job["voice_id"], job["prompt"]]
+        settings = [config["model_id"], config["output_format"], job["voice_settings"], job["voice_id"], job["prompt"]]
         job["hash"] = hashlib.sha256(json.dumps(settings, sort_keys=True).encode()).hexdigest()[:16]
     return jobs
 
@@ -67,7 +78,7 @@ def build_jobs(config):
 def synthesize(api_key, config, job):
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{job['voice_id']}?output_format={config['output_format']}"
     body = json.dumps({
-        "text": job["prompt"], "model_id": config["model_id"], "voice_settings": config["voice_settings"],
+        "text": job["prompt"], "model_id": config["model_id"], "voice_settings": job["voice_settings"],
     }).encode()
     for attempt in range(5):
         request = urllib.request.Request(url, data=body, method="POST", headers={
@@ -98,21 +109,26 @@ def write_data(config, jobs, log):
         return {"file": path, "prompt": job["prompt"], "text": spoken_text(job["prompt"]),
                 "duration": log["clips"][path]["duration"]}
 
-    emotions = []
-    for emotion in config["emotions"]:
-        emotions.append({
-            "id": emotion["id"], "category": emotion["category"], "en": emotion["en"], "nl": emotion["nl"],
-            "takes": {language: take(f"audio/{language}/scene/{emotion['id']}.mp3") for language in LANGUAGES},
-        })
-    extras = {extra["id"]: {language: take(extra["file"].replace("{lang}", language)) for language in LANGUAGES}
-              for extra in config["extras"]}
-    data = {"categories": config["categories"], "emotions": emotions, "extras": extras}
+    def item(entry, folder, variants, extra=None):
+        return {"id": entry["id"], "category": entry["category"], "en": entry["en"], "nl": entry["nl"], **(extra or {}),
+                "takes": {variant: take(f"audio/{variant}/{folder}/{entry['id']}.mp3") for variant in variants}}
+
+    data = {
+        "voices": config["voices"],
+        "categories": config["categories"],
+        "emotions": [item(emotion, "scene", config["variants"]) for emotion in config["emotions"]],
+        "usecaseCategories": config["usecase_categories"],
+        "usecases": [item(case, "usecases", config["usecase_variants"], {"voice": case["voice"]}) for case in config["usecases"]],
+        "extras": {extra["id"]: {variant: take(extra["file"].replace("{lang}", variant)) for variant in config["variants"]}
+                   for extra in config["extras"]},
+    }
     DATA.write_text("window.RUTH_DATA = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n")
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--only", help="comma-separated emotion or extra ids")
+    parser.add_argument("--only", help="comma-separated emotion, use case or extra ids")
+    parser.add_argument("--variants", help="comma-separated variants, e.g. en-gb,en-scot")
     parser.add_argument("--force", action="store_true", help="regenerate even when unchanged")
     parser.add_argument("--dry-run", action="store_true", help="list pending clips and their character count")
     parser.add_argument("--workers", type=int, default=3)
@@ -122,9 +138,10 @@ def main():
     jobs = build_jobs(config)
     log = json.loads(LOG.read_text()) if LOG.exists() else {"clips": {}}
     only = set(args.only.split(",")) if args.only else None
+    chosen = set(args.variants.split(",")) if args.variants else None
     pending = [
         job for job in jobs
-        if (only is None or job["id"] in only) and (
+        if (only is None or job["id"] in only) and (chosen is None or job["variant"] in chosen) and (
             args.force or not (ROOT / job["path"]).exists() or log["clips"].get(job["path"], {}).get("hash") != job["hash"]
         )
     ]
@@ -145,7 +162,7 @@ def main():
         destination.write_bytes(audio)
         entry = {
             "prompt": job["prompt"], "voice_id": job["voice_id"], "model_id": config["model_id"],
-            "voice_settings": config["voice_settings"], "hash": job["hash"], "character_cost": cost,
+            "voice_settings": job["voice_settings"], "hash": job["hash"], "character_cost": cost,
             "request_id": request_id, "sha256": hashlib.sha256(audio).hexdigest(),
             "duration": duration(destination), "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         }

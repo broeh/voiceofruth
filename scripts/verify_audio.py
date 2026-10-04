@@ -35,7 +35,8 @@ def normalize(text):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--only", help="comma-separated emotion or extra ids")
+    parser.add_argument("--only", help="comma-separated emotion, use case or extra ids")
+    parser.add_argument("--variants", help="comma-separated variants, e.g. en-scot")
     parser.add_argument("--model", default="small")
     args = parser.parse_args()
 
@@ -43,7 +44,9 @@ def main():
     only = set(args.only.split(",")) if args.only else None
     all_jobs = build_jobs(config)
     hashes = {job["path"]: job["hash"] for job in all_jobs}
-    jobs = [job for job in all_jobs if (only is None or job["id"] in only) and (ROOT / job["path"]).exists()]
+    chosen = set(args.variants.split(",")) if args.variants else None
+    jobs = [job for job in all_jobs if (only is None or job["id"] in only) and (chosen is None or job["variant"] in chosen)
+            and (ROOT / job["path"]).exists()]
     model = WhisperModel(args.model, device="cpu", compute_type="int8")
     report = json.loads(REPORT.read_text()) if REPORT.exists() else {}
     checks = {check["clip"]: check for check in report.get("checks", []) if hashes.get(check["clip"]) == check.get("hash")}
@@ -52,7 +55,7 @@ def main():
         script = spoken_text(job["prompt"])
         segments, _ = model.transcribe(load_audio(ROOT / job["path"]), language=job["language"], beam_size=5)
         recognized = " ".join(segment.text.strip() for segment in segments).strip()
-        similarity = difflib.SequenceMatcher(None, normalize(script), normalize(recognized)).ratio()
+        similarity = difflib.SequenceMatcher(None, normalize(script), normalize(recognized), autojunk=False).ratio()
         script_words = set(normalize(script).split())
         tag_words = {word for tag in TAG.findall(job["prompt"]) for word in normalize(tag).split() if len(word) > 3}
         spoken_tags = sorted(word for word in tag_words - script_words if word in normalize(recognized).split())

@@ -2,9 +2,1288 @@
  "method": "Local faster-whisper small, CPU int8. Each clip is transcribed in its own language and compared with its script after removing audio tags. Flags similarity below 0.8 or tag words that were spoken aloud. This checks content, not emotional delivery.",
  "minimum_similarity": 0.526,
  "flagged": [
-  "audio/intro/nl.mp3"
+  "audio/intro/nl.mp3",
+  "audio/nl/usecases/fairy-tale.mp3"
  ],
  "checks": [
+  {
+   "clip": "audio/en-gb/scene/amazed.mp3",
+   "hash": "93615579d66dd38d",
+   "script": "The whole sky is glowing. I’ve never seen anything like it.",
+   "recognized": "The whole sky is glowing! I've never seen anything like it!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/angry.mp3",
+   "hash": "7eaf67c3e80a2e31",
+   "script": "You promised me. You looked me in the eye and promised. And you lied.",
+   "recognized": "You promised me. You looked me in the eye and promised. And you lied.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/annoyed.mp3",
+   "hash": "2e71d54b350f0e9a",
+   "script": "Seriously? That’s the third time this week you’ve parked in my spot.",
+   "recognized": "Seriously? That's the third time this week you've parked in my spot!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/awestruck.mp3",
+   "hash": "ec0bbd9c8dc984ac",
+   "script": "Look at the size of that whale. It’s... it’s magnificent.",
+   "recognized": "Look at the size of that whale. It's it's magnificent",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/belly-laugh.mp3",
+   "hash": "4436eedaa0ee7f81",
+   "script": "And then the dog just... took the whole sandwich! I can’t breathe!",
+   "recognized": "And then the dog just took the whole sandwich! I can't breathe!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/bored.mp3",
+   "hash": "2a1acbf87c775ce5",
+   "script": "Wow. Another spreadsheet. How thrilling. I can barely contain myself.",
+   "recognized": "Wow. Another spreadsheet. How thrilling. I can barely contain myself.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/calm.mp3",
+   "hash": "94250cc3449013ac",
+   "script": "Let your shoulders soften. There is nothing you need to solve right now.",
+   "recognized": "Let your shoulders soften. There is nothing you need to solve right now.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/chuckling.mp3",
+   "hash": "ee6ce2789192a815",
+   "script": "You really thought I wouldn’t notice? Nice try.",
+   "recognized": "You really thought I wouldn't notice. Nice try.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/comforting.mp3",
+   "hash": "e031454a842e1034",
+   "script": "Hey, hey. It’s okay. Come here. You’re not alone in this.",
+   "recognized": "Hey, hey. It's okay. Come here. You're not alone in this.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/commentator.mp3",
+   "hash": "2187acb6b25a8145",
+   "script": "She shoots, she scores! What a goal! The crowd goes absolutely wild!",
+   "recognized": "She shoots, she scores! What a goal! The crowd goes absolutely wild!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/commercial.mp3",
+   "hash": "e13316457e99d1b0",
+   "script": "Fresh, crunchy and ready in two minutes. Your new favorite breakfast is here!",
+   "recognized": "Fresh, crunchy and ready in two minutes! Your new favorite breakfast is here!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/confident.mp3",
+   "hash": "4d6b4b683d7f93bf",
+   "script": "You’ve done the hard part. Now let’s make your next move count.",
+   "recognized": "You've done the hard part. Now let's make your next move count.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/confused.mp3",
+   "hash": "e012d723e9886e9e",
+   "script": "Hold on. If it’s Tuesday here, then why does my phone say Thursday?",
+   "recognized": "Hold on. If it's Tuesday here, then why does my phone say Thursday?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/crying.mp3",
+   "hash": "f3ce289cdef23b12",
+   "script": "I’m sorry, I just... I really thought he was coming home.",
+   "recognized": "I'm sorry. I just I really thought he was coming home",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/curious.mp3",
+   "hash": "b90fadee90b0d841",
+   "script": "That little door wasn’t here yesterday. Shall we see what’s behind it?",
+   "recognized": "That little door wasn't here yesterday. Shall we see what's behind it?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/disappointed.mp3",
+   "hash": "e5903ca7704256a0",
+   "script": "Oh. You forgot. No, it’s fine. It’s just... I thought this year would be different.",
+   "recognized": "Oh, you forgot. No, it's fine. It's just, I thought this year would be different.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/disgusted.mp3",
+   "hash": "aabc353845c4c1b3",
+   "script": "Ew, what is that smell? Did someone leave fish in the microwave again?",
+   "recognized": "Ew, what is that smell? Did someone leave fish in the microwave again?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/dramatic.mp3",
+   "hash": "31c814aef2d29b2e",
+   "script": "And in that moment... she knew. Nothing would ever be the same again.",
+   "recognized": "And in that moment, she knew nothing would ever be the same again.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/dreamy.mp3",
+   "hash": "9bde61b31fbf2060",
+   "script": "Imagine waking up in a little house by the sea, with nowhere to be and nothing to do...",
+   "recognized": "Imagine waking up in a little house by the sea, with nowhere to be and nothing to do.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/ecstatic.mp3",
+   "hash": "06bdff30545eb3f7",
+   "script": "We got it! We actually got it! I can’t believe it, I’m shaking!",
+   "recognized": "We got it! We actually got it! I can't believe it! I'm shaking!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/excited.mp3",
+   "hash": "cd5e9d1f14b30010",
+   "script": "It’s finally happening! This is the moment we’ve been waiting for.",
+   "recognized": "It's finally happening! This is the moment we've been waiting for!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/exhausted.mp3",
+   "hash": "e4c9dad0980a8c48",
+   "script": "Three flights, two delays and one lost suitcase. I just want my bed.",
+   "recognized": "Three flights, two delays and one lost suitcase. I just want my bed.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/fast-talker.mp3",
+   "hash": "e65d03c157e47576",
+   "script": "Terms and conditions apply, offer valid while supplies last, not available in all regions, see store for details.",
+   "recognized": "Terms and conditions apply. Offer valid while supplies last, not available in all regions. Seastore for details.",
+   "similarity": 0.986,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/flirty.mp3",
+   "hash": "6e3822536f4fc75e",
+   "script": "Well, hello there. Has anyone ever told you that you have a very nice smile?",
+   "recognized": "Well, hello there. Has anyone ever told you that you have a very nice smile?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/frustrated.mp3",
+   "hash": "a6108c253b5ca392",
+   "script": "I followed every instruction. So why is the screen still blank?",
+   "recognized": "I followed every instruction, so why is the screen still blank?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/furious.mp3",
+   "hash": "22d87a63ba71024b",
+   "script": "Don’t you DARE walk away from me. This conversation is NOWHERE near over!",
+   "recognized": "Don't you dare walk away from me! This conversation is nowhere near over!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/giggling.mp3",
+   "hash": "095e92651a571067",
+   "script": "Stop it, stop looking at me like that! I’m trying to be serious!",
+   "recognized": "Stop it! Stop looking at me like that! I'm trying to be serious!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/grateful.mp3",
+   "hash": "247354e911f1e50f",
+   "script": "I don’t think you know how much this means to me. Thank you, truly.",
+   "recognized": "I don't think you know how much this means to me. Thank you, truly.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/happy.mp3",
+   "hash": "7a9568f93b5b472a",
+   "script": "Guess what? The sun is out, the coffee is perfect, and I have the whole day off!",
+   "recognized": "Guess what? The sun is out, the coffee is perfect, and I have the whole day off!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/heartbroken.mp3",
+   "hash": "b5b62738d58d6cdc",
+   "script": "You said forever. I believed you.",
+   "recognized": "You said forever. I believed you.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/hesitant.mp3",
+   "hash": "d4889b30555da9e0",
+   "script": "I’m not sure... I mean, maybe? If you really think it’s a good idea.",
+   "recognized": "I'm not sure. I mean, maybe? If you really think it's a good idea.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/hiccups.mp3",
+   "hash": "949dc7726e90e02b",
+   "script": "Excuse me. I’m trying to give a very serious speech here.",
+   "recognized": "Excuse me, I'm trying to give a very serious speech here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/hopeful.mp3",
+   "hash": "0d155dd357882a46",
+   "script": "Maybe this year is the year. Maybe this time, everything works out.",
+   "recognized": "Maybe this year is the year. Maybe this time everything works out.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/impressed.mp3",
+   "hash": "5d8e5d3f3e0c2349",
+   "script": "Wait, you built this yourself? In one weekend? Okay, I’m genuinely impressed.",
+   "recognized": "Wait, you built this yourself? In one weekend? Okay, I'm genuinely impressed.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/laughing.mp3",
+   "hash": "e64ca73accd2ce0c",
+   "script": "Did you see his face? He had no idea the cake was for him!",
+   "recognized": "Did you see his face? He had no idea the cake was for him!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/loving.mp3",
+   "hash": "41550dfe35f073e6",
+   "script": "Sleep well, little one. I’ll be right here when you wake up.",
+   "recognized": "Sleep well, little one. I'll be right here when you wake up.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/melancholic.mp3",
+   "hash": "d696d3fde1ea3636",
+   "script": "The house is so quiet now. Even the rain sounds lonely.",
+   "recognized": "The house is so quiet now. Even the rain sounds lonely.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/mouth-full.mp3",
+   "hash": "fc87bea0f4495d84",
+   "script": "Mmm, sorry, sorry. This pizza is amazing. Do you want a bite?",
+   "recognized": "Oh, sorry, sorry. This pizza is amazing! Do you want a bite?",
+   "similarity": 0.955,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/muttering.mp3",
+   "hash": "22ad12ef029843e4",
+   "script": "Assemble the shelf, they said. It’s easy, they said. Twelve screws left over...",
+   "recognized": "Assemble the shelf, they said. It's easy, they said. 12 screws left over.",
+   "similarity": 0.943,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/mysterious.mp3",
+   "hash": "957388c1dade9429",
+   "script": "They say the old lighthouse has been empty for years. So who keeps turning on the light?",
+   "recognized": "They say the old lighthouse has been empty for years, so who keeps turning on the light?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/nervous.mp3",
+   "hash": "ed583e9e1c23db4a",
+   "script": "So, um... I’ve never actually done this before. Is that... is that okay?",
+   "recognized": "So, um, I've never actually done this before. Is that, is that okay?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/news-anchor.mp3",
+   "hash": "4fef2bc00897a9a8",
+   "script": "Good evening. Tonight, scientists confirm what cat owners have always known: the cat is in charge.",
+   "recognized": "Good evening. Tonight, scientists confirm what cat owners have always known. The cat is in charge.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/nostalgic.mp3",
+   "hash": "b985f975e755afaf",
+   "script": "Remember those summers at Grandma’s? The smell of pancakes, the creaky stairs...",
+   "recognized": "Remember those summers at Grandmas? The smell of pancakes, the creaky stairs...",
+   "similarity": 0.993,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/opera.mp3",
+   "hash": "e89daefa73e57f98",
+   "script": "Oh, my beautiful spaghetti... why are you getting cold?",
+   "recognized": "Oh, my beautiful spaghetti. Why are you getting cold?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/out-of-breath.mp3",
+   "hash": "02d76ab9558b6240",
+   "script": "Okay... I made it... who said... five flights of stairs... was a good idea?",
+   "recognized": "Okay, I made it. Who said five flights of stairs was a good idea?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/panicked.mp3",
+   "hash": "f37f4a30bebf2f8d",
+   "script": "Where are my keys? Where are my keys?! The taxi is here and I can’t find my passport!",
+   "recognized": "Where are my keys? Where are my keys? The taxi is here and I can't find my passport.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/playful.mp3",
+   "hash": "548d48467ce19dbe",
+   "script": "I promised I wouldn’t eat the last biscuit. I made no promises about the cake.",
+   "recognized": "I promised I wouldn't eat the last biscuit. I made no promises about the cake.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/proud.mp3",
+   "hash": "a3c7f7596ad629f4",
+   "script": "Look at you up there on that stage. I always knew you could do it.",
+   "recognized": "Look at you up there on that stage! I always knew you could do it!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/relieved.mp3",
+   "hash": "abbf15e7881c3677",
+   "script": "Oh, thank goodness. They found her. She’s okay. She’s really okay.",
+   "recognized": "Oh, thank goodness. They found her. She's okay. She's really okay.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/sad.mp3",
+   "hash": "c18f5360cc3c32e6",
+   "script": "I still set out two cups sometimes. Then I remember.",
+   "recognized": "I still set out two cups sometimes, then I remember.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/sarcastic.mp3",
+   "hash": "4976255f67adca6c",
+   "script": "Oh, great. Another meeting that could have been an email. My favorite.",
+   "recognized": "Oh, great. Another meeting that could have been an email. My favourite.",
+   "similarity": 0.992,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/sassy.mp3",
+   "hash": "eddffecdc58d19e3",
+   "script": "Oh honey, no. That outfit? We are not leaving the house like that.",
+   "recognized": "Oh, honey, no. That outfit? We are not leaving the house like that.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/scared.mp3",
+   "hash": "57fbcd5ad8f07c92",
+   "script": "Did you hear that? Something’s downstairs. Please tell me you locked the door.",
+   "recognized": "Did you hear that? Something's downstairs. Please tell me you locked the door.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/shouting.mp3",
+   "hash": "1330b98f5d0414f4",
+   "script": "HEY! Over here! You forgot your keys on the roof of the car!",
+   "recognized": "Hey! Over here! You forgot your keys on the roof of the car!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/sighing.mp3",
+   "hash": "ccb82cea8b706f9b",
+   "script": "Monday again. Okay. Coffee first, then the world.",
+   "recognized": "Ugh, Monday again. Ugh, okay. Coffee first, then the world.",
+   "similarity": 0.918,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/singing.mp3",
+   "hash": "211228a9190b8155",
+   "script": "Happy birthday to you, happy birthday to you... okay, I’ll stop.",
+   "recognized": "Happy birthday to you happy birthday to you. Okay, I'll stop",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/sleepy.mp3",
+   "hash": "b79d0ae961815944",
+   "script": "Just five more minutes... the bed is so warm...",
+   "recognized": "Just five more minutes, the bed is so warm.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/soothing.mp3",
+   "hash": "e952506e40a486aa",
+   "script": "Breathe in slowly... and let it all go. You are safe here.",
+   "recognized": "Breathe in slowly and let it all go. You are safe here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/stern.mp3",
+   "hash": "4137f8d20cf2e75a",
+   "script": "Put the phone down. Look at me. We need to talk about this, now.",
+   "recognized": "Put the phone down. Look at me. We need to talk about this, now.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/stifled-laugh.mp3",
+   "hash": "19c8972e5fe10ad0",
+   "script": "No, I’m fine. Really. It’s just that your new haircut is very... brave.",
+   "recognized": "No, I'm fine. Really. It's just that your new haircut is very… brave.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/storyteller.mp3",
+   "hash": "56f6808726cb45c8",
+   "script": "Once upon a time, in a village by the sea, there lived a girl who could talk to the wind.",
+   "recognized": "Once upon a time, in a village by the sea, there lived a girl who could talk to the wind.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/surprised.mp3",
+   "hash": "7827c8a365dfc557",
+   "script": "For me? You did all of this for me? Oh my goodness!",
+   "recognized": "For me? You did all of this for me? Oh my goodness!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/tender.mp3",
+   "hash": "dcd9f28ad9cf1a41",
+   "script": "I kept your drawing all these years. It still makes me smile.",
+   "recognized": "I kept your drawing all these years. It still makes me smile.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/terrified.mp3",
+   "hash": "fcf2bfa33dd245b4",
+   "script": "It’s right behind the door. Don’t move. Don’t... make... a sound.",
+   "recognized": "It's right behind the door. Don't move. Don't make a sound.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/thoughtful.mp3",
+   "hash": "903abc2d6e6f6d94",
+   "script": "Hmm. You know, maybe the question isn’t what we want... but why we want it.",
+   "recognized": "Hmm. You know, maybe the question isn't what we want, but why we want it.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/urgent.mp3",
+   "hash": "47c5de8c14b6c393",
+   "script": "The last train leaves in one minute. We need to move now.",
+   "recognized": "The last train leaves in one minute. We need to move now.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/villain.mp3",
+   "hash": "c1f0253377111641",
+   "script": "You really thought you could stop me? How adorable.",
+   "recognized": "You really thought you could stop me? How adorable!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/warm.mp3",
+   "hash": "4aaf6dfa46c6843b",
+   "script": "You don’t have to figure it all out today. Let’s take the first step together.",
+   "recognized": "You don't have to figure it all out today. Let's take the first step together.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/whisper.mp3",
+   "hash": "f345ad53486b1bc5",
+   "script": "Come a little closer. I have a tiny secret to tell you.",
+   "recognized": "Come a little closer, I have a tiny secret to tell you.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/with-a-cold.mp3",
+   "hash": "9e9e72d16393acf5",
+   "script": "Hi, it’s me. I won’t make it in today. I think I’m dying.",
+   "recognized": "Hi. It's me. I won't make it in today. I think I'm dying.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-gb/scene/worried.mp3",
+   "hash": "43e620bbfb010b51",
+   "script": "It’s almost midnight and she’s still not answering her phone. That’s not like her.",
+   "recognized": "It's almost midnight and she's still not answering her phone. That's not like her.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/amazed.mp3",
+   "hash": "ab4be5ef77fad126",
+   "script": "The whole sky is glowing. I’ve never seen anything like it.",
+   "recognized": "The whole sky is glowing! I've never seen anything like it!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/angry.mp3",
+   "hash": "913ff8d928ad3429",
+   "script": "You promised me. You looked me in the eye and promised. And you lied.",
+   "recognized": "You promised me. You looked me in the eye and promised. And you lied.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/annoyed.mp3",
+   "hash": "f88fdeb552a7331d",
+   "script": "Seriously? That’s the third time this week you’ve parked in my spot.",
+   "recognized": "Seriously? That's the third time this week you've parked in my spot.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/awestruck.mp3",
+   "hash": "386fe7bc8bf4b64a",
+   "script": "Look at the size of that whale. It’s... it’s magnificent.",
+   "recognized": "Look at the size of that wheel! It's... it's magnificent!",
+   "similarity": 0.962,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/belly-laugh.mp3",
+   "hash": "f6e8eac8d8e8d026",
+   "script": "And then the dog just... took the whole sandwich! I can’t breathe!",
+   "recognized": "and then the dog just took the whole sandwich! I can't breathe!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/bored.mp3",
+   "hash": "11eef833d66083d9",
+   "script": "Wow. Another spreadsheet. How thrilling. I can barely contain myself.",
+   "recognized": "Wow. Another spreadsheet. How thrilling. I can barely contain myself.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/calm.mp3",
+   "hash": "a581e74e95fcc146",
+   "script": "Let your shoulders soften. There is nothing you need to solve right now.",
+   "recognized": "Let your shoulders soften. There is nothing you need to solve right now.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/chuckling.mp3",
+   "hash": "010bb93569cfcd7b",
+   "script": "You really thought I wouldn’t notice? Nice try.",
+   "recognized": "You really thought I wouldn't notice? Nice try.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/comforting.mp3",
+   "hash": "5117bd3caf01630a",
+   "script": "Hey, hey. It’s okay. Come here. You’re not alone in this.",
+   "recognized": "Hey, hey, it's okay. Come here. You're not alone in this.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/commentator.mp3",
+   "hash": "c147671e39c83aee",
+   "script": "She shoots, she scores! What a goal! The crowd goes absolutely wild!",
+   "recognized": "She shoots! She scores! What a goal! The crowd goes absolutely wild!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/commercial.mp3",
+   "hash": "1b276356d6099bc9",
+   "script": "Fresh, crunchy and ready in two minutes. Your new favorite breakfast is here!",
+   "recognized": "Fresh, crunchy and ready in two minutes! Your new favourite breakfast is here!",
+   "similarity": 0.993,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/confident.mp3",
+   "hash": "cfab0bb7152fa2c9",
+   "script": "You’ve done the hard part. Now let’s make your next move count.",
+   "recognized": "You've done the hard part. Now let's make your next move count.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/confused.mp3",
+   "hash": "52ed62553af0aad6",
+   "script": "Hold on. If it’s Tuesday here, then why does my phone say Thursday?",
+   "recognized": "Hold on, if it's Tuesday here, then why does my phone say Thursday?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/crying.mp3",
+   "hash": "ef88a585c13805a7",
+   "script": "I’m sorry, I just... I really thought he was coming home.",
+   "recognized": "I'm sorry, I just... I really thought he was coming home!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/curious.mp3",
+   "hash": "3ef62571c61e7428",
+   "script": "That little door wasn’t here yesterday. Shall we see what’s behind it?",
+   "recognized": "That little door wasn't here yesterday, shall we see what's behind it?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/disappointed.mp3",
+   "hash": "c891fa1c541f5308",
+   "script": "Oh. You forgot. No, it’s fine. It’s just... I thought this year would be different.",
+   "recognized": "Oh, you forgot. No, it's fine. It's just, I thought this year would be different.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/disgusted.mp3",
+   "hash": "7dce25374a7783f0",
+   "script": "Ew, what is that smell? Did someone leave fish in the microwave again?",
+   "recognized": "Ew, what is that smell? Did someone leave fish in the microwave again?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/dramatic.mp3",
+   "hash": "92f8d9ae3b714c04",
+   "script": "And in that moment... she knew. Nothing would ever be the same again.",
+   "recognized": "And in that moment, she knew nothing would ever be the same again.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/dreamy.mp3",
+   "hash": "54def34a65a042c1",
+   "script": "Imagine waking up in a little house by the sea, with nowhere to be and nothing to do...",
+   "recognized": "Imagine waking up in a little house by the sea with nowhere to be and nothing to do.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/ecstatic.mp3",
+   "hash": "024da658b0560f52",
+   "script": "We got it! We actually got it! I can’t believe it, I’m shaking!",
+   "recognized": "We got it! We actually got it! I can't believe it! I'm shaking!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/excited.mp3",
+   "hash": "ac8f2000509957f3",
+   "script": "It’s finally happening! This is the moment we’ve been waiting for.",
+   "recognized": "It's finally happening! This is the moment we've been waiting for!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/exhausted.mp3",
+   "hash": "2859f223d5b7b629",
+   "script": "Three flights, two delays and one lost suitcase. I just want my bed.",
+   "recognized": "three flights, two delays and one lost suitcase. I just want my bed.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/fast-talker.mp3",
+   "hash": "7a7889fe49c1b716",
+   "script": "Terms and conditions apply, offer valid while supplies last, not available in all regions, see store for details.",
+   "recognized": "Terms and conditions apply. Offer valid while supplies last, not available in all regions. Seastore for details.",
+   "similarity": 0.986,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/flirty.mp3",
+   "hash": "4a9eb1791ab2df26",
+   "script": "Well, hello there. Has anyone ever told you that you have a very nice smile?",
+   "recognized": "Well, hello there. Has anyone ever told you that you have a very nice smile?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/frustrated.mp3",
+   "hash": "97be3f21cc354a9c",
+   "script": "I followed every instruction. So why is the screen still blank?",
+   "recognized": "I followed every instruction, so why is the screen still blank?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/furious.mp3",
+   "hash": "d3c1d9d2698efc82",
+   "script": "Don’t you DARE walk away from me. This conversation is NOWHERE near over!",
+   "recognized": "Don't you dare walk away from me! This conversation is nowhere near over!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/giggling.mp3",
+   "hash": "de3c819b84525c9f",
+   "script": "Stop it, stop looking at me like that! I’m trying to be serious!",
+   "recognized": "Stop it. Stop looking at me like that. I'm trying to be serious.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/grateful.mp3",
+   "hash": "8dbbc66da06f78c6",
+   "script": "I don’t think you know how much this means to me. Thank you, truly.",
+   "recognized": "I don't think you know how much this means to me. Thank you, truly.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/happy.mp3",
+   "hash": "1f397d5243cf8213",
+   "script": "Guess what? The sun is out, the coffee is perfect, and I have the whole day off!",
+   "recognized": "Guess what? The sun is out, the coffee is perfect, and I have the whole day off!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/heartbroken.mp3",
+   "hash": "5bc3ce8477f0220a",
+   "script": "You said forever. I believed you.",
+   "recognized": "You said forever. I believed you.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/hesitant.mp3",
+   "hash": "3bab80596805064c",
+   "script": "I’m not sure... I mean, maybe? If you really think it’s a good idea.",
+   "recognized": "I'm not sure. I mean, maybe? If you really think it's a good idea.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/hiccups.mp3",
+   "hash": "f18f3a11d69d97ae",
+   "script": "Excuse me. I’m trying to give a very serious speech here.",
+   "recognized": "Excuse me. I'm trying to give a very serious speech here.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/hopeful.mp3",
+   "hash": "68351a37cb84abc2",
+   "script": "Maybe this year is the year. Maybe this time, everything works out.",
+   "recognized": "Maybe this year is the year. Maybe this time, everything works out.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/impressed.mp3",
+   "hash": "1729f67921fca478",
+   "script": "Wait, you built this yourself? In one weekend? Okay, I’m genuinely impressed.",
+   "recognized": "Wait, you built this yourself? In one weekend? Okay, I'm genuinely impressed.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/laughing.mp3",
+   "hash": "8d375c6ceef71a4a",
+   "script": "Did you see his face? He had no idea the cake was for him!",
+   "recognized": "Did you see his face? He had no idea the cake was for him!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/loving.mp3",
+   "hash": "b15550b2883079f2",
+   "script": "Sleep well, little one. I’ll be right here when you wake up.",
+   "recognized": "Sleep well, little one. I'll be right here when you wake up.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/melancholic.mp3",
+   "hash": "e14a262a3c83d98b",
+   "script": "The house is so quiet now. Even the rain sounds lonely.",
+   "recognized": "The house is so quiet now. Even the rain sounds lonely.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/mouth-full.mp3",
+   "hash": "8aac5d56a24ee473",
+   "script": "Mmm, sorry, sorry. This pizza is amazing. Do you want a bite?",
+   "recognized": "Mmm, sorry, sorry. This pizza is amazing. Do you want a bite?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/muttering.mp3",
+   "hash": "14751ab1961a1c77",
+   "script": "Assemble the shelf, they said. It’s easy, they said. Twelve screws left over...",
+   "recognized": "Assemble the shelf they said. It's easy, they said. 12 screws left over.",
+   "similarity": 0.943,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/mysterious.mp3",
+   "hash": "dfefdabe55129bf9",
+   "script": "They say the old lighthouse has been empty for years. So who keeps turning on the light?",
+   "recognized": "They say the old lighthouse has been empty for years, so who keeps turning on the light?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/nervous.mp3",
+   "hash": "fefb35758c591e5e",
+   "script": "So, um... I’ve never actually done this before. Is that... is that okay?",
+   "recognized": "So, um, I've never actually done this before. Is that, is that okay?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/news-anchor.mp3",
+   "hash": "60755f18cff9d204",
+   "script": "Good evening. Tonight, scientists confirm what cat owners have always known: the cat is in charge.",
+   "recognized": "Good evening. Tonight, scientists confirm what cat owners have always known. The cat is in charge.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/nostalgic.mp3",
+   "hash": "dc549f661a23abd1",
+   "script": "Remember those summers at Grandma’s? The smell of pancakes, the creaky stairs...",
+   "recognized": "Remember those summers at Grandmas? The smell of pancakes? The creaky stairs?",
+   "similarity": 0.993,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/opera.mp3",
+   "hash": "a39dab52675bd4ca",
+   "script": "Oh, my beautiful spaghetti... why are you getting cold?",
+   "recognized": "Oh, my beautiful spaghetti. Why are you getting cold?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/out-of-breath.mp3",
+   "hash": "dc229b102f77c501",
+   "script": "Okay... I made it... who said... five flights of stairs... was a good idea?",
+   "recognized": "Okay, I made it. Who said five flights of stairs was a good idea?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/panicked.mp3",
+   "hash": "27131bf5fd4066ac",
+   "script": "Where are my keys? Where are my keys?! The taxi is here and I can’t find my passport!",
+   "recognized": "Where are my keys? Where are my keys? The taxi is here and I can't find my passport!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/playful.mp3",
+   "hash": "b06fa20eb8ee8dea",
+   "script": "I promised I wouldn’t eat the last biscuit. I made no promises about the cake.",
+   "recognized": "I promised I wouldn't eat the last biscuit. I made no promises about the cake.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/proud.mp3",
+   "hash": "a9712a7ddfc008e8",
+   "script": "Look at you up there on that stage. I always knew you could do it.",
+   "recognized": "Look at you up there on that stage. I always knew you could do it.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/relieved.mp3",
+   "hash": "d254e490f8421044",
+   "script": "Oh, thank goodness. They found her. She’s okay. She’s really okay.",
+   "recognized": "Oh, thank goodness. They found her. She's okay. She's really okay.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/sad.mp3",
+   "hash": "6a94ce810ebfbc8b",
+   "script": "I still set out two cups sometimes. Then I remember.",
+   "recognized": "I still set out two cups sometimes, then I remember.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/sarcastic.mp3",
+   "hash": "cad6498a8facff8b",
+   "script": "Oh, great. Another meeting that could have been an email. My favorite.",
+   "recognized": "Oh, great. Another meeting that could have been an email. My favourite.",
+   "similarity": 0.992,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/sassy.mp3",
+   "hash": "f34e77e20f849415",
+   "script": "Oh honey, no. That outfit? We are not leaving the house like that.",
+   "recognized": "Oh honey, no. That outfit? We are not leaving the house like that.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/scared.mp3",
+   "hash": "8073682665e33486",
+   "script": "Did you hear that? Something’s downstairs. Please tell me you locked the door.",
+   "recognized": "Did you hear that? Something's downstairs. Please tell me you locked the door.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/shouting.mp3",
+   "hash": "1db704dd1c5ac818",
+   "script": "HEY! Over here! You forgot your keys on the roof of the car!",
+   "recognized": "Hey! Over here! You forgot your keys on the roof of the car!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/sighing.mp3",
+   "hash": "7f009838119e5195",
+   "script": "Monday again. Okay. Coffee first, then the world.",
+   "recognized": "Monday again. Okay, coffee first, then the world.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/singing.mp3",
+   "hash": "6ca71245f62ce507",
+   "script": "Happy birthday to you, happy birthday to you... okay, I’ll stop.",
+   "recognized": "Happy birthday to you. Happy birthday to you. Okay, I'll stop.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/sleepy.mp3",
+   "hash": "d2fb73b756986817",
+   "script": "Just five more minutes... the bed is so warm...",
+   "recognized": "Just five more minutes. The bed is so warm.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/soothing.mp3",
+   "hash": "8829a2cac996cc59",
+   "script": "Breathe in slowly... and let it all go. You are safe here.",
+   "recognized": "Breathe in slowly and let it all go. You're safe here.",
+   "similarity": 0.971,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/stern.mp3",
+   "hash": "5ca37646a7f47221",
+   "script": "Put the phone down. Look at me. We need to talk about this, now.",
+   "recognized": "Put the phone down. Look at me. We need to talk about this. No.",
+   "similarity": 0.992,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/stifled-laugh.mp3",
+   "hash": "59d30788f65d4a81",
+   "script": "No, I’m fine. Really. It’s just that your new haircut is very... brave.",
+   "recognized": "No, I'm fine. Really. It's just that your new haircut is very brave.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/storyteller.mp3",
+   "hash": "604b5d35827cc0a8",
+   "script": "Once upon a time, in a village by the sea, there lived a girl who could talk to the wind.",
+   "recognized": "Once upon a time in a village by the sea there lived a girl who could talk to the wind",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/surprised.mp3",
+   "hash": "4e2b9984b06369b3",
+   "script": "For me? You did all of this for me? Oh my goodness!",
+   "recognized": "For me? You did all of this for me? Oh my goodness!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/tender.mp3",
+   "hash": "c752e15009dadc30",
+   "script": "I kept your drawing all these years. It still makes me smile.",
+   "recognized": "I kept your drawing all these years. It still makes me smile.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/terrified.mp3",
+   "hash": "4c8b297ef0f16a84",
+   "script": "It’s right behind the door. Don’t move. Don’t... make... a sound.",
+   "recognized": "It's right behind the door. Don't move. Don't make a sound.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/thoughtful.mp3",
+   "hash": "bd6015e7c2e6cc4a",
+   "script": "Hmm. You know, maybe the question isn’t what we want... but why we want it.",
+   "recognized": "Hmm, you know, maybe the question isn't what we want, but why we want it?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/urgent.mp3",
+   "hash": "171a8ac62eadcae9",
+   "script": "The last train leaves in one minute. We need to move now.",
+   "recognized": "The last train leaves in one minute. We need to move now.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/villain.mp3",
+   "hash": "2a7250ce1247c72d",
+   "script": "You really thought you could stop me? How adorable.",
+   "recognized": "You really thought you could stop me? How adorable.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/warm.mp3",
+   "hash": "04d0542babfebff7",
+   "script": "You don’t have to figure it all out today. Let’s take the first step together.",
+   "recognized": "You don't have to figure it all out today. Let's take the first step together.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/whisper.mp3",
+   "hash": "748b68de411917f3",
+   "script": "Come a little closer. I have a tiny secret to tell you.",
+   "recognized": "Come a little closer. I have a tiny secret to tell you.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/with-a-cold.mp3",
+   "hash": "658d84097a207b9a",
+   "script": "Hi, it’s me. I won’t make it in today. I think I’m dying.",
+   "recognized": "Hi, it's me. I won't make it in today. I think I'm dying.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en-scot/scene/worried.mp3",
+   "hash": "524c1a52806369e5",
+   "script": "It’s almost midnight and she’s still not answering her phone. That’s not like her.",
+   "recognized": "It's almost midnight and she's still not answering her phone. That's not like her.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
   {
    "clip": "audio/en/scene/amazed.mp3",
    "hash": "ee9154a55cd0f53a",
@@ -640,6 +1919,411 @@
    "hash": "126a0ec548972070",
    "script": "It’s almost midnight and she’s still not answering her phone. That’s not like her.",
    "recognized": "It's almost midnight and she's still not answering her phone. That's not like her.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/ai-agent.mp3",
+   "hash": "9710b4a7d5852e9b",
+   "script": "Hi Mark, thanks for reaching out! I can see your order left our warehouse yesterday, and it’s on its way to you now. It should arrive tomorrow before noon. Would you like me to text you the tracking link? Great, done! Is there anything else I can help you with today?",
+   "recognized": "Hi Mark, thanks for reaching out. I can see your order left our warehouse yesterday and it's on its way to you now. It should arrive tomorrow before noon. Would you like me to text you the tracking link? Great, done! Is there anything else I can help you with today?",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/app-launch.mp3",
+   "hash": "26b84d192737ec95",
+   "script": "Meet Tally. The budgeting app that actually gets you. No spreadsheets, no guilt, no math homework. Just snap your receipts, and Tally does the rest. Download Tally for free today, and finally know where your money goes.",
+   "recognized": "Meet Tali, the budgeting app that actually gets you. No spreadsheets, no guilt, no math homework. Just snap your receipts and Tali does the rest. Download Tali for free today and finally know where your money goes.",
+   "similarity": 0.978,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/asmr.mp3",
+   "hash": "14ecbdef7473b8d4",
+   "script": "Hi. Come closer. Tonight I’m going to help you relax... with some gentle sounds. Just listen. And if your eyes feel heavy... that’s okay. Let them close. I’ll be right here.",
+   "recognized": "Hi, come closer tonight. I'm going to help you relax with some gentle sounds Just listen and if your eyes feel heavy, that's okay. Let them close. I'll be right here",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/bedtime-story.mp3",
+   "hash": "d8ec7221a33a3ab1",
+   "script": "Once upon a time, high up in a cloud, lived a little star called Pip. Every night, Pip tried to shine as brightly as the big stars. But Pip was very small, and very sleepy. One night, the moon whispered: You don’t have to be the brightest, little one. You just have to be you. And Pip glowed, warm and happy, all night long.",
+   "recognized": "Once upon a time, high up in a cloud, lived a little star called Pip. Every night, Pip tried to shine as brightly as the big stars. But Pip was very small and very sleepy. One night, the moon whispered, You don't have to be the brightest little one. You just have to be you. And Pip glowed, warm and happy, all night long.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/car-ad.mp3",
+   "hash": "8075b2a0d8014129",
+   "script": "Some roads are meant to be driven. Coastal curves at sunrise. Mountain passes after rain. And a car that feels every single one of them. The all-electric Vela GT. Zero emissions. Zero compromise. Book your test drive today.",
+   "recognized": "Some roads are meant to be driven. Coastal curves at sunrise. Mountain passes after rain. And a car that feels every single one of them. The all-electric Vela GT. Zero emissions, zero compromise. Book your test drive today.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/cartoon.mp3",
+   "hash": "8aea920de322301e",
+   "script": "Hiya! I’m Nutsy! And today is the BEST day ever, because I found the biggest acorn in the whole entire forest! Wait. Where did it go? Nooo! Who took my acorn?! Oh. It was in my cheek the whole time.",
+   "recognized": "Hiya! I'm Nutsie! And today is the best day ever! Because I found the biggest acorn in the whole entire forest! Wait, where did it go? No! Who took my acorn? Oh, it was in my cheek the whole time.",
+   "similarity": 0.987,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/coffee-ad.mp3",
+   "hash": "59adec22acda9296",
+   "script": "Six forty-five. The house is still asleep. Just you... and that first sip. Rich. Smooth. Exactly how mornings should feel. Bellamy Coffee. Your quiet moment, every morning.",
+   "recognized": "645. The house is still asleep. Just you and that first sip. Rich, smooth. Exactly how mornings should feel. Bellamy Coffee. Your quiet moment every morning.",
+   "similarity": 0.945,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/documentary.mp3",
+   "hash": "6b86a4818a0a64d2",
+   "script": "Deep in the Arctic, the long night is finally ending. For the first time in months, the sun touches the ice. And from a hidden den beneath the snow, a mother polar bear appears... followed by two cubs, seeing the world for the very first time.",
+   "recognized": "Deep in the Arctic, the long night is finally ending. For the first time in months, the sun touches the ice. And from a hidden den beneath the snow, a mother polar bear appears, followed by two cubs, seeing the world for the very first time.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/explainer.mp3",
+   "hash": "71c06e5111547625",
+   "script": "Running a small team is hard enough. So why is planning still so messy? Meet Flowboard. One simple board for every project, every deadline and every person on your team. Drag a task, and everyone sees it. Finish a task, and everyone knows. Less chasing. More doing. Try Flowboard free for thirty days.",
+   "recognized": "Running a small team is hard enough, so why is planning still so messy? Meet Flowboard, one simple board for every project, every deadline, and every person on your team. Drag a task, and everyone sees it. Finish a task, and everyone knows. Less chasing, more doing. Try Flowboard free for 30 days.",
+   "similarity": 0.986,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/fairy-tale.mp3",
+   "hash": "ff4557fe92af088c",
+   "script": "And so the little goat knocked on the troll’s door. WHO is knocking on MY door? It’s me! The littlest goat. And I’m not afraid of you! The troll blinked. Nobody had ever said that before. And that, my friends, is when everything changed.",
+   "recognized": "and so the little goat knocked on the troll's door. Who's knocking on my door? It's me, the littlest goat, and I'm not afraid of you. The troll blinked. Nobody had ever said that before, and that, my friends, is when everything changed.",
+   "similarity": 0.993,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/fitness-coach.mp3",
+   "hash": "bf53024f82c30adf",
+   "script": "Come on, last round! Thirty seconds of squats, let’s GO! Chest up, knees out, push through those heels! Twenty seconds! You’ve got this! Ten more! Nine! Eight! And... rest. Amazing work. Grab some water.",
+   "recognized": "Come on, last round. 30 seconds of squats, let's go. Chest up, knees out, push through those heels. 20 seconds, you've got this. 10 more, nine, eight, and rest. Amazing work, grab some water.",
+   "similarity": 0.942,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/fun-facts.mp3",
+   "hash": "d48533f426e8e122",
+   "script": "Three facts that sound fake but are totally true. One: octopuses have three hearts. Two: honey never spoils. Archaeologists have found edible honey in ancient Egyptian tombs! And three: a group of flamingos is called... a flamboyance. Follow for more!",
+   "recognized": "Three facts that sound fake, but are totally true. One, octopuses have three hearts. Two, honey never spoils. Archeologists have found edible honey in ancient Egyptian tombs. And three, a group of flamingos is called flamboyants. Follow for more.",
+   "similarity": 0.985,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/ivr.mp3",
+   "hash": "0979021346c4cf58",
+   "script": "Thank you for calling Northwind Energy. For questions about your bill, press one. To report a power outage, press two. To start, stop or move your service, press three. For all other questions, press four, or stay on the line to speak with one of our team members. Thank you for your patience.",
+   "recognized": "Thank you for calling North Wind Energy. For questions about your bill, press 1. To report a power outage, press 2. To start, stop, or move your service, press 3. For all other questions, press 4, or stay on the line to speak with one of our team members. Thank you for your patience.",
+   "similarity": 0.964,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/language-lesson.mp3",
+   "hash": "33f993a39adfdcc3",
+   "script": "Today’s Dutch word is one you won’t find in any other language: gezellig. Say it with me. Ge-zel-lig. Don’t worry about that throaty G, you’ll get there. Gezellig is that warm, cozy feeling of being together. Candles, good friends, a long dinner. So next time you’re somewhere wonderful, just smile and say: wat gezellig!",
+   "recognized": "Today's Dutch word is one you won't find in any other language. Say it with me. Don't worry about that throaty G. You'll get there. Gezelig is that warm, cozy feeling of being together. Candles, good friends, a long dinner. So next time you're somewhere wonderful, just smile and say,",
+   "similarity": 0.941,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/literary-novel.mp3",
+   "hash": "c4ccf01c0b85e934",
+   "script": "The summer my grandmother stopped speaking, the sea came closer to the house. At least, that is how I remember it. Every morning the water was a little nearer, as if it, too, was waiting for her to say something. I was eleven. I believed the sea could hear us. I still do.",
+   "recognized": "The summer my grandmother stopped speaking, the sea came closer to the house. At least, that is how I remember it. Every morning the water was a little nearer, as if it too was waiting for her to say something. I was eleven. I believed the sea could hear us. I still do.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/meditation.mp3",
+   "hash": "8d12ce0e0ead7833",
+   "script": "Find a comfortable position, and gently close your eyes. Breathe in through your nose... and slowly let it go. Notice the weight of your body. The floor beneath you, holding you. There is nowhere else you need to be. Just here. Just now.",
+   "recognized": "Find a comfortable position and gently close your eyes. Breathe in through your nose and slowly let it go. Notice the weight of your body, the floor beneath you, holding you. There is nowhere else you need to be, just here, just now.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/motivation.mp3",
+   "hash": "73e21094fd1955be",
+   "script": "Nobody is coming to save you. And that’s the best news you’ll hear today. Because it means the power was always yours. Every early morning. Every time you wanted to quit and didn’t. That’s who you are. So get up. Go again. One more time.",
+   "recognized": "Nobody is coming to save you. And that's the best news you'll hear today. Because it means the power was always yours. Every early morning. Every time you wanted to quit and didn't. That's who you are. So get up. Go again. One more time.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/movie-trailer.mp3",
+   "hash": "5b09d9c9894dee13",
+   "script": "This summer... one woman... will cross an ocean... to keep a promise. No map. No money. No way back. Only the truth. Tidebreaker. Only in theaters.",
+   "recognized": "This summer, one woman will cross an ocean to keep a promise. No map, no money, no way back, only the truth. Tidebreaker, only in theaters.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/museum-guide.mp3",
+   "hash": "be299036be1afc04",
+   "script": "You are now standing in front of one of the most famous paintings in the world. Look closely at her eyes. Do you see how the light seems to come from inside the painting itself? The artist worked on this canvas for nearly four years. And yet, no one knows who she really was. When you’re ready, press two to continue.",
+   "recognized": "You are now standing in front of one of the most famous paintings in the world. Look closely at her eyes. Do you see how the light seems to come from inside the painting itself? The artist worked on this canvas for nearly four years, and yet no one knows who she really was. When you're ready, press 2 to continue.",
+   "similarity": 0.994,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/navigation.mp3",
+   "hash": "7b933637c6e9efa3",
+   "script": "In four hundred feet, keep right and take the exit toward Downtown. Then, at the roundabout, take the second exit. You will arrive at your destination in eight minutes. Traffic is light. Enjoy the drive.",
+   "recognized": "In 400 feet, keep right and take the exit toward downtown. Then, at the roundabout, take the second exit. You will arrive at your destination in eight minutes. Traffic is light. Enjoy the drive.",
+   "similarity": 0.961,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/news-bulletin.mp3",
+   "hash": "a87dad634022fce4",
+   "script": "It’s eight o’clock. Here’s the news. City officials have approved plans for a new two-mile park along the riverfront, set to open next spring. In sports, the Harbor City Hawks secured their place in the finals after a thrilling overtime win last night. And the weather: sunny spells this afternoon, with highs of seventy-two degrees.",
+   "recognized": "It's 8 o'clock. Here's the news. City officials have approved plans for a new two-mile park along the riverfront, set to open next spring. In sports, the Harbor City Hawks secured their place in the finals after a thrilling overtime win last night. And the weather, sunny spells this afternoon with highs of 72 degrees.",
+   "similarity": 0.97,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/non-fiction.mp3",
+   "hash": "a0aaba9904c4a1d3",
+   "script": "Chapter three. The power of tiny habits. Most people believe change requires a giant leap. But the research tells a different story. The people who change their lives rarely do it overnight. They do it one small, almost boring step at a time. Two minutes a day. That’s where we’ll start.",
+   "recognized": "Chapter 3, The Power of Tiny Habits Most people believe change requires a giant leap, but the research tells a different story. The people who change their lives rarely do it overnight. They do it one small, almost boring step at a time. Two minutes a day. That's where we'll start.",
+   "similarity": 0.989,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/on-hold.mp3",
+   "hash": "c588b45f3a83ddf6",
+   "script": "Thank you for holding. All of our team members are currently helping other customers, but your call is important to us, and we’ll be with you as soon as possible. Did you know you can also find answers to most questions on our website, any time of day? Thanks for your patience. We’ll be right with you.",
+   "recognized": "Thank you for holding. All of our team members are currently helping other customers, but your call is important to us and will be with you as soon as possible. Did you know you can also find answers to most questions on our website any time of day? Thanks for your patience. We'll be right with you.",
+   "similarity": 0.995,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/online-course.mp3",
+   "hash": "57b9acdc2fe632ce",
+   "script": "Welcome to lesson one! Over the next six weeks, we’ll go from complete beginner to taking photos you’re genuinely proud of. No fancy camera needed. Your phone is perfect. Today we start with the most important skill of all: learning to see the light. Ready? Let’s begin.",
+   "recognized": "Welcome to Lesson 1! Over the next six weeks, we'll go from complete beginner to taking photos you're genuinely proud of. No fancy camera needed. Your phone is perfect. Today we start with the most important skill of all, learning to see the light. Ready? Let's begin!",
+   "similarity": 0.992,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/perfume-ad.mp3",
+   "hash": "2d93a3405efdbf92",
+   "script": "Close your eyes. Summer rain on warm skin... a garden after midnight... the moment just before a kiss. Lumière. The new fragrance by Maison Elise. Wear the moment.",
+   "recognized": "Close your eyes, summer rain on warm skin, a garden after midnight, the moment just before a kiss. Lumière, the new fragrance by Maison Elise. Wear the moment.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/podcast-ad.mp3",
+   "hash": "76f3945f1798513b",
+   "script": "Okay, quick break. This episode is brought to you by Nestly. So, honestly? I’m terrible at keeping plants alive. Like, embarrassingly bad. Nestly sends you a plant that fits your home, plus a little reminder when it’s thirsty. Mine is still alive. Week six! Go to nestly dot com slash Ruth for twenty percent off your first plant.",
+   "recognized": "Okay, quick break. This episode is brought to you by Nestle. So, honestly, I'm terrible at keeping plants alive. Like, embarrassingly bad. Nestle sends you a plant that fits your home, plus a little reminder when it's thirsty. Mine is still alive! Week 6! Go to nestle.com slash Ruth for 20% off your first plant.",
+   "similarity": 0.951,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/podcast-intro.mp3",
+   "hash": "3d951ffd1bf2db03",
+   "script": "Hello, and welcome to Slow Sunday, the podcast for people who are tired of being busy. I’m Ruth. This week, we’re talking about the lost art of doing absolutely nothing. Why is it so hard? And what happens to your brain when you finally let it rest? Grab a cup of tea. Let’s get into it.",
+   "recognized": "Hello, and welcome to Slow Sunday, the podcast for people who are tired of being busy. I'm Ruth. This week, we're talking about the lost art of doing absolutely nothing. Why is it so hard? And what happens to your brain when you finally let it rest? Grab a cup of tea. Let's get into it.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/radio-jingle.mp3",
+   "hash": "2c108bec8fbe85eb",
+   "script": "You’re listening to Wave FM! The biggest hits, the best mornings, and absolutely zero boring bits. Wave FM! Turn it up!",
+   "recognized": "You're listening to Wave FM, the biggest hits, the best mornings, and absolutely zero boring bits. Wave FM! Turn it up!",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/recipe.mp3",
+   "hash": "59ff4b92e8c3a617",
+   "script": "Okay, this is my five-minute pasta, and it’s going to change your weeknights. First, garlic in the pan with a good splash of olive oil. Oh, smell that! Now cherry tomatoes, a pinch of salt, and let them burst. Toss in your pasta, a handful of basil, lots of parmesan... and dinner is served.",
+   "recognized": "Okay, this is my 5 minute pasta and it's going to change your weeknights. First, garlic in the pan with a good splash of olive oil. Oh, smell that! Now cherry tomatoes, a pinch of salt and let them burst. Toss in your pasta, a handful of basil, lots of Parmesan, and dinner is served.",
+   "similarity": 0.991,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/reddit-story.mp3",
+   "hash": "b9fbe396aeb59615",
+   "script": "Am I wrong for skipping my sister’s wedding... to go to my own? Okay, so let me explain. My sister picked her wedding date two years ago. Then my fiancé got a job offer abroad, and the only date we could get married was... the exact same day. I offered to move it. She said no. So now my mom isn’t speaking to either of us.",
+   "recognized": "Am I wrong for skipping my sister's wedding to go to my own? Okay, so let me explain. My sister picked her wedding date two years ago. Then my fiance got a job offer abroad and the only date we could get married was the exact same day. I offered to move it, she said no. So now my mom isn't speaking to either of us.",
+   "similarity": 0.997,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/safety-training.mp3",
+   "hash": "6303230967ad25fa",
+   "script": "Before you start your first shift, let’s talk about safety. In this building, there are four emergency exits, marked with green signs. Take a moment to find the one closest to your workstation. If you hear the alarm, stop what you’re doing, leave your belongings, and walk, don’t run, to the nearest exit. Your safety always comes first.",
+   "recognized": "Before you start your first shift, let's talk about safety. In this building, there are four emergency exits marked with green signs. Take a moment to find the one closest to your workstation. If you hear the alarm, stop what you're doing, leave your belongings, and walk. Don't run to the nearest exit. Your safety always comes first.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/scary-story.mp3",
+   "hash": "243ca9a986e9abe7",
+   "script": "My grandmother had one rule about the old farmhouse. Never answer the door after midnight. Not even if it sounds like someone you love. Last night, at twelve oh three, someone knocked. And then I heard my grandmother’s voice, calling my name. She died six years ago.",
+   "recognized": "My grandmother had one rule about the old farmhouse, never answer the door after midnight, not even if it sounds like someone you love. Last night, at 12.03, someone knocked, and then I heard my grandmother's voice, calling my name. She died six years ago.",
+   "similarity": 0.964,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/sleep-story.mp3",
+   "hash": "9d40f48ce90a2bd3",
+   "script": "The little train rolls slowly through the valley... past sleeping villages... and quiet fields covered in mist. Inside, the lamps are low and warm. The seats are soft. And the gentle rhythm of the wheels... rocks you... further... and further... into sleep.",
+   "recognized": "The little train rolls slowly through the valley, past sleeping villages and quiet fields covered in mist. Inside, the lamps are low and warm, the seats are soft, and the gentle rhythm of the wheels rocks you further and further into sleep.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/summer-sale.mp3",
+   "hash": "f673086e9d17ed1b",
+   "script": "It’s here! The BIGGEST summer sale of the year! Up to seventy percent off sofas, garden furniture and everything you need for those long, lazy evenings. But hurry: when it’s gone, it’s gone! Only at Casa Nova. Online and in stores. While stocks last.",
+   "recognized": "It's here! The biggest summer sale of the year! Up to 70% off sofas, garden furniture and everything you need for those long, lazy evenings. But hurry! When it's gone, it's gone. Only at Casanova. Online and in stores. While stocks last.",
+   "similarity": 0.961,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/thriller.mp3",
+   "hash": "904cfdfafc28542a",
+   "script": "The message arrived at three twelve in the morning. Three words. No sender. I know everything. Claire read it twice, then turned off her phone and listened. The house was silent. Too silent. Because somewhere downstairs... a door had just closed.",
+   "recognized": "The message arrived at 3.12 in the morning. Three words. No sender. I know everything. Claire read it twice, then turned off her phone and listened. The house was silent. Too silent. Because somewhere downstairs, a door had just closed.",
+   "similarity": 0.97,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/top-10.mp3",
+   "hash": "b224ee10783cf885",
+   "script": "Number three. The country with the most islands in the world. You might guess Indonesia, or the Philippines. But it’s actually Sweden, with more than two hundred and sixty thousand islands. So if you ever want an island of your own... you know where to look. And at number two...",
+   "recognized": "Number three, the country with the most islands in the world. You might guess Indonesia or the Philippines, but it's actually Sweden with more than 260,000 islands. So if you ever want an island of your own, you know where to look. And at number two...",
+   "similarity": 0.931,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/train-station.mp3",
+   "hash": "d329c07527786dcf",
+   "script": "Attention please. The eleven fifteen service to Boston South Station will now depart from platform four, instead of platform two. Platform four, for the eleven fifteen to Boston. We apologize for any inconvenience.",
+   "recognized": "Attention please. The 1115 service to Boston South Station will now depart from platform 4 instead of platform 2. Platform 4 for the 1115 to Boston. We apologise for any inconvenience.",
+   "similarity": 0.866,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/true-crime.mp3",
+   "hash": "b2c12a50b6a6be74",
+   "script": "On the night of March fourteenth, Daniel Price locked his bakery at nine p.m., just like every other night. His car was found the next morning, still in the parking lot. Engine running. Driver’s door open. Daniel was never seen again. And for twenty years, the only witness... never said a word.",
+   "recognized": "On the night of March 14th, Daniel Price locked his bakery at 9pm, just like every other night. His car was found the next morning, still in the parking lot. Engine running, driver's door open. Daniel was never seen again. And for 20 years, the only witness never said a word.",
+   "similarity": 0.954,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/tutorial.mp3",
+   "hash": "b009a40a854ddd99",
+   "script": "In this tutorial, I’ll show you how to share a document in under a minute. Step one: open your file and click the blue Share button in the top right corner. Step two: type the email address of the person you want to invite. Step three: choose whether they can view or edit. And that’s it. Click Send, and you’re done!",
+   "recognized": "In this tutorial, I'll show you how to share a document in under a minute. Step 1. Open your file and click the blue Share button in the top right corner. Step 2. Type the email address of the person you want to invite. Step 3. Choose whether they can view or edit. And that's it! Click Send and you're done!",
+   "similarity": 0.977,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/video-game.mp3",
+   "hash": "421747af89d76c66",
+   "script": "So, traveler. You’ve finally come. The old tower in the north has gone dark, and the villages are afraid. Bring back the Ember Stone before the third moon, and the kingdom will remember your name. Fail... and no one will remember anything at all. Now go. The road is long.",
+   "recognized": "So, Traveler, you've finally come. The old tower in the north has gone dark, and the villages are afraid. Bring back the Ember Stone before the third moon, and the kingdom will remember your name. Fail, and no one will remember anything at all. Now go. The road is long.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/voicemail.mp3",
+   "hash": "3d774d4216786407",
+   "script": "Hi, you’ve reached the office of Dr. Emma Hayes. We’re unable to take your call right now. Please leave your name, your number and a short message after the tone, and we’ll call you back within one business day. If this is an emergency, please hang up and dial nine one one. Thank you, and have a lovely day.",
+   "recognized": "Hi, you've reached the office of Dr Emma Hayes. We're unable to take your call right now. Please leave your name, your number and a short message after the tone and we'll call you back within one business day. If this is an emergency, please hang up and dial 911. Thank you and have a lovely day.",
+   "similarity": 0.974,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/weather.mp3",
+   "hash": "babf2944611b0f10",
+   "script": "Good morning! Grab your sunglasses, because today is looking absolutely gorgeous. Clear skies all day, and temperatures climbing to a lovely seventy-five. But don’t put that umbrella away just yet. Thunderstorms are rolling in on Thursday. Enjoy the sunshine while it lasts!",
+   "recognized": "Good morning! Grab your sunglasses because today is looking absolutely gorgeous. Clear skies all day and temperatures climbing to a lovely 75. But don't put that umbrella away just yet. Thunderstorms are rolling in on Thursday. Enjoy the sunshine while it lasts!",
+   "similarity": 0.973,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/en/usecases/youtube-intro.mp3",
+   "hash": "0f097e6c49269237",
+   "script": "Hey everyone, and welcome back to the channel! Today we’re doing something I’ve wanted to try for months: a full day living on just ten dollars. Spoiler: it did NOT go as planned. But before we start, if you’re new here, hit that subscribe button. It really helps. Okay. Let’s go!",
+   "recognized": "Hey everyone, and welcome back to the channel! Today we're doing something I've wanted to try for months. A full day living on just $10. Haha, spoiler, it did not go as planned. But before we start, if you're new here, hit that subscribe button. It really helps. Okay, let's go!",
+   "similarity": 0.974,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/intro/en-gb.mp3",
+   "hash": "f9f4b78ec013f29d",
+   "script": "Hi, I’m Ruth. Well... my voice is. Pick a feeling, any feeling, and I’ll bring it to life.",
+   "recognized": "Hi, I'm Ruth. Well, my voice is. Pick a feeling, any feeling, and I'll bring it to life.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/intro/en-scot.mp3",
+   "hash": "376f7ab128389cde",
+   "script": "Hi, I’m Ruth. Well... my voice is. Pick a feeling, any feeling, and I’ll bring it to life.",
+   "recognized": "Hi, I'm Ruth. Well, my voice is. Pick a feeling, any feeling, and I'll bring it to life.",
    "similarity": 1.0,
    "spoken_tag_words": [],
    "flagged": false
@@ -1302,6 +2986,413 @@
    "flagged": false
   },
   {
+   "clip": "audio/nl/usecases/ai-agent.mp3",
+   "hash": "e929364f3606e6da",
+   "script": "Hoi Mark, fijn dat je contact opneemt! Ik zie dat je bestelling gisteren ons magazijn heeft verlaten en nu onderweg is. Hij wordt morgen vóór twaalf uur bezorgd. Zal ik je de trackinglink sturen per sms? Top, gedaan! Kan ik je verder nog ergens mee helpen?",
+   "recognized": "Hoi Mark, fijn dat je contact opneemt. Ik zie dat je bestelling gisteren ons magazijn heeft verlaten en nu onderweg is. Hij wordt morgen voor 12 uur bezorgd. Zal ik je de tracking link sturen per SMS? Top, gedaan. Kan ik je verder nog ergens mee helpen?",
+   "similarity": 0.974,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/app-launch.mp3",
+   "hash": "8907d7489261fa63",
+   "script": "Maak kennis met Tally. De budgetapp die jou echt snapt. Geen spreadsheets, geen schuldgevoel, geen rekenhuiswerk. Maak gewoon een foto van je bonnetjes, en Tally doet de rest. Download Tally vandaag gratis, en weet eindelijk waar je geld blijft.",
+   "recognized": "Maak kennis met Telly, de budget app die jou echt snapt. Geen spreadsheets, geen schuldgevoel, geen rekenhuiswerk. Maak gewoon een foto van je bonnetjes en Telly doet de rest. Download Telly vandaag gratis en weet eindelijk waar je geld blijft.",
+   "similarity": 0.985,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/asmr.mp3",
+   "hash": "d504755c769cd0f2",
+   "script": "Hoi. Kom maar wat dichterbij. Vanavond help ik je ontspannen... met wat zachte geluidjes. Luister maar. En als je ogen zwaar worden... dat is goed. Laat ze maar dichtvallen. Ik blijf gewoon hier.",
+   "recognized": "Hoi, kom maar wat dichterbij. Vanavond help ik je ontspannen met wat zachte geluidjes. Luister maar. En als je ogen zwaar worden, dat is goed. Laat ze maar dicht vallen. Ik blijf gewoon hier.",
+   "similarity": 0.997,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/bedtime-story.mp3",
+   "hash": "9a7f67d35408cba9",
+   "script": "Er was eens, hoog in een wolk, een klein sterretje dat Pip heette. Elke nacht probeerde Pip net zo fel te stralen als de grote sterren. Maar Pip was heel klein, en heel erg moe. Op een nacht fluisterde de maan: Je hoeft niet de felste te zijn, kleintje. Je hoeft alleen maar jezelf te zijn. En Pip gloeide, warm en blij, de hele nacht lang.",
+   "recognized": "Er was eens, hoog in een wolk, een klein sterretje dat Pip heette. Elke nacht probeerde Pip net zoveel te stralen als de grote sterren. Maar Pip was heel klein en heel erg moe. Op een nacht fluisterde de maan. Je hoeft niet de velste te zijn, kleintje. Je hoeft alleen maar jezelf te zijn. En Pip gloeide, warm en blij, de hele nacht lang.",
+   "similarity": 0.991,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/car-ad.mp3",
+   "hash": "bfe6b9812ad32cd6",
+   "script": "Sommige wegen zijn gemaakt om te rijden. Kustbochten bij zonsopgang. Bergpassen na een regenbui. En een auto die ze allemaal voelt. De volledig elektrische Vela GT. Nul uitstoot. Nul compromissen. Plan vandaag nog je proefrit.",
+   "recognized": "Sommige wegen zijn gemaakt om te rijden. Kustbochten bij zonsopgang. Bergpassen na een regenbui. En een auto die ze allemaal voelt. De volledig elektrische Vela GT. Nul uitstoot, nul compromissen. Plan vandaag nog je proefrit.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/cartoon.mp3",
+   "hash": "11132da6ba8c400e",
+   "script": "Hoi hoi! Ik ben Nootje! En vandaag is de allerleukste dag OOIT, want ik heb de grootste eikel van het hele bos gevonden! Wacht eens. Waar is hij gebleven? Neeee! Wie heeft mijn eikel gepakt?! Oh. Hij zat de hele tijd gewoon in mijn wang.",
+   "recognized": "Hoi hoi, ik ben Nootje en vandaag is de allerleukste dag ooit, want ik heb de grootste eikel van het hele bos gevonden. Wacht eens, waar is hij gebleven? Nee, wie heeft mijn eikel gepakt? Oh, hij zat de hele tijd gewoon in mijn wang.",
+   "similarity": 0.996,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/coffee-ad.mp3",
+   "hash": "ea4caf161aac7eec",
+   "script": "Kwart voor zeven. Het huis slaapt nog. Alleen jij... en die eerste slok. Vol. Zacht. Precies zoals een ochtend hoort te voelen. Bellamy Koffie. Jouw rustige moment, elke ochtend.",
+   "recognized": "Quart voor zeven, het huis slaap nog, alleen jij, en die eerste slok. Vol, zacht, precies zoals een ochtend hoort te voelen. Bellamy Coffee, jouw rustige moment elke ochtend.",
+   "similarity": 0.973,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/documentary.mp3",
+   "hash": "4a0f2b6dbc88b050",
+   "script": "Diep in het noordpoolgebied komt er eindelijk een einde aan de lange nacht. Voor het eerst in maanden raakt de zon het ijs. En uit een verborgen hol onder de sneeuw verschijnt een moeder ijsbeer... gevolgd door twee welpjes, die de wereld voor het allereerst zien.",
+   "recognized": "Diep in het Noordpolgebied komt er eindelijk een einde aan de lange nacht. Voor het eerst in maanden raakt de zon het ijs. En uit een verborgen hol onder de sneeuw verschijnt een moedereisbeer, gevolgd door twee welpjes die de wereld voor het allereerst zien.",
+   "similarity": 0.992,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/explainer.mp3",
+   "hash": "f5d9c1c1c007f8c5",
+   "script": "Een klein team runnen is al lastig genoeg. Waarom is plannen dan nog steeds zo’n chaos? Maak kennis met Flowboard. Eén overzichtelijk bord voor elk project, elke deadline en iedereen in je team. Sleep een taak, en iedereen ziet het. Rond een taak af, en iedereen weet het. Minder achter mensen aan. Meer gedaan. Probeer Flowboard dertig dagen gratis.",
+   "recognized": "Een klein teamrunnen is al lastig genoeg. Waarom is plannen dan nog steeds zo'n chaos? Maak kennis met flowboard. Eén overzichtelijk bord voor elk project, elke deadline en iedereen in je team. Sleep een taak en iedereen ziet het. Rond een taak af en iedereen weet het. Minder achter mensen aan. Meer gedaan. Probeer flowboard 30 dagen gratis.",
+   "similarity": 0.987,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/fairy-tale.mp3",
+   "hash": "d2923dbc228a9a08",
+   "script": "En dus klopte het kleine geitje op de deur van de trol. WIE klopt er op MIJN deur? Ik! Het allerkleinste geitje. En ik ben helemaal niet bang voor jou! De trol knipperde met zijn ogen. Dat had nog nooit iemand gezegd. En op dat moment, lieve luisteraars, veranderde alles.",
+   "recognized": "En dus klopte het kleine geitje op de deur van de troll. Wie klopt er op mijn deur? Ik, het allerkleinste geitje. En ik ben helemaal niet bang voor jou. De troll knipperde met zijn ogen. Dat had nog nooit iemand gezegd. En op dat moment, lieve luisteraars, veranderde alles.",
+   "similarity": 0.996,
+   "spoken_tag_words": [
+    "troll"
+   ],
+   "flagged": true
+  },
+  {
+   "clip": "audio/nl/usecases/fitness-coach.mp3",
+   "hash": "2fb4daa817b9b933",
+   "script": "Kom op, laatste ronde! Dertig seconden squats, GAAN! Borst omhoog, knieën naar buiten, duwen vanuit je hielen! Nog twintig seconden! Je kunt het! Nog tien! Negen! Acht! En... rust. Super gedaan. Pak even wat water.",
+   "recognized": "Kom op, laatste ronde, 30 seconden squats, gaan! Borst omhoog, knieën naar buiten, duwen vanuit je hielen. Nog 20 seconden, je kunt het! Nog 10, 9, 8. En rust, super gedaan. Pak even wat water.",
+   "similarity": 0.909,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/fun-facts.mp3",
+   "hash": "4b58f618051eecbc",
+   "script": "Drie weetjes die nep klinken, maar echt waar zijn. Eén: een octopus heeft drie harten. Twee: honing bederft nooit. Archeologen vonden eetbare honing in oude Egyptische graven! En drie: een groep flamingo’s heet in het Engels... a flamboyance. Volg voor meer!",
+   "recognized": "Drie weetjes die nep klinken, maar echt waar zijn. 1. Een octopus heeft drie harten. 2. Honing bederft nooit. Archeologen vonden eetbare honing in oude Egyptische graven. En 3. Een groep Flamingos heet in het Engels, a flamboyans. Volg voor meer.",
+   "similarity": 0.963,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/ivr.mp3",
+   "hash": "8244fab152c49abe",
+   "script": "Welkom bij Northwind Energie. Heeft u een vraag over uw rekening, toets dan één. Wilt u een stroomstoring melden, toets twee. Voor aanmelden, opzeggen of verhuizen, toets drie. Voor alle andere vragen toetst u vier, of blijft u aan de lijn voor een van onze medewerkers. Bedankt voor uw geduld.",
+   "recognized": "Welkom bij Northwind Energy. Heeft u een vraag over uw rekening? Toets dan één. Wilt u een stroomstoring melden? Toets twee. Voor aanmelden, opzeggen of verhuizen? Toets drie. Voor alle andere vragen toets u vier? Of blijft u aan de lijn voor één van onze medewerkers? Bedankt voor uw geduld.",
+   "similarity": 0.986,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/language-lesson.mp3",
+   "hash": "0b97aa3574f559bf",
+   "script": "Het Engelse woord van vandaag hoor je overal: awkward. Zeg het maar mee. Awk-ward. Let op die W, die klinkt bijna als een oe. Awkward betekent ongemakkelijk. Zoals wanneer je terugzwaait naar iemand die eigenlijk naar de persoon achter jou zwaaide. Precies. Dat is awkward!",
+   "recognized": "Het Engelse woord van vandaag hoor je overal awkward. Zeg het maar mee. Awkward. Let op die w, die klinkt bijna als een oe. Awkward betekent ongemakkelijk. Zoals wanneer je terugzwaait naar iemand die eigenlijk naar de persoon achter jou zwaait. Precies, dat is awkward.",
+   "similarity": 0.992,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/literary-novel.mp3",
+   "hash": "ae8ca30d93295bb8",
+   "script": "De zomer dat mijn grootmoeder ophield met praten, kwam de zee dichter bij het huis. Zo herinner ik het me tenminste. Elke ochtend lag het water een stukje dichterbij, alsof ook de zee wachtte tot ze iets zou zeggen. Ik was elf. Ik geloofde dat de zee ons kon horen. Dat geloof ik nog steeds.",
+   "recognized": "De zomer dat mijn grootmoeder ophield met praten, kwam de zee dichter bij het huis. Zo herinner ik het met de minste. Elke ochtend lag het water een stukje dichterbij, alsof ook de zee wachtte tot ze iets zou zeggen. Ik was elf. Ik geloofde dat de zee ons kon horen. Dat geloof ik nog steeds.",
+   "similarity": 0.991,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/meditation.mp3",
+   "hash": "dd198b94422295ba",
+   "script": "Zoek een comfortabele houding, en sluit zachtjes je ogen. Adem in door je neus... en laat het langzaam los. Voel het gewicht van je lichaam. De grond onder je, die je draagt. Je hoeft nergens anders te zijn. Alleen hier. Alleen nu.",
+   "recognized": "Zoek een comfortabele houding en sluit zachtjes je ogen. Adem in door je neus en laat het langzaam los. Voel het gewicht van je lichaam, de grond onder je die je draagt. Je hoeft nergens anders te zijn, alleen hier, alleen nu.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/motivation.mp3",
+   "hash": "8ba84f4760582da6",
+   "script": "Niemand komt je redden. En dat is het beste nieuws dat je vandaag hoort. Want het betekent dat de kracht altijd al bij jou lag. Elke vroege ochtend. Elke keer dat je wilde stoppen en het niet deed. Dat ben jij. Dus sta op. Ga nog een keer. Nog één keer.",
+   "recognized": "Niemand komt je redden en dat is het beste nieuws dat je vandaag hoort, want het betekent dat de kracht altijd al bij jou lag, elke vroege ochtend, elke keer dat je wilde stoppen en het niet deed. Dat ben jij. Dus sta op. Ga nog een keer. Nog één keer.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/movie-trailer.mp3",
+   "hash": "18a5d7ae78137b23",
+   "script": "Deze zomer... steekt één vrouw... een oceaan over... om een belofte na te komen. Geen kaart. Geen geld. Geen weg terug. Alleen de waarheid. Tidebreaker. Vanaf nu in de bioscoop.",
+   "recognized": "Deze zomer steekt één vrouw een oceaan over om een belofde na te komen. Geen kaart, geen geld, geen weg terug. Alleen de waarheid. Tidebreaker, vanaf nu in de bioscoop.",
+   "similarity": 0.994,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/museum-guide.mp3",
+   "hash": "350835ff03b0ad6e",
+   "script": "U staat nu voor een van de beroemdste schilderijen ter wereld. Kijk eens goed naar haar ogen. Ziet u hoe het licht van binnenuit het schilderij lijkt te komen? De schilder werkte bijna vier jaar aan dit doek. En toch weet niemand wie zij werkelijk was. Druk op twee om verder te gaan wanneer u er klaar voor bent.",
+   "recognized": "Bestaat nu voor een van de beroemdste schilderijen ter wereld. Kijk eens goed naar haar ogen. Ziet u hoe het licht van binnenuit het schilderij lijkt te komen? De schilder werkte bijna vier jaar aan dit doek. En toch weet niemand wie zij werkelijk was. Druk op 2 om verder te gaan wanneer u er klaar voor bent.",
+   "similarity": 0.985,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/navigation.mp3",
+   "hash": "9fcd0567fc65609f",
+   "script": "Over driehonderd meter rechts aanhouden en de afslag richting Centrum nemen. Neem daarna op de rotonde de tweede afslag. U bent over acht minuten op uw bestemming. Het is rustig op de weg. Goede reis.",
+   "recognized": "Over 300 meter rechts aanhouden en de afslag richting centrum nemen. Neem daarna op de rotonde de tweede afslag. U bent over acht minuten op uw bestemming. Het is rustig op de weg. Goede reis!",
+   "similarity": 0.963,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/news-bulletin.mp3",
+   "hash": "d137d9d3fd871735",
+   "script": "Het is acht uur. Het nieuws. De gemeenteraad heeft ingestemd met de aanleg van een nieuw park van drie kilometer langs de rivier, dat volgend voorjaar opengaat. In de sport: de Havenstad Haviken plaatsten zich gisteravond na een spannende verlenging voor de finale. En het weer: vanmiddag zonnige perioden, met maxima rond de tweeëntwintig graden.",
+   "recognized": "Het is 8 uur. Het nieuws. De gemeenteraad heeft ingestemd met de aanleg van een nieuw park van 3 km langs de rivier dat volgend voorjaar opengaat. In de sport? De Havestad Haviken plaatste zich gisteravond naar een spannende verlenging voor de finale. En het weer. Vanmiddag zonnige periode met maxima rond de 22 graden.",
+   "similarity": 0.943,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/non-fiction.mp3",
+   "hash": "155c6bae8de2da47",
+   "script": "Hoofdstuk drie. De kracht van kleine gewoontes. De meeste mensen denken dat verandering een enorme sprong vraagt. Maar onderzoek vertelt een ander verhaal. Mensen die hun leven veranderen, doen dat zelden in één nacht. Ze doen het met kleine, bijna saaie stapjes. Twee minuten per dag. Daar beginnen we mee.",
+   "recognized": "Hoofdstek 3. De kracht van kleine gewoontes. De meeste mensen denken dat verandering een enorme sprong vraagt. Maar onderzoek vertelt een ander verhaal. Mensen die hun leven veranderen, doen datzelfde in één nacht. Ze doen het met kleine, bijna saaie stapjes. Twee minuten per dag. Daar beginnen we mee.",
+   "similarity": 0.983,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/on-hold.mp3",
+   "hash": "f59283bac49f9328",
+   "script": "Bedankt voor uw geduld. Al onze medewerkers zijn op dit moment in gesprek, maar uw vraag is belangrijk voor ons en we helpen u zo snel mogelijk. Wist u dat u op onze website op elk moment van de dag antwoord vindt op de meeste vragen? Nog even geduld. We zijn zo bij u.",
+   "recognized": "Bedankt voor uw geduld. Al onze medewerkers zijn op dit moment in gesprek, maar uw vraag is belangrijk voor ons en we helpen u zo snel mogelijk. Wist u dat u op onze website op elk moment van de dag antwoord vindt op de meeste vragen? Nog even geduld, we zijn zo bij u.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/online-course.mp3",
+   "hash": "cb9e8a58b7775f36",
+   "script": "Welkom bij les één! In de komende zes weken ga je van complete beginner naar foto’s waar je echt trots op bent. Je hebt geen dure camera nodig. Je telefoon is perfect. Vandaag beginnen we met de belangrijkste vaardigheid van allemaal: leren kijken naar licht. Klaar? Dan gaan we beginnen.",
+   "recognized": "Welkom bij les 1. In de komende zes weken ga je van compleet de beginner naar foto's waar je echt trots op bent. Je hebt geen dure camera nodig. Je telefoon is perfect. Vandaag beginnen we met de belangrijkste vaardigheid van allemaal. Leren kijken naar licht. Klaar? Dan gaan we beginnen.",
+   "similarity": 0.988,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/perfume-ad.mp3",
+   "hash": "be9a82c366228481",
+   "script": "Sluit je ogen. Zomerregen op warme huid... een tuin na middernacht... het moment vlak voor een kus. Lumière. De nieuwe geur van Maison Elise. Draag het moment.",
+   "recognized": "Sluit je ogen, zomerregen op warme huid, een tuin na midden nacht, het moment vlak voor een kus. Lumière, de nieuwe geur van Maison Elise, draagt het moment.",
+   "similarity": 0.987,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/podcast-ad.mp3",
+   "hash": "6758522d42aeae27",
+   "script": "Oké, even een korte pauze. Deze aflevering wordt mogelijk gemaakt door Nestly. Eerlijk? Ik ben echt slecht in planten in leven houden. Zo slecht dat het gênant is. Nestly stuurt je een plant die bij je huis past, plus een seintje als hij dorst heeft. De mijne leeft nog. Week zes! Ga naar nestly punt nl slash Ruth voor twintig procent korting op je eerste plant.",
+   "recognized": "Oké, even een korte pauze. Deze aflevering wordt mogelijk gemaakt door Nestlé. Eerlijk, ik ben echt slecht in planten in leven houden. Zo slecht dat het genant is. Nestlé stuurt je een plant die bij je huis past, plus een zijntje als hij dorsd heeft. De mijne leeft nog. Week 6. Ga naar nestley.nl-rut voor 20% korting op je eerste plant.",
+   "similarity": 0.932,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/podcast-intro.mp3",
+   "hash": "9164a52af4b589cb",
+   "script": "Hallo, en welkom bij Trage Zondag, de podcast voor iedereen die moe is van altijd maar druk zijn. Ik ben Ruth. Deze week hebben we het over de vergeten kunst van helemaal niks doen. Waarom is dat zo moeilijk? En wat gebeurt er met je brein als je het eindelijk rust gunt? Pak een kopje thee. We gaan beginnen.",
+   "recognized": "Hallo en welkom bij Trage Zondag. De podcast voor iedereen die moe is van altijd maar druk zijn. Ik ben Rut. Deze week hebben we het over de vergeten kunst van helemaal niks doen. Waarom is dat zo moeilijk? En wat gebeurt er met je brijn als je het eindelijk rust grunt? Pak een kopje thee. We gaan beginnen.",
+   "similarity": 0.993,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/radio-jingle.mp3",
+   "hash": "4cb974d30fd9e163",
+   "script": "Je luistert naar Wave FM! De grootste hits, de beste ochtenden, en helemaal nul saaie stukjes. Wave FM! Zet hem harder!",
+   "recognized": "Je luistert naar Wave FM, de grootste hits, de beste ochtende en helemaal nulsaaie stukjes. Wave FM! Zet hem harder!",
+   "similarity": 0.991,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/recipe.mp3",
+   "hash": "09a0d657f4a52a48",
+   "script": "Oké, dit is mijn pasta in vijf minuten, en die gaat je doordeweekse avonden veranderen. Eerst knoflook in de pan met een flinke scheut olijfolie. Mmm, ruik dat! Nu de cherrytomaatjes erbij, een snufje zout, en laat ze openbarsten. Pasta erdoor, een handje basilicum, flink wat Parmezaanse kaas... en het eten staat op tafel.",
+   "recognized": "Oké, dit is mijn pasta in vijf minuten en die gaat je door de weekse avonden veranderen. Eerst knoflook in de pan met een flinke scheut olijfolie. Mmm, ruik dat! Nu de sherry tomaatjes erbij, een snufje zout en laat ze open barsten. Pasta erdoor, een handje basilicum, flink wat Parmesanse kaas en het eten staat op tafel.",
+   "similarity": 0.986,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/reddit-story.mp3",
+   "hash": "a5bdcee31f4f1ed8",
+   "script": "Ben ik fout omdat ik de bruiloft van mijn zus oversla... voor mijn eigen bruiloft? Oké, ik leg het uit. Mijn zus prikte twee jaar geleden haar trouwdatum. Toen kreeg mijn verloofde een baan in het buitenland, en de enige datum waarop wij konden trouwen was... precies dezelfde dag. Ik bood aan om te verschuiven. Zij zei nee. Dus nu praat mijn moeder met geen van ons tweeën meer.",
+   "recognized": "Ben ik fout omdat ik de bruiloft van mijn zus oversla voor mijn eigen bruiloft? Oké, ik leg het uit. Mijn zus sprikte twee jaar geleden haar trouwdatum. Toen kreeg mij voorloofde een baan in het buitenland en de enige datum waarop wij konden trouwen was precies dezelfde dag. Ik bood aan om te verschuiven. Zij zei nee. Dus nu praat mijn moeder met geen van ons tweeën meer.",
+   "similarity": 0.993,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/safety-training.mp3",
+   "hash": "4abe4863fe2f5367",
+   "script": "Voordat je aan je eerste dienst begint, eerst even over veiligheid. Dit gebouw heeft vier nooduitgangen, aangegeven met groene bordjes. Neem even de tijd om de uitgang te vinden die het dichtst bij je werkplek is. Hoor je het alarm? Stop dan met wat je doet, laat je spullen liggen en loop, niet rennen, naar de dichtstbijzijnde uitgang. Jouw veiligheid gaat altijd voor.",
+   "recognized": "Voordat je aan je eerste dienst begint, eerst even over veiligheid. Dit gebaal heeft vier nooduitgangen aangegeven met groene bordjes. Meem even de tijd om de uitgang te vinden die het dichtst bij je werkplek is. Hoor je het alarm? Stop dan met wat je doet, laat je spullen liggen en loop, niet rennen naar de dichtstbijzijnde uitgang. Jouw veiligheid gaat altijd voor.",
+   "similarity": 0.989,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/scary-story.mp3",
+   "hash": "a0f4da3a4cdf265f",
+   "script": "Mijn oma had één regel over de oude boerderij. Doe na middernacht nooit de deur open. Ook niet als het klinkt als iemand van wie je houdt. Vannacht, om drie over twaalf, werd er geklopt. En toen hoorde ik de stem van mijn oma, die mijn naam riep. Ze is zes jaar geleden overleden.",
+   "recognized": "Mijn oma had één regel over de oude boerderij. Doen na middernacht nooit de deur open. Ook niet als het klinkt als iemand van wie je houdt. Vannacht, om drie over twaalf, er te geklopt. En toen hoorde ik de stem van mijn oma, die mijn naam riep. Ze is zes jaar geleden overleden.",
+   "similarity": 0.991,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/sleep-story.mp3",
+   "hash": "b2cf42a4e5c5c662",
+   "script": "Het treintje rijdt langzaam door de vallei... langs slapende dorpjes... en stille velden vol mist. Binnen branden de lampjes laag en warm. De stoelen zijn zacht. En het rustige ritme van de wielen... wiegt je... verder... en verder... in slaap.",
+   "recognized": "Het treintje rijdt langzaam door de vallij, Langs slapende dorpjes en stille velden vol mist. Binnen brandde de lampjes laag en warm. De stoelen zijn zacht. En het rustige ritme van de wielen Wichtje verder en verder in slaap.",
+   "similarity": 0.98,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/summer-sale.mp3",
+   "hash": "146391995b5f49d8",
+   "script": "Hij is er! De GROOTSTE zomersale van het jaar! Tot zeventig procent korting op banken, tuinmeubels en alles voor die lange, luie zomeravonden. Maar wees er snel bij: op is op! Alleen bij Casa Nova. Online en in de winkel. Zolang de voorraad strekt.",
+   "recognized": "Hij is er! De grootste zomersil van het jaar! Tot 70 procent korting op banken, tuinmeubels en alles voor die lange luie-zomeravonden. Maar wees er snel bij! Op is op! Alleen bij Casanova. Online en in de winkel. Zolang de voorraad strekt.",
+   "similarity": 0.97,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/thriller.mp3",
+   "hash": "0b53d9be5eb05e42",
+   "script": "Het bericht kwam binnen om twaalf over drie ’s nachts. Drie woorden. Geen afzender. Ik weet alles. Claire las het twee keer, zette toen haar telefoon uit en luisterde. Het huis was stil. Te stil. Want ergens beneden... was zojuist een deur dichtgegaan.",
+   "recognized": "Het bericht kwam binnen om twaalf over drie snachts. Drie woorden, geen afzender. Ik weet alles. Claire las het twee keer, zette toen haar telefoon uit en luisterde. Het huis was stil, te stil. Want ergens beneden was zojuist een deurdicht gegaan.",
+   "similarity": 0.992,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/top-10.mp3",
+   "hash": "9a1fa39dd20fc916",
+   "script": "Nummer drie. Het land met de meeste eilanden ter wereld. Je zou denken aan Indonesië, of de Filipijnen. Maar het is eigenlijk Zweden, met meer dan tweehonderdzestigduizend eilanden. Dus als je ooit een eigen eiland wilt... je weet waar je moet zoeken. En op nummer twee...",
+   "recognized": "Nummer 3. Het land met de meeste eilanden ter wereld. Je zou denken aan Indonesië of de Filipijnen. Maar het is eigenlijk Zweden, met meer dan 260.000 eilanden. Dus als je ooit een eigen eiland wilt, je weet waar je moet zoeken. En op nummer 2.",
+   "similarity": 0.917,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/train-station.mp3",
+   "hash": "5151574e48a3a637",
+   "script": "Attentie, alstublieft. De intercity van elf uur vijftien naar Amsterdam Centraal vertrekt vandaag niet van spoor twee, maar van spoor vier. Spoor vier, voor de intercity naar Amsterdam Centraal. Onze excuses voor het ongemak.",
+   "recognized": "De intercity van 11 uur 15 naar Amsterdam Centraal vertrekt vandaag niet van spoor 2, maar van spoor 4. Spoor 4 voor de intercity naar Amsterdam Centraal. Onze excuses voor het ongemak.",
+   "similarity": 0.872,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/true-crime.mp3",
+   "hash": "79a6cfbbffab7ce5",
+   "script": "Op de avond van veertien maart sloot Daniel Price om negen uur zijn bakkerij af, net als elke andere avond. Zijn auto werd de volgende ochtend gevonden, nog op de parkeerplaats. Motor draaiend. Portier open. Daniel werd nooit meer gezien. En twintig jaar lang zei de enige getuige... geen woord.",
+   "recognized": "Op de avond van 14 maart sloot Daniel Price om negen uur zijn bakkerij af, net als elke andere avond. Zijn auto werd de volgende ochtend gevonden, nog op de parkeerplaats. Motor draaiend, portier open. Daniel werd nooit meer gezien en twintig jaar lang zei de enige getuigen geen woord.",
+   "similarity": 0.98,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/tutorial.mp3",
+   "hash": "1de4dd24023fa8de",
+   "script": "In deze tutorial laat ik zien hoe je in minder dan een minuut een document deelt. Stap één: open je bestand en klik rechtsboven op de blauwe knop Delen. Stap twee: typ het e-mailadres van de persoon die je wilt uitnodigen. Stap drie: kies of diegene mag bekijken of bewerken. En dat was het. Klik op Versturen, en je bent klaar!",
+   "recognized": "In deze tutorial laat ik zien hoe je in minder dan een minuut een document deelt. Stap 1. Open je bestand en klik rechtsboven op de blauwe knop delen. Stap 2. Type het e-mailadres van de persoon die je wilt uitnodigen. Stap 3. Kies of diegene mag bekijken of bewerken. En dat was het. Klik op versturen en je bent klaar!",
+   "similarity": 0.976,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/video-game.mp3",
+   "hash": "ff5b966f6a2ab0f5",
+   "script": "Zo, reiziger. Je bent er eindelijk. De oude toren in het noorden is donker geworden, en de dorpen zijn bang. Breng de Gloeisteen terug vóór de derde maan, en het koninkrijk zal je naam nooit vergeten. Faal je... dan herinnert niemand zich nog iets. Ga nu. De weg is lang.",
+   "recognized": "Zo, Rijziger, je bent er eindelijk. De oude toren in het noorden is donker geworden en de dorpen zijn bang. Breng de gloeisteen terug voor de derde maan en het Koninkrijk zal je naam nooit vergeten. Faal je, dan herinnert niemand zich nog iets. Ga nu, de weg is lang.",
+   "similarity": 0.988,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/voicemail.mp3",
+   "hash": "0330208b906d077f",
+   "script": "Hallo, u spreekt met de praktijk van dokter Emma Hayes. We kunnen uw gesprek op dit moment helaas niet aannemen. Laat na de piep uw naam, telefoonnummer en een kort bericht achter, dan bellen we u binnen één werkdag terug. Is het een noodgeval? Hang dan op en bel één één twee. Dank u wel, en nog een fijne dag.",
+   "recognized": "Hallo, u spreekt met de praktijk van Dr. Emma Hayes. We kunnen uw gesprek op dit moment helaas niet aannemen. Laat na de piep uw naam, telefoonnummer en een kort bericht achter, dan bellen we u binnen één werkdag terug. Is het een noodgeval? Hang dan op en bell 112. Dank u wel en nog een fijne dag.",
+   "similarity": 0.966,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/weather.mp3",
+   "hash": "372c66fd055a8028",
+   "script": "Goedemorgen! Pak je zonnebril erbij, want het wordt vandaag een prachtige dag. De hele dag strakblauw, en het wordt heerlijk warm: vierentwintig graden. Maar berg die paraplu nog niet op. Donderdag trekken er onweersbuien over. Geniet van de zon nu het nog kan!",
+   "recognized": "Goedemorgen! Pak je zonnebril erbij, want het wordt vandaag een prachtige dag. De hele dag strakblauw en het wordt heerlijk warm, 24 graden. Maar bergt die paraplu nog niet op? Donnerdag trekken er onweersbuien over. Geniet van de zon nu het nog kan!",
+   "similarity": 0.964,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/nl/usecases/youtube-intro.mp3",
+   "hash": "16a8677c3454c0f9",
+   "script": "Hé allemaal, en welkom terug op het kanaal! Vandaag doen we iets wat ik al maanden wil proberen: een hele dag leven van maar tien euro. Spoiler: dat ging NIET zoals gepland. Maar voor we beginnen: ben je nieuw hier, klik dan op abonneren. Dat helpt echt. Oké. Daar gaan we!",
+   "recognized": "Hey allemaal en welkom terug op het kanaal. Vandaag doen we iets wat ik al maanden wil proberen. Een hele dag leven van Martin Eurow. Spoiler, dat ging niet zoals gepland. Maar voor we beginnen, ben je nieuw hier, klik dan op abonneren. Dat helpt echt. Oké, daar gaan we.",
+   "similarity": 0.987,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/voices/children-en-gb.mp3",
+   "hash": "65d07d2dc89b176f",
+   "script": "Once upon a time, at the edge of a big dark forest, lived a little hedgehog who was afraid of the dark. But tonight, something wonderful was about to happen.",
+   "recognized": "Once upon a time, at the edge of a big, dark forest, lived a little hedgehog who was afraid of the dark. But tonight, something wonderful was about to happen.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/voices/children-en-scot.mp3",
+   "hash": "3afa2615a6ae6da6",
+   "script": "Once upon a time, at the edge of a big dark forest, lived a little hedgehog who was afraid of the dark. But tonight, something wonderful was about to happen.",
+   "recognized": "Once upon a time, at the edge of a big dark forest, lived a little hedgehog who was afraid of the dark. But tonight, something wonderful was about to happen.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
    "clip": "audio/voices/children-en.mp3",
    "hash": "fa0745001561ba1c",
    "script": "Once upon a time, at the edge of a big dark forest, lived a little hedgehog who was afraid of the dark. But tonight, something wonderful was about to happen.",
@@ -1320,6 +3411,24 @@
    "flagged": false
   },
   {
+   "clip": "audio/voices/meditation-en-gb.mp3",
+   "hash": "06e4877c4d40ffe6",
+   "script": "Let’s begin with a slow, deep breath in... and gently let it go. Feel your body settle. Heavy, warm and safe.",
+   "recognized": "Let's begin with a slow deep breath in, and gently let it go. Feel your body settle, heavy, warm, and safe.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/voices/meditation-en-scot.mp3",
+   "hash": "6fdaf4796d4d7518",
+   "script": "Let’s begin with a slow, deep breath in... and gently let it go. Feel your body settle. Heavy, warm and safe.",
+   "recognized": "Let's begin with a slow, deep breath in, and gently let it go. Feel your body settle, heavy, warm and safe.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
    "clip": "audio/voices/meditation-en.mp3",
    "hash": "13432a72e3f95106",
    "script": "Let’s begin with a slow, deep breath in... and gently let it go. Feel your body settle. Heavy, warm and safe.",
@@ -1333,6 +3442,24 @@
    "hash": "39cc329413ac94c4",
    "script": "We beginnen met een langzame, diepe ademhaling... en laat hem zachtjes weer los. Voel hoe je lichaam tot rust komt. Zwaar, warm en veilig.",
    "recognized": "We beginnen met een langzame, diepe ademhaling en laat hem zachtjes weer los. Voel hoe je lichaam tot rust komt, zwaar, warm en veilig.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/voices/professional-en-gb.mp3",
+   "hash": "63b1a952dce3738d",
+   "script": "Every great story starts with a voice you trust. Clear, warm and engaging, for your next explainer, course or audiobook.",
+   "recognized": "Every great story starts with a voice you trust. Clear, warm and engaging for your next explainer, course or audiobook.",
+   "similarity": 1.0,
+   "spoken_tag_words": [],
+   "flagged": false
+  },
+  {
+   "clip": "audio/voices/professional-en-scot.mp3",
+   "hash": "cf197488dae2ae32",
+   "script": "Every great story starts with a voice you trust. Clear, warm and engaging, for your next explainer, course or audiobook.",
+   "recognized": "Every great story starts with a voice you trust. Clear, warm, and engaging for your next explainer, course, or audiobook.",
    "similarity": 1.0,
    "spoken_tag_words": [],
    "flagged": false

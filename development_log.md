@@ -54,3 +54,19 @@
 - Centered the eyebrow, headline, intro text and buttons, and added a 1 px divider under them, matching the lines around the stats.
 - Widened the intro text so it wraps to two balanced lines in both languages on desktop.
 - Reviewed with the `screenshot` CLI at 1440 px in English and Dutch, plus a 390 px phone capture. Browser checks: 29 of 29 passed.
+
+## 2026-10-05: Accents, hero CTA row and a use-case wheel
+
+- Hero row: "Hear Ruth say hello", a new "Try Ruth on ElevenLabs" button (Voice Library link) and accent buttons American | British | Scottish | Nederlands, on one line from 1024 px up.
+- English now has three accents. The interface stays English; the emotion wheel, intro and voice samples switch accent. The choice is saved, and `?lang=en-gb` / `?lang=en-scot` work as links.
+- Added a second wheel with 43 real-world use cases in eight groups, in American English and Dutch: ads (perfume, summer sale, coffee, car, app launch, podcast ad read), YouTube and social formats (intro, top 10, Reddit story, true crime, scary story, recipe, motivation, fun facts), film and games, audiobooks and stories, podcasts and radio, phone and assistants (voicemail, IVR, on hold, AI agent, navigation, train station), learning and business, and wellness. Each card links the Ruth voice used. The Children's Storyteller voices the bedtime story, fairy tale and cartoon; the Meditation Guide voices meditation, sleep story and ASMR.
+- Refactored `main.js` into a `Wheel` class shared by both wheels; one player still prevents overlap. Renamed `scripts/emotions.json` to `scripts/content.json` and added variants, use cases and per-variant voice settings.
+- Accent quality, measured with SpeechBrain's CommonAccent classifier (`scripts/check_accents.py`). As a reference check it identified 5 of 8 Scottish, 5 of 6 British and 5 of 6 American ElevenLabs library voices.
+  - `[british accent]` worked well: 59 of 75 England at first.
+  - `[scottish accent]` barely registered: 5 of 75.
+  - Tested stronger tags and lower similarity on 110 test clips. Merging `strong Scottish accent` into the first tag at similarity 0.5 did best. A speaker-verification model showed no measurable loss of resemblance to Ruth (cosine 0.514 vs 0.523 against her Dutch clips).
+  - Then generated up to seven extra takes per British and Scottish clip that missed its accent, and kept the take the classifier rated most on-accent: 101 clips replaced.
+  - Final: American 73/75 North American, British 67/75 England, Scottish 30/75 Scotland plus 13 England or Ireland. Scottish remains the weakest; listening is the real test.
+- Transcription check of all 386 clips. Found and fixed a metric bug: difflib's autojunk heuristic gave long scripts near-zero scores; now `autojunk=False`. With the fix, 2 clips are flagged, both false positives: the Dutch intro (recogniser stops at a pause; tail verified earlier) and the Dutch fairy tale ("trol" recognised as the tag word "troll"). Retook the Dutch fitness-coach clip for clearer diction. Spot-checked the Dutch train announcement opening by transcribing it separately.
+- Credits for this round: about 12,000, including tests and extra takes. The account had used 43,496 of 237,920 for the period.
+- Browser checks against a local server: 37 of 37 passed. They cover the hero row on one line, the accent buttons and saved choice, the British and Scottish takes, both wheels (click, keys, drag, scroll, chips, shuffle), use-case voice links and the American-only note, one-player behaviour, Dutch switching, touch swipes on a phone viewport, all 386 audio URLs and no console errors. Screenshots were reviewed at 390, 1024, 1366 and 1440 px.

@@ -1,0 +1,1167 @@
+{
+ "method": "SpeechBrain Jzuluaga/accent-id-commonaccent_ecapa, top label per clip among 16 English accents. Reference check on ElevenLabs library voice previews: 5 of 8 Scottish voices, 5 of 6 British and 5 of 6 American voices were classified as their own accent. Treat this as a rough, objective indication, not a listening test.",
+ "summary": {
+  "en": {
+   "target": "us",
+   "clips": 75,
+   "on_target": 55,
+   "top_labels": {
+    "us": 55,
+    "canada": 18,
+    "england": 2
+   }
+  },
+  "en-gb": {
+   "target": "england",
+   "clips": 75,
+   "on_target": 67,
+   "top_labels": {
+    "england": 67,
+    "us": 4,
+    "canada": 2,
+    "australia": 1,
+    "ireland": 1
+   }
+  },
+  "en-scot": {
+   "target": "scotland",
+   "clips": 75,
+   "on_target": 30,
+   "top_labels": {
+    "scotland": 30,
+    "us": 24,
+    "england": 11,
+    "canada": 7,
+    "ireland": 2,
+    "indian": 1
+   }
+  }
+ },
+ "clips": [
+  {
+   "clip": "audio/en/scene/warm.mp3",
+   "top": "us",
+   "us": 0.527
+  },
+  {
+   "clip": "audio/en/scene/happy.mp3",
+   "top": "us",
+   "us": 0.591
+  },
+  {
+   "clip": "audio/en/scene/excited.mp3",
+   "top": "us",
+   "us": 0.591
+  },
+  {
+   "clip": "audio/en/scene/ecstatic.mp3",
+   "top": "us",
+   "us": 0.51
+  },
+  {
+   "clip": "audio/en/scene/playful.mp3",
+   "top": "us",
+   "us": 0.428
+  },
+  {
+   "clip": "audio/en/scene/proud.mp3",
+   "top": "us",
+   "us": 0.564
+  },
+  {
+   "clip": "audio/en/scene/grateful.mp3",
+   "top": "us",
+   "us": 0.627
+  },
+  {
+   "clip": "audio/en/scene/hopeful.mp3",
+   "top": "canada",
+   "us": 0.518
+  },
+  {
+   "clip": "audio/en/scene/chuckling.mp3",
+   "top": "canada",
+   "us": 0.511
+  },
+  {
+   "clip": "audio/en/scene/giggling.mp3",
+   "top": "canada",
+   "us": 0.499
+  },
+  {
+   "clip": "audio/en/scene/laughing.mp3",
+   "top": "us",
+   "us": 0.709
+  },
+  {
+   "clip": "audio/en/scene/belly-laugh.mp3",
+   "top": "us",
+   "us": 0.701
+  },
+  {
+   "clip": "audio/en/scene/stifled-laugh.mp3",
+   "top": "us",
+   "us": 0.588
+  },
+  {
+   "clip": "audio/en/scene/annoyed.mp3",
+   "top": "us",
+   "us": 0.463
+  },
+  {
+   "clip": "audio/en/scene/frustrated.mp3",
+   "top": "us",
+   "us": 0.588
+  },
+  {
+   "clip": "audio/en/scene/angry.mp3",
+   "top": "us",
+   "us": 0.617
+  },
+  {
+   "clip": "audio/en/scene/furious.mp3",
+   "top": "us",
+   "us": 0.568
+  },
+  {
+   "clip": "audio/en/scene/shouting.mp3",
+   "top": "us",
+   "us": 0.55
+  },
+  {
+   "clip": "audio/en/scene/sarcastic.mp3",
+   "top": "us",
+   "us": 0.564
+  },
+  {
+   "clip": "audio/en/scene/stern.mp3",
+   "top": "us",
+   "us": 0.546
+  },
+  {
+   "clip": "audio/en/scene/disgusted.mp3",
+   "top": "us",
+   "us": 0.607
+  },
+  {
+   "clip": "audio/en/scene/tender.mp3",
+   "top": "canada",
+   "us": 0.556
+  },
+  {
+   "clip": "audio/en/scene/loving.mp3",
+   "top": "us",
+   "us": 0.655
+  },
+  {
+   "clip": "audio/en/scene/comforting.mp3",
+   "top": "us",
+   "us": 0.671
+  },
+  {
+   "clip": "audio/en/scene/nostalgic.mp3",
+   "top": "us",
+   "us": 0.666
+  },
+  {
+   "clip": "audio/en/scene/flirty.mp3",
+   "top": "us",
+   "us": 0.689
+  },
+  {
+   "clip": "audio/en/scene/confident.mp3",
+   "top": "us",
+   "us": 0.577
+  },
+  {
+   "clip": "audio/en/scene/dramatic.mp3",
+   "top": "us",
+   "us": 0.637
+  },
+  {
+   "clip": "audio/en/scene/mysterious.mp3",
+   "top": "us",
+   "us": 0.683
+  },
+  {
+   "clip": "audio/en/scene/villain.mp3",
+   "top": "canada",
+   "us": 0.629
+  },
+  {
+   "clip": "audio/en/scene/sassy.mp3",
+   "top": "us",
+   "us": 0.703
+  },
+  {
+   "clip": "audio/en/scene/bored.mp3",
+   "top": "us",
+   "us": 0.558
+  },
+  {
+   "clip": "audio/en/scene/news-anchor.mp3",
+   "top": "canada",
+   "us": 0.466
+  },
+  {
+   "clip": "audio/en/scene/commercial.mp3",
+   "top": "canada",
+   "us": 0.491
+  },
+  {
+   "clip": "audio/en/scene/commentator.mp3",
+   "top": "england",
+   "us": 0.261
+  },
+  {
+   "clip": "audio/en/scene/storyteller.mp3",
+   "top": "england",
+   "us": 0.246
+  },
+  {
+   "clip": "audio/en/scene/nervous.mp3",
+   "top": "canada",
+   "us": 0.548
+  },
+  {
+   "clip": "audio/en/scene/hesitant.mp3",
+   "top": "us",
+   "us": 0.608
+  },
+  {
+   "clip": "audio/en/scene/worried.mp3",
+   "top": "canada",
+   "us": 0.618
+  },
+  {
+   "clip": "audio/en/scene/scared.mp3",
+   "top": "canada",
+   "us": 0.578
+  },
+  {
+   "clip": "audio/en/scene/panicked.mp3",
+   "top": "canada",
+   "us": 0.57
+  },
+  {
+   "clip": "audio/en/scene/terrified.mp3",
+   "top": "canada",
+   "us": 0.591
+  },
+  {
+   "clip": "audio/en/scene/urgent.mp3",
+   "top": "canada",
+   "us": 0.545
+  },
+  {
+   "clip": "audio/en/scene/sad.mp3",
+   "top": "us",
+   "us": 0.717
+  },
+  {
+   "clip": "audio/en/scene/disappointed.mp3",
+   "top": "us",
+   "us": 0.623
+  },
+  {
+   "clip": "audio/en/scene/melancholic.mp3",
+   "top": "us",
+   "us": 0.746
+  },
+  {
+   "clip": "audio/en/scene/sighing.mp3",
+   "top": "us",
+   "us": 0.685
+  },
+  {
+   "clip": "audio/en/scene/crying.mp3",
+   "top": "us",
+   "us": 0.64
+  },
+  {
+   "clip": "audio/en/scene/heartbroken.mp3",
+   "top": "canada",
+   "us": 0.444
+  },
+  {
+   "clip": "audio/en/scene/exhausted.mp3",
+   "top": "us",
+   "us": 0.68
+  },
+  {
+   "clip": "audio/en/scene/curious.mp3",
+   "top": "us",
+   "us": 0.523
+  },
+  {
+   "clip": "audio/en/scene/amazed.mp3",
+   "top": "us",
+   "us": 0.685
+  },
+  {
+   "clip": "audio/en/scene/surprised.mp3",
+   "top": "us",
+   "us": 0.686
+  },
+  {
+   "clip": "audio/en/scene/awestruck.mp3",
+   "top": "us",
+   "us": 0.616
+  },
+  {
+   "clip": "audio/en/scene/impressed.mp3",
+   "top": "canada",
+   "us": 0.587
+  },
+  {
+   "clip": "audio/en/scene/confused.mp3",
+   "top": "us",
+   "us": 0.653
+  },
+  {
+   "clip": "audio/en/scene/calm.mp3",
+   "top": "us",
+   "us": 0.585
+  },
+  {
+   "clip": "audio/en/scene/soothing.mp3",
+   "top": "us",
+   "us": 0.735
+  },
+  {
+   "clip": "audio/en/scene/relieved.mp3",
+   "top": "us",
+   "us": 0.713
+  },
+  {
+   "clip": "audio/en/scene/dreamy.mp3",
+   "top": "us",
+   "us": 0.795
+  },
+  {
+   "clip": "audio/en/scene/sleepy.mp3",
+   "top": "us",
+   "us": 0.76
+  },
+  {
+   "clip": "audio/en/scene/thoughtful.mp3",
+   "top": "us",
+   "us": 0.59
+  },
+  {
+   "clip": "audio/en/scene/whisper.mp3",
+   "top": "canada",
+   "us": 0.502
+  },
+  {
+   "clip": "audio/en/scene/singing.mp3",
+   "top": "us",
+   "us": 0.597
+  },
+  {
+   "clip": "audio/en/scene/opera.mp3",
+   "top": "us",
+   "us": 0.779
+  },
+  {
+   "clip": "audio/en/scene/mouth-full.mp3",
+   "top": "us",
+   "us": 0.577
+  },
+  {
+   "clip": "audio/en/scene/out-of-breath.mp3",
+   "top": "canada",
+   "us": 0.557
+  },
+  {
+   "clip": "audio/en/scene/with-a-cold.mp3",
+   "top": "us",
+   "us": 0.679
+  },
+  {
+   "clip": "audio/en/scene/muttering.mp3",
+   "top": "us",
+   "us": 0.699
+  },
+  {
+   "clip": "audio/en/scene/fast-talker.mp3",
+   "top": "us",
+   "us": 0.425
+  },
+  {
+   "clip": "audio/en/scene/hiccups.mp3",
+   "top": "canada",
+   "us": 0.476
+  },
+  {
+   "clip": "audio/intro/en.mp3",
+   "top": "us",
+   "us": 0.646
+  },
+  {
+   "clip": "audio/voices/professional-en.mp3",
+   "top": "us",
+   "us": 0.553
+  },
+  {
+   "clip": "audio/voices/children-en.mp3",
+   "top": "us",
+   "us": 0.557
+  },
+  {
+   "clip": "audio/voices/meditation-en.mp3",
+   "top": "us",
+   "us": 0.774
+  },
+  {
+   "clip": "audio/en-gb/scene/warm.mp3",
+   "top": "england",
+   "england": 0.444
+  },
+  {
+   "clip": "audio/en-gb/scene/happy.mp3",
+   "top": "england",
+   "england": 0.481
+  },
+  {
+   "clip": "audio/en-gb/scene/excited.mp3",
+   "top": "england",
+   "england": 0.381
+  },
+  {
+   "clip": "audio/en-gb/scene/ecstatic.mp3",
+   "top": "england",
+   "england": 0.347
+  },
+  {
+   "clip": "audio/en-gb/scene/playful.mp3",
+   "top": "england",
+   "england": 0.506
+  },
+  {
+   "clip": "audio/en-gb/scene/proud.mp3",
+   "top": "england",
+   "england": 0.537
+  },
+  {
+   "clip": "audio/en-gb/scene/grateful.mp3",
+   "top": "england",
+   "england": 0.57
+  },
+  {
+   "clip": "audio/en-gb/scene/hopeful.mp3",
+   "top": "england",
+   "england": 0.635
+  },
+  {
+   "clip": "audio/en-gb/scene/chuckling.mp3",
+   "top": "england",
+   "england": 0.552
+  },
+  {
+   "clip": "audio/en-gb/scene/giggling.mp3",
+   "top": "england",
+   "england": 0.409
+  },
+  {
+   "clip": "audio/en-gb/scene/laughing.mp3",
+   "top": "england",
+   "england": 0.46
+  },
+  {
+   "clip": "audio/en-gb/scene/belly-laugh.mp3",
+   "top": "us",
+   "england": 0.288
+  },
+  {
+   "clip": "audio/en-gb/scene/stifled-laugh.mp3",
+   "top": "england",
+   "england": 0.455
+  },
+  {
+   "clip": "audio/en-gb/scene/annoyed.mp3",
+   "top": "england",
+   "england": 0.42
+  },
+  {
+   "clip": "audio/en-gb/scene/frustrated.mp3",
+   "top": "england",
+   "england": 0.512
+  },
+  {
+   "clip": "audio/en-gb/scene/angry.mp3",
+   "top": "england",
+   "england": 0.358
+  },
+  {
+   "clip": "audio/en-gb/scene/furious.mp3",
+   "top": "england",
+   "england": 0.39
+  },
+  {
+   "clip": "audio/en-gb/scene/shouting.mp3",
+   "top": "england",
+   "england": 0.419
+  },
+  {
+   "clip": "audio/en-gb/scene/sarcastic.mp3",
+   "top": "england",
+   "england": 0.573
+  },
+  {
+   "clip": "audio/en-gb/scene/stern.mp3",
+   "top": "england",
+   "england": 0.505
+  },
+  {
+   "clip": "audio/en-gb/scene/disgusted.mp3",
+   "top": "england",
+   "england": 0.34
+  },
+  {
+   "clip": "audio/en-gb/scene/tender.mp3",
+   "top": "england",
+   "england": 0.677
+  },
+  {
+   "clip": "audio/en-gb/scene/loving.mp3",
+   "top": "england",
+   "england": 0.714
+  },
+  {
+   "clip": "audio/en-gb/scene/comforting.mp3",
+   "top": "canada",
+   "england": 0.438
+  },
+  {
+   "clip": "audio/en-gb/scene/nostalgic.mp3",
+   "top": "england",
+   "england": 0.602
+  },
+  {
+   "clip": "audio/en-gb/scene/flirty.mp3",
+   "top": "england",
+   "england": 0.606
+  },
+  {
+   "clip": "audio/en-gb/scene/confident.mp3",
+   "top": "england",
+   "england": 0.521
+  },
+  {
+   "clip": "audio/en-gb/scene/dramatic.mp3",
+   "top": "england",
+   "england": 0.609
+  },
+  {
+   "clip": "audio/en-gb/scene/mysterious.mp3",
+   "top": "england",
+   "england": 0.646
+  },
+  {
+   "clip": "audio/en-gb/scene/villain.mp3",
+   "top": "england",
+   "england": 0.595
+  },
+  {
+   "clip": "audio/en-gb/scene/sassy.mp3",
+   "top": "australia",
+   "england": 0.219
+  },
+  {
+   "clip": "audio/en-gb/scene/bored.mp3",
+   "top": "england",
+   "england": 0.474
+  },
+  {
+   "clip": "audio/en-gb/scene/news-anchor.mp3",
+   "top": "england",
+   "england": 0.474
+  },
+  {
+   "clip": "audio/en-gb/scene/commercial.mp3",
+   "top": "ireland",
+   "england": 0.285
+  },
+  {
+   "clip": "audio/en-gb/scene/commentator.mp3",
+   "top": "england",
+   "england": 0.535
+  },
+  {
+   "clip": "audio/en-gb/scene/storyteller.mp3",
+   "top": "england",
+   "england": 0.5
+  },
+  {
+   "clip": "audio/en-gb/scene/nervous.mp3",
+   "top": "england",
+   "england": 0.543
+  },
+  {
+   "clip": "audio/en-gb/scene/hesitant.mp3",
+   "top": "england",
+   "england": 0.543
+  },
+  {
+   "clip": "audio/en-gb/scene/worried.mp3",
+   "top": "england",
+   "england": 0.516
+  },
+  {
+   "clip": "audio/en-gb/scene/scared.mp3",
+   "top": "england",
+   "england": 0.524
+  },
+  {
+   "clip": "audio/en-gb/scene/panicked.mp3",
+   "top": "england",
+   "england": 0.486
+  },
+  {
+   "clip": "audio/en-gb/scene/terrified.mp3",
+   "top": "england",
+   "england": 0.669
+  },
+  {
+   "clip": "audio/en-gb/scene/urgent.mp3",
+   "top": "england",
+   "england": 0.576
+  },
+  {
+   "clip": "audio/en-gb/scene/sad.mp3",
+   "top": "england",
+   "england": 0.629
+  },
+  {
+   "clip": "audio/en-gb/scene/disappointed.mp3",
+   "top": "england",
+   "england": 0.598
+  },
+  {
+   "clip": "audio/en-gb/scene/melancholic.mp3",
+   "top": "england",
+   "england": 0.728
+  },
+  {
+   "clip": "audio/en-gb/scene/sighing.mp3",
+   "top": "england",
+   "england": 0.605
+  },
+  {
+   "clip": "audio/en-gb/scene/crying.mp3",
+   "top": "england",
+   "england": 0.521
+  },
+  {
+   "clip": "audio/en-gb/scene/heartbroken.mp3",
+   "top": "england",
+   "england": 0.532
+  },
+  {
+   "clip": "audio/en-gb/scene/exhausted.mp3",
+   "top": "england",
+   "england": 0.752
+  },
+  {
+   "clip": "audio/en-gb/scene/curious.mp3",
+   "top": "england",
+   "england": 0.588
+  },
+  {
+   "clip": "audio/en-gb/scene/amazed.mp3",
+   "top": "england",
+   "england": 0.571
+  },
+  {
+   "clip": "audio/en-gb/scene/surprised.mp3",
+   "top": "england",
+   "england": 0.499
+  },
+  {
+   "clip": "audio/en-gb/scene/awestruck.mp3",
+   "top": "england",
+   "england": 0.635
+  },
+  {
+   "clip": "audio/en-gb/scene/impressed.mp3",
+   "top": "england",
+   "england": 0.544
+  },
+  {
+   "clip": "audio/en-gb/scene/confused.mp3",
+   "top": "england",
+   "england": 0.631
+  },
+  {
+   "clip": "audio/en-gb/scene/calm.mp3",
+   "top": "england",
+   "england": 0.661
+  },
+  {
+   "clip": "audio/en-gb/scene/soothing.mp3",
+   "top": "england",
+   "england": 0.676
+  },
+  {
+   "clip": "audio/en-gb/scene/relieved.mp3",
+   "top": "england",
+   "england": 0.729
+  },
+  {
+   "clip": "audio/en-gb/scene/dreamy.mp3",
+   "top": "england",
+   "england": 0.631
+  },
+  {
+   "clip": "audio/en-gb/scene/sleepy.mp3",
+   "top": "england",
+   "england": 0.654
+  },
+  {
+   "clip": "audio/en-gb/scene/thoughtful.mp3",
+   "top": "england",
+   "england": 0.663
+  },
+  {
+   "clip": "audio/en-gb/scene/whisper.mp3",
+   "top": "canada",
+   "england": 0.456
+  },
+  {
+   "clip": "audio/en-gb/scene/singing.mp3",
+   "top": "us",
+   "england": 0.306
+  },
+  {
+   "clip": "audio/en-gb/scene/opera.mp3",
+   "top": "us",
+   "england": 0.515
+  },
+  {
+   "clip": "audio/en-gb/scene/mouth-full.mp3",
+   "top": "england",
+   "england": 0.443
+  },
+  {
+   "clip": "audio/en-gb/scene/out-of-breath.mp3",
+   "top": "england",
+   "england": 0.573
+  },
+  {
+   "clip": "audio/en-gb/scene/with-a-cold.mp3",
+   "top": "england",
+   "england": 0.651
+  },
+  {
+   "clip": "audio/en-gb/scene/muttering.mp3",
+   "top": "england",
+   "england": 0.538
+  },
+  {
+   "clip": "audio/en-gb/scene/fast-talker.mp3",
+   "top": "england",
+   "england": 0.386
+  },
+  {
+   "clip": "audio/en-gb/scene/hiccups.mp3",
+   "top": "england",
+   "england": 0.401
+  },
+  {
+   "clip": "audio/intro/en-gb.mp3",
+   "top": "england",
+   "england": 0.453
+  },
+  {
+   "clip": "audio/voices/professional-en-gb.mp3",
+   "top": "england",
+   "england": 0.568
+  },
+  {
+   "clip": "audio/voices/children-en-gb.mp3",
+   "top": "england",
+   "england": 0.595
+  },
+  {
+   "clip": "audio/voices/meditation-en-gb.mp3",
+   "top": "us",
+   "england": 0.316
+  },
+  {
+   "clip": "audio/en-scot/scene/warm.mp3",
+   "top": "scotland",
+   "scotland": 0.5
+  },
+  {
+   "clip": "audio/en-scot/scene/happy.mp3",
+   "top": "scotland",
+   "scotland": 0.402
+  },
+  {
+   "clip": "audio/en-scot/scene/excited.mp3",
+   "top": "scotland",
+   "scotland": 0.388
+  },
+  {
+   "clip": "audio/en-scot/scene/ecstatic.mp3",
+   "top": "scotland",
+   "scotland": 0.382
+  },
+  {
+   "clip": "audio/en-scot/scene/playful.mp3",
+   "top": "scotland",
+   "scotland": 0.481
+  },
+  {
+   "clip": "audio/en-scot/scene/proud.mp3",
+   "top": "england",
+   "scotland": 0.231
+  },
+  {
+   "clip": "audio/en-scot/scene/grateful.mp3",
+   "top": "scotland",
+   "scotland": 0.507
+  },
+  {
+   "clip": "audio/en-scot/scene/hopeful.mp3",
+   "top": "scotland",
+   "scotland": 0.47
+  },
+  {
+   "clip": "audio/en-scot/scene/chuckling.mp3",
+   "top": "scotland",
+   "scotland": 0.486
+  },
+  {
+   "clip": "audio/en-scot/scene/giggling.mp3",
+   "top": "us",
+   "scotland": 0.439
+  },
+  {
+   "clip": "audio/en-scot/scene/laughing.mp3",
+   "top": "us",
+   "scotland": 0.392
+  },
+  {
+   "clip": "audio/en-scot/scene/belly-laugh.mp3",
+   "top": "us",
+   "scotland": 0.284
+  },
+  {
+   "clip": "audio/en-scot/scene/stifled-laugh.mp3",
+   "top": "us",
+   "scotland": 0.412
+  },
+  {
+   "clip": "audio/en-scot/scene/annoyed.mp3",
+   "top": "scotland",
+   "scotland": 0.436
+  },
+  {
+   "clip": "audio/en-scot/scene/frustrated.mp3",
+   "top": "scotland",
+   "scotland": 0.427
+  },
+  {
+   "clip": "audio/en-scot/scene/angry.mp3",
+   "top": "scotland",
+   "scotland": 0.372
+  },
+  {
+   "clip": "audio/en-scot/scene/furious.mp3",
+   "top": "scotland",
+   "scotland": 0.434
+  },
+  {
+   "clip": "audio/en-scot/scene/shouting.mp3",
+   "top": "us",
+   "scotland": 0.356
+  },
+  {
+   "clip": "audio/en-scot/scene/sarcastic.mp3",
+   "top": "ireland",
+   "scotland": 0.274
+  },
+  {
+   "clip": "audio/en-scot/scene/stern.mp3",
+   "top": "england",
+   "scotland": 0.183
+  },
+  {
+   "clip": "audio/en-scot/scene/disgusted.mp3",
+   "top": "us",
+   "scotland": 0.407
+  },
+  {
+   "clip": "audio/en-scot/scene/tender.mp3",
+   "top": "canada",
+   "scotland": 0.423
+  },
+  {
+   "clip": "audio/en-scot/scene/loving.mp3",
+   "top": "scotland",
+   "scotland": 0.48
+  },
+  {
+   "clip": "audio/en-scot/scene/comforting.mp3",
+   "top": "us",
+   "scotland": 0.352
+  },
+  {
+   "clip": "audio/en-scot/scene/nostalgic.mp3",
+   "top": "us",
+   "scotland": 0.438
+  },
+  {
+   "clip": "audio/en-scot/scene/flirty.mp3",
+   "top": "us",
+   "scotland": 0.361
+  },
+  {
+   "clip": "audio/en-scot/scene/confident.mp3",
+   "top": "scotland",
+   "scotland": 0.39
+  },
+  {
+   "clip": "audio/en-scot/scene/dramatic.mp3",
+   "top": "england",
+   "scotland": 0.262
+  },
+  {
+   "clip": "audio/en-scot/scene/mysterious.mp3",
+   "top": "canada",
+   "scotland": 0.439
+  },
+  {
+   "clip": "audio/en-scot/scene/villain.mp3",
+   "top": "canada",
+   "scotland": 0.445
+  },
+  {
+   "clip": "audio/en-scot/scene/sassy.mp3",
+   "top": "us",
+   "scotland": 0.32
+  },
+  {
+   "clip": "audio/en-scot/scene/bored.mp3",
+   "top": "scotland",
+   "scotland": 0.506
+  },
+  {
+   "clip": "audio/en-scot/scene/news-anchor.mp3",
+   "top": "scotland",
+   "scotland": 0.319
+  },
+  {
+   "clip": "audio/en-scot/scene/commercial.mp3",
+   "top": "ireland",
+   "scotland": 0.23
+  },
+  {
+   "clip": "audio/en-scot/scene/commentator.mp3",
+   "top": "us",
+   "scotland": 0.29
+  },
+  {
+   "clip": "audio/en-scot/scene/storyteller.mp3",
+   "top": "scotland",
+   "scotland": 0.34
+  },
+  {
+   "clip": "audio/en-scot/scene/nervous.mp3",
+   "top": "scotland",
+   "scotland": 0.457
+  },
+  {
+   "clip": "audio/en-scot/scene/hesitant.mp3",
+   "top": "us",
+   "scotland": 0.365
+  },
+  {
+   "clip": "audio/en-scot/scene/worried.mp3",
+   "top": "scotland",
+   "scotland": 0.386
+  },
+  {
+   "clip": "audio/en-scot/scene/scared.mp3",
+   "top": "canada",
+   "scotland": 0.358
+  },
+  {
+   "clip": "audio/en-scot/scene/panicked.mp3",
+   "top": "canada",
+   "scotland": 0.317
+  },
+  {
+   "clip": "audio/en-scot/scene/terrified.mp3",
+   "top": "scotland",
+   "scotland": 0.523
+  },
+  {
+   "clip": "audio/en-scot/scene/urgent.mp3",
+   "top": "england",
+   "scotland": 0.266
+  },
+  {
+   "clip": "audio/en-scot/scene/sad.mp3",
+   "top": "england",
+   "scotland": 0.388
+  },
+  {
+   "clip": "audio/en-scot/scene/disappointed.mp3",
+   "top": "scotland",
+   "scotland": 0.31
+  },
+  {
+   "clip": "audio/en-scot/scene/melancholic.mp3",
+   "top": "us",
+   "scotland": 0.534
+  },
+  {
+   "clip": "audio/en-scot/scene/sighing.mp3",
+   "top": "us",
+   "scotland": 0.374
+  },
+  {
+   "clip": "audio/en-scot/scene/crying.mp3",
+   "top": "us",
+   "scotland": 0.396
+  },
+  {
+   "clip": "audio/en-scot/scene/heartbroken.mp3",
+   "top": "us",
+   "scotland": 0.442
+  },
+  {
+   "clip": "audio/en-scot/scene/exhausted.mp3",
+   "top": "england",
+   "scotland": 0.449
+  },
+  {
+   "clip": "audio/en-scot/scene/curious.mp3",
+   "top": "scotland",
+   "scotland": 0.46
+  },
+  {
+   "clip": "audio/en-scot/scene/amazed.mp3",
+   "top": "us",
+   "scotland": 0.358
+  },
+  {
+   "clip": "audio/en-scot/scene/surprised.mp3",
+   "top": "us",
+   "scotland": 0.341
+  },
+  {
+   "clip": "audio/en-scot/scene/awestruck.mp3",
+   "top": "england",
+   "scotland": 0.309
+  },
+  {
+   "clip": "audio/en-scot/scene/impressed.mp3",
+   "top": "scotland",
+   "scotland": 0.513
+  },
+  {
+   "clip": "audio/en-scot/scene/confused.mp3",
+   "top": "scotland",
+   "scotland": 0.369
+  },
+  {
+   "clip": "audio/en-scot/scene/calm.mp3",
+   "top": "scotland",
+   "scotland": 0.416
+  },
+  {
+   "clip": "audio/en-scot/scene/soothing.mp3",
+   "top": "canada",
+   "scotland": 0.325
+  },
+  {
+   "clip": "audio/en-scot/scene/relieved.mp3",
+   "top": "scotland",
+   "scotland": 0.581
+  },
+  {
+   "clip": "audio/en-scot/scene/dreamy.mp3",
+   "top": "england",
+   "scotland": 0.353
+  },
+  {
+   "clip": "audio/en-scot/scene/sleepy.mp3",
+   "top": "us",
+   "scotland": 0.415
+  },
+  {
+   "clip": "audio/en-scot/scene/thoughtful.mp3",
+   "top": "england",
+   "scotland": 0.277
+  },
+  {
+   "clip": "audio/en-scot/scene/whisper.mp3",
+   "top": "indian",
+   "scotland": 0.422
+  },
+  {
+   "clip": "audio/en-scot/scene/singing.mp3",
+   "top": "us",
+   "scotland": 0.351
+  },
+  {
+   "clip": "audio/en-scot/scene/opera.mp3",
+   "top": "england",
+   "scotland": 0.241
+  },
+  {
+   "clip": "audio/en-scot/scene/mouth-full.mp3",
+   "top": "us",
+   "scotland": 0.39
+  },
+  {
+   "clip": "audio/en-scot/scene/out-of-breath.mp3",
+   "top": "scotland",
+   "scotland": 0.552
+  },
+  {
+   "clip": "audio/en-scot/scene/with-a-cold.mp3",
+   "top": "england",
+   "scotland": 0.441
+  },
+  {
+   "clip": "audio/en-scot/scene/muttering.mp3",
+   "top": "us",
+   "scotland": 0.427
+  },
+  {
+   "clip": "audio/en-scot/scene/fast-talker.mp3",
+   "top": "scotland",
+   "scotland": 0.331
+  },
+  {
+   "clip": "audio/en-scot/scene/hiccups.mp3",
+   "top": "us",
+   "scotland": 0.356
+  },
+  {
+   "clip": "audio/intro/en-scot.mp3",
+   "top": "us",
+   "scotland": 0.368
+  },
+  {
+   "clip": "audio/voices/professional-en-scot.mp3",
+   "top": "scotland",
+   "scotland": 0.492
+  },
+  {
+   "clip": "audio/voices/children-en-scot.mp3",
+   "top": "scotland",
+   "scotland": 0.357
+  },
+  {
+   "clip": "audio/voices/meditation-en-scot.mp3",
+   "top": "canada",
+   "scotland": 0.318
+  }
+ ]
+}
