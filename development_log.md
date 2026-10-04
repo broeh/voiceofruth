@@ -43,3 +43,8 @@
 - On phones the labels block page scrolling so a swipe turns the wheel, and the hub still scrolls the page. Touch devices get their own hint text.
 - Removed the "same line" mode: the toggle, the 142 same-line clips, the same-line scripts in `scripts/emotions.json`, and their entries in the generation log and verification report. The data shape is now `takes[language]`. No audio was regenerated; the remaining 150 clips keep their verified hashes.
 - Browser checks against a local server: 29 of 29 passed. New checks cover the horizontal selected label, the removed toggle, vertical drag, and real touch swipes on a 390 px phone viewport (the ring turns, the hub scrolls). All 150 audio URLs load with no console errors. Screenshots were inspected at 390, 1366, 1440 and 1920 px.
+
+## 2026-10-04: Headline back on top
+
+- Hans found the wheel-first screen too dominant. The headline, intro text and buttons now span the full width at the top, and the wheel sits underneath with the selected-emotion card and chips beside it. On desktop the headline runs on one line to keep the wheel close; phones keep the two-line headline.
+- Browser checks against a local server: 29 of 29 passed. The test now scrolls the wheel into view before simulating drags and swipes.

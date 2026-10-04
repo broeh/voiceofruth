@@ -1,6 +1,6 @@
 # Voice of Ruth
 
-A static showcase for Ruth's ElevenLabs voices. The centrepiece, and the first thing visitors see, is an endless half-circle emotion wheel with 71 emotions, each performed as a short scene in English and Dutch. The site also has three voice cards with samples and direct ElevenLabs links, and a section about ElevenLabs, Eleven v4 and Ruth. All 150 clips were generated with Eleven v4.
+A static showcase for Ruth's ElevenLabs voices. The centrepiece, directly under the headline, is an endless half-circle emotion wheel with 71 emotions, each performed as a short scene in English and Dutch. The site also has three voice cards with samples and direct ElevenLabs links, and a section about ElevenLabs, Eleven v4 and Ruth. All 150 clips were generated with Eleven v4.
 
 ## Preview
 
@@ -15,7 +15,7 @@ Visit `http://localhost:8000`. No build step, dependencies, backend or API key i
 ## Site features
 
 - **Languages.** English and Dutch. The whole page and the wheel audio follow the chosen language. Default order: `?lang=en` or `?lang=nl` in the URL, then a saved choice from the language switch, then Dutch for visitors whose device time zone is `Europe/Amsterdam`, otherwise English. The time zone is a privacy-friendly stand-in for location: no IP lookup or third-party request is made.
-- **Emotion wheel.** The opening screen, next to the headline (below it on phones). The half circle opens to the right and the selected emotion sits horizontal at 3 o'clock, so every label reads left to right. It defaults to English. Turn it by dragging or swiping up and down, with the arrow keys, with the up/down buttons in the hub, by clicking a label, or with the scroll wheel after clicking the dial. The scroll wheel does not trap page scrolling until the dial is engaged. On phones a swipe on the labels turns the wheel and a swipe on the hub scrolls the page. Category chips jump to a group; "Surprise me" picks a random emotion. The card shows the selected emotion, what Ruth says and the exact prompt with its audio tags. The 50,000+ stats sit below the wheel.
+- **Emotion wheel.** Sits directly under the full-width headline and intro, with the selected-emotion card and category chips beside it on desktop and below it on phones. The half circle opens to the right and the selected emotion sits horizontal at 3 o'clock, so every label reads left to right. It defaults to English. Turn it by dragging or swiping up and down, with the arrow keys, with the up/down buttons in the hub, by clicking a label, or with the scroll wheel after clicking the dial. The scroll wheel does not trap page scrolling until the dial is engaged. On phones a swipe on the labels turns the wheel and a swipe on the hub scrolls the page. Category chips jump to a group; "Surprise me" picks a random emotion. The card shows the selected emotion, what Ruth says and the exact prompt with its audio tags. The 50,000+ stats sit below the wheel.
 - **Voices.** Cards for the three shared voices, each with a v4 sample in the current language and a link to the ElevenLabs Voice Library:
   - Warm and Dynamic Narrator: https://elevenlabs.io/app/voice-library?voiceId=YUdpWWny7k5yb4QCeweX
   - Friendly Children's Storyteller: https://elevenlabs.io/app/voice-library?voiceId=yO6w2xlECAQRFP6pX7Hw
